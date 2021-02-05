@@ -73,7 +73,7 @@
             </li>
           {/foreach}
         </ul>
-        {elseif {$id_attribute_group == 15 }}
+        {elseif {$id_attribute_group == 15 || $id_attribute_group == 16 }}
         <ul id="group_{$id_attribute_group}">
           {foreach from=$group.attributes key=id_attribute item=group_attribute}
             <li class="input-container float-xs-left ">
@@ -84,7 +84,10 @@
                 <span class="radio-label" {if $group_attribute.selected} id="check"{/if}>{$group_attribute.name}</span>
                 </div>
               </div>
-              <div><span class="icon"></span>
+              <div><span id="{$group_attribute.name}icon" class="icon"></span>
+              <div id="{$group_attribute.name}balao" class="balao">
+              <p>EXEMPLO DE TEXTO ADADADADADADADAD </p>
+              </div>
               </div>
               </div>
             </li>

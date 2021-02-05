@@ -2,6 +2,96 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.js
  */
+
+//  GET DETAILS FROM ? HOVER
+
+$(document).ready(getbaloes());
+  
+  function getbaloes() {
+
+  $("[id='Straight Linericon']").on("mouseenter", function() {
+    $("[id='Straight Linerbalao']").css("display","block");
+  });
+  $("[id='Straight Linericon']").on("mouseleave", function() {
+    $("[id='Straight Linerbalao']").css("display","none");
+  });
+
+  $("[id='Round Linericon']").on("mouseenter", function() {
+    $("[id='Round Linerbalao']").css("display","block");
+  });
+  $("[id='Round Linericon']").on("mouseleave", function() {
+    $("[id='Round Linerbalao']").css("display","none");
+  });
+
+  $("[id='Soft Edgeicon']").on("mouseenter", function() {
+    $("[id='Soft Edgebalao']").css("display","block");
+  });
+  $("[id='Soft Edgeicon']").on("mouseleave", function() {
+    $("[id='Soft Edgebalao']").css("display","none");
+  });
+
+  $("[id='Magnumicon']").on("mouseenter", function() {
+    $("[id='Magnumbalao']").css("display","block");
+  });
+  $("[id='Magnumicon']").on("mouseleave", function() {
+    $("[id='Magnumbalao']").css("display","none");
+  });
+
+  $("[id='Magnumicon']").on("mouseenter", function() {
+    $("[id='Magnumbalao']").css("display","block");
+  });
+  $("[id='Magnumicon']").on("mouseleave", function() {
+    $("[id='Magnumbalao']").css("display","none");
+  });
+
+  $("[id='Flat Shadericon']").on("mouseenter", function() {
+    $("[id='Flat Shaderbalao']").css("display","block");
+  });
+  $("[id='Flat Shadericon']").on("mouseleave", function() {
+    $("[id='Flat Shaderbalao']").css("display","none");
+  });
+
+  $("[id='Round Shadericon']").on("mouseenter", function() {
+    $("[id='Round Shaderbalao']").css("display","block");
+  });
+  $("[id='Round Shadericon']").on("mouseleave", function() {
+    $("[id='Round Shaderbalao']").css("display","none");
+  });
+
+  $("[id='Tight Linericon']").on("mouseenter", function() {
+    $("[id='Tight Linerbalao']").css("display","block");
+  });
+  $("[id='Tight Linericon']").on("mouseleave", function() {
+    $("[id='Tight Linerbalao']").css("display","none");
+  });
+
+  $("[id='Medium Tapericon']").on("mouseenter", function() {
+    $("[id='Medium Taperbalao']").css("display","block");
+  });
+  $("[id='Medium Tapericon']").on("mouseleave", function() {
+    $("[id='Medium Taperbalao']").css("display","none");
+  });
+
+  $("[id='Long Tapericon']").on("mouseenter", function() {
+    $("[id='Long Taperbalao']").css("display","block");
+  });
+  $("[id='Long Tapericon']").on("mouseleave", function() {
+    $("[id='Long Taperbalao']").css("display","none");
+  });
+
+  $("[id='Extra Long Tapericon']").on("mouseenter", function() {
+    $("[id='Extra Long Taperbalao']").css("display","block");
+  });
+  $("[id='Extra Long Tapericon']").on("mouseleave", function() {
+    $("[id='Extra Long Taperbalao']").css("display","none");
+  });
+  }
+
+
+
+
+
+
 //  GET TYPE OF NEEDLE SELECTED
 var needle;
 
@@ -18,6 +108,7 @@ $(function() {
                 var idProductAttribute = resp.id_product_attribute;
  
                 chooseNeedle();
+                getbaloes();
 
             });
         });

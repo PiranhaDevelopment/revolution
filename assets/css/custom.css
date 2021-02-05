@@ -246,6 +246,8 @@
   height: 15px;
   width: 15px;
   display: block;
+  position: relative;
+  z-index: 10;
 
 }
 
@@ -371,4 +373,22 @@
 
 .material-icons {
   display: none !important;
+}
+
+
+
+.balao{
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  background-color: white;
+  border-radius: 14px;
+  margin-top: -69px;
+  margin-left: -18px;
+  position: absolute;
+  z-index: 6;
+}
+
+.balao{
+  display: none;
 }
