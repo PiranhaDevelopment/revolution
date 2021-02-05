@@ -73,9 +73,24 @@
             </li>
           {/foreach}
         </ul>
-        {else}
-
-
+        {elseif {$id_attribute_group == 15 }}
+        <ul id="group_{$id_attribute_group}">
+          {foreach from=$group.attributes key=id_attribute item=group_attribute}
+            <li class="input-container float-xs-left ">
+            <div style="display:flex">
+              <div>
+                <input id="{$group_attribute.name}" class="input-radio" type="radio" data-product-attribute="{$id_attribute_group}" name="group[{$id_attribute_group}]" value="{$id_attribute}" title="{$group_attribute.name}"{if $group_attribute.selected} checked="checked"{/if}>
+                <div style="width:fit-content; margin:auto">
+                <span class="radio-label" {if $group_attribute.selected} id="check"{/if}>{$group_attribute.name}</span>
+                </div>
+              </div>
+              <div><span class="icon"></span>
+              </div>
+              </div>
+            </li>
+          {/foreach}
+        </ul>
+      {else}
 
         <ul id="group_{$id_attribute_group}">
           {foreach from=$group.attributes key=id_attribute item=group_attribute}

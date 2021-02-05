@@ -36,6 +36,30 @@
     </div>
   {/block}
 
+<!-- É PARA AQUI QUE VEM -->
+<div id="someWork">
+
+</div>
+{block name='someWorkImg'}
+    <div class="someWorkImg">
+      {foreach from=$product.images item=image}
+            {if $image@iteration > 1}
+            <img
+              
+              data-image-medium-src="{$image.bySize.medium_default.url}"
+              data-image-large-src="{$image.bySize.large_default.url}"
+              src="{$image.bySize.home_default.url}"
+              alt="{$image.legend}"
+              title="{$image.legend}"
+              width="100"
+              itemprop="image"
+            >
+  {/if}
+        {/foreach}
+    </div>
+  {/block}
+
+
   {block name='product_images'}
     <div class="js-qv-mask mask">
       <ul class="product-images js-qv-product-images">
