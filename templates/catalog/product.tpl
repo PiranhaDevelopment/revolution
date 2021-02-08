@@ -23,7 +23,7 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 {extends file=$layout}
-
+<div id=" desktop">
 {block name='head_seo' prepend}
   <link rel="canonical" href="{$product.canonical_url}">
 {/block}
@@ -165,7 +165,7 @@
 {block name='description'}
 {foreach from=$product.grouped_features item=feature}
               {if $feature.name=="descrição"}
-            <h4 class="h4 descr">{$feature.value|escape:'htmlall'|nl2br nofilter}</h4>
+            <h4 class="descr">{$feature.value|escape:'htmlall'|nl2br nofilter}</h4>
             {/if}
           {/foreach}
   {/block}
@@ -180,7 +180,7 @@
   <div id="myDropdown1" class="dropdown-content1">
     {foreach from=$product.grouped_features item=feature}
               {if $feature.name=="details"}
-            <h4 class="h4">{$feature.value|escape:'htmlall'|nl2br nofilter}</h4>
+            <h4 class=" descr2">{$feature.value|escape:'htmlall'|nl2br nofilter}</h4>
             {/if}
           {/foreach}
   </div>
@@ -189,10 +189,10 @@
   <div class="dropdown2">
   <div id="dropbtn">
   <div class="dropbtn2">Product details</div>
-<img id="arrowdown" src="https://dev.revolutionneedles.com/themes/classic/assets/img/arrowdown.svg">
+<img id="arrowdown2" src="https://dev.revolutionneedles.com/themes/classic/assets/img/arrowdown.svg">
   </div>
   <div id="myDropdown2" class="dropdown-content2">
-    <div class="product-description">{$product.description nofilter}</div>
+    <div class="descr2">{$product.description nofilter}</div>
   </div>
 </div>
 </div>
@@ -323,3 +323,4 @@
   </section>
 
 {/block}
+</div>

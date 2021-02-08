@@ -147,7 +147,7 @@
   }
 
   .h4{
-    font-family: "adelle";
+    font-family: "adelle-sans";
     color: #d6d6d6;
     font-weight: 100;
     margin-top: 15px;
@@ -156,7 +156,28 @@
   }
 
   .descr {
+    font-weight: 100;
+    font-family: "adelle-sans";
     font-size: 1rem;
+    width: 70%;
+    color: black;
+    line-height: 1.4rem;
+  }
+  .descr2 {
+    font-weight: 100;
+    font-family: "adelle-sans";
+    font-size: 0.9rem;
+    width: 100%;
+    color: black;
+    line-height: 1.4rem;
+    margin-top: 0px;
+    margin-bottom: 7%;
+  }
+  p {
+    font-weight: 100;
+    margin-top: 0px;
+    font-family: "adelle-sans";
+    font-size: 0.9rem;
     width: 70%;
     color: black;
     line-height: 1.4rem;
@@ -174,7 +195,7 @@
     border-radius: 20px;
     border: none;
     font-size: 0.9rem;
-    font-family: "adelle";
+    font-family: "adelle-sans";
   }
 
   .current-price{
@@ -193,6 +214,8 @@
   .outofstock2{
     margin-top: -0.5rem;
     font-size: .8975rem;
+    color: #d6d6d6;
+    font-weight: 100;
   }
 
   .tax-shipping-delivery-label{
@@ -204,13 +227,16 @@
 }
 
 .control-label{
-  font-family: 'adelle';
+  font-family: 'adelle-sans';
   font-weight: 700;
 }
 
 .h6{
   display: none;
+  text-align: center;
+  font-family: 'SairaCondensed';
 }
+
 
 #product-availability{
   display: none;
@@ -265,9 +291,7 @@
 
 
 
-.shopping-cart {
-  display: none;
-}
+
 
 /* RETIRAR MODAL EM CIMA DA IMAGEM *//*
 .hidden-sm-down{
@@ -383,11 +407,15 @@
 
 
 .dropbtn1 {
+  position: relative;
+  z-index: 1;
   color: black;
   padding: 16px;
   border: none;
   cursor: pointer;
   padding-left: 0px;
+  width: 100%;
+    padding-right: 0;
 }
 
 
@@ -399,9 +427,10 @@
   display: inline-block;
   width: 100%;
   width: 70%;
-    border-bottom: solid 2px black;
+    border-bottom: solid 1px black;
     font-weight: 700;
-    border-top: solid 2px black;
+    border-top: solid 1px black;
+    
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -418,6 +447,10 @@
   border: none;
   cursor: pointer;
   padding-left: 0px;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+    padding-right: 0;
 }
 
 #arrowdown {
@@ -427,7 +460,15 @@
     top: 1.3rem;
     float: right;
 }
+
+#arrowdown2 {
+  width: 1rem;
+  position: absolute;
+    right: 0;
+    top: 1.3rem;
+    float: right;
 }
+
 
 #dropbtn {
   display: flex;
@@ -442,7 +483,7 @@
   display: inline-block;
   width: 100%;
   width: 70%;
-    border-bottom: solid 2px black;
+    border-bottom: solid 1px black;
     font-weight: 700;
 }
 
@@ -465,6 +506,18 @@
 }
 
 
+/* DROPDOWN ANIMATION */
+@keyframes ddarrow {
+  from {transform: rotate(0deg);}
+  to {transform :rotate(180deg);}
+}
+
+@keyframes ddarrow2 {
+  from {transform: rotate(180deg);}
+  to {transform :rotate(0deg);}
+}
+
+
 
 .balao{
   padding-bottom: 5px;
@@ -482,14 +535,36 @@
   display: none;
 }
 
+.hashtag {
+  color: #4c25f5;
+  font-weight: 700;
+}
+
 
 .someWork{
   margin-bottom: 8%;
     margin-top: 8%;
+    width: 70%;
+}
+
+.someWork1{
+  margin-bottom: 8%;
+    margin-top: 8%;
+    width: 100%;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.someWork2{
+  margin-bottom: 8%;
+    width: 100%;
+    font-weight: 400;
+    text-align: center;
 }
 
 .lis{
-  font-family: "adelle";
+  font-family: "adelle-sans";
   color: red;
   font-size: 0.7rem;
 }
@@ -514,4 +589,17 @@
 .image2 {
   width: 120%;
     margin-left: -8%;
+}
+
+/* HEADER */
+.header-top{
+  padding-top: 1.6rem;
+  padding-bottom: 0rem !important;
+}
+
+/* MOBILE */
+@media screen and (max-width: 480px) {
+#desktop {
+  display: none;
+}
 }

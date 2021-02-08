@@ -123,7 +123,7 @@ if($("[id='Magnum']").is(':checked')) { this.needle="Magnum";}
 if($("[id='Flat Shader']").is(':checked')) { this.needle="Flat Shader";}
 if($("[id='Round Shader']").is(':checked')) { this.needle="Round Shader";}
 if($("[id='Tight Liner']").is(':checked')) { this.needle="Tight Liner";}
-$('#someWork').append('<p class="someWork">Some work made with Revolution '+this.needle+'.</p><p class="someWork">Mention @RevolutionNeedles and get a chance to be featured.</p>');
+$('#someWork').append('<p class="someWork1">Some work made with Revolution '+this.needle+'.</p><p class="someWork2">Mention <span class="hashtag">@RevolutionNeedles </span>and get a chance to be featured.</p>');
 }
 
 
@@ -139,7 +139,7 @@ $(".dropbtn1").click(function () {
     document.getElementById("myDropdown2").classList.toggle("show");
   });
   
-  // Close the dropdown menu if the user clicks outside of it
+  /* Close the dropdown menu if the user clicks outside of it
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn1')) {
       var dropdowns = document.getElementsByClassName("dropdown-content1");
@@ -165,6 +165,41 @@ $(".dropbtn1").click(function () {
       }
     }
   }
+*/
+  // DROPDOWN ANIMATION
+
+  var arrow1turned=false;
+  $('.dropbtn1').click(function(){
+    if(arrow1turned){
+      $('#arrowdown').css("animation-name", "ddarrow2");
+    $('#arrowdown').css("animation-duration", "0.3s");
+    $('#arrowdown').css("transform", "rotate(0deg)");
+    arrow1turned = false;
+    }
+    else{
+    $('#arrowdown').css("animation-name", "ddarrow");
+    $('#arrowdown').css("animation-duration", "0.3s");
+    $('#arrowdown').css("transform", "rotate(180deg)");
+    arrow1turned = true;
+    }
+  })
+
+  var arrow2turned=false;
+  $('.dropbtn2').click(function(){
+
+    if(arrow2turned){
+      $('#arrowdown2').css("animation-name", "ddarrow2");
+    $('#arrowdown2').css("animation-duration", "0.3s");
+    $('#arrowdown2').css("transform", "rotate(0deg)");
+    arrow2turned = false;
+    }
+    else{
+    $('#arrowdown2').css("animation-name", "ddarrow");
+    $('#arrowdown2').css("animation-duration", "0.3s");
+    $('#arrowdown2').css("transform", "rotate(180deg)");
+    arrow2turned = true;
+    }
+  })
 
 
 //  PRODUCT OUT OF STOCK  
