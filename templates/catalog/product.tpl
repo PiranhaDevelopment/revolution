@@ -155,9 +155,9 @@
 {block name='product_quantities'}
     {if $product.show_quantities}
       <div class="product-quantities">
-        <label class="label">{l s='Only' d='Shop.Theme.Catalog'}</label>
-        <span data-stock="{$product.quantity}" data-allow-oosp="{$product.allow_oosp}">{$product.quantity} {$product.quantity_label}</span>
-        <label class="label">{l s='left in stock. Get yours before its too late.' d='Shop.Theme.Catalog'}</label>
+        <label class="lis">{l s='Only' d='Shop.Theme.Catalog'}</label>
+        <span class="lis" data-stock="{$product.quantity}" data-allow-oosp="{$product.allow_oosp}">{$product.quantity} {$product.quantity_label}</span>
+        <label class="lis">{l s='left in stock. Get yours before its too late.' d='Shop.Theme.Catalog'}</label>
       </div>
     {/if}
   {/block}
@@ -165,7 +165,7 @@
 {block name='description'}
 {foreach from=$product.grouped_features item=feature}
               {if $feature.name=="descrição"}
-            <h4 class="h4">{$feature.value|escape:'htmlall'|nl2br nofilter}</h4>
+            <h4 class="h4 descr">{$feature.value|escape:'htmlall'|nl2br nofilter}</h4>
             {/if}
           {/foreach}
   {/block}
@@ -173,7 +173,10 @@
 {block name='dropdowns'}
 <div id="dropdowns">
   <div class="dropdown1">
+  <div id="dropbtn">
   <div class="dropbtn1">Additional information</div>
+  <img id="arrowdown" src="https://dev.revolutionneedles.com/themes/classic/assets/img/arrowdown.svg">
+  </div>
   <div id="myDropdown1" class="dropdown-content1">
     {foreach from=$product.grouped_features item=feature}
               {if $feature.name=="details"}
@@ -184,7 +187,10 @@
 </div>
 
   <div class="dropdown2">
+  <div id="dropbtn">
   <div class="dropbtn2">Product details</div>
+<img id="arrowdown" src="https://dev.revolutionneedles.com/themes/classic/assets/img/arrowdown.svg">
+  </div>
   <div id="myDropdown2" class="dropdown-content2">
     <div class="product-description">{$product.description nofilter}</div>
   </div>
