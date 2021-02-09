@@ -69,7 +69,7 @@
               {block name='product_cover_thumbnails'}
                 {include file='catalog/_partials/product-cover-thumbnails.tpl'}
               {/block}
-              <div class="scroll-box-arrows">
+              <div class="scroll-box-arrows" style= "display:none">
                 <i class="material-icons left">&#xE314;</i>
                 <i class="material-icons right">&#xE315;</i>
               </div>
@@ -192,7 +192,11 @@
 <img id="arrowdown2" src="https://dev.revolutionneedles.com/themes/classic/assets/img/arrowdown.svg">
   </div>
   <div id="myDropdown2" class="dropdown-content2">
-    <div class="descr2">{$product.description nofilter}</div>
+    {foreach from=$product.grouped_features item=feature}
+              {if $feature.name=="details"}
+            <h4 class=" descr2">{$feature.value|escape:'htmlall'|nl2br nofilter}</h4>
+            {/if}
+          {/foreach}
   </div>
 </div>
 </div>
@@ -292,8 +296,8 @@
 
     {block name='product_accessories'}
       {if $accessories}
-        <section class="product-accessories clearfix">
-          <p class="h5 text-uppercase">{l s='You might also like' d='Shop.Theme.Catalog'}</p>
+        <section class="product-accessories shopAlso clearfix">
+          <p class="h5 text-uppercase shopAlsoTit">{l s='Shop Also:' d='Shop.Theme.Catalog'}</p>
           <div class="products" itemscope itemtype="http://schema.org/ItemList">
             {foreach from=$accessories item="product_accessory" key="position"}
               {block name='product_miniature'}
