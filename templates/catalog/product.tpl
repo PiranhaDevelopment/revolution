@@ -23,7 +23,7 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 {extends file=$layout}
-<div id=" desktop">
+
 {block name='head_seo' prepend}
   <link rel="canonical" href="{$product.canonical_url}">
 {/block}
@@ -162,27 +162,39 @@
     {/if}
   {/block}
 
-{block name='description'}
+<div id="textBox">
+{$product.description_short nofilter}
+</div>
+<p id="lermais">Ler mais</p>
+<!--{block name='description'}
 {foreach from=$product.grouped_features item=feature}
-              {if $feature.name=="descrição"}
-            <h4 class="descr">{$feature.value|escape:'htmlall'|nl2br nofilter}</h4>
-            {/if}
+              {if $feature.name=="descrição"}-->
+              
+           
+           
+           
+           <!-- {/if}
           {/foreach}
-  {/block}
+  {/block}-->
 
+
+<!-- ELIMINAR ESTA DROPDOWN -->
 {block name='dropdowns'}
 <div id="dropdowns">
+
+
   <div class="dropdown1">
   <div id="dropbtn">
   <div class="dropbtn1">Additional information</div>
   <img id="arrowdown" src="https://dev.revolutionneedles.com/themes/classic/assets/img/arrowdown.svg">
   </div>
   <div id="myDropdown1" class="dropdown-content1">
-    {foreach from=$product.grouped_features item=feature}
+  {$product.description nofilter}
+ <!--   {foreach from=$product.grouped_features item=feature}
               {if $feature.name=="details"}
             <h4 class=" descr2">{$feature.value|escape:'htmlall'|nl2br nofilter}</h4>
             {/if}
-          {/foreach}
+          {/foreach}-->
   </div>
 </div>
 
@@ -200,6 +212,79 @@
   </div>
 </div>
 </div>
+  {/block}
+
+   <div id="someWork2">
+
+</div>
+{block name='someWorkImg2'}
+    <div class="someWorkImg2">
+    <div id="imgs">
+      {foreach from=$product.images item=image}
+            {if $image@iteration == 2 }
+
+            <div class="image">
+            <img
+              class="image1"
+              data-image-medium-src="{$image.bySize.medium_default.url}"
+              data-image-large-src="{$image.bySize.large_default.url}"
+              src="{$image.bySize.home_default.url}"
+              alt="{$image.legend}"
+              title="{$image.legend}"
+              width="100"
+              itemprop="image"
+            >
+            </div>
+            
+            {elseif $image@iteration == 3}
+            <div class="image">
+            <img
+              class="image1"
+              data-image-medium-src="{$image.bySize.medium_default.url}"
+              data-image-large-src="{$image.bySize.large_default.url}"
+              src="{$image.bySize.home_default.url}"
+              alt="{$image.legend}"
+              title="{$image.legend}"
+              width="100"
+              itemprop="image"
+            >
+            </div>
+
+            {elseif $image@iteration == 4}
+
+            <div class="image">
+            <img
+              class="image1"
+              data-image-medium-src="{$image.bySize.medium_default.url}"
+              data-image-large-src="{$image.bySize.large_default.url}"
+              src="{$image.bySize.home_default.url}"
+              alt="{$image.legend}"
+              title="{$image.legend}"
+              width="100"
+              itemprop="image"
+            >
+            </div>
+            
+             {elseif $image@iteration == 5}
+             <div class="image">
+            <img
+              class="image1"
+              data-image-medium-src="{$image.bySize.medium_default.url}"
+              data-image-large-src="{$image.bySize.large_default.url}"
+              src="{$image.bySize.home_default.url}"
+              alt="{$image.legend}"
+              title="{$image.legend}"
+              width="100"
+              itemprop="image"
+            >
+            </div>
+
+
+  {/if}
+
+        {/foreach}
+        </div>
+    </div>
   {/block}
 
             {block name='hook_display_reassurance'}
@@ -327,4 +412,3 @@
   </section>
 
 {/block}
-</div>

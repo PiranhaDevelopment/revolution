@@ -37,11 +37,12 @@
   {/block}
 
 <!-- É PARA AQUI QUE VEM -->
-<div id="someWork">
-
+<div id="someWork1">
+<p class="someWork1">Some work made with Revolution {$product.attributes[15].name}.</p><p class="someWork2">Mention <span class="hashtag">@RevolutionNeedles </span>and get a chance to be featured.</p>
+<p></p>
 </div>
-{block name='someWorkImg'}
-    <div class="someWorkImg">
+{block name='someWorkImg1'}
+    <div class="someWorkImg1">
       {foreach from=$product.images item=image}
             {if $image@iteration == 2 }
 

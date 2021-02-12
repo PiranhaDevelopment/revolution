@@ -57,7 +57,7 @@
       {elseif $group.group_type == 'radio'}
       <div class="needleSpecs">
 
-{if {$id_attribute_group == 17 || $id_attribute_group == 18}}
+{if {$id_attribute_group == 18}}
 <ul id="group_{$id_attribute_group}">
           {foreach from=$group.attributes key=id_attribute item=group_attribute}
             <li class="input-container float-xs-left ">
@@ -66,6 +66,22 @@
                 <input class="input-radio" type="radio" data-product-attribute="{$id_attribute_group}" name="group[{$id_attribute_group}]" value="{$id_attribute}" title="{$group_attribute.name}"{if $group_attribute.selected} checked="checked"{/if}>
                 <div style="width:fit-content; margin:auto">
                 <span class="radio-label radio-label-small" {if $group_attribute.selected} id="check"{/if}>{$group_attribute.name}</span>
+                </div>
+              </div>
+              
+              </div>
+            </li>
+          {/foreach}
+        </ul>
+        {elseif {$id_attribute_group == 17 }}
+        <ul id="group_{$id_attribute_group}">
+          {foreach from=$group.attributes key=id_attribute item=group_attribute}
+            <li class="input-container float-xs-left ">
+            <div style="display:flex">
+              <div>
+                <input class="input-radio" type="radio" data-product-attribute="{$id_attribute_group}" name="group[{$id_attribute_group}]" value="{$id_attribute}" title="{$group_attribute.name}"{if $group_attribute.selected} checked="checked"{/if}>
+                <div style="width:fit-content; margin:auto">
+                <span class="radio-label radio-label-medium" {if $group_attribute.selected} id="check"{/if}>{$group_attribute.name}</span>
                 </div>
               </div>
               
@@ -86,15 +102,59 @@
               </div>
               <div><span id="{$group_attribute.name}icon" class="icon"></span>
               <div id="{$group_attribute.name}balao" class="balao">
-              <p>EXEMPLO DE TEXTO ADADADADADADADAD </p>
+              <p id="{$group_attribute.name}balaotext" class="balaotext"></p>
               </div>
               </div>
               </div>
             </li>
           {/foreach}
         </ul>
-      {else}
-
+      {else if {$id_attribute_group == 23}}
+<div id="divval">
+<hr id="hrval">
+        <ul id="group_{$id_attribute_group}">
+          {foreach from=$group.attributes key=id_attribute item=group_attribute}
+          {if $group_attribute@iteration == 1}
+            <li class="input-container float-xs-left" id="li1">
+            <div style="display:flex">
+              <div>
+                <input class="input-radio inputval" type="radio" data-product-attribute="{$id_attribute_group}" name="group[{$id_attribute_group}]" value="{$id_attribute}" title="{$group_attribute.name}"{if $group_attribute.selected} checked="checked"{/if}>
+                <div class="divval" style="width:fit-content; margin:auto">
+                <span class="radio-label spanval" {if $group_attribute.selected} id="check2"{/if}></span>
+                <span class="checkmark">{$group_attribute.name}</span>
+                </div>
+              </div>
+              </div>
+            </li>
+            {elseif $group_attribute@iteration == 2}
+            <li class="input-container float-xs-left" id="li2">
+            <div style="display:flex">
+              <div>
+                <input class="input-radio inputval" type="radio" data-product-attribute="{$id_attribute_group}" name="group[{$id_attribute_group}]" value="{$id_attribute}" title="{$group_attribute.name}"{if $group_attribute.selected} checked="checked"{/if}>
+               <div class="divval" style="width:fit-content; margin:auto">
+                <span class="radio-label spanval" {if $group_attribute.selected} id="check2"{/if}></span>
+                <span class="checkmark">{$group_attribute.name}</span>
+                </div>
+              </div>
+              </div>
+            </li>
+            {elseif $group_attribute@iteration == 3}
+            <li class="input-container float-xs-left" id="li3">
+            <div style="display:flex">
+              <div>
+                <input class="input-radio inputval" type="radio" data-product-attribute="{$id_attribute_group}" name="group[{$id_attribute_group}]" value="{$id_attribute}" title="{$group_attribute.name}"{if $group_attribute.selected} checked="checked"{/if}>
+               <div class="divval" style="width:fit-content; margin:auto">
+                <span class="radio-label spanval" {if $group_attribute.selected} id="check2"{/if}></span>
+                <span class="checkmark">{$group_attribute.name}</span>
+                </div>
+              </div>
+              </div>
+            </li>
+            {/if}
+          {/foreach}
+        </ul>
+        </div>
+        {else}
         <ul id="group_{$id_attribute_group}">
           {foreach from=$group.attributes key=id_attribute item=group_attribute}
             <li class="input-container float-xs-left ">
