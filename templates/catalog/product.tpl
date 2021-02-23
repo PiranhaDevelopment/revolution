@@ -152,6 +152,7 @@
     </div>
   {/block}
 
+
 {block name='product_quantities'}
     {if $product.show_quantities}
       <div class="product-quantities">
@@ -161,6 +162,8 @@
       </div>
     {/if}
   {/block}
+  
+
 
 <div id="textBox">
 {$product.description_short nofilter}
@@ -204,11 +207,18 @@
 <img id="arrowdown2" src="https://dev.revolutionneedles.com/themes/classic/assets/img/arrowdown.svg">
   </div>
   <div id="myDropdown2" class="dropdown-content2">
-    {foreach from=$product.grouped_features item=feature}
-              {if $feature.name=="details"}
-            <h4 class=" descr2">{$feature.value|escape:'htmlall'|nl2br nofilter}</h4>
-            {/if}
+    {block name='product_features'}
+    {if $product.grouped_features}
+      <section class="product-features">
+        <dl class="data-sheet">
+          {foreach from=$product.grouped_features item=feature}
+            <dt class="name">{$feature.name}</dt>
+            <dd class="value">{$feature.value|escape:'htmlall'|nl2br nofilter}</dd>
           {/foreach}
+        </dl>
+      </section>
+    {/if}
+  {/block}
   </div>
 </div>
 </div>
@@ -383,12 +393,14 @@
       {if $accessories}
         <section class="product-accessories shopAlso clearfix">
           <p class="h5 text-uppercase shopAlsoTit">{l s='Shop Also:' d='Shop.Theme.Catalog'}</p>
+          <div class="productsSlider">
           <div class="products" itemscope itemtype="http://schema.org/ItemList">
             {foreach from=$accessories item="product_accessory" key="position"}
               {block name='product_miniature'}
                 {include file='catalog/_partials/miniatures/product.tpl' product=$product_accessory position=$position}
               {/block}
             {/foreach}
+          </div>
           </div>
         </section>
       {/if}

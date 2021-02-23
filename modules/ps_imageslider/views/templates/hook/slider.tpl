@@ -34,15 +34,15 @@
       {foreach from=$homeslider.slides item=slide name='homeslider'}
         <li class="carousel-item {if $smarty.foreach.homeslider.first}active{/if}" role="option" aria-hidden="{if $smarty.foreach.homeslider.first}false{else}true{/if}">
           <a href="{$slide.url}">
-            <figure>
-              <img src="{$slide.image_url}" alt="{$slide.legend|escape}">
+            <div id="bannerdiv">
+              <img id="banner" src="{$slide.image_url}" alt="{$slide.legend|escape}">
               {if $slide.title || $slide.description}
-                <figcaption class="caption">
-                  <h2 class="display-1 text-uppercase">{$slide.title}</h2>
+                <div id="txtdiv">
+                  <h2 class="hpt">{$slide.title}</h2>
                   <div class="caption-description">{$slide.description nofilter}</div>
-                </figcaption>
+                </div>
               {/if}
-            </figure>
+            </div>
           </a>
         </li>
       {/foreach}

@@ -53,6 +53,8 @@
 {block name='head_icons'}
   <link rel="icon" type="image/vnd.microsoft.icon" href="{$shop.favicon}?{$shop.favicon_update_time}">
   <link rel="shortcut icon" type="image/x-icon" href="{$shop.favicon}?{$shop.favicon_update_time}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://dev.revolutionneedles.com/themes/classic/assets/js/jquery.overscroll.min.js"></script>
 {/block}
 
 {block name='stylesheets'}

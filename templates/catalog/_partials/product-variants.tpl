@@ -97,7 +97,7 @@
               <div>
                 <input id="{$group_attribute.name}" class="input-radio" type="radio" data-product-attribute="{$id_attribute_group}" name="group[{$id_attribute_group}]" value="{$id_attribute}" title="{$group_attribute.name}"{if $group_attribute.selected} checked="checked"{/if}>
                 <div style="width:fit-content; margin:auto">
-                <span class="radio-label" {if $group_attribute.selected} id="check"{/if}>{$group_attribute.name}</span>
+                <span class="radio-label main" {if $group_attribute.selected} id="check"{/if}>{$group_attribute.name}</span>
                 </div>
               </div>
               <div><span id="{$group_attribute.name}icon" class="icon"></span>
