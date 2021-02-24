@@ -389,7 +389,6 @@ display: none;
 #check{
 color: white;
 background-color: black;
-position: absolute;
 }
 
 #check2{
@@ -920,6 +919,49 @@ width: 120%;
 
 
 /* HOME PAGE */
+#carouselContainerm{
+  overflow: scroll;
+  display: none;
+}
+#tightliner{
+  background-image: url('https://dev.revolutionneedles.com/themes/classic/assets/img/tightLiner.jpg');
+  background-size: contain;
+}
+#roundliner{
+  
+  background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/roundLiner.jpg");
+  background-size: contain;
+}
+#straightliner{
+  
+  background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/straightLiner.jpg");
+  background-size: contain;
+}
+#roundshader{
+  
+  background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/roundShader.jpg");
+  background-size: contain;
+}
+#magnum{
+  
+  background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/magnum.jpg");
+  background-size: contain;
+}
+#softedge{
+  
+  background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/softEdgeMagnum.jpg");
+  background-size: contain;
+}
+#flatshader{
+  
+  background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/flatShader.jpg");
+  background-size: contain;
+}
+#needleimg{
+  background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/needleTips.jpg");
+  background-size: contain;
+}
+
 label input {
   opacity: 0;
 }
@@ -1071,7 +1113,8 @@ select{
   margin-bottom: 0.7%;
 }
 .imgdiv{
-  width: 48.95%;
+  padding-bottom: 29.5%;
+      width: 48.95%;
 
 }
 .needleImg{
@@ -1255,9 +1298,384 @@ user-select: none;
 
 
 
+/* ABOUT */
+.assinatura{
+  font-family: 'adelle-sans';
+  font-size: 1.3rem;
+  text-align: left;
+  color: #0c0c0c;
+}
+.mensagem{
+  font-size: 1.3rem;
+  margin-top: 7%;
+    width: 100%;
+    opacity: 0.6;
+    font-family: 'adelle-sans';
+    text-align: left;
+    color: #0c0c0c;
+}
+#pedrobox{
+  width: 47.5%;
+}
+#nandobox{
+  margin-left: 5%;
+  padding-top: 9%;
+  width: 47.5%;
+}
+#bosscontainer{
+  display: flex;
+  width: 55%;
+  margin: auto;
+}
+.name{
+  padding-top: 3%;
+  font-family: 'adelle-sans';
+  font-size: 1rem;
+  text-align: left;
+  color: #1d1d1f;
+}
+.margin{
+  margin-right: 1%;
+}
+.foto{
+  height: 90%;
+}
+.artist{
+  height: 100%;
+}
+#main2slidercontainer::-webkit-scrollbar {
+  display: none;
+}
+#main2slidercontainer{
+  height: 37vw;
+  width: 100%;
+  overflow-x: scroll;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+#main2slider {
+  height: 100%;
+  display: flex;
+  width: 132%;
+}
+#main2btn{
+  margin-bottom: 3%;
+  font-size: 1.3rem;
+    text-align: center;
+    color: #e5e5e5;
+    padding: 10.2px 23px 10.3px 23px;
+    border-radius: 15.9px;
+    background-color: #4c25e2;
+    font-family: 'adelle-sans';
+    border: none;
+}
+#main2txtbox{
+  padding-top: 6%;
+}
+#main2tit{
+  font-family: 'adelle';
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 3%;
+}
+#main3tit{
+  font-family: 'adelle';
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+  color: WHITE;
+  margin-bottom: 3%;
+}
+#main4tit{
+  font-family: 'adelle';
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+  margin-bottom: 6%;
+}
+#main2txt{
+  font-family: 'adelle-sans';
+  text-align: center;
+  color: #6b6b6b;
+  width: 37%;
+  margin: auto;
+  font-size: 1.3rem;
+  margin-bottom: 3%;
+}
+#main3txt{
+  font-family: 'adelle-sans';
+  text-align: center;
+  width: 37%;
+  margin: auto;
+  font-size: 1.3rem;
+  margin-bottom: 3%;
+  color: #ffffff;
+}
+#main1 {
+  padding-top: 12vh;
+  background-color: black;
+  padding-bottom: 11vh;
+}
+#main3 {
+  padding-top: 12vh;
+  background-color: black;
+  padding-bottom: 11vh;
+}
+#main4 {
+  padding-top: 12vh;
+  background-color: white;
+  padding-bottom: 11vh;
+}
+#main1inner{
+  width: 55%;
+  margin: auto;
+}
+#abouttit {
+  margin-top: 0vh;
+  font-size: 3rem;
+  text-align: center;
+  font-family: Adelle;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 11%;
+}
+#abouttxt1 {
+  font-size: 1.3rem;
+  margin: auto;
+    width: 80%;
+    color: #808080;
+    text-align: center;
+    margin-bottom: 14%;
+}
+#abouttxt2 {
+  font-size: 1.3rem;
+    width: 100%;
+    color: #808080;
+    text-align: left;
+    margin-bottom: 14%;
+}
+#abouttit2 {
+  margin-top: 11%;
+  font-size: 3rem;
+  font-family: Adelle;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 3%;
+  color: #4c25e2;
+  text-align: left;
+}
+.page-content.page-cms {
+  background: #fff;
+  padding: 0%;
+  text-align: justify;
+}
+#ele1 {
+  border-radius: 10px;
+  padding-top: 97%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/eleimg1.png);
+}
+#ele2 {
+  border-radius: 10px;
+  padding-top: 88%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/eleimg2.png);
+}
+#ele3 {
+  border-radius: 10px;
+  padding-top: 88%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/eleimg3.png);
+}
+#ele4 {
+  border-radius: 10px;
+  padding-top: 116%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/eleimg4.png);
+}
+#ele5 {
+  border-radius: 10px;
+  padding-top: 97%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/eleimg5.png);
+}
+#ele6 {
+  border-radius: 10px;
+  padding-top: 69%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/eleimg6.png);
+}
+#eletxt1{
+  font-size: 0.85vw;
+  padding-left: 10%;
+  padding-bottom: 6%;
+  margin-top: 0%;
+  font-family: 'adelle';
+  text-align: center;
+  color: #e5e5e5;
+  width: 100%;
+  padding-right: 10%;
+}
+#eletxt2{
+  font-size: 0.85vw;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-family: 'adelle';
+    text-align: center;
+    color: #e5e5e5;
+    width: 100%;
+    margin-top: 53%;
+    padding-bottom: 6%;
+}
+#eletxt3{
+  font-size: 0.85vw;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-family: 'adelle';
+    text-align: center;
+    color: #151515;
+    width: 100%;
+    margin-top: 53%;
+    padding-bottom: 6%;
+}
+#eletxt4{
+  font-size: 0.85vw;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-family: 'adelle';
+    text-align: center;
+    color: #e5e5e5;
+    width: 100%;
+    margin-top: 81%;
+    padding-bottom: 6%;
+}
+#eletxt5{
+  font-size: 0.85vw;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-left: 10%;
+  padding-bottom: 6%;
+  margin-top: 0%;
+  font-family: 'adelle';
+  text-align: center;
+  color: #e5e5e5;
+  width: 100%;
+  padding-right: 10%;
+}
+#eletxt6{
+  font-size: 0.85vw;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-left: 10%;
+  padding-bottom: 6%;
+  margin-top: 0%;
+  font-family: 'adelle';
+  text-align: center;
+  color: #151515;
+  width: 100%;
+  padding-right: 10%;
+}
 
+#eletit1{
+  font-size: 0.85vw;
+  width: 100%;
+    font-family: 'adelle';
+    text-align: center;
+    color: #d2d2d2;
 
+    margin-top: -79%;
+}
+#eletit2{
+  font-size: 0.85vw;
+  width: 100%;
+    font-family: 'adelle';
+    text-align: center;
+    color: #151515;
 
+    margin-top: -79%;
+}
+#eletit3{
+  font-size: 0.85vw;
+  width: 100%;
+    font-family: 'adelle';
+    text-align: center;
+    color: #d2d2d2;
+
+    margin-top: -107%;
+}
+#gridcol1{
+  display: block;
+  width: 32%;
+  margin-right: 1.8%;
+}
+#gridcol2{
+  display: block;
+  width: 32%;
+  margin-right: 1.8%;
+}
+#gridcol3{
+  display: block;
+  width: 32%;
+}
+#gridout{
+  display: flex;
+}
+@media screen and (max-width: 1700px){
+  #ele4 {
+    padding-top: 115%;
+}
+}
+@media screen and (max-width: 1500px){
+  #ele4 {
+    padding-top: 113%;
+}
+@media screen and (max-width: 1300px){
+  #ele4 {
+    padding-top: 111%;
+}
+#ele2 {
+  padding-top: 86%;
+
+}
+}
+@media screen and (max-width: 1260px){
+#eletxt1{
+  font-size: 0.8vw;
+}
+#eletxt2{
+  font-size: 0.8vw;
+}
+#eletxt3{
+  font-size: 0.8vw;
+}
+#eletxt4{
+  font-size: 0.8vw;
+}
+#eletxt5{
+  font-size: 0.8vw;
+}
+#eletxt6{
+  font-size: 0.8vw;
+}
+#eletit1{
+  font-size: 0.8vw;
+}
+#eletit2{
+  font-size: 0.8vw;
+}
+#eletit3{
+  font-size: 0.8vw;
+}
+}
 
 /* HEADER */
 .header-top{
@@ -1511,6 +1929,56 @@ padding-bottom: 0rem !important;
 .products{
   width: 161%;
 }
+/*  HOME PAGE */
+#custom-text {
+  padding: 0%;
+}
+.descriptionDiv {
+width: 80%;
+position: absolute;
+top: 10%;
+left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+}
+.needleTit {
+font-family: 'SairaCondensed';
+font-weight: 700;
+text-align: center;
+font-size: 2rem;
+margin-bottom: 2%;
+}
+#formDiv {
+width: 70%;
+padding-top: 3%;
+margin: auto;
+}
+#form {
+width: 98.6%;
+background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 79%;
+height: 42vh;
+}
+#joinFam {
+margin-top: 4vh;
+}
+.hpt {
+font-size: 2rem;
+}
+#formTit {
+font-family: 'SairaCondensed';
+text-align: center;
+color: white;
+font-size: 2rem;
+}
+#shippingDetails {
+width: 100%;
+height: 250px;
+background-color: white;
+display: flex;
+}
 }
 
 
@@ -1620,6 +2088,264 @@ padding-bottom: 0rem !important;
 }
 .products{
   width: 161%;
+}
+
+/*  HOME PAGE */
+#custom-text {
+    padding: 0%;
+}
+.descriptionDiv {
+  width: 80%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.needleTit {
+  font-family: 'SairaCondensed';
+  font-weight: 700;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+#formDiv {
+  width: 70%;
+  padding-top: 3%;
+  margin: auto;
+}
+#form {
+  width: 98.6%;
+  background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 79%;
+  height: 42vh;
+}
+#joinFam {
+margin-top: 4vh;
+}
+.hpt {
+  font-size: 2rem;
+}
+#formTit {
+  font-family: 'SairaCondensed';
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+#shippingDetails {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  display: flex;
+}
+}
+
+@media screen and (max-width: 601px) and (min-width: 599px){
+  /* SHOP PAGE */
+  .main {
+    font-family: 'adelle';
+    font-weight: 100;
+    color: #8d8d8d;
+    box-shadow: none;
+    border: solid 1px #8d8d8d;
+    width: 229px;
+    height: 40px;
+    padding-top: 0.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+  .spanval {
+    border: 1px solid #8d8d8d;
+    border-radius: 26px;
+    height: 40px;
+    background-color: white;
+    width: 40px;
+    padding: 0;
+  }
+  #li1 {
+    margin-right: 35.5%;
+}
+#li2 {
+  margin-right: 35.5%;
+}
+  .checkmark {
+      margin-top: 48px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background-color: transparent;
+      border-radius: 50%;
+      font-family: 'SairaCondensed';
+      font-weight: 700;
+  }
+  .needleSpecs {
+    width: 97%;
+    margin-bottom: 15%;
+}
+#hrval {
+  border: none;
+  position: absolute;
+  width: 86%;
+  margin-top: 3.7%;
+  height: 1.5px;
+  background-color: #8d8d8d;
+}
+.radio-label {
+  font-size: 0.9rem;
+}
+.radio-label-small {
+  width: 150px;
+}
+.add-to-cart {
+  font-size: 1.5rem;
+  font-family: "SairaCondensed";
+  font-weight: bolder;
+  margin-left: 30px;
+  border: none;
+  color: white;
+  background-color: #4c25f5;
+  padding: 0.5rem 7rem;
+  border-radius: 11px;
+  box-shadow: none;
+  text-transform: none;
+}
+p {
+  font-weight: 100;
+  margin-top: 0px;
+  font-family: "adelle-sans";
+  font-size: 0.7rem;
+  width: 100%;
+  color: black;
+  line-height: 1.4rem;
+}
+
+.descr {
+  font-weight: 100;
+  font-family: "adelle-sans";
+  font-size: 1rem;
+  width: 96%;
+  color: black;
+  line-height: 1.4rem;
+}
+.dropdown1 {
+  width: 96%;
+}
+.dropdown2 {
+  width: 96%;
+}
+.productsSlider{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.productsSlider::-webkit-scrollbar{
+  display: none;
+}
+.products {
+  width: 217%;
+}
+
+/*  HOME PAGE */
+#custom-text {
+  padding: 0%;
+}
+.descriptionDiv {
+width: 80%;
+position: absolute;
+top: 10%;
+left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+}
+.needleTit {
+  font-family: 'SairaCondensed';
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+}
+#formDiv {
+width: 70%;
+padding-top: 3%;
+margin: auto;
+}
+#form {
+width: 98.6%;
+background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 79%;
+height: 42vh;
+}
+#joinFam {
+margin-top: 4vh;
+}
+.hpt {
+font-size: 2rem;
+}
+#formTit {
+font-family: 'SairaCondensed';
+text-align: center;
+color: white;
+font-size: 2rem;
+}
+#shippingDetails {
+width: 100%;
+height: 250px;
+background-color: white;
+display: flex;
+}
+.buyNow {
+  font-family: 'adelle-sans';
+  background-color: #4c25e3;
+  color: white;
+  font-weight: 100;
+  width: 110%;
+  border-radius: 50px;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+#name {
+  padding-bottom: 7px;
+  color: #454545;
+  background-color: transparent;
+  font-family: 'adelle';
+  border: none;
+  border-bottom: 2px solid white;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#favStyle {
+  padding: 7px;
+  color: #454545;
+  background-color: black;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 90%;
+  margin-left: 5%;
+  font-family: 'adelle';
+  margin-top: 1%;
+}
+#email {
+  padding-bottom: 7px;
+  margin-top: 1vh;
+  color: #454545;
+  background-color: transparent;
+  font-family: 'adelle';
+  border: none;
+  border-bottom: 2px solid white;
+  width: 90%;
+  margin-left: 5%;
 }
 }
 
@@ -1947,6 +2673,197 @@ width: 93%;
 .radio-label-medium{
   width: 111px;
 }
+
+/*HOME PAGE */
+#carouselContainer{
+  overflow: scroll;
+  display: none;
+}
+#carouselContainerm::-webkit-scrollbar{
+  display: none;
+}
+#carouselContainerm{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  overflow: scroll;
+  display: block;
+}
+#tightliner{
+  background-image: url('https://dev.revolutionneedles.com/themes/classic/assets/img/tight_linerm.jpg');
+  background-size: contain;
+}
+#roundliner{
+  
+  background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/round_linerm.jpg");
+  background-size: contain;
+}
+#straightliner{
+  
+  background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/straight_linerm.jpg");
+  background-size: contain;
+}
+#roundshader{
+  
+  background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/round_shaderm.jpg");
+  background-size: contain;
+}
+#magnum{
+  
+  background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/magnumm.jpg");
+  background-size: contain;
+}
+#softedge{
+  
+  background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/soft_edge_magnumm.jpg");
+  background-size: contain;
+}
+#flatshader{
+  
+  background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/flat_shaderm.jpg");
+  background-size: contain;
+}
+#needleimg{
+  background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/revolution_tipsm.jpg");
+  background-size: contain;
+}
+
+.needleTit {
+  font-family: 'SairaCondensed';
+  font-weight: 700;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+
+#tattoocarousel {
+  display: flex;
+  width: 500%;
+}
+
+.tattootext {
+  width: 100%;
+  text-align: center;
+  font-family: 'adelle';
+  margin-top: 6%;
+  margin-bottom: 8%;
+  font-size: 1rem;
+}
+
+.hpt {
+  font-family: 'SairaCondensed';
+  font-size: 2.2rem;
+  text-align: center;
+  color: black;
+}
+
+.buyForm {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 50%;
+  margin-top: 10%;
+}
+
+.descriptionDiv {
+  width: 75%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.imgdiv {
+  margin-bottom: 3%;
+  padding-bottom: 105.5%;
+
+  width: 100%;
+}
+.needles {
+  width: 100%;
+  display: block;
+  margin-bottom: 0.7%;
+}
+#formDiv {
+  width: 90%;
+  padding-top: 3%;
+  margin: auto;
+}#form {
+  background-size: cover;
+}
+#formTit {
+  font-family: 'SairaCondensed';
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+#formDescr {
+  color: #e6e6e6;
+  font-family: 'adelle';
+  text-align: center;
+  width: 100%;
+  margin-top: 6%;
+  font-size: 0.8rem;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+#custom-text {
+display: none;
+}
+#shippingDetails {
+display: none;
+}
+#name {
+  padding-bottom: 7px;
+  color: #454545;
+  background-color: transparent;
+  font-family: 'adelle';
+  border: none;
+  border-bottom: 2px solid white;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+#favStyle {
+  margin-top: 2%;
+  padding: 5px;
+  color: #454545;
+  background-color: black;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 90%;
+  margin-left: 5%;
+  font-family: 'adelle';
+}
+#email {
+  padding-bottom: 7px;
+  margin-top: 2vh;
+  color: #454545;
+  background-color: transparent;
+  font-family: 'adelle';
+  border: none;
+  border-bottom: 2px solid white;
+  width: 90%;
+  margin-left: 5%;
+}
+.formtitle{
+  padding-top: 10%;
+}
+#myCheckbox{
+  margin-left: 5%;
+}
+#form {
+  width: 98.6%;
+  background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 68vh;
+}
+#accept{
+  margin-left: 5%;
+}
 }
 
 @media screen and (max-width: 430px) {
@@ -1999,6 +2916,28 @@ width: 93%;
   margin-top: 3.5%;
   height: 1.5px;
   background-color: #8d8d8d;
+}
+
+/* HOME PAGE */
+#form {
+  width: 98.6%;
+  background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 74vh;
+}
+#termos {
+  color: #454545;
+  margin-top: 3vh;
+  font-size: 0.6rem;
+  font-family: 'adelle';
+}
+#form {
+  width: 98.6%;
+  background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 82vh;
 }
   }
 
@@ -2141,4 +3080,3 @@ width: 93%;
   font-size: 0.6rem;
 }
 }
-

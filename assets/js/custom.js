@@ -25,8 +25,42 @@ $("#joinFam").click(function stateChange(newState) {
 
 
 $(document).ready(function(){
+	var width = $(window).width();
+	console.log(width);
   getbaloes();
   $("#carouselContainer").overscroll();
+  $('#main2slidercontainer').overscroll();
+	if(width>=1750){
+		$('#main2slidercontainer').scrollLeft(350);
+	}
+	if(width<1750 && width>=1650){
+		$('#main2slidercontainer').scrollLeft(320);
+	}
+	if(width<1650 && width>=1550){
+		$('#main2slidercontainer').scrollLeft(300);
+	}
+	if(width<1550 && width>=1450){
+		$('#main2slidercontainer').scrollLeft(280);
+	}
+	if(width<1450 && width>=1350){
+		$('#main2slidercontainer').scrollLeft(260);
+	}
+	if(width<1350 && width>=1250){
+		$('#main2slidercontainer').scrollLeft(240);
+	}
+	if(width<1350 && width>=1250){
+		$('#main2slidercontainer').scrollLeft(240);
+	}
+	if(width<1250 && width>=1150){
+		$('#main2slidercontainer').scrollLeft(225);
+	}
+	if(width<1150 && width>=1050){
+		$('#main2slidercontainer').scrollLeft(205);
+	}  
+	if(width<1050 && width>=950){
+		$('#main2slidercontainer').scrollLeft(190);
+	}
+
  });
   
   function getbaloes() {

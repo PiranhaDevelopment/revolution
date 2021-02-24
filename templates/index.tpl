@@ -60,8 +60,8 @@ On all orders above 250€<br>
         </div>
         <div class="needles">
         <div class="spacer"></div>
-          <div class="imgdiv">
-            <img class="needleImg" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tightLiner.jpg">
+          <div class="imgdiv" id="tightliner">
+
             <div class="descriptionDiv">
             <h1 class="needleTit">TIGHT LINER</h1>
             <p class="needleDescr">
@@ -74,8 +74,7 @@ Extra long taper allows less contact with skin to create sharper lines.</p>
 
           </div>
           <div class="spacer"></div>
-          <div class="imgdiv">
-            <img class="needleImg" src="https://dev.revolutionneedles.com/themes/classic/assets/img/roundLiner.jpg">
+          <div class="imgdiv" id="roundliner">
             <div class="descriptionDiv">
             <h1 class="needleTit">ROUND LINER</h1>
             <p class="needleDescr">
@@ -92,8 +91,7 @@ Extra long taper allows less contact with skin to create sharper lines.</p>
         </div>
         <div class="needles">
         <div class="spacer"></div>
-          <div class="imgdiv">
-            <img class="needleImg" src="https://dev.revolutionneedles.com/themes/classic/assets/img/straightLiner.jpg">
+          <div class="imgdiv" id="straightliner">
             <div class="descriptionDiv">
             <h1 class="needleTit">STRAIGHT LINER</h1>
              <p class="needleDescr">
@@ -106,8 +104,7 @@ Extra long taper allows less contact with skin to create sharper lines.</p>
 
           </div>
           <div class="spacer"></div>
-          <div class="imgdiv">
-            <img class="needleImg" src="https://dev.revolutionneedles.com/themes/classic/assets/img/roundShader.jpg">
+          <div class="imgdiv" id="roundshader">
             <div class="descriptionDiv">
             <h1 class="needleTit">ROUND SHADER</h1>
             <p class="needleDescr">
@@ -124,8 +121,7 @@ Extra long taper allows less contact with skin to create sharper lines.</p>
         </div>
         <div class="needles">
         <div class="spacer"></div>
-          <div class="imgdiv">
-            <img class="needleImg" src="https://dev.revolutionneedles.com/themes/classic/assets/img/magnum.jpg">
+          <div class="imgdiv" id="magnum">
             <div class="descriptionDiv">
             <h1 class="needleTit">MAGNUM</h1>
             <p class="needleDescr">
@@ -139,8 +135,7 @@ Extra long taper allows less contact with skin to create sharper lines.</p>
 
           </div>
           <div class="spacer"></div>
-          <div class="imgdiv">
-            <img class="needleImg" src="https://dev.revolutionneedles.com/themes/classic/assets/img/softEdgeMagnum.jpg">
+          <div class="imgdiv" id="softedge">
             <div class="descriptionDiv">
             <h1 class="needleTit">SOFT EDGE MAGNUM</h1>
             <p class="needleDescr">
@@ -158,8 +153,7 @@ Extra long taper allows less contact with skin to create sharper lines.</p>
         </div>
         <div class="needles">
         <div class="spacer"></div>
-          <div class="imgdiv">
-            <img class="needleImg" src="https://dev.revolutionneedles.com/themes/classic/assets/img/flatShader.jpg">
+          <div class="imgdiv" id="flatshader">
             <div class="descriptionDiv">
             <h1 class="needleTit">FLAT SHADER</h1>
             <p class="needleDescr">
@@ -172,8 +166,7 @@ Extra long taper allows less contact with skin to create sharper lines.</p>
 
           </div>
           <div class="spacer"></div>
-          <div class="imgdiv">
-            <img class="needleImg" src="https://dev.revolutionneedles.com/themes/classic/assets/img/needleTips.jpg">
+          <div class="imgdiv" id="needleimg">
             <div class="descriptionDiv">
             <h1 id="tips" class="needleTit">NEEDLE TIPS</h1>
             <p id="tipsdescr" class="needleDescr">
@@ -196,42 +189,81 @@ Transparent. Thin walls.
       <p class=tattootext>Mention <span class="hashtag">@RevolutionNeedles</span> and get a chance to be featured.</p>
       </div>
       <div id="carouselContainer">
-      <div id="tattoocarousel">
+        <div id="tattoocarousel">
       
-      <div class="tattoo">
-      <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat1.jpg">
-      <p class="artist">@artist name</p>
+          <div class="tattoo">
+            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat1.jpg">
+            <p class="artist">@artist name</p>
+          </div>
+          <div class="spacer2"></div>
+          <div class="tattoo">
+            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat5.jpg">
+            <p class="artist">@artist name</p>
+          </div>
+          <div class="spacer2"></div>
+          <div class="tattoo">
+            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat2.jpg">
+            <p class="artist">@artist name</p>
+          </div>
+          <div class="spacer2"></div>
+          <div class="tattoo">
+            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat7.jpg">
+            <p class="artist">@artist name</p>
+          </div>
+          <div class="spacer2"></div>
+          <div class="tattoo"> 
+          <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat6.jpg">
+          <p class="artist">@artist name</p>
+          </div>
+          <div class="spacer2"></div>
+          <div class="tattoo">
+            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat3.jpg">
+            <p class="artist">@artist name</p>
+          </div>
+          <div class="spacer2"></div>
+          <div class="tattoo">
+            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat4.jpg">
+            <p class="artist">@artist name</p>
+          </div>
       </div>
-      <div class="spacer2"></div>
-      <div class="tattoo">
-      <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat5.jpg">
-      <p class="artist">@artist name</p>
       </div>
-      <div class="spacer2"></div>
-      <div class="tattoo">
-      <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat2.jpg">
-      <p class="artist">@artist name</p>
-      </div>
-      <div class="spacer2"></div>
-      <div class="tattoo">
-      <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat7.jpg">
-      <p class="artist">@artist name</p>
-      </div>
-      <div class="spacer2"></div>
-      <div class="tattoo"> 
-      <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat6.jpg">
-      <p class="artist">@artist name</p>
-      </div>
-      <div class="spacer2"></div>
-      <div class="tattoo">
-      <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat3.jpg">
-      <p class="artist">@artist name</p>
-      </div>
-      <div class="spacer2"></div>
-      <div class="tattoo">
-      <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat4.jpg">
-      <p class="artist">@artist name</p>
-      </div>
+      <div id="carouselContainerm">
+        <div id="tattoocarousel">
+      
+          <div class="tattoo">
+            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat1.jpg">
+            <p class="artist">@artist name</p>
+          </div>
+          <div class="spacer2"></div>
+          <div class="tattoo">
+            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat5.jpg">
+            <p class="artist">@artist name</p>
+          </div>
+          <div class="spacer2"></div>
+          <div class="tattoo">
+            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat2.jpg">
+            <p class="artist">@artist name</p>
+          </div>
+          <div class="spacer2"></div>
+          <div class="tattoo">
+            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat7.jpg">
+            <p class="artist">@artist name</p>
+          </div>
+          <div class="spacer2"></div>
+          <div class="tattoo"> 
+          <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat6.jpg">
+          <p class="artist">@artist name</p>
+          </div>
+          <div class="spacer2"></div>
+          <div class="tattoo">
+            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat3.jpg">
+            <p class="artist">@artist name</p>
+          </div>
+          <div class="spacer2"></div>
+          <div class="tattoo">
+            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat4.jpg">
+            <p class="artist">@artist name</p>
+          </div>
       </div>
       </div>
      </div>
@@ -242,7 +274,7 @@ Transparent. Thin walls.
         <div class="spacer"></div>
         <div id="form">
         <div id="formDiv">
-        <h1 id="formTit">A GLOBAL FAMILY READY<br>TO SHAKE CONVENTION.</h1>
+        <h1 id="formTit" class="formtitle">A GLOBAL FAMILY READY<br>TO SHAKE CONVENTION.</h1>
         <p id="formDescr">Join our private list and get our latest product releases and exclusive discounts.</p>
         <form method="post" enctype="multipart/form-data" action="https://22.e-goi.com/w/de1ce3V1le10OpAysfZea-c0b3d1?egu=wjkdz9z7exenmmpo" target="dummyframe">
   <input type="hidden" name="lista" value="13">
@@ -269,8 +301,8 @@ Transparent. Thin walls.
   <br>
   <input id="email" type="email" name="email_817" id="email_817" value="" autocomplete="off" autocomplete="off" easyvalidation="true" placeholder="Enter your email" required>
   <br>
- <label class="myCheckbox">
-  <input id="check" order="0" visible="visible" useoutrolabel="Outro (qual?)" id="campoe_108_820_0" type="checkbox" required value="2" title="Concordo com a Pol&#237;tica de Privacidade da Revolution Needles" name="campoe_108_820[]" required>
+ <label id="accept" class="myCheckbox">
+  <input style="position:absolute" order="0" visible="visible" useoutrolabel="Outro (qual?)" id="campoe_108_820_0" type="checkbox" required value="2" title="Concordo com a Pol&#237;tica de Privacidade da Revolution Needles" name="campoe_108_820[]" required>
    <span></span>
    </label>
    
