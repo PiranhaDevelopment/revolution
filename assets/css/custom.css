@@ -1396,6 +1396,14 @@ user-select: none;
   color: black;
   margin-bottom: 6%;
 }
+#main5tit{
+  font-family: 'adelle';
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+  margin-bottom: 6%;
+}
 #main2txt{
   font-family: 'adelle-sans';
   text-align: center;
@@ -1428,6 +1436,10 @@ user-select: none;
   padding-top: 12vh;
   background-color: white;
   padding-bottom: 11vh;
+}
+#main5{
+  background-color: #e5e5e5;
+  padding-top: 5%;
 }
 #main1inner{
   width: 55%;
@@ -1629,6 +1641,69 @@ user-select: none;
 #gridout{
   display: flex;
 }
+iframe{
+  display: none;
+}
+#contactspacer{
+  width: 25%;
+  height: 100%;
+}
+
+#contactsbox{
+  display: flex;
+}
+#contactspacer2{
+  width: 25%;
+}
+#contact{
+  width: 18%;
+}
+#contactform{
+  width: 32%;
+}
+#labelinput1{
+  width: 47.5%;
+  color: black;
+  display: block;
+  margin-right: 5%;
+}
+#labelinput2{
+  width: 47.5%;
+  color: black;
+  display: block;
+
+}
+#labelinput3{
+  width: 100%;
+  color: black;
+  display: block;
+}
+.lbi{
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+.msg{
+  width: 100%;
+}
+#fname_834{
+  width: 100%;
+}
+#email_835{
+  width: 100%;
+}
+#easygoi_846{
+  width: 100%;
+}
+#aboutform{
+  display: inline-block;
+  width: 100%;
+}
+#input12{
+  display: flex;
+}
+
+
 @media screen and (max-width: 1700px){
   #ele4 {
     padding-top: 115%;

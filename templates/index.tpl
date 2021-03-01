@@ -181,91 +181,91 @@ Transparent. Thin walls.
           
         
         </div>
-        <div id="tattoosection">
-        <div class="spacer"></div>
-     <div id="tatuagens">
-      <div id="tattxt">
+<div id="tattoosection">
+  <div class="spacer"></div>
+  <div id="tatuagens">
+    <div id="tattxt">
       <h1 class="hpt">JOIN THOUSANDS OF ARTISTS.</h1>
       <p class=tattootext>Mention <span class="hashtag">@RevolutionNeedles</span> and get a chance to be featured.</p>
-      </div>
-      <div id="carouselContainer">
-        <div id="tattoocarousel">
+    </div>
+    <div id="carouselContainer">
+      <div id="tattoocarousel">
       
-          <div class="tattoo">
-            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat1.jpg">
-            <p class="artist">@artist name</p>
-          </div>
-          <div class="spacer2"></div>
-          <div class="tattoo">
+        <div class="tattoo">
+          <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat1.jpg">
+          <p class="artist">@artist name</p>
+        </div>
+        <div class="spacer2"></div>
+        <div class="tattoo">
             <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat5.jpg">
             <p class="artist">@artist name</p>
-          </div>
-          <div class="spacer2"></div>
-          <div class="tattoo">
+        </div>
+        <div class="spacer2"></div>
+        <div class="tattoo">
             <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat2.jpg">
             <p class="artist">@artist name</p>
-          </div>
-          <div class="spacer2"></div>
-          <div class="tattoo">
-            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat7.jpg">
-            <p class="artist">@artist name</p>
-          </div>
-          <div class="spacer2"></div>
-          <div class="tattoo"> 
+        </div>
+        <div class="spacer2"></div>
+        <div class="tattoo">
+          <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat7.jpg">
+          <p class="artist">@artist name</p>
+        </div>
+        <div class="spacer2"></div>
+        <div class="tattoo"> 
           <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat6.jpg">
           <p class="artist">@artist name</p>
-          </div>
-          <div class="spacer2"></div>
-          <div class="tattoo">
-            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat3.jpg">
-            <p class="artist">@artist name</p>
-          </div>
-          <div class="spacer2"></div>
-          <div class="tattoo">
-            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat4.jpg">
-            <p class="artist">@artist name</p>
-          </div>
+        </div>
+        <div class="spacer2"></div>
+        <div class="tattoo">
+          <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat3.jpg">
+          <p class="artist">@artist name</p>
+        </div>
+        <div class="spacer2"></div>
+        <div class="tattoo">
+          <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat4.jpg">
+          <p class="artist">@artist name</p>
+        </div>
       </div>
-      </div>
-      <div id="carouselContainerm">
-        <div id="tattoocarousel">
+    </div>
+    <div id="carouselContainerm">
+      <div id="tattoocarousel">
       
-          <div class="tattoo">
-            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat1.jpg">
-            <p class="artist">@artist name</p>
-          </div>
-          <div class="spacer2"></div>
-          <div class="tattoo">
-            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat5.jpg">
-            <p class="artist">@artist name</p>
-          </div>
-          <div class="spacer2"></div>
-          <div class="tattoo">
-            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat2.jpg">
-            <p class="artist">@artist name</p>
-          </div>
-          <div class="spacer2"></div>
-          <div class="tattoo">
-            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat7.jpg">
-            <p class="artist">@artist name</p>
-          </div>
-          <div class="spacer2"></div>
-          <div class="tattoo"> 
+       <div class="tattoo">
+        <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat1.jpg">
+        <p class="artist">@artist name</p>
+       </div>
+       <div class="spacer2"></div>
+       <div class="tattoo">
+        <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat5.jpg">
+        <p class="artist">@artist name</p>
+       </div>
+       <div class="spacer2"></div>
+        <div class="tattoo">
+          <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat2.jpg">
+          <p class="artist">@artist name</p>
+        </div>
+        <div class="spacer2"></div>
+        <div class="tattoo">
+          <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat7.jpg">
+          <p class="artist">@artist name</p>
+        </div>
+        <div class="spacer2"></div>
+        <div class="tattoo"> 
           <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat6.jpg">
           <p class="artist">@artist name</p>
-          </div>
-          <div class="spacer2"></div>
-          <div class="tattoo">
-            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat3.jpg">
-            <p class="artist">@artist name</p>
-          </div>
-          <div class="spacer2"></div>
-          <div class="tattoo">
-            <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat4.jpg">
-            <p class="artist">@artist name</p>
-          </div>
+        </div>
+        <div class="spacer2"></div>
+        <div class="tattoo">
+          <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat3.jpg">
+          <p class="artist">@artist name</p>
+        </div>
+        <div class="spacer2"></div>
+        <div class="tattoo">
+          <img class="tattooimg" draggable="false" src="https://dev.revolutionneedles.com/themes/classic/assets/img/tat4.jpg">
+          <p class="artist">@artist name</p>
+        </div>
       </div>
-      </div>
+    </div>
      </div>
      <div class="spacer"></div>
        </div>

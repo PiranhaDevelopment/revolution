@@ -30,18 +30,20 @@
 
 {block name='page_content_container'}
   <section id="content" class="page-content page-cms page-cms-{$cms.id}">
+      {if in_array($cms.id, [38])}
+          {include file="cmspages/"|cat:$cms.id_cms_category|cat:"/"|cat:$cms.id|cat:"_"|cat:$language.iso_code|cat:".tpl"}
+      {else}
+          {block name='cms_content'}
+              {$cms.content nofilter}
+          {/block}
 
-    {block name='cms_content'}
-      {$cms.content nofilter}
-    {/block}
+          {block name='hook_cms_dispute_information'}
+              {hook h='displayCMSDisputeInformation'}
+          {/block}
 
-    {block name='hook_cms_dispute_information'}
-      {hook h='displayCMSDisputeInformation'}
-    {/block}
-
-    {block name='hook_cms_print_button'}
-      {hook h='displayCMSPrintButton'}
-    {/block}
-
+          {block name='hook_cms_print_button'}
+              {hook h='displayCMSPrintButton'}
+          {/block}
+      {/if}
   </section>
 {/block}
