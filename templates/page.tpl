@@ -27,14 +27,11 @@
 {block name='content'}
 
   <section id="main">
+<h1 class="pagetitle">
+{block name='page_title' hide}
 
-    {block name='page_header_container'}
-      {block name='page_title' hide}
-        <header class="page-header">
-<!--          <h1>{$smarty.block.child}</h1> -->
-        </header>
-      {/block}
-    {/block}
+      {/block}</h1>
+
 
     {block name='page_content_container'}
       <section id="content" class="page-content card card-block">

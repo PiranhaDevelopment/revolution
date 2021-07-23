@@ -129,39 +129,395 @@
 @font-face {
   font-family: SairaCondensed;
   src: url(../fonts/SairaCondensed/SairaCondensed-Black.ttf);
+
+}
+@font-face {
+  font-family: SairaCondensed;
+  src: url(../fonts/SairaCondensed/SairaCondensed-Light.ttf);
+  font-weight: 100;
 }
 @font-face {
   font-family: SairaCondensed;
   src: url(../fonts/SairaCondensed/SairaCondensed-Bold.ttf);
   font-weight: bold;
 }
+@font-face {
+  font-family: SairaCondensed;
+  src: url(../fonts/SairaCondensed/SairaCondensed-Regular.ttf);
+  font-weight: 400;
+}
 
-/* GERAL */
-@media (min-width: 1200px){
-  .row {
-      width: 1140px;
-      max-width: 100%;
-  }
-  }
-  @media (min-width: 992px) and (max-width: 1200px){
-  .row {
-      width: 960px;
-      max-width: 100%;
-  }
-  }
-  @media (min-width: 768px) and (max-width: 992px){
-  .row {
-      width: 720px;
-      max-width: 100%;
-  }
-  }
-  @media (min-width: 576px) and (max-width: 768px){
-  .row {
-      width: 540px;
-      max-width: 100%;
-  }
+
+
+/* PESQUISA */
+.bottomheader.desktop{
+  width: 100%;
+}
+#leo_search_block_top {
+  background-color: #000;
+  float: left;
+  height: 60px;
+  width: 100%;
+  position: relative;
+  margin-top: 0;
+  display: none;
+}
+#leosearchtopbox {
+  height: 100%;
+  margin-top: -1%;
+}
+#leosearchtopbox input {
+  height: 100%;
+}
+#leo_search_block_top .block_content {
+  margin-top: 20px;
+}
+.list-cate-wrapper {
+  display: none!important;
+}
+#leo_search_block_top .leoproductsearch-result {
+  padding-left: 3%;
+  height: 100%;
+  width: 90%;
+  display: inline-block;
+  margin: 3px 0;
+  border-left: 1px solid rgba(0,0,0,.25);
+  position: relative;
+}
+#leosearchtopbox input {
+  height: 100%;
+}
+#leo_search_query_top {
+  font-family: 'neue-haas-grotesk-display';
+}
+#leo_search_query_top {
+  outline: none;
+  padding: 0;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+#leo_search_top_button {
+  margin-top: .6%;
+  padding: 9px 16px;
+  position: absolute;
+  left: 13px;
+  background: #000;
+  color: #fff;
+  z-index: 0;
+  outline: none;
+}
+#leo_search_top_button {
+  display: none;
+}
+#leo_search_top_button2 {
+  margin-top: .5%;
+  padding: 9px 16px;
+  position: absolute;
+  right: 13px;
+  background: #000;
+  color: #fff;
+  z-index: 0;
+  outline: none;
+}
+#authentication .leoproductsearch-result .form-control {
+  background: black;
+  color: white;
+  border: none;
+  padding: 0px;
+  font-family: 'SairaCondensed';
+  font-weight: 400;
+  box-shadow: none !important;
+  font-size: 1vw;
+}
+#authentication .leoproductsearch-result .form-control::placeholder {
+  background: black;
+  color: white;
+  border: none;
+  padding: 0px;
+  font-family: 'SairaCondensed';
+  font-weight: 400;
+  font-size: 1vw;
+}
+.block_content.clearfix.leoproductsearch-content {
+  height: 100%;
+}
+#leo_search_top_button2{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* ACCOUNT */
+#authentication .form-footer.clearfix {
+  display: flex;
+  justify-content: center;
+}
+#authentication .form-footer.clearfix button {
+  margin-top: 5%;
+  background-color: #000;
+  outline: none;
+  box-shadow: none;
+  font-family: neue-haas-grotesk-display;
+  border-radius: 20px;
+  padding-left: 16%;
+  padding-right: 16%;
+  margin-bottom: 7%;
+}
+#authentication .custom-radio {
+  display: inline-block;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #7a7a7a;
+  background: #fff;
+  margin-right: 1.25rem;
+}
+#authentication .custom-radio input[type="radio"]:checked + span {
+  display: block;
+  background-color: #000;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#authentication .custom-radio {
+  border-radius: 0%;
+}
+#authentication #Social {
+  display: none;
+}
+#authentication .register-form p {
+  display: none;
+}
+#authentication #logintitle {
+  display: block;
+}
+#authentication section#content {
+  padding-bottom: 2%;
+}
+#authentication hr {
+  display: none;
+}
+#authentication button#submit-login {
+  margin-top: 5%;
+  background-color: #4c25e3;
+  outline: none;
+  box-shadow: none;
+  font-family: 'adelle-sans';
+  border-radius: 7px;
+  padding-left: 16%;
+  padding-right: 16%;
+  margin-bottom: 7%;
+  font-weight: 200;
+  font-size: 1vw;
+}
+#authentication .col-md-69 .input-group .input-group-btn {
+  width: 20%;
+  height: 100%;
+  border-top: solid 2px #dcdcdc;
+  border-bottom: solid 2px #dcdcdc;
+  border-right: solid 2px #dcdcdc;
+  padding-right: 2%;
+  display: flex;
+  justify-content: center;
+}
+#authentication
+  .col-md-69
+  input.form-control.js-child-focus.js-visible-password {
+  -webkit-appearance: none;
+  line-height: normal;
+  border-right: 0 solid #fff;
+  width: 80%;
+  height: inherit;
+}
+#authentication
+  .col-md-69
+  .input-group
+  .input-group-btn
+  > .btn[data-action="show-password"] {
+  background: #fff;
+  padding: 0;
+  color: #222;
+  outline: none;
+  padding-right: 1px;
+  font-family: 'adelle-sans';
+}
+#authentication a {
+  font-family: 'adelle-sans';
+  color: #000;
+  text-decoration: none;
+  font-size: 0.7vw;
+  padding-right: unset;
+  padding-right: unset;
+}
+#authentication .col-md-69 {
+  padding-left: 15px;
+  width: 100%;
+  max-width: none;
+  padding-right: 15px;
+}
+#authentication input:-internal-autofill-selected {
+  appearance: menulist-button;
+  background-color: #fff !important;
+  background-image: none !important;
+  color: -internal-light-dark(black, white) !important;
+}
+#authentication .loginName {
+  padding-left: 15px;
+  color: #000;
+  font-family: 'adelle-sans';
+}
+#authentication .col-md-6 {
+  max-width: none;
+  width: 100%;
+}
+.input-group {
+  height: 100%;
+}
+.form-control:focus, .input-group.focus {
+  outline: none !important;
+}
+.page-authentication #content {
+  max-width: 450px;
+}
+#authentication .form-control {
+  background: white;
+  color: black;
+  border: solid 2px #dcdcdc;
+  padding: 0.9rem 1rem;
+  box-shadow: none !important;
+  outline: none !important;
+  font-size: 0.75vw;
+}
+.leo-top-menu{
+  width: 100%;
+}
+.carousel-item p{
+  color: white;
+}
+
+
+
+/* CAROUSEL */
+.p-4 {
+  padding: 15px !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 50%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+}
+.carousel {
+  width: 100%;
+  background-color: #1d1d1f;
+  height: 50px;
+  box-shadow: none;
+  margin-bottom: 0;
+  box-shadow: none;
+  margin-left: 0;
+  left: 0;
+  padding-bottom: 0;
+}
+.container .carousel .carousel-inner {
+  height: 100%;
+}
+.carousel-item.text-center.p-4 {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
   
+}
+.carousel-item.text-center.p-4 p {
+  font-size: 1vw;
+  width: 100%;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 10px;
+  height: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  label.form-control-label.loginName.required {
+    font-family: 'adelle-sans';
+    font-size: 0.75vw;
+    font-weight: 600;
+}
+  .page-authentication .container {
+    background-color: black;
+}
+  body{
+    background-color: black;
   }
+  h1.pagetitle {
+    font-family: 'SairaCondensed';
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    color: white;
+}
+  .header-top .row {
+    margin: 0px;
+    width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    max-width: none;
+}
+  div#search_widget {
+    width: 100%;
+}
+  .remove-check::before {
+    content:none !important;
+}
   .row{
     margin: auto;
   }
@@ -174,7 +530,94 @@
   #wrapper{
     padding: 0;
   }
-  
+  #login {
+    margin-left: 20px;
+    background-image: url(/themes/classic2/assets/img/header/login.svg);
+    height: 18px;
+    background-size: cover;
+    width: 19px;
+  }
+
+/* HEADER */
+
+#leftlogobox img {
+  width: 160px;
+  padding-top: 15px;
+}
+#displaynav2 {
+  padding-top: 15px;
+  width: 160px;
+}
+#lupa2 {
+  width: 23px;
+}
+#loginwhite {
+  margin-left: 20px;
+  background-image: url(/themes/classic2/assets/img/black/account.svg);
+  height: 23px;
+  background-size: cover;
+  width: 24px;
+}
+#bagwhite {
+  display: flex;
+  padding-top: 7px;
+  background-image: url(/themes/classic2/assets/img/black/bag.svg);
+  height: 25px;
+  background-size: cover;
+  width: 22px;
+  margin-left: 20px;
+}
+.leo-megamenu {
+  padding: 0px;
+  position: static;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.nav-link span.menu-title {
+  font-size: 1vw;
+  color: white;
+}
+ul.nav.navbar-nav.megamenu.horizontal {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+#centerlogobox .navbar {
+  width: 650px;
+}
+.topheaderblack {
+  background-color: black;
+  padding-left: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 200px;
+}
+#displaynav2items{
+  display: flex;
+  justify-content: center;
+}
+#bag span {
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  font-weight: 700;
+  color: #000;
+}
+#bag {
+  display: flex;
+  padding-top: 7px;
+  background-image: url(/themes/classic2/assets/img/header/bag.svg);
+  height: 25.5px;
+  background-size: cover;
+  width: 23px;
+  margin-left: 20px;
+}
+.flag {
+  width: 27px;
+}
+.leo-top-menu span{
+  font-family: 'SairaCondensed';
+}
 
 /* SHOP PAGE */
 
@@ -1288,7 +1731,7 @@ user-select: none;
   width: 98.6%;
   background-image: url('https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 57vh;
 }
 #formsection{
@@ -1708,12 +2151,157 @@ iframe{
   #ele4 {
     padding-top: 115%;
 }
+
+
+/* HEADER */
+#bagwhite {
+  display: flex;
+  padding-top: 7px;
+  background-image: url(/themes/classic2/assets/img/black/bag.svg);
+  height: 22px;
+  background-size: cover;
+  width: 20px;
+  margin-left: 20px;
+}
+#loginwhite {
+  margin-left: 20px;
+  background-image: url(/themes/classic2/assets/img/black/account.svg);
+  height: 22px;
+  background-size: cover;
+  width: 22px;
+}
+#lupa2 {
+  width: 20px;
+}
+.topheaderblack {
+  background-color: black;
+  padding-left: 150px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 150px;
+}
 }
 @media screen and (max-width: 1500px){
+/* HEADER */
+.topheaderblack {
+  background-color: black;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+.nav-link span.menu-title {
+  font-size: 1.2vw;
+  color: white;
+}
+
+
+
+  /* LOGIN */
+
+  h1.pagetitle {
+    font-family: 'SairaCondensed';
+    font-size: 2.7vw;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+label.form-control-label.loginName.required {
+  font-family: 'adelle-sans';
+  font-size: 1vw;
+  font-weight: 600;
+}
+#authentication .form-control {
+  background: white;
+  color: black;
+  border: solid 2px #dcdcdc;
+  padding: 0.9rem 1rem;
+  box-shadow: none !important;
+  outline: none !important;
+  font-size: 1vw;
+}
+#authentication .col-md-69 .input-group .input-group-btn > .btn[data-action="show-password"] {
+  background: #fff;
+  padding: 0;
+  color: #222;
+  outline: none;
+  padding-right: 1px;
+  font-family: 'adelle-sans';
+  font-size: 0.8vw;
+}
+#authentication button#submit-login {
+  margin-top: 5%;
+  background-color: #4c25e3;
+  outline: none;
+  box-shadow: none;
+  font-family: 'adelle-sans';
+  border-radius: 7px;
+  padding-left: 16%;
+  padding-right: 16%;
+  margin-bottom: 7%;
+  font-weight: 200;
+  font-size: 1.2vw;
+}
+#authentication a {
+  font-family: 'adelle-sans';
+  color: #000;
+  text-decoration: none;
+  font-size: 1vw;
+  padding-right: unset;
+  padding-right: unset;
+}
+
+
+
+
+
+
+
+
   #ele4 {
     padding-top: 113%;
 }
+}
 @media screen and (max-width: 1300px){
+  /* HEADER */
+  #lupa2 {
+    width: 17px;
+}
+#loginwhite {
+  margin-left: 20px;
+  background-image: url(/themes/classic2/assets/img/black/account.svg);
+  height: 19px;
+  background-size: cover;
+  width: 20px;
+}
+#bagwhite {
+  display: flex;
+  padding-top: 7px;
+  background-image: url(/themes/classic2/assets/img/black/bag.svg);
+  height: 20px;
+  background-size: cover;
+  width: 18px;
+  margin-left: 20px;
+}
+#authentication .leoproductsearch-result .form-control {
+
+  font-size: 1.5vw;
+}
+#authentication .leoproductsearch-result .form-control::placeholder {
+
+  font-size: 1.5vw;
+}
+.carousel-item.text-center.p-4 p {
+  font-size: 1.2vw;
+  width: 100%;
+}
+
+
+
+
+
   #ele4 {
     padding-top: 111%;
 }
@@ -1722,6 +2310,86 @@ iframe{
 
 }
 }
+
+
+@media screen and (max-width: 1150px){
+  /* HEADER */
+  .carousel-item.text-center.p-4 p {
+    font-size: 1.5vw;
+    width: 100%;
+}
+  .nav-link span.menu-title {
+    font-size: 1.5vw;
+    color: white;
+}
+.topheaderblack {
+  background-color: black;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+#centerlogobox .navbar {
+  width: 500px;
+}
+
+/* LOGIN */
+h1.pagetitle {
+  font-family: 'SairaCondensed';
+  font-size: 3.5vw;
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 50px;
+  color: white;
+}
+label.form-control-label.loginName.required {
+  font-family: 'adelle-sans';
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+#authentication .form-control {
+  background: white;
+  color: black;
+  border: solid 2px #dcdcdc;
+  padding: 0.9rem 1rem;
+  box-shadow: none !important;
+  outline: none !important;
+  font-size: 1.5vw;
+}
+#authentication .col-md-69 .input-group .input-group-btn > .btn[data-action="show-password"] {
+  background: #fff;
+  padding: 0;
+  color: #222;
+  outline: none;
+  padding-right: 1px;
+  font-family: 'adelle-sans';
+  font-size: 1.2vw;
+}
+#authentication a {
+  font-family: 'adelle-sans';
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2vw;
+  padding-right: unset;
+  padding-right: unset;
+}
+#authentication button#submit-login {
+  margin-top: 5%;
+  background-color: #4c25e3;
+  outline: none;
+  box-shadow: none;
+  font-family: 'adelle-sans';
+  border-radius: 7px;
+  padding-left: 16%;
+  padding-right: 16%;
+  margin-bottom: 7%;
+  font-weight: 200;
+  font-size: 1.5vw;
+}
+}
+
+
+
 @media screen and (max-width: 1260px){
 #eletxt1{
   font-size: 0.8vw;
@@ -1752,11 +2420,7 @@ iframe{
 }
 }
 
-/* HEADER */
-.header-top{
-padding-top: 1.6rem;
-padding-bottom: 0rem !important;
-}
+
 
 
 /* TABLET */

@@ -139,21 +139,10 @@ Their feedback has been vital to ensure that our needles continue to set the hig
                     <input type="hidden" name="lang" id="lang_id" value="pt">
                     <input type="hidden" name="formid" id="formid" value="78">
                     <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
-                    <div id="input12">
-                    <div id="labelinput1">
-                        <label class="lbi">Your name</label>
                         <input type="text" name="fname_834" id="fname_834">
-                    </div>
-                    <div id="labelinput2">
-                        <label class="lbi">Your email</label>
-                        <input type="email" name="email_835" id="email_835" value="" placeholder="Your Email">
-                    </div>
-                    </div>        
-                        <div id="labelinput3">
-                        <label class="lbi msg">Your message</label>
+                        <input type="email" name="email_835" id="email_835" value="" placeholder="Your Email"> 
                         <textarea id="easygoi_846" name="easygoi_846" placeholder="Your message">        
                     </textarea>
-                </div>
                     <input type="submit" value="Send">
                     
                     </form>

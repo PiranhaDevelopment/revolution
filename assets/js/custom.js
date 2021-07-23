@@ -10,13 +10,15 @@
   }
 
 $("#joinFam").click(function stateChange(newState) {
+
     setTimeout(function () {
-		if($('#name').val()!='' && $('#favStyle').val()>1 && $('#email').val()!='' && $('#check').is(":checked")){
+
         $('#name').val('');
 		$('#favStyle').prop('selectedIndex',0);
 		$('#email').val('');
-		$('#check').prop('checked', false);
-		}
+		$('#check').click();
+		$('#accept span').click();
+		alert("placeholder");
     }, 2000);
 })
 
@@ -26,7 +28,25 @@ $("#joinFam").click(function stateChange(newState) {
 
 $(document).ready(function(){
 	var width = $(window).width();
-	console.log(width);
+	
+/* ABRIR E FECHAR BARRA DE PESQUISA */
+$('#lupa2').click(function(){
+	$('#leo_search_block_top').css("display","block");
+
+})
+$('#leo_search_top_button2').click(function(){
+	$('#leo_search_block_top').css("display","none");
+
+})
+
+
+
+
+
+
+
+
+
   getbaloes();
   $("#carouselContainer").overscroll();
   $('#main2slidercontainer').overscroll();
@@ -385,7 +405,7 @@ $('#menos').click(function(){
 		scrollDelta:    settings.scrollDelta,
 		showThumbs:     false,
 		persistThumbs:  false,
-		captureWheel:   true,
+		captureWheel:   false,
 		wheelDelta:     settings.wheelDelta,
 		wheelDirection: 'multi',
 		zIndex:         999,
