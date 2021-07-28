@@ -27,10 +27,7 @@
 {block name='content'}
 
   <section id="main">
-<h1 class="pagetitle">
-{block name='page_title' hide}
 
-      {/block}</h1>
 
 
     {block name='page_content_container'}

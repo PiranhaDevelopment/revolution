@@ -38,7 +38,10 @@ $('#leo_search_top_button2').click(function(){
 	$('#leo_search_block_top').css("display","none");
 
 })
-
+$('#navbar-toggler').click(function(){
+	$('.off-canvas-nav-megamenu').addClass("open-menu");
+	alert("cona");
+})
 
 
 

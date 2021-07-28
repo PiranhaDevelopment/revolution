@@ -146,9 +146,39 @@
   src: url(../fonts/SairaCondensed/SairaCondensed-Regular.ttf);
   font-weight: 400;
 }
+.cms-id-38 #main5tit {
+  font-family: 'SairaCondensed';
+  font-size: 3vw;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-bottom: 6%;
+} 
 
+.topheaderblackdesktop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.topheaderblackmobile{
+  display: none;
+}
+a.carousel-control-prev {
+  width: 25%;
+  opacity: 1;
+  background-color: #1d1d1f;
+  justify-content: flex-end;
+}
+a.carousel-control-next {
+  width: 25%;
+  background-color: #1d1d1f;
+  opacity: 1;
+  justify-content: flex-start;
+}
 
-
+#hmobile{
+  display: none;
+}
 /* PESQUISA */
 .bottomheader.desktop{
   width: 100%;
@@ -545,7 +575,7 @@
   padding-top: 15px;
 }
 #displaynav2 {
-  padding-top: 15px;
+  padding-top: 20px;
   width: 160px;
 }
 #lupa2 {
@@ -2420,7 +2450,107 @@ label.form-control-label.loginName.required {
 }
 }
 
+@media screen and (max-width: 1000px){
 
+
+/* LOGIN */
+h1.pagetitle {
+  font-size: 4.5vw;
+}
+
+
+/* HEADER */
+a.carousel-control-next {
+  width: 5%;
+  background-color: #1d1d1f;
+  opacity: 1;
+  justify-content: flex-start;
+}
+a.carousel-control-prev {
+  width: 5%;
+  opacity: 1;
+  background-color: #1d1d1f;
+  justify-content: flex-end;
+}
+.carousel-item.text-center.p-4 p {
+  font-size: 3vw;
+  width: 100%;
+}
+.navbar-header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 30%;
+}
+#displaynav2 {
+  padding-top: 20px;
+  width: unset;
+}
+.topheaderblackmobile{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 65px;
+}
+.topheaderblackdesktop{
+  display: none;
+}
+.off-canvas-nav-megamenu .offcanvas-mainnav{
+  left:0;
+}
+.off-canvas-nav-megamenu{
+  left: -400px;
+}
+.menu-open{
+  left: 0;
+}
+div#centerlogobox {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.topheaderblack {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#centerlogobox .navbar {
+  width: unset;
+  height: 100%;
+}
+div#_desktop_user_info {
+  display: none;
+}
+#displaynav2items {
+  display: flex;
+  justify-content: flex-end;
+}
+}
+
+@media screen and (max-width: 800px){
+  label.form-control-label.loginName.required {
+    font-family: 'adelle-sans';
+    font-size: 2vw;
+    font-weight: 600;
+}
+#authentication .form-control {
+  font-size: 2vw;
+  line-height: 1;
+}
+#authentication a {
+  font-family: 'adelle-sans';
+  color: #000;
+  text-decoration: none;
+  font-size: 1.8vw;
+  padding-right: unset;
+  padding-right: unset;
+}
+#authentication button#submit-login {
+  font-size: 2vw;
+}
+#authentication .col-md-69 .input-group .input-group-btn > .btn[data-action="show-password"] {
+  font-size: 1.8vw;
+}
+}
 
 
 /* TABLET */
