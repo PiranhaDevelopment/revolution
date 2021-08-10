@@ -146,6 +146,78 @@
   src: url(../fonts/SairaCondensed/SairaCondensed-Regular.ttf);
   font-weight: 400;
 }
+#authentication .register-form .custom-checkbox span {
+  margin-top: -3px;
+  border: solid 2px #c5c5c5;
+  border-radius: 4px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 0.9375rem;
+  flex: 0 0 0.9375rem;
+}
+#authentication .register-form span.custom-radio {
+  margin-top: -3px;
+  border: solid 2px #c5c5c5;
+  border-radius: 4px;
+}
+#authentication .register-form .form-footer.clearfix button {
+  margin-top: 5%;
+  background-color: #4c25e3;
+  outline: none;
+  box-shadow: none;
+  font-family: 'adelle-sans';
+  border-radius: 20px;
+  padding-left: 16%;
+  font-weight: normal;
+  padding-right: 16%;
+  margin-bottom: 7%;
+}
+#authentication .custom-checkbox span {
+  border: solid 2px #c5c5c5;
+  border-radius: 4px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 0.9375rem;
+  flex: 0 0 0.9375rem;
+}
+.register-form .custom-radio span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: none;
+}
+.register-form .form-control-comment {
+  font-size: .875rem;
+  padding-top: .5rem;
+  color: #7a7a7a;
+  display: none;
+}
+#authentication .register-form .loginName {
+  padding-left: 15px;
+  color: #222;
+  font-weight: normal;
+  font-family: 'adelle-sans';
+}
+#authentication span.custom-radio {
+  border: solid 2px #c5c5c5;
+  border-radius: 4px;
+}
+.user-info {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#authentication #logintitle {
+  font-size: 2.5vw;
+  padding-top: 5%;
+  padding-bottom: 1.5%;
+  display: block;
+  font-family: SairaCondensed;
+  color: white;
+  text-align: center;
+}
+
+#identityTitle{
+  display: none;
+}
 .cms-id-38 #main5tit {
   font-family: 'SairaCondensed';
   font-size: 3vw;
@@ -175,7 +247,10 @@ a.carousel-control-next {
   opacity: 1;
   justify-content: flex-start;
 }
-
+#authentication section#content {
+  padding-bottom: 7%;
+  background-color: white;
+}
 #hmobile{
   display: none;
 }
@@ -355,6 +430,7 @@ a.carousel-control-next {
   padding-right: 2%;
   display: flex;
   justify-content: center;
+  background-color: white;
 }
 #authentication
   .col-md-69
@@ -379,7 +455,7 @@ a.carousel-control-next {
 }
 #authentication a {
   font-family: 'adelle-sans';
-  color: #000;
+  color: black;
   text-decoration: none;
   font-size: 0.7vw;
   padding-right: unset;
@@ -403,7 +479,7 @@ a.carousel-control-next {
 }
 #authentication .loginName {
   padding-left: 15px;
-  color: #000;
+  color: black;
   font-family: 'adelle-sans';
 }
 #authentication .col-md-6 {
@@ -566,10 +642,10 @@ a.carousel-control-next {
   }
   #login {
     margin-left: 20px;
-    background-image: url(/themes/classic2/assets/img/header/login.svg);
-    height: 18px;
+    background-image: url(/themes/classic2/assets/img/black/account.svg);
+    height: 21px;
     background-size: cover;
-    width: 19px;
+    width: 22px;
   }
 
 /* HEADER */
@@ -2217,6 +2293,13 @@ iframe{
 }
 @media screen and (max-width: 1500px){
 /* HEADER */
+  #login {
+    margin-left: 20px;
+    background-image: url(/themes/classic2/assets/img/black/account.svg);
+    height: 19px;
+    background-size: cover;
+    width: 20px;
+  }
 .topheaderblack {
   background-color: black;
   padding-left: 100px;
@@ -2232,6 +2315,15 @@ iframe{
 
 
   /* LOGIN */
+  #authentication #logintitle {
+    font-size: 3vw;
+    padding-top: 6%;
+    padding-bottom: 2%;
+    display: block;
+    font-family: SairaCondensed;
+    color: white;
+    text-align: center;
+  }
 
   h1.pagetitle {
     font-family: 'SairaCondensed';
@@ -2280,7 +2372,7 @@ label.form-control-label.loginName.required {
 }
 #authentication a {
   font-family: 'adelle-sans';
-  color: #000;
+  color: black;
   text-decoration: none;
   font-size: 1vw;
   padding-right: unset;
@@ -2300,10 +2392,26 @@ label.form-control-label.loginName.required {
 }
 @media screen and (max-width: 1300px){
   /* HEADER */
+  #authentication #logintitle {
+    font-size: 3.5vw;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    display: block;
+    font-family: SairaCondensed;
+    color: white;
+    text-align: center;
+  }
+  #loginwhite {
+    margin-left: 20px;
+    background-image: url(/themes/classic2/assets/img/black/account.svg);
+    height: 19px;
+    background-size: cover;
+    width: 19px;
+  }
   #lupa2 {
     width: 17px;
 }
-#loginwhite {
+#login {
   margin-left: 20px;
   background-image: url(/themes/classic2/assets/img/black/account.svg);
   height: 19px;
@@ -2348,6 +2456,18 @@ label.form-control-label.loginName.required {
 
 @media screen and (max-width: 1150px){
   /* HEADER */
+  #authentication #logintitle {
+    font-size: 4vw;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    display: block;
+    font-family: SairaCondensed;
+    color: white;
+    text-align: center;
+  }
+  #login {
+    display: none;
+  }
   .carousel-item.text-center.p-4 p {
     font-size: 1.5vw;
     width: 100%;
@@ -2401,7 +2521,7 @@ label.form-control-label.loginName.required {
 }
 #authentication a {
   font-family: 'adelle-sans';
-  color: #000;
+  color: black;
   text-decoration: none;
   font-size: 1.2vw;
   padding-right: unset;
@@ -2477,7 +2597,7 @@ a.carousel-control-prev {
   justify-content: flex-end;
 }
 .carousel-item.text-center.p-4 p {
-  font-size: 3vw;
+  font-size: 2vw;
   width: 100%;
 }
 .navbar-header {
@@ -2531,6 +2651,15 @@ div#_desktop_user_info {
 }
 
 @media screen and (max-width: 800px){
+  #authentication #logintitle {
+    font-size: 6vw;
+    padding-top: 11%;
+    padding-bottom: 4%;
+    display: block;
+    font-family: SairaCondensed;
+    color: white;
+    text-align: center;
+  }
   label.form-control-label.loginName.required {
     font-family: 'adelle-sans';
     font-size: 2vw;
@@ -2542,7 +2671,7 @@ div#_desktop_user_info {
 }
 #authentication a {
   font-family: 'adelle-sans';
-  color: #000;
+  color: black;
   text-decoration: none;
   font-size: 1.8vw;
   padding-right: unset;
@@ -3339,6 +3468,50 @@ p {
 
 
 @media screen and (max-width: 480px) {
+  #authentication section#content {
+    padding-bottom: 7%;
+  }
+  #authentication button#submit-login {
+    font-size: 3vw;
+  }
+  #authentication a {
+    font-family: 'adelle-sans';
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    padding-right: unset;
+    padding-right: unset;
+  }
+  #authentication .col-md-69 .input-group .input-group-btn > .btn[data-action="show-password"] {
+    font-size: 2.5vw;
+  }
+  #authentication .form-control {
+    font-size: 3vw;
+    line-height: 1;
+  }
+  label.form-control-label.loginName.required {
+    font-family: 'adelle-sans';
+    font-size: 4vw;
+    font-weight: 600;
+  }
+  .carousel-item.text-center.p-4 p {
+    font-size: 3vw;
+    width: 100%;
+  }
+  .p-4 {
+    padding: 14px !important;
+  }
+  .carousel {
+    width: 100%;
+    background-color: #1d1d1f;
+    height: 30px;
+    box-shadow: none;
+    margin-bottom: 0;
+    box-shadow: none;
+    margin-left: 0;
+    left: 0;
+    padding-bottom: 0;
+  }
   /* SHOP PAGE */
   .product-cover{
     overflow: hidden;

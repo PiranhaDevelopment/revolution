@@ -142,7 +142,7 @@
               pattern=".{literal}{{/literal}5,{literal}}{/literal}"
               {if $field.required}required{/if}
             >
-            <span class="input-group-btn">
+            <div class="input-group-btn">
               <button
                 class="btn"
                 type="button"
@@ -152,7 +152,7 @@
               >
                 {l s='Show' d='Shop.Theme.Actions'}
               </button>
-            </span>
+            </div>
           </div>
         {/block}
 

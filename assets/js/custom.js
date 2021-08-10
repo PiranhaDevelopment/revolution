@@ -28,6 +28,14 @@ $("#joinFam").click(function stateChange(newState) {
 
 $(document).ready(function(){
 	var width = $(window).width();
+
+	if($('.login-form').length){
+		$('#logintitle').text("LOG IN TO YOUR ACCOUNT");
+	}
+
+	if($('.register-form').length){
+		$('#logintitle').text("CREATE YOUR ACCOUNT");
+	}
 	
 /* ABRIR E FECHAR BARRA DE PESQUISA */
 $('#lupa2').click(function(){

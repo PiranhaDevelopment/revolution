@@ -44,7 +44,7 @@
       <input type="hidden" name="submitCreate" value="1">
       {block "form_buttons"}
         <button class="btn btn-primary form-control-submit float-xs-right" data-link-action="save-customer" type="submit">
-          {l s='Save' d='Shop.Theme.Actions'}
+          LET’S DO IT
         </button>
       {/block}
     </footer>
