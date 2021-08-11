@@ -36,6 +36,8 @@ $(document).ready(function(){
 	if($('.register-form').length){
 		$('#logintitle').text("CREATE YOUR ACCOUNT");
 	}
+
+
 	
 /* ABRIR E FECHAR BARRA DE PESQUISA */
 $('#lupa2').click(function(){

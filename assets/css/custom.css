@@ -146,6 +146,67 @@
   src: url(../fonts/SairaCondensed/SairaCondensed-Regular.ttf);
   font-weight: 400;
 }
+#leo_search_block_top h4.title_block {
+  display: none;
+}
+#my-account section#wrapper {
+  background-color: black;
+}
+.page-my-account #content .links a:hover i {
+  color: #4c25e3;
+}
+.page-my-account #content .links a span.link-item {
+  display: block;
+  height: 100%;
+  box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+  background: #fff;
+  padding: 1rem;
+  font-family: 'SairaCondensed';
+  font-size: 21px;
+  letter-spacing: 0.5px;
+  color: black;
+}
+#my-account .page-footer a {
+  color: white;
+  background-color: #4c25e3;
+  text-transform: uppercase;
+  font-family: 'adelle-sans';
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+#my-account .page-footer {
+  margin-top: 70px;
+  margin-bottom: 1.563rem;
+}
+
+#wb {
+  padding-top: 3%;
+  padding-bottom: 4%;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color: white;
+  text-transform: capitalize;
+  font-family: SairaCondensed;
+  text-align: center;
+  line-height: 40px;
+}
+#authentication .form-footer.clearfix {
+  display: flex;
+  justify-content: center;
+  padding-top: 11%;
+}
+#my-account .row {
+  justify-content: center;
+}
+#authentication.page-customer-account #content .forgot-password {
+  margin-bottom: -10%;
+}
+#authentication .custom-checkbox label {
+  padding-left: 0px;
+}
 #authentication .register-form .custom-checkbox span {
   margin-top: -3px;
   border: solid 2px #c5c5c5;
@@ -203,6 +264,10 @@
 .user-info {
   display: flex;
   flex-wrap: nowrap;
+}
+
+.custom-checkbox span {
+  color: transparent;
 }
 
 #authentication #logintitle {
@@ -3468,6 +3533,17 @@ p {
 
 
 @media screen and (max-width: 480px) {
+  #my-account .page-footer .text-sm-center {
+    display: flex;
+    justify-content: center;
+  }
+  #wb {
+    padding-top: 10%;
+  }
+  #my-account .page-footer {
+    margin-top: 30px;
+    margin-bottom: 1.563rem;
+  }
   #authentication section#content {
     padding-bottom: 7%;
   }
@@ -3504,7 +3580,7 @@ p {
   .carousel {
     width: 100%;
     background-color: #1d1d1f;
-    height: 30px;
+    height: 50px;
     box-shadow: none;
     margin-bottom: 0;
     box-shadow: none;

@@ -24,11 +24,14 @@
  *}
 {extends file='customer/page.tpl'}
 
+
+
 {block name='page_title'}
   {l s='Your account' d='Shop.Theme.Customeraccount'}
 {/block}
 
 {block name='page_content'}
+<h1 id="wb">WELCOME BACK,<br>{$customer.firstname|upper}</h1>
   <div class="row">
     <div class="links">
 

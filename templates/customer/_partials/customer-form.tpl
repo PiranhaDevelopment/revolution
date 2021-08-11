@@ -31,6 +31,7 @@
   <section>
     {block "form_fields"}
       {foreach from=$formFields item="field"}
+
         {block "form_field"}
           {form_field field=$field}
         {/block}
