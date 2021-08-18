@@ -31,7 +31,7 @@
 {/block}
 
 {block name='page_content'}
-<h1 id="wb">WELCOME BACK,<br>{$customer.firstname|upper}</h1>
+<h1 class="logintitle">WELCOME BACK,<br>{$customer.firstname|upper}</h1>
   <div class="row">
     <div class="links">
 

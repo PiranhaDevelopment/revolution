@@ -146,6 +146,388 @@
   src: url(../fonts/SairaCondensed/SairaCondensed-Regular.ttf);
   font-weight: 400;
 }
+.cart-grid-body a.label:hover {
+  color: #4c25e1;
+}
+#cart .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+#cart .block-promo .promo-code-button.cancel-promo {
+  color: #4c25e1;
+  margin-bottom: 0;
+}
+a:focus, a:hover {
+  color: #4c25e1;
+  text-decoration: underline;
+}
+#cart button.btn.btn-primary {
+  box-shadow: none;
+}
+#cart .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #4c25e1;
+  border-color: #4c25e1;
+}
+.block-promo {
+  margin-bottom: 0px;
+}
+.card-block.checkout {
+  padding-bottom: 1.75rem;
+  padding-top: 0;
+  margin-top: 0px;
+}
+span.cart-products-count {
+  margin-left: 8px;
+  color: white;
+}
+.block-promo .promo-input+button {
+  border: 2px solid #4c25e1;
+  background-color: #4c25e1;
+}
+.contshop{
+  background-color: white;
+  font-family: 'adelle-sans';
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#checkout button.continue.btn.btn-primary.float-xs-right {
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: #4c25e1;
+  font-family: 'adelle-sans';
+  box-shadow: none;
+}
+body#checkout section.checkout-step .radio-block {
+  padding: .9375rem;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+}
+body#checkout section.checkout-step .address-alias {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 15px;
+  width: 100px;
+  border: none;
+  color: black;
+  width: 90%;
+  padding-left: 5%;
+  font-size: 18px;
+}
+#checkout h1.logintitle {
+  display: none;
+}
+#delivery-address .form-group {
+  display: flex;
+  justify-content: space-between;
+}
+#checkout h1.step-title.h3 {
+  font-size: 30px;
+  font-family: 'SairaCondensed';
+}
+#checkout .row {
+  width: 80%;
+}
+body#checkout section.checkout-step .address {
+  margin-left: 1.563rem;
+  font-weight: 400;
+  padding-left: 5%;
+  line-height: 21px;
+  font-size: 17px;
+}
+body#checkout section.checkout-step .address-item.selected {
+  border: none;
+  background-color: #f4f4f4;
+}
+body#checkout section.checkout-step .address-footer {
+  text-align: center;
+  padding: .625rem;
+  display: flex;
+  justify-content: flex-end;
+}
+body#checkout section.checkout-step .address-alias {
+  font-weight: 600;
+  margin-bottom: .625rem;
+  font-size: 15px;
+  width: 100px;
+  border: none;
+  color: black;
+  width: 90%;
+  padding-left: 5%;
+}
+body#checkout section.checkout-step .address {
+  margin-left: 1.563rem;
+  font-weight: 400;
+  padding-left: 5%;
+  line-height: 21px;
+}
+body#checkout section.checkout-step .address-alias {
+  font-weight: 600;
+  margin-bottom: .625rem;
+  font-size: 15px;
+  width: 100px;
+  border: none;
+  color: black;
+  width: 90%;
+  padding-left: 5%;
+}
+
+#checkout section#wrapper {
+  background-color: black;
+}
+#checkout footer#footer .text-sm-center {
+  display: none;
+}
+.card.cart-container {
+  height: 400px;
+}
+.media-list{
+  display: none;
+}
+p small {
+  font-family: 'adelle-sans';
+  font-size: 13px;
+}
+.btn.disabled, .btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+.block-promo .promo-input+button {
+  margin-top: 0px;
+}
+.card-block.cart-summary-totals {
+  border-top: 1px solid black;
+  padding: 0 1rem 1rem;
+}
+.card-block.cart-summary-totals .cart-summary-line.cart-total {
+  background-color: white;
+  padding: 0rem;
+  padding-top: 10px;
+}
+.input-group.bootstrap-touchspin {
+  display: flex;
+  flex-wrap: nowrap;
+}
+#cart span.input-group-btn-vertical {
+  display: block !important;
+}
+.cart-grid-body.col-xs-12.col-lg-8 {
+  min-width: 800px;
+}
+.product-line-info span.price {
+  font-size: 30px;
+  line-height: 25px;
+  font-family: 'adelle';
+}
+#cart .container {
+  background: black;
+}
+#cart .cart-grid.row {
+  width: 80%;
+  padding-top: 100px;
+  margin: auto;
+}
+.product-line-info span {
+  font-family: 'adelle-sans';
+  font-size: 10px;
+}
+p.promo-code-button.display-promo {
+  margin: auto;
+}
+.product-line-info span.price {
+  font-size: 20px;
+}
+.product-line-info {
+  line-height: 18px;
+}
+p.promo-code-button.display-promo a.collapse-button {
+  color: #4c25e1;
+  font-weight: 700;
+}
+.checkout.cart-detailed-actions.card-block a.btn.btn-primary {
+  background-color: #4c25e1;
+  border-radius: 20px;
+  font-weight: 100;
+  font-size: 16px;
+  box-shadow: none;
+}
+#cart .card-block.checkout {
+  padding-bottom: 1.75rem;
+  padding-top: 0;
+  margin-top: 20px;
+}
+.block-promo .promo-name .cart-summary-line span {
+  color: #4c25e1;
+}
+#cart p.promo-code-but {
+  width: 100%;
+  text-align: center;
+  color: grey;
+}
+#checkout p.promo-code-but {
+  width: 100%;
+  text-align: center;
+  color: grey;
+}
+#checkout div#promo-code {
+  display: none;
+}
+#cart div#promo-code {
+  display: none;
+}
+span.step-edit.text-muted {
+  font-family: 'adelle-sans';
+  font-size: 15px;
+}
+.promo-code span {
+  font-family: 'adelle-sans';
+  font-size: 15px;
+}
+#checkout .block-promo .page-content.page-cms ul, .block-promo p, .page-content.page-cms .block-promo ul {
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.card-block.cart-summary-subtotals-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.card-block {
+  padding: 1.25rem 30px .5rem;
+}
+p.promo-code-button.display-promo a {
+  color: #4c25e1;
+  font-family: 'adelle-sans';
+  font-size: 14px;
+}
+input.promo-input {
+  font-family: 'adelle-sans';
+  font-size: 15px;
+}
+.promo-code a {
+  font-family: 'adelle-sans';
+  display: block;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+  color: gray !important;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+#cart h1.h1 {
+  font-family: 'SairaCondensed';
+  font-size: 30px;
+}
+#history .orders.hidden-md-up a {
+  color: #4c25e1;
+}
+#history td {
+  background: white;
+}
+#history th {
+  background: white;
+}
+.thead-default th {
+  color: #7a7a7a;
+  background-color: white;
+}
+#history .order-actions a {
+  color: #7a7a7a;
+}
+#history .order-actions a.reorder {
+  background-color: #4c25e1;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 20px;
+  margin-left: 15px;
+}
+
+#history h6 {
+  font-family: 'adelle-sans';
+  font-weight: 700;
+  color: black;
+  padding-top: 12px;
+  padding-bottom: 16px;
+}
+#history section#content {
+  font-family: 'adelle-sans';
+  width: 80%;
+  margin: auto;
+  box-shadow: none;
+  padding-bottom: 80px;
+}
+#history section#main {
+  margin-top: 100px;
+  background-color: black;
+}
+#identity #content.page-content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+}
+.form-control {
+  background: white;
+  color: black;
+  border: 1px solid rgba(0,0,0,.25);
+  padding: .5rem 1rem;
+}
+#addresses section#wrapper {
+  background-color: black;
+}
+.addresses-footer a {
+  background-color: white;
+  font-family: 'adelle-sans';
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.page-addresses .address .address-footer {
+  display: flex;
+  border-top: none;
+  padding: .5rem 1rem;
+  justify-content: flex-end;
+}
+#identity form#customer-form {
+  background-color: white;
+  max-width: 450px;
+  display: block;
+  margin: auto;
+  padding: 1rem;
+}
+#address #content.page-content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+}
+#address form {
+  background-color: white;
+  max-width: 450px;
+  display: block;
+  margin: auto;
+  padding: 1rem;
+}
+#customer-form .custom-radio span {
+  height: 16px;
+  width: 16px;
+  border: 1px solid grey;
+  display: inline-block;
+  position: absolute;
+  color: white;
+  left: 0;
+  border: none;
+  top: 0;
+}
 #leo_search_block_top h4.title_block {
   display: none;
 }
@@ -220,13 +602,27 @@
   border: solid 2px #c5c5c5;
   border-radius: 4px;
 }
+
+#customer-form input.form-control {
+  height: 40px;
+  color: #222;
+  font-weight: normal;
+  font-family: 'adelle-sans';
+  font-size: 14px;
+  background: white;
+}
+.input-group .input-group-btn>.btn[data-action=show-password] {
+  color: black;
+  background: white;
+  padding: .78rem 1rem;
+}
 #authentication .register-form .form-footer.clearfix button {
   margin-top: 5%;
   background-color: #4c25e3;
   outline: none;
   box-shadow: none;
   font-family: 'adelle-sans';
-  border-radius: 20px;
+  border-radius: 10px;
   padding-left: 16%;
   font-weight: normal;
   padding-right: 16%;
@@ -270,14 +666,91 @@
   color: transparent;
 }
 
-#authentication #logintitle {
-  font-size: 2.5vw;
-  padding-top: 5%;
-  padding-bottom: 1.5%;
+#identity .custom-radio {
+  border-radius: 7px;
+}
+footer.form-footer.clearfix {
+  display: flex;
+  justify-content: center;
+}
+#module-psgdpr-gdpr section#content {
+  background-color: black;
+}
+.logintitle {
+  font-size: 45px;
+  padding-top: 3%;
+  padding-bottom: 2.5%;
   display: block;
   font-family: SairaCondensed;
   color: white;
   text-align: center;
+}
+.psgdprinfo17 {
+  margin: auto;
+  float: none;
+  height: 200px;
+  max-width: 850px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: white;
+  padding: 20px;
+}
+.psgdprinfo17 p {
+  width: 100%;
+}
+.psgdprinfo17 h2 {
+  font-family: 'adelle-sans';
+  font-size: 16px;
+  color: black;
+  padding-bottom: 10px;
+}
+a#exportDataToCsv{
+  background-color: #4c25e3;
+  font-family: 'adelle-sans';
+  font-weight: 100;
+  outline: none;
+  box-shadow: none;
+  border-radius: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: left;
+}
+a#exportDataToPdf {
+  background-color: #4c25e3;
+  font-family: 'adelle-sans';
+  font-weight: 100;
+  outline: none;
+  box-shadow: none;
+  border-radius: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: left;
+}
+#address button.btn.btn-primary.form-control-submit.float-xs-right {
+  margin-top: 5%;
+  background-color: #4c25e3;
+  outline: none;
+  box-shadow: none;
+  font-family: 'adelle-sans';
+  border-radius: 10px;
+  padding-left: 16%;
+  font-weight: normal;
+  padding-right: 16%;
+  margin-bottom: 7%;
+}
+
+
+#identity button.btn.btn-primary.form-control-submit.float-xs-right {
+  margin-top: 5%;
+  background-color: #4c25e3;
+  outline: none;
+  box-shadow: none;
+  font-family: 'adelle-sans';
+  border-radius: 10px;
+  padding-left: 16%;
+  font-weight: normal;
+  padding-right: 16%;
+  margin-bottom: 7%;
 }
 
 #identityTitle{
@@ -357,6 +830,22 @@ a.carousel-control-next {
 #leosearchtopbox input {
   height: 100%;
 }
+#identity input.form-control.js-child-focus.js-visible-password {
+  width: 80%;
+  border-right: none;
+}
+#identity .col-md-69 .input-group .input-group-btn {
+  width: 20%;
+  height: 40px;
+  border-top: solid 2px #dcdcdc;
+  border-bottom: solid 2px #dcdcdc;
+  border-right: solid 2px #dcdcdc;
+  border-left: none;
+  padding-right: 2%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
 #leo_search_query_top {
   font-family: 'neue-haas-grotesk-display';
 }
@@ -366,6 +855,9 @@ a.carousel-control-next {
   position: relative;
   z-index: 2;
   color: #fff;
+}
+.footer-container div#lupadiv {
+  display: none;
 }
 #leo_search_top_button {
   margin-top: .6%;
@@ -389,6 +881,215 @@ a.carousel-control-next {
   color: #fff;
   z-index: 0;
   outline: none;
+}
+#identity .container {
+  background-color: black;
+}
+body#checkout .cancel-address {
+  margin: .625rem;
+  display: block;
+  color: #7a7a7a;
+  text-decoration: none;
+}
+label {
+  font-family: 'adelle-sans';
+}
+body#checkout .cancel-address {
+  margin: .625rem;
+  display: block;
+  color: #7a7a7a;
+  text-decoration: none;
+  font-family: 'adelle-sans';
+  padding-right: 20px;
+}
+#checkout .row.delivery-option {
+  width: 100%;
+}
+body#checkout section.checkout-step .carrier-delay, body#checkout section.checkout-step .carrier-name {
+  display: inline-block;
+  word-break: normal;
+  text-align: left;
+  margin-bottom: 0;
+  width: 100%;
+  border: none;
+}
+body#checkout section.checkout-step .carrier-delay, body#checkout section.checkout-step .carrier-name {
+  display: inline-block;
+  word-break: normal;
+  text-align: left;
+  margin-bottom: 0;
+  width: 100%;
+  border: none;
+  color: black;
+}
+#payment-option-1-container label span {
+  height: 10px;
+  width: 100%;
+  border: none;
+  display: inline-block;
+  position: relative;
+  color: black;
+  font-family: 'adelle-sans';
+  font-size: 14px;
+}
+#checkout .product-price {
+  color: #4c25e1;
+  display: inline-block;
+  font-family: 'adelle-sans';
+  font-size: 16px;
+}
+#checkout .card-block.cart-summary-totals {
+  border-top: 1px solid black;
+  padding: 6px 0% 1rem;
+  width: 87%;
+  margin: auto;
+}
+#cart-subtotal-shipping span {
+  font-family: 'adelle-sans';
+  font-size: 16px;
+}
+
+#cart-subtotal-products span {
+  font-family: 'adelle-sans';
+  font-size: 16px;
+  font-weight: 700;
+}
+#cart-subtotal-shipping span {
+  font-family: 'adelle-sans';
+  font-size: 16px;
+  font-weight: 700;
+}
+body#checkout #cart-summary-product-list img {
+  width: 100px;
+}
+#checkout span.product-quantity {
+  margin-bottom: 7px;
+}
+#checkout footer#footer {
+  display: none;
+}
+#checkout span.product-name {
+  font-family: 'adelle-sans';
+  font-size: 16px;
+  font-weight: 600;
+}
+#checkout .block-promo .promo-input+button {
+  margin-top: -1px;
+}
+#checkout .condition-label a#cta-terms-and-conditions-0 {
+  color: #4c25e1;
+}
+#checkout-payment-step .content {
+  margin-top: 15px;
+}
+body#checkout .condition-label {
+  margin-left: 2.5rem;
+  margin-top: .625rem;
+}
+#checkout address, dl, ol, ul {
+  margin-bottom: 2rem;
+}
+#checkout #payment-confirmation button.btn.btn-primary.center-block {
+  margin-top: 0%;
+  background-color: #4c25e3;
+  outline: none;
+  box-shadow: none;
+  font-family: 'adelle-sans';
+  border-radius: 10px;
+  padding-left: 7%;
+  font-weight: normal;
+  padding-right: 7%;
+  margin-bottom: 4%;
+  font-size: 15px;
+  border: none;
+}
+body#checkout .custom-checkbox span {
+  opacity: 0.6;
+  border-radius: 4px;
+}
+.delivery-options label span {
+  height: 10px;
+  width: 100%;
+  border: none;
+  display: inline-block;
+  position: relative;
+  color: black;
+  font-family: 'SairaCondensed';
+}
+.delivery-options label span.carrier-delay {
+  height: 10px;
+  width: 100%;
+  border: none;
+  display: inline-block;
+  position: relative;
+  color: black;
+  font-family: 'SairaCondensed';
+  font-size: 17px;
+  font-weight: normal;
+}
+#checkout span.carrier-price {
+  font-family: 'SairaCondensed';
+  font-size: 17px;
+}
+body#checkout #delivery>label {
+  text-align: left;
+  font-family: 'adelle-sans';
+  font-size: 14px;
+}
+body#checkout section.checkout-step .form-footer {
+  text-align: center;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+#identity #customer-form input.form-control {
+  border-top: solid 2px #dcdcdc;
+  border-bottom: solid 2px #dcdcdc;
+  border-left: solid 2px #dcdcdc;
+  box-shadow: none;
+}
+select.form-control.form-control-select.js-country {
+  border-top: solid 2px #dcdcdc;
+  outline: none;
+  border-bottom: solid 2px #dcdcdc;
+  border-left: solid 2px #dcdcdc;
+  box-shadow: none;
+  height: 40px;
+  color: #222;
+  font-weight: normal;
+  font-family: 'adelle-sans';
+  font-size: 14px;
+  background: white;
+}
+#delivery-address input.form-control {
+  border-top: solid 2px #dcdcdc;
+  outline: none;
+  border-bottom: solid 2px #dcdcdc;
+  border-left: solid 2px #dcdcdc;
+  box-shadow: none;
+  height: 40px;
+  color: #222;
+  font-weight: normal;
+  font-family: 'adelle-sans';
+  font-size: 14px;
+  background: white;
+}
+#delivery-address .col-md-69 {
+  width: 75%;
+}
+#delivery-address .form-group.row {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0px;
+}
+#delivery-address .form-group.row .col-md-9.col-md-offset-3 {
+  padding-left: 0px;
+}
+#identity .customer-form input.form-control.js-child-focus.js-visible-password {
+  width: 80%;
+  border-right: none;
+  border-left: solid 2px #dcdcdc;
+  border-top: solid 2px #dcdcdc;
+  border-bottom: solid 2px #dcdcdc;
 }
 #authentication .leoproductsearch-result .form-control {
   background: black;
@@ -445,9 +1146,12 @@ a.carousel-control-next {
   background: #fff;
   margin-right: 1.25rem;
 }
+.custom-radio input[type=radio]:checked+span {
+  background-color: #4c25e3;
+}
 #authentication .custom-radio input[type="radio"]:checked + span {
   display: block;
-  background-color: #000;
+  background-color: #4c25e3;
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -464,7 +1168,10 @@ a.carousel-control-next {
 #authentication .register-form p {
   display: none;
 }
-#authentication #logintitle {
+.col-md-69 em {
+  display: none;
+}
+.logintitle {
   display: block;
 }
 #authentication section#content {
@@ -522,7 +1229,7 @@ a.carousel-control-next {
   font-family: 'adelle-sans';
   color: black;
   text-decoration: none;
-  font-size: 0.7vw;
+  font-size: 15px;
   padding-right: unset;
   padding-right: unset;
 }
@@ -543,9 +1250,13 @@ a.carousel-control-next {
   color: -internal-light-dark(black, white) !important;
 }
 #authentication .loginName {
+  font-size: 16px;
   padding-left: 15px;
   color: black;
   font-family: 'adelle-sans';
+}
+#authentication input.form-control {
+  font-size: 14px;
 }
 #authentication .col-md-6 {
   max-width: none;
@@ -629,46 +1340,17 @@ a.carousel-control-next {
   width: 10px;
   height: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   label.form-control-label.loginName.required {
     font-family: 'adelle-sans';
-    font-size: 0.75vw;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: normal;
 }
   .page-authentication .container {
     background-color: black;
 }
+  .form-control-comment{
+    display: none;
+  }
   body{
     background-color: black;
   }
@@ -690,6 +1372,11 @@ a.carousel-control-next {
   div#search_widget {
     width: 100%;
 }
+label.form-control-label.loginName {
+  font-family: 'adelle-sans';
+  font-size: 16px;
+  font-weight: normal;
+}
   .remove-check::before {
     content:none !important;
 }
@@ -700,7 +1387,6 @@ a.carousel-control-next {
     width: 100%;
     max-width: none;
     padding: 0;
-    
   }
   #wrapper{
     padding: 0;
@@ -861,8 +1547,11 @@ p {
   font-size: 0.9rem;
   font-family: "adelle-sans";
 }
-
+.card.cart-summary {
+  height: 400px;
+}
 .current-price{
+  padding-top: 8px;
   font-family: 'SairaCondensed';
   color: black;
   font-size: 2.3rem;
@@ -2356,7 +3045,31 @@ iframe{
   padding-right: 150px;
 }
 }
+@media screen and (max-width: 1600px) {
+  .card.cart-summary {
+    margin-bottom: 0px;
+    height: 320px;
+  }
+  .card.cart-container {
+    height: 320px;
+  }
+}
+
+
 @media screen and (max-width: 1500px){
+  .block-promo .promo-input+button {
+    margin-top: -1px;
+  }
+  .cart-grid-right {
+    min-width: 800px;
+  }
+  #cart .cart-grid.row {
+    width: 80%;
+    padding-top: 100px;
+    margin: auto;
+    justify-content: center;
+  }
+
 /* HEADER */
   #login {
     margin-left: 20px;
@@ -2380,15 +3093,7 @@ iframe{
 
 
   /* LOGIN */
-  #authentication #logintitle {
-    font-size: 3vw;
-    padding-top: 6%;
-    padding-bottom: 2%;
-    display: block;
-    font-family: SairaCondensed;
-    color: white;
-    text-align: center;
-  }
+
 
   h1.pagetitle {
     font-family: 'SairaCondensed';
@@ -2401,8 +3106,8 @@ iframe{
 
 label.form-control-label.loginName.required {
   font-family: 'adelle-sans';
-  font-size: 1vw;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: normal;
 }
 #authentication .form-control {
   background: white;
@@ -2420,7 +3125,7 @@ label.form-control-label.loginName.required {
   outline: none;
   padding-right: 1px;
   font-family: 'adelle-sans';
-  font-size: 0.8vw;
+  font-size: 12px;
 }
 #authentication button#submit-login {
   margin-top: 5%;
@@ -2439,33 +3144,17 @@ label.form-control-label.loginName.required {
   font-family: 'adelle-sans';
   color: black;
   text-decoration: none;
-  font-size: 1vw;
+  font-size: 15px;
   padding-right: unset;
   padding-right: unset;
 }
-
-
-
-
-
-
-
-
   #ele4 {
     padding-top: 113%;
 }
 }
 @media screen and (max-width: 1300px){
   /* HEADER */
-  #authentication #logintitle {
-    font-size: 3.5vw;
-    padding-top: 7%;
-    padding-bottom: 2%;
-    display: block;
-    font-family: SairaCondensed;
-    color: white;
-    text-align: center;
-  }
+
   #loginwhite {
     margin-left: 20px;
     background-image: url(/themes/classic2/assets/img/black/account.svg);
@@ -2521,15 +3210,7 @@ label.form-control-label.loginName.required {
 
 @media screen and (max-width: 1150px){
   /* HEADER */
-  #authentication #logintitle {
-    font-size: 4vw;
-    padding-top: 7%;
-    padding-bottom: 2%;
-    display: block;
-    font-family: SairaCondensed;
-    color: white;
-    text-align: center;
-  }
+
   #login {
     display: none;
   }
@@ -2563,8 +3244,8 @@ h1.pagetitle {
 }
 label.form-control-label.loginName.required {
   font-family: 'adelle-sans';
-  font-size: 1.5vw;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: normal;
 }
 #authentication .form-control {
   background: white;
@@ -2588,7 +3269,6 @@ label.form-control-label.loginName.required {
   font-family: 'adelle-sans';
   color: black;
   text-decoration: none;
-  font-size: 1.2vw;
   padding-right: unset;
   padding-right: unset;
 }
@@ -2610,6 +3290,13 @@ label.form-control-label.loginName.required {
 
 
 @media screen and (max-width: 1260px){
+  #history section#content {
+    font-family: 'adelle-sans';
+    width: 95%;
+    margin: auto;
+    box-shadow: none;
+    padding-bottom: 80px;
+  }
 #eletxt1{
   font-size: 0.8vw;
 }
@@ -2640,7 +3327,9 @@ label.form-control-label.loginName.required {
 }
 
 @media screen and (max-width: 1000px){
-
+  .block-promo .promo-input+button {
+    margin-top: -2px;
+  }
 
 /* LOGIN */
 h1.pagetitle {
@@ -2716,14 +3405,53 @@ div#_desktop_user_info {
 }
 
 @media screen and (max-width: 800px){
-  #authentication #logintitle {
-    font-size: 6vw;
-    padding-top: 11%;
-    padding-bottom: 4%;
-    display: block;
-    font-family: SairaCondensed;
+  span.cart-products-count {
+    margin-left: 5px;
     color: white;
-    text-align: center;
+  }
+  #bagwhite {
+    display: flex;
+    padding-top: 3px;
+    background-image: url(/themes/classic2/assets/img/black/bag.svg);
+    height: 20px;
+    background-size: cover;
+    width: 18px;
+    margin-left: 20px;
+  }
+  #cart .cart-grid.row {
+    width: 100%;
+    padding-top: 100px;
+    margin: auto;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .card.cart-container {
+    height: fit-content;
+    margin-bottom: 40px;
+  }
+  .cart-grid-body.col-xs-12.col-lg-8 {
+    min-width: 600px;
+    background: black;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    padding: 0px;
+  }
+  #cart .col-md-10.col-xs-6 {
+    padding: 0;
+  }
+  .cart-grid-right {
+    min-width: 600px;
+    background: white;
+    padding: 0;
+  }
+  .card-block.cart-summary-totals .cart-summary-line.cart-total {
+    background-color: white;
+    padding: 0px;
+    padding-top: 10px;
+  }
+  .qty{
+    width: 50%;
   }
   label.form-control-label.loginName.required {
     font-family: 'adelle-sans';
@@ -2738,7 +3466,6 @@ div#_desktop_user_info {
   font-family: 'adelle-sans';
   color: black;
   text-decoration: none;
-  font-size: 1.8vw;
   padding-right: unset;
   padding-right: unset;
 }
@@ -2750,6 +3477,27 @@ div#_desktop_user_info {
 }
 }
 
+
+@media screen and (max-width: 767px) {
+  .card {
+    box-shadow: none;
+    background-color: white;
+    border: none;
+  }
+  #bagwhite {
+    display: flex;
+    padding-top: 3px;
+    background-image: url(/themes/classic2/assets/img/black/bag.svg);
+    height: 20px;
+    background-size: cover;
+    width: 18px;
+    margin-left: 20px;
+  }
+  span.cart-products-count {
+    margin-left: 5px;
+    color: white;
+  }
+}
 
 /* TABLET */
 
@@ -3416,6 +4164,61 @@ display: flex;
 }
 }
 
+@media screen and (max-width: 600px){
+  .text-sm-center {
+    display: flex;
+    justify-content: center;
+  }
+  .cart-grid-body.col-xs-12.col-lg-8 {
+    min-width: 500px;
+    background: white;
+    padding-bottom: 10px;
+  }
+  .cart-grid-right {
+    min-width: 500px;
+    background: white;
+  }
+  .psgdprinfo17 {
+    height: 220px;
+  }
+  #cart .cart-grid.row {
+    width: 80%;
+    padding-top: 40px;
+    margin: auto;
+    justify-content: center;
+  }
+
+
+  a#exportDataToCsv {
+    background-color: #4c25e3;
+    font-family: 'adelle-sans';
+    font-weight: 100;
+    outline: none;
+    box-shadow: none;
+    border-radius: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    float: none;
+    width: 45%;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+  a#exportDataToPdf {
+    background-color: #4c25e3;
+    font-family: 'adelle-sans';
+    font-weight: 100;
+    outline: none;
+    box-shadow: none;
+    border-radius: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    float: none;
+    width: 45%;
+    font-size: 12px;
+    margin-right: 0px;
+  }
+}
+
 @media screen and (max-width: 545px) and (min-width: 535px){
   /* SHOP PAGE */
   .main {
@@ -3532,7 +4335,40 @@ p {
 /* MOBILE */
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
+  #cart .col-md-6 {
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+  #cart .cart-grid.row {
+    width: 100%;
+    padding-top: 40px;
+    margin: auto;
+    justify-content: center;
+  }
+  .cart-grid-body.col-xs-12.col-lg-8 {
+    width: 100%;
+    background: white;
+    padding-bottom: 10px;
+    min-width: unset;
+  }
+  .cart-grid-right {
+    min-width: 350px;
+    background: white;
+  }
+  #history section#main {
+    margin-top: 40px;
+    background-color: black;
+  }
+  .logintitle {
+    font-size: 35px;
+    padding-top: 8%;
+    padding-bottom: 4.5%;
+    display: block;
+    font-family: SairaCondensed;
+    color: white;
+    text-align: center;
+  }
   #my-account .page-footer .text-sm-center {
     display: flex;
     justify-content: center;
@@ -3554,7 +4390,6 @@ p {
     font-family: 'adelle-sans';
     color: black;
     text-decoration: none;
-    font-size: 3vw;
     padding-right: unset;
     padding-right: unset;
   }
@@ -3996,6 +4831,13 @@ display: none;
 }
 
 @media screen and (max-width: 390px) {
+  a#exportDataToCsv {
+    font-size: 11px;
+
+  }
+  a#exportDataToPdf{
+    font-size: 11px;
+  }
   /* SHOP PAGE */
   #li1 {
     margin-right: 36%;

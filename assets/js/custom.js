@@ -30,12 +30,35 @@ $(document).ready(function(){
 	var width = $(window).width();
 
 	if($('.login-form').length){
-		$('#logintitle').text("LOG IN TO YOUR ACCOUNT");
+		$('.logintitle').text("LOG IN TO YOUR ACCOUNT");
 	}
 
 	if($('.register-form').length){
-		$('#logintitle').text("CREATE YOUR ACCOUNT");
+		$('.logintitle').text("CREATE YOUR ACCOUNT");
 	}
+
+// ADD VOUCHER ON CART
+	$('#openpromo').on('click',function (){
+		$('.checkout.cart-detailed-actions.card-block').css('display','none');
+		$('#promo-code').css('display','block');
+		$('p.promo-code-but').css('display','none');
+	})
+	$('.promo-code a').on('click',function (){
+		$('.checkout.cart-detailed-actions.card-block').css('display','block');
+		$('#promo-code').css('display','none');
+		$('p.promo-code-but').css('display','block');
+	})
+
+// SEE PRODUCT DETAILS CHECKOUT
+	$('.showdetails').on('click',function (){
+		if($(".media-list").is(":visible")){
+			$(".media-list").css('display','none');
+		}else {
+			$(".media-list").css('display','block');
+		}
+	})
+
+
 
 
 	

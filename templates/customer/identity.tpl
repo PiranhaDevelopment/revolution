@@ -29,5 +29,6 @@
 {/block}
 
 {block name='page_content'}
+  <h1 class="logintitle">YOUR INFORMATION</h1>
   {render file='customer/_partials/customer-form.tpl' ui=$customer_form}
 {/block}

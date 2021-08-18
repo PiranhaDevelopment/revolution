@@ -25,7 +25,7 @@
 {block name="address_form"}
   <div class="js-address-form">
     {include file='_partials/form-errors.tpl' errors=$errors['']}
-
+<h1 class="logintitle">ADD ADDRESS</h1>
     {block name="address_form_url"}
     <form
       method="POST"
@@ -36,6 +36,7 @@
     {/block}
 
       {block name="address_form_fields"}
+
         <section class="form-fields">
           {block name='form_fields'}
             {foreach from=$formFields item="field"}

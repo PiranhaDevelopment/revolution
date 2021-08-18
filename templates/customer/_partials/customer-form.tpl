@@ -31,7 +31,6 @@
   <section>
     {block "form_fields"}
       {foreach from=$formFields item="field"}
-
         {block "form_field"}
           {form_field field=$field}
         {/block}
@@ -44,7 +43,7 @@
     <footer class="form-footer clearfix">
       <input type="hidden" name="submitCreate" value="1">
       {block "form_buttons"}
-        <button class="btn btn-primary form-control-submit float-xs-right" data-link-action="save-customer" type="submit">
+        <button class="mabt btn btn-primary form-control-submit float-xs-right" data-link-action="save-customer" type="submit">
           LET’S DO IT
         </button>
       {/block}
