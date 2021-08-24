@@ -8,6 +8,17 @@
 }
 @font-face {
   font-family:"adelle";
+  src:url("https://use.typekit.net/af/8f25da/00000000000000007735994e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/8f25da/00000000000000007735994e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/8f25da/00000000000000007735994e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+  font-display:auto;font-style:normal;font-weight:600;
+}
+
+@font-face {
+  font-family:"adelle";
+  src:url("https://use.typekit.net/af/b0859f/000000000000000077359963/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("woff2"),url("https://use.typekit.net/af/b0859f/000000000000000077359963/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("woff"),url("https://use.typekit.net/af/b0859f/000000000000000077359963/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("opentype");
+  font-display:auto;font-style:italic;font-weight:600;
+}
+@font-face {
+  font-family:"adelle";
   src:url("https://use.typekit.net/af/e0617b/000000000000000077359943/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/e0617b/000000000000000077359943/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/e0617b/000000000000000077359943/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
   font-display:auto;font-style:normal;font-weight:700;
   }
@@ -146,6 +157,104 @@
   src: url(../fonts/SairaCondensed/SairaCondensed-Regular.ttf);
   font-weight: 400;
 }
+.cms-id-38 div#main2 {
+  background-color: #f0f0f0;
+}
+.brm{
+  display: none;
+}
+.eosm{
+  display: none;
+}
+#gridoutmobile{
+  display: none;
+}
+.cms-id-38 #form {
+  width: 100%;
+  background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 57vh;
+}
+#main .page-footer {
+  margin-bottom: 0px;
+}
+#main .page-content, #main .page-header {
+  margin-bottom: 0px;
+}
+.cms-id-38 #formsection {
+  display: flex;
+  margin-top: 14px;
+}
+
+.cms-id-38 #tattoosection {
+  display: flex;
+  background: #f6f6f6;
+  margin-top: 14px;
+}
+.cms-id-38 #tatuagens {
+  background-color: #f6f6f6;
+  padding-top: 4%;
+  width: 98.6%;
+  padding-bottom: 1%;
+}
+.cms-id-38 #main5 {
+  background-color: #f6f6f6;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#aboutform input[type="submit"] {
+  font-family: 'adelle-sans';
+  font-size: 15px;
+  padding: 8px 90px;
+  color: white;
+  background-color: #4c25e2;
+  border-radius: 9px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  margin-top: 14px;
+}
+
+#easygoi_846 {
+  padding: 15px;
+  width: 100%;
+  font-family: 'adelle-sans';
+  font-size: 15px;
+  height: 180px;
+  border: none;
+  border-radius:8px;
+}
+div#namemail {
+  display: flex;
+  position: relative;
+  margin-bottom: 14px;
+}
+input#email_835 {
+  border-radius: 8px;
+  font-family: 'adelle-sans';
+  margin-left: 7px;
+  height: 45px;
+  padding: 15px;
+  font-size: 15px;
+  border: 0px solid transparent;
+}
+input#fname_834 {
+  border-radius: 8px;
+  font-family: 'adelle-sans';
+  margin-right: 7px;
+  height: 45px;
+  padding: 15px;
+  font-size: 15px;
+  border: 0px solid transparent;
+}
+body#checkout section.checkout-step .delivery-options .delivery-option, body#checkout section.checkout-step .delivery-options .delivery-option .carrier, body#checkout section.checkout-step .delivery-options .delivery-option label>.row {
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.custom-radio input[type=radio]:checked+span {
+  opacity: 1;
+}
 .cart-grid-body a.label:hover {
   color: #4c25e1;
 }
@@ -278,9 +387,7 @@ body#checkout section.checkout-step .address-alias {
 #checkout section#wrapper {
   background-color: black;
 }
-#checkout footer#footer .text-sm-center {
-  display: none;
-}
+
 .card.cart-container {
   height: 400px;
 }
@@ -938,6 +1045,11 @@ body#checkout section.checkout-step .carrier-delay, body#checkout section.checko
   font-family: 'adelle-sans';
   font-size: 16px;
 }
+a.showdetails {
+  font-family: 'adelle-sans';
+  font-size: 15px;
+  cursor: pointer;
+}
 #checkout .card-block.cart-summary-totals {
   border-top: 1px solid black;
   padding: 6px 0% 1rem;
@@ -948,6 +1060,16 @@ body#checkout section.checkout-step .carrier-delay, body#checkout section.checko
   font-family: 'adelle-sans';
   font-size: 16px;
 }
+
+body#checkout section#content {
+  margin-bottom: 1.563rem;
+  padding-top: 50px;
+}
+
+#checkout nav.leo-megamenu.cavas_menu.navbar.navbar-default.enable-canvas {
+  display: none;
+}
+
 
 #cart-subtotal-products span {
   font-family: 'adelle-sans';
@@ -966,7 +1088,7 @@ body#checkout #cart-summary-product-list img {
   margin-bottom: 7px;
 }
 #checkout footer#footer {
-  display: none;
+  display: none !important;
 }
 #checkout span.product-name {
   font-family: 'adelle-sans';
@@ -1003,6 +1125,7 @@ body#checkout .condition-label {
   font-size: 15px;
   border: none;
 }
+
 body#checkout .custom-checkbox span {
   opacity: 0.6;
   border-radius: 4px;
@@ -2227,7 +2350,8 @@ width: 120%;
 
 /* HOME PAGE */
 #carouselContainerm{
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
   display: none;
 }
 #tightliner{
@@ -2616,10 +2740,10 @@ user-select: none;
   font-size: 1.3rem;
   margin-top: 7%;
     width: 100%;
-    opacity: 0.6;
+    opacity: 1;
     font-family: 'adelle-sans';
     text-align: left;
-    color: #0c0c0c;
+    color: #000;
 }
 #pedrobox{
   width: 47.5%;
@@ -3057,6 +3181,32 @@ iframe{
 
 
 @media screen and (max-width: 1500px){
+  #bagwhite {
+    display: flex;
+    padding-top: 4px;
+    background-image: url(/themes/classic2/assets/img/black/bag.svg);
+    height: 22px;
+    background-size: cover;
+    width: 20px;
+    margin-left: 20px;
+  }
+  span.cart-products-count {
+    margin-left: 6px;
+    color: white;
+  }
+  #checkout .card-block.cart-summary-totals {
+    border-top: 1px solid black;
+    padding: 6px 0% 1rem;
+    width: 92%;
+    margin: auto;
+  }
+  .cart-grid-right.col-xs-12.col-lg-4 {
+    margin-top: 40px;
+  }
+  #checkout .row {
+    width: 80%;
+    justify-content: center;
+  }
   .block-promo .promo-input+button {
     margin-top: -1px;
   }
@@ -3153,6 +3303,7 @@ label.form-control-label.loginName.required {
 }
 }
 @media screen and (max-width: 1300px){
+
   /* HEADER */
 
   #loginwhite {
@@ -3174,7 +3325,7 @@ label.form-control-label.loginName.required {
 }
 #bagwhite {
   display: flex;
-  padding-top: 7px;
+  padding-top: 2px;
   background-image: url(/themes/classic2/assets/img/black/bag.svg);
   height: 20px;
   background-size: cover;
@@ -3193,9 +3344,36 @@ label.form-control-label.loginName.required {
   font-size: 1.2vw;
   width: 100%;
 }
-
-
-
+  .cms-id-38 div#contacts {
+    min-width: 350px;
+  }
+  .cms-id-38 div#contactform {
+    min-width: 350px;
+  }
+  .cms-id-38 div#namemail {
+    display: block;
+    position: relative;
+    margin-bottom: 14px;
+  }
+  input#fname_834 {
+    border-radius: 8px;
+    font-family: 'adelle-sans';
+    margin-right: 0px;
+    height: 45px;
+    padding: 15px;
+    font-size: 15px;
+    border: 0px solid transparent;
+    margin-bottom: 14px;
+  }
+  input#email_835 {
+    border-radius: 8px;
+    font-family: 'adelle-sans';
+    margin-left: 0px;
+    height: 45px;
+    padding: 15px;
+    font-size: 15px;
+    border: 0px solid transparent;
+  }
 
 
   #ele4 {
@@ -3326,6 +3504,283 @@ label.form-control-label.loginName.required {
 }
 }
 
+@media screen and (max-width: 1100px) and (min-height: 1200px ) {
+  .cms-id-38 #aboutform input[type="submit"] {
+    font-family: 'adelle-sans';
+    font-size: 2vw;
+    width: 50%;
+    padding: 15.2px 38px;
+    color: white;
+    background-color: #4c25e2;
+    border-radius: 9px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin-top: 14px;
+  }
+  .cms-id-38 #easygoi_846 {
+    padding: 15px;
+    width: 100%;
+    font-family: 'adelle-sans';
+    font-size: 2vw;
+    height: 180px;
+    border: none;
+    border-radius: 8px;
+  }
+  .cms-id-38 input#email_835 {
+    border-radius: 8px;
+    font-family: 'adelle-sans';
+    margin-left: 0px;
+    height: 45px;
+    padding: 15px;
+    font-size: 2vw;
+    border: 0px solid transparent;
+  }
+  .cms-id-38 input#fname_834 {
+    border-radius: 8px;
+    font-family: 'adelle-sans';
+    margin-right: 0px;
+    height: 45px;
+    padding: 15px;
+    font-size: 2vw;
+    border: 0px solid transparent;
+    margin-bottom: 14px;
+  }
+  .cms-id-38 #contactform {
+    width: 50%;
+  }
+  #contactspacer2 {
+    width: 10%;
+  }
+  .cms-id-38 #contactspacer {
+    width: 10%;
+    height: 100%;
+  }
+  .cms-id-38 #main5tit {
+    font-family: 'SairaCondensed';
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-bottom: 80px;
+  }
+  .cms-id-38 #main5 {
+    background-color: #f6f6f6;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  .cms-id-38 .assinatura {
+    font-family: 'adelle-sans';
+    font-size: 2vw;
+    text-align: left;
+    color: #0c0c0c;
+  }
+  .cms-id-38 .mensagem {
+    font-size: 2vw;
+    margin-top: 40px;
+    width: 100%;
+    opacity: 0.6;
+    font-family: 'adelle-sans';
+    text-align: left;
+    color: #000;
+  }
+  .cms-id-38 #main4tit {
+    font-family: 'adelle';
+    font-size: 5vw;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    margin-bottom: 80px;
+  }
+  .cms-id-38 #bosscontainer {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+  .cms-id-38 #main4 {
+    padding-top: 100px;
+    background-color: white;
+    padding-bottom: 80px;
+  }
+  .cms-id-38 #main3txt {
+    font-family: 'adelle-sans';
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 2vw;
+    margin-bottom: 40px;
+    color: #ffffff;
+  }
+  .cms-id-38 #main3tit {
+    font-family: 'adelle';
+    font-size: 5vw;
+    font-weight: 600;
+    text-align: center;
+    color: WHITE;
+    margin-bottom: 60px;
+  }
+  .cms-id-38 #main3 {
+    padding-top: 100px;
+    background-color: black;
+    padding-bottom: 80px;
+  }
+  .cms-id-38 div#main2 {
+    background-color: #f0f0f0;
+    padding-bottom: 80px;
+  }
+  .cms-id-38 .name {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'adelle-sans';
+    font-size: 2vw;
+    text-align: left;
+    color: #1d1d1f;
+  }
+  .cms-id-38 #main2btn {
+    margin-bottom: 60px;
+    font-size: 2vw;
+    text-align: center;
+    color: #e5e5e5;
+    padding: 15.2px 23px;
+    border-radius: 15.9px;
+    background-color: #4c25e2;
+    font-family: 'adelle-sans';
+    border: none;
+  }
+  .cms-id-38 #main2btn {
+    margin-bottom: 60px;
+    font-size: 2vw;
+    text-align: center;
+    color: #e5e5e5;
+    padding: 15.2px 23px;
+    border-radius: 15.9px;
+    background-color: #4c25e2;
+    font-family: 'adelle-sans';
+    border: none;
+  }
+  .cms-id-38 #main2btn {
+    margin-bottom: 60px;
+    font-size: 2vw;
+    text-align: center;
+    color: #e5e5e5;
+    padding: 10.2px 23px 10.3px 23px;
+    border-radius: 15.9px;
+    background-color: #4c25e2;
+    font-family: 'adelle-sans';
+    border: none;
+  }
+  .cms-id-38 #main2txt {
+    font-family: 'adelle-sans';
+    text-align: center;
+    color: #6b6b6b;
+    width: 65%;
+    margin: auto;
+    font-size: 2vw;
+    line-height: 30px;
+    margin-bottom: 60px;
+  }
+  .cms-id-38 #main2tit {
+    font-family: 'adelle';
+    font-size: 5vw;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 60px;
+  }
+  .cms-id-38 #main2txtbox {
+    padding-top: 100px;
+  }
+  .cms-id-38 #ele2 {
+    padding-top: 62%;
+  }
+  .cms-id-38 #main1 {
+    padding-top: 100px;
+    background-color: black;
+    padding-bottom: 100px;
+  }
+  .cms-id-38 #abouttit {
+    margin-bottom: 80px;
+    font-size: 5vw;
+  }
+  .cms-id-38 #abouttxt1 {
+    line-height: 30px;
+    font-size: 2.5vw;
+    margin: auto;
+    width: 100%;
+    color: #808080;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .cms-id-38 #abouttit2 {
+    margin-top: 80px;
+    font-size: 5vw;
+    font-family: Adelle;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 40px;
+    color: #4c25e2;
+    text-align: left;
+  }
+  .cms-id-38 #abouttxt2 {
+    font-size: 2.5vw;
+    width: 100%;
+    color: #808080;
+    text-align: left;
+    margin-bottom: 80px;
+    line-height: 30px;
+  }
+  .cms-id-38 #eletxt1 {
+    font-size: 1.7vw;
+  }
+  #eletit2 {
+    font-size: 1.7vw;
+    margin-top: -80%;
+  }
+  .cms-id-38 #eletxt3 {
+    font-size: 1.7vw;
+  }
+  .cms-id-38 #eletxt5 {
+    font-size: 1.7vw;
+  }
+  .cms-id-38 #eletit1 {
+    font-size: 1.7vw;
+    margin-top: -55%;
+  }
+  .cms-id-38 #eletxt2 {
+    font-size: 1.7vw;
+  }
+  .cms-id-38 #eletit3 {
+    font-size: 1.7vw;
+    margin-top: -100%;
+  }
+  .cms-id-38 #eletxt4 {
+    font-size: 1.7vw;
+    margin-top: 60%;
+  }
+  .cms-id-38 #eletxt6 {
+    font-size: 1.7vw;
+  }
+  .cms-id-38 #ele1 {
+    border-radius: 10px;
+    padding-top: 81%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/eleimg1.png);
+  }
+  .cms-id-38 #main1inner {
+    width: 80%;
+    margin: auto;
+  }
+  .cms-id-38 #ele3 {
+    border-radius: 10px;
+    padding-top: 96%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/eleimg3.png);
+  }
+}
+
+
 @media screen and (max-width: 1000px){
   .block-promo .promo-input+button {
     margin-top: -2px;
@@ -3405,6 +3860,396 @@ div#_desktop_user_info {
 }
 
 @media screen and (max-width: 800px){
+  .cms-id-38 #formDiv {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    width: 80%;
+  }
+  .cms-id-38 .tattootext {
+    width: 100%;
+    text-align: center;
+    font-family: 'adelle';
+    margin-top: 0px;
+    margin-bottom: 90px;
+    font-size: 17px;
+  }
+  .cms-id-38 #form {
+    width: 100%;
+    background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+  }
+  .cms-id-38 #joinFam {
+    position: relative;
+    left: unset;
+    transform: none;
+    margin: auto;
+    -ms-transform: unset;
+    display: block;
+    margin-top: 60px;
+  }
+  .cms-id-38 #formsection {
+    display: flex;
+    margin-top: 0px;
+  }
+  .assinatura {
+    font-family: 'adelle-sans';
+    font-size: 2.5vw;
+    text-align: left;
+    color: #0c0c0c;
+    margin-bottom: 0px;
+  }
+  .mensagem {
+    font-size: 2.5vw;
+    margin-top: 40px;
+    width: 100%;
+    font-family: 'adelle-sans';
+    text-align: left;
+    color: #000;
+  }
+  #main4tit {
+    font-family: 'adelle';
+    font-size: 7vw;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    width: 65%;
+    margin:auto;
+    margin-bottom: 80px;
+  }
+  div#main2 {
+    padding-bottom: 80px;
+  }
+  #main2slidercontainer {
+    height: 60vw;
+    width: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .eos{
+    display: none;
+  }
+  .eosm{
+    display: block;
+  }
+  .cms-id-38 #ele4 {
+    padding-top: 1%;
+  }
+  .cms-id-38 #abouttxt1 {
+    font-size: 2.5vw;
+    margin: auto;
+    width: 100%;
+    color: #808080;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .cms-id-38 #abouttit {
+    margin-top: 0vh;
+    font-size: 7vw;
+    text-align: center;
+    font-family: Adelle;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 140px;
+  }
+  .cms-id-38 #abouttit2 {
+    margin-top: 80px;
+    font-size: 7vw;
+    letter-spacing: -3px;
+    font-family: Adelle;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 40px;
+    color: #4c25e2;
+    text-align: left;
+  }
+  #ele2 {
+    padding-top: 89%;
+  }
+  .cms-id-38 #ele5 {
+    border-radius: 10px;
+    padding-top: 95%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/eleimg5.png);
+  }
+
+  .cms-id-38 #main1 {
+    padding-top: 150px;
+    background-color: black;
+    padding-bottom: 75px;
+  }
+  #main2txtbox {
+    padding-top: 100px;
+  }
+  #main2btn {
+    margin-bottom: 80px;
+    font-size: 2.5vw;
+    text-align: center;
+    color: #e5e5e5;
+    padding: 10.2px 30px 10.3px 30px;
+    border-radius: 15.9px;
+    background-color: #4c25e2;
+    font-family: 'adelle-sans';
+    border: none;
+  }
+  #main3txt {
+    font-family: 'adelle-sans';
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 2.5vw;
+    margin-bottom: 80px;
+    color: #fff;
+    opacity: 0.6;
+    line-height: 25px;
+  }
+  #main2tit {
+    font-family: 'adelle';
+    font-size: 7vw;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+  #main3tit {
+    font-family: 'adelle';
+    font-size: 7vw;
+    font-weight: 300;
+    text-align: center;
+    color: WHITE;
+    margin-bottom: 40px;
+  }
+  #main3 {
+    padding-top: 100px;
+    background-color: black;
+    padding-bottom: 100px;
+  }
+  #main2txt {
+    font-family: 'adelle-sans';
+    text-align: center;
+    color: #6b6b6b;
+    width: 80%;
+    margin: auto;
+    font-size: 2.5vw;
+    margin-bottom: 80px;
+  }
+  .cms-id-38 #eletit1 {
+    font-size: 2vw;
+    margin-top: -78%;
+  }
+  .cms-id-38 #eletxt1 {
+    font-size: 2vw;
+  }
+  .cms-id-38 #eletit2 {
+    font-size: 2vw;
+  }
+  .cms-id-38 #ele5 {
+    border-radius: 10px;
+    padding-top: 84%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/eleimg5.png);
+  }
+  .cms-id-38 #eletxt2 {
+    font-size: 2vw;
+    margin-top: 55%;
+    padding-bottom: 4%;
+  }
+  .cms-id-38 #eletit3 {
+    font-size: 2vw;
+    padding-top: 20px;
+    margin-top: 0%;
+    margin-bottom: 60%;
+  }
+  .cms-id-38 #eletxt3 {
+    font-size: 2vw;
+  }
+  .cms-id-38 #eletit1 {
+    font-size: 2vw;
+  }
+  .cms-id-38 #eletit4 {
+    font-size: 2vw;
+  }
+  .cms-id-38 #eletxt4 {
+    font-size: 2vw;
+    margin-top: 67%;
+  }
+  .cms-id-38 #eletxt6 {
+    font-size: 2vw;
+  }
+  .cms-id-38 #eletxt5 {
+    font-size: 2vw;
+  }
+  .cms-id-38 #main1inner {
+    width: 80%;
+    margin: auto;
+  }
+  .cms-id-38 #ele1 {
+    border-radius: 10px;
+    padding-top: 80%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/eleimg1.png);
+  }
+
+  #gridoutmobile #gridcol1 {
+    display: block;
+    width: 49%;
+    margin-right: 1.8%;
+  }
+  #gridoutmobile #gridcol2 {
+    display: block;
+    width: 49%;
+    margin-right: 1.8%;
+  }
+  #gridout{
+    display: none;
+  }
+  #gridoutmobile{
+    display: flex;
+  }
+  .cms-id-38 #aboutform input[type="submit"] {
+    font-family: 'adelle-sans';
+    font-size: 18px;
+    padding: 11px 70px;
+    color: white;
+    background-color: #4c25e2;
+    border-radius: 9px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .cms-id-38 #tatuagens {
+    background-color: #f6f6f6;
+    padding-top: 100px;
+    width: 98.6%;
+    padding-bottom: 80px;
+  }
+  #formDescr {
+    color: #e6e6e6;
+    font-family: 'adelle';
+    text-align: center;
+    width: 100%;
+    margin-top: 80px;
+    font-size: 2.5vw;
+    margin-bottom: 80px;
+  }
+  #formDiv {
+    width: 80%;
+    padding-top: 100px;
+    margin: auto;
+  }
+  #formDescr {
+    color: #e6e6e6;
+    font-family: 'adelle';
+    text-align: center;
+    width: 100%;
+    margin-top: 80px;
+  }
+  #formTit {
+    font-family: 'SairaCondensed';
+    text-align: center;
+    color: white;
+    font-size: 7vw;
+  }
+
+  .cms-id-38 .hpt {
+    font-family: 'SairaCondensed';
+    font-size: 7vw;
+    text-align: center;
+    color: black;
+    margin-bottom: 80px;
+  }
+  .tattootext {
+    width: 100%;
+    text-align: center;
+    font-family: 'adelle';
+    margin-top: 0px;
+    margin-bottom: 90px;
+  }
+  #tattoocarousel {
+    display: flex;
+    width: 250%;
+  }
+  .cms-id-38 #footer {
+    padding-top: 300px;
+  }
+  .cms-id-38 #main4 {
+    padding-top: 100px;
+    background-color: #f6f6f6;
+    padding-bottom: 100px;
+  }
+  .cms-id-38 #main5tit {
+    font-family: 'SairaCondensed';
+    font-size: 7vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-bottom: 80px;
+  }
+  div#contacts {
+    margin-bottom: 40px;
+  }
+  #contacts p {
+    font-weight: 100;
+    margin-top: 0px;
+    font-family: "adelle-sans";
+    font-size: 17px;
+    width: 100%;
+    color: black;
+    line-height: 1.4rem;
+    margin-bottom: 50px;
+  }
+  .cms-id-38 #main5 {
+    background-color: #f6f6f6;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 14px;
+  }
+  #contactform {
+    width: 100%;
+  }
+  #nandobox {
+    margin-left: 0px;
+    padding-top: 80px;
+    width: 100%;
+  }
+  .cms-id-38 #contactsbox {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+  #pedrobox {
+    width: 100%;
+  }
+  #bosscontainer {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  #checkout label.col-xs-9.col-sm-11.delivery-option-2 .row {
+    width: 100%;
+    justify-content: center;
+  }
+  section#js-checkout-summary {
+    margin-bottom: 0px
+  }
+  .cart-grid-right.col-xs-12.col-lg-4 {
+    margin-top: 0px;
+  }
+  #checkout .card-block.cart-summary-totals {
+    border-top: 1px solid black;
+    padding: 6px 0% 1rem;
+    width: 90%;
+    margin: auto;
+  }
   span.cart-products-count {
     margin-left: 5px;
     color: white;
@@ -4164,6 +5009,31 @@ display: flex;
 }
 }
 
+@media screen and (max-width: 700px){
+  #favStyle {
+    margin-top: 12px;
+    padding: 7px;
+    padding-left: 1px;
+    color: #454545;
+    background-color: black;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    margin-left: 0px;
+    font-family: 'adelle';
+  }
+  #name {
+    padding-bottom: 7px;
+    color: #454545;
+    background-color: transparent;
+    font-family: 'adelle';
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    margin-right: 5%;
+  }
+}
+
 @media screen and (max-width: 600px){
   .text-sm-center {
     display: flex;
@@ -4172,7 +5042,6 @@ display: flex;
   .cart-grid-body.col-xs-12.col-lg-8 {
     min-width: 500px;
     background: white;
-    padding-bottom: 10px;
   }
   .cart-grid-right {
     min-width: 500px;
@@ -4187,7 +5056,9 @@ display: flex;
     margin: auto;
     justify-content: center;
   }
-
+  body#checkout section#checkout-payment-step .content {
+    padding-left: 20px;
+  }
 
   a#exportDataToCsv {
     background-color: #4c25e3;
@@ -4336,9 +5207,457 @@ p {
 
 
 @media screen and (max-width: 480px){
+  .name {
+    padding-left: 10px;
+    padding-top: 3%;
+    font-family: 'adelle-sans';
+    font-size: 3vw;
+    text-align: left;
+    color: #1d1d1f;
+  }
+  #ele3 {
+    border-radius: 10px;
+    padding-top: 65%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/eleimg3.png);
+  }
+  .cms-id-38 #formDescr {
+    color: #e6e6e6;
+    font-family: 'adelle';
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+    font-size: 3.5vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 60px;
+  }
+  .cms-id-38 #formDiv {
+    width: 90%;
+    padding-top: 80px;
+    margin: auto;
+  }
+  .cms-id-38 #formTit {
+    font-family: 'SairaCondensed';
+    text-align: center;
+    color: white;
+    font-size: 9vw;
+    padding-top: 0px;
+  }
+  .cms-id-38 #tatuagens {
+    background-color: #f6f6f6;
+    padding-top: 80px;
+    width: 98.6%;
+    padding-bottom: 80px;
+  }
+  .cms-id-38 #formsection {
+    display: flex;
+    margin-top: 15px;
+  }
+  .cms-id-38 #joinFam {
+    position: relative;
+    margin: auto;
+    margin-bottom: 78px;
+    margin-top: 60px;
+    display: flex;
+    padding: 12.5px 36.1px 12.3px 42.9px;
+    color: white;
+    background-color: #4c25e3;
+    border-radius: 31px;
+    border: none;
+    left: 0;
+    -ms-transform: none;
+    transform: none;
+  }
+  .cms-id-38 #formDescr {
+    color: #e6e6e6;
+    font-family: 'adelle';
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 3.5vw;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #easygoi_846 {
+    padding: 15px;
+    width: 100%;
+    font-family: 'adelle-sans';
+    font-size: 3.5vw;
+    height: 180px;
+    border: none;
+    border-radius: 8px;
+  }
+  input#email_835 {
+    border-radius: 8px;
+    font-family: 'adelle-sans';
+    margin-left: 0px;
+    height: 45px;
+    padding: 15px;
+    font-size: 3.5vw;
+    border: 0px solid transparent;
+  }
+  input#fname_834 {
+    border-radius: 8px;
+    font-family: 'adelle-sans';
+    margin-right: 0px;
+    height: 45px;
+    padding: 15px;
+    font-size: 3.5vw;
+    border: 0px solid transparent;
+    margin-bottom: 14px;
+  }
+  .cms-id-38 #aboutform input[type="submit"] {
+    font-family: 'adelle-sans';
+    font-size: 3.5vw;
+    padding: 11px 70px;
+    color: white;
+    background-color: #4c25e2;
+    border-radius: 9px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .cms-id-38 #contactsbox {
+    display: block;
+    margin: auto;
+    width: 85%;
+  }
+  .cms-id-38 #main5tit {
+    font-family: 'SairaCondensed';
+    font-size: 9vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-bottom: 60px;
+  }
+  .cms-id-38 #contactsbox {
+    display: block;
+    margin: auto;
+    width: 85%;
+  }
+  #contacts p {
+    font-weight: 100;
+    margin-top: 0px;
+    font-family: "adelle-sans";
+    font-size: 3.5vw;
+    width: 100%;
+    color: black;
+    line-height: 1.4rem;
+    margin-bottom: 50px;
+  }
+  .cms-id-38 #aboutform input[type="submit"] {
+    font-family: 'adelle-sans';
+    font-size: 3.5vw;
+    padding: 11px 70px;
+    color: white;
+    background-color: #4c25e2;
+    border-radius: 9px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .cms-id-38 #main5tit {
+    font-family: 'SairaCondensed';
+    font-size: 9vw;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    margin-bottom: 60px;
+  }
+  .cms-id-38 #abouttit2 {
+    margin-top: 60px;
+    font-size: 9vw;
+    font-family: Adelle;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 30px;
+    color: #4c25e2;
+    text-align: left;
+  }
+  .cms-id-38 #abouttxt1 {
+    font-size: 3.5vw;
+    margin: auto;
+    width: 100%;
+    color: #808080;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .cms-id-38 #abouttit {
+    margin-top: 0vh;
+    font-size: 9vw;
+    text-align: center;
+    font-family: Adelle;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 100px;
+  }
+  .brd{
+    display: none;
+  }
+  .brm{
+    display: block;
+  }
+  .cms-id-38 #main1 {
+    padding-top: 100px;
+    background-color: black;
+    padding-bottom: 75px;
+  }
+  .cms-id-38 #main1inner {
+    width: 90%;
+    margin: auto;
+  }
+  .cms-id-38 #abouttxt2 {
+    font-size: 3.5vw;
+    width: 100%;
+    color: #808080;
+    text-align: left;
+    margin-bottom: 60px;
+  }
+  .cms-id-38 #eletit2 {
+    font-size: 2.5vw;
+    margin-top: -50%;
+  }
+  .cms-id-38 #eletxt3 {
+    font-size: 2.5vw;
+    line-height: 15px;
+    margin-bottom: 7px;
+    margin-top: 40%;
+  }
+
+  .cms-id-38 #eletit1 {
+    font-size: 2.5vw;
+  }
+  .cms-id-38 #eletxt1 {
+    font-size: 2.5vw;
+    padding-top: 7px;
+    line-height: 15px;
+    margin-bottom: 7px;
+  }
+  .mensagem {
+    font-size: 3.5vw;
+    margin-top: 30px;
+    width: 100%;
+    font-family: 'adelle-sans';
+    text-align: left;
+    color: #000;
+  }
+  .cms-id-38 #main5 {
+    margin-top: 15px;
+    background-color: #f6f6f6;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 15px;
+  }
+  #nandobox {
+    margin-left: 0px;
+    padding-top: 60px;
+    width: 100%;
+  }
+  .assinatura {
+    font-family: 'adelle-sans';
+    font-size: 3.5vw;
+    text-align: left;
+    color: #0c0c0c;
+    margin-bottom: 0px;
+  }
+  #main4tit {
+    font-family: 'adelle';
+    font-size: 9vw;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+  div#main2 {
+    padding-bottom: 60px;
+  }
+  #main3 {
+    padding-top: 80px;
+    background-color: black;
+    padding-bottom: 80px;
+  }
+  .cms-id-38 #main4 {
+    padding-top: 80px;
+    background-color:#f6f6f6;
+    padding-bottom: 80px;
+  }
+  #main3txt {
+    font-family: 'adelle-sans';
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 3.5vw;
+    margin-bottom: 60px;
+    color: #fff;
+    opacity: 0.6;
+    line-height: 25px;
+  }
+  #main3tit {
+    font-family: 'adelle';
+    font-size: 9vw;
+    font-weight: 600;
+    text-align: center;
+    color: WHITE;
+    margin-bottom: 30px;
+  }
+  .cms-id-38 #eletxt6 {
+    font-size: 2.5vw;
+    line-height: 15px;
+  }
+  #main2txtbox {
+    padding-top: 80px;
+  }
+  #main2slidercontainer {
+    height: 100vw;
+    width: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  #main2txt {
+    font-family: 'adelle-sans';
+    text-align: center;
+    color: #6b6b6b;
+    width: 80%;
+    margin: auto;
+    font-size: 3.5vw;
+    margin-bottom: 60px;
+  }
+  #main2btn {
+    margin-bottom: 60px;
+    font-size: 3.5vw;
+    text-align: center;
+    color: #e5e5e5;
+    padding: 10.2px 30px 10.3px 30px;
+    border-radius: 15.9px;
+    background-color: #4c25e2;
+    font-family: 'adelle-sans';
+    border: none;
+  }
+  #main2tit {
+    font-family: 'adelle';
+    font-size: 9vw;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  .cms-id-38 #eletxt5 {
+    font-size: 2.5vw;
+    line-height: 15px;
+  }
+  .cms-id-38 div#contacts {
+    min-width: unset;
+  }
+  .cms-id-38 div#contactform {
+    min-width: unset;
+  }
+  .cms-id-38 #ele5 {
+    border-radius: 10px;
+    padding-top: 93%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/eleimg5.png);
+  }
+  .cms-id-38 #eletit3 {
+    font-size: 2.5vw;
+    padding-top: 10px;
+    margin-top: 0%;
+    margin-bottom: 58%;
+  }
+  .cms-id-38 #eletxt2 {
+    font-size: 2.5vw;
+    margin-top: 55%;
+    padding-bottom: 5%;
+    line-height: 15px;
+    margin-bottom: 7px;
+  }
+  .cms-id-38 #eletxt4 {
+    font-size: 2.5vw;
+    margin-top: 60%;
+    line-height: 15px;
+    margin-bottom: 7px;
+  }
+  .cms-id-38 #abouttit2 {
+    margin-top: 60px;
+    font-size: 9vw;
+    font-family: Adelle;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 30px;
+    color: #4c25e2;
+    text-align: left;
+  }
+  #checkout .card-block.cart-summary-totals {
+    border-top: 1px solid black;
+    padding: 6px 0% 1rem;
+    width: 85%;
+    margin: auto;
+  }
+  body#checkout section.checkout-step.-reachable.-complete h1 .step-edit {
+    margin-left: 0px;
+  }
+  .delivery-options .col-sm-4.col-xs-12 {
+    padding-left: 20px;
+  }
+  .delivery-options .col-sm-3.col-xs-12 {
+    padding-left: 20px;
+  }
+  body#checkout section.checkout-step .carrier-delay, body#checkout section.checkout-step .carrier-name {
+    font-size: 20px;
+  }
+  .row.delivery-option .col-sm-5.col-xs-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row.delivery-option .col-sm-1 {
+    width: 0%;
+  }
+  body#checkout section.checkout-step .address-selector {
+    display: block;
+  }
+  #checkout .row {
+    width: 100%;
+    justify-content: center;
+  }
+  .radio-block .custom-radio span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: .125rem;
+    opacity: 0;
+    top: .125rem;
+  }
+  body#checkout section#checkout-payment-step .content {
+    padding-left: 20px;
+  }
   #cart .col-md-6 {
     padding-left: 10px;
     padding-right: 20px;
+  }
+  body#checkout section.checkout-step .carrier-delay, body#checkout section.checkout-step .carrier-name {
+    display: inline-block;
+    word-break: normal;
+    text-align: left;
+    margin-bottom: 0;
+    width: 100%;
+    border: none;
+    color: black;
+    padding-left: 20px;
   }
   #cart .cart-grid.row {
     width: 100%;
@@ -4346,10 +5665,13 @@ p {
     margin: auto;
     justify-content: center;
   }
+  body#checkout section#content {
+    margin-bottom: 40px;
+    padding-top: 40px;
+  }
   .cart-grid-body.col-xs-12.col-lg-8 {
     width: 100%;
     background: white;
-    padding-bottom: 10px;
     min-width: unset;
   }
   .cart-grid-right {
@@ -4642,7 +5964,8 @@ width: 93%;
 #carouselContainerm{
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
   display: block;
 }
 #tightliner{
@@ -4705,12 +6028,30 @@ width: 93%;
   margin-bottom: 8%;
   font-size: 1rem;
 }
+.cms-id-38 .hpt {
+  font-family: 'SairaCondensed';
+  font-size: 9vw;
+  text-align: center;
+  color: black;
+  width: 90%;
+  margin: auto;
+  font-weight: 600;
+}
 
 .hpt {
   font-family: 'SairaCondensed';
   font-size: 2.2rem;
   text-align: center;
   color: black;
+}
+
+.cms-id-38 .tattootext {
+  width: 100%;
+  text-align: center;
+  font-family: 'adelle';
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 3.5vw;
 }
 
 .buyForm {

@@ -29,7 +29,6 @@
   <section id="main">
 
 
-
     {block name='page_content_container'}
         <h1 id="identityTitle">YOUR INFORMATION</h1>
         <h1 class="logintitle"></h1>
