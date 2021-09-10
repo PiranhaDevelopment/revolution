@@ -4,7 +4,8 @@
             <h1 id="abouttit">Driven by the <br class="brm"> passion <br class="brd">of pursuiting <br class="brm"> perfection</h1>
             <p id="abouttxt1">Over the years we have spent a great amount of time studying the needs of tattoo artists, with the aim of producing a comprehensive range of needles that suit all styles and techniques.<br /><br /> This level of detailed artist feedback has led to the creation of one of the best needle brands on the market.</p>
         </div>
-        <img width="100%" src="https://dev.revolutionneedles.com/themes/classic/assets/img/main1img.jpg">
+        <img class="imgd" width="100%" src="https://dev.revolutionneedles.com/themes/classic/assets/img/main1img.jpg">
+        <img class="imgm" width="100%" src="https://dev.revolutionneedles.com/themes/classic/assets/img/main1imgm.jpg">
         <div id="main1innertext2">
             <h1 id="abouttit2">Small details that<br>
                 make a big difference.</h1>
@@ -154,51 +155,22 @@ Their feedback has been vital to ensure that our needles continue to set the hig
         </h1>
         <div id="bosscontainer">
             <div id="pedrobox">
-                <img width="100%" src="https://dev.revolutionneedles.com/themes/classic/assets/img/pedro.jpg">
+                <img class="imgd" width="100%" src="https://dev.revolutionneedles.com/themes/classic/assets/img/pedro.jpg">
+                <img class="imgm" width="100%" src="https://dev.revolutionneedles.com/themes/classic/assets/img/pedrom.jpg">
                 <p class="mensagem">
                     “Over the years we studied the needs of tattoo artists concerning the tattoo needles. We developed together with them a full range configuration that matches with different needs and artwork styles. Each detail was studied and thinked to present them one of best tattoo needles brands ever."
                 </p>
                 <p class="assinatura"><b>Pedro Dias,</b><br>Founder and CEO</p>
             </div>
             <div id="nandobox">
-                <img width="100%" src="https://dev.revolutionneedles.com/themes/classic/assets/img/nando.jpg">
+                <img class="imgd" width="100%" src="https://dev.revolutionneedles.com/themes/classic/assets/img/nando.jpg">
+                <img class="imgm" width="100%" src="https://dev.revolutionneedles.com/themes/classic/assets/img/nandom.jpg">
                 <p class="mensagem">
                     "Revolution Needles project was born after a big market research. We chose the best raw materials, the best factories and the best professionals carefully. Each detail like the quality of steel, tapers, soldering, sterilization, packing and marketing was worked and tested to the limit. Small details, a hell of a big difference."
                 </p>
                 <p class="assinatura"><b>Fernando Dias,</b><br>Founder and CEO</p>
             </div>
         </div>
-    </div>
-    <div id="main5">
-        <h1 id="main5tit">GOT QUESTIONS? <br class="brm"> WE GOT THE ANSWERS.</h1>
-        <div id="contactsbox">
-            <div id="contactspacer"></div>
-            <div id="contacts">
-                <p style="font-family: 'adelle'">
-                    <b>Adress</b><br>Coimbrões Industrial Park, Lot 71 / 3500-618 Viseu / Portugal<br><br><b>Email</b><br>info@revolutionneedles.com<br><br><b>Telephone:</b> (+351) 232 468 548<br><b>Cell phone:</b> (+351) 966 782 948 / 50<br><b>WhatsApp:</b> (+351) 966 782 948
-                </p>
-            </div>
-            <div id="contactform">
-                <form method="post" id="aboutform" enctype="multipart/form-data" action="https://22.e-goi.com//w/de1je3V1leBRYLbNbAe93648c82">
-                    <input type="hidden" name="lista" value="13">
-                    <input type="hidden" name="cliente" value="846080">
-                    <input type="hidden" name="lang" id="lang_id" value="pt">
-                    <input type="hidden" name="formid" id="formid" value="78">
-                    <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
-                        <div id="namemail">
-                            <input type="text" name="fname_834" id="fname_834" placeholder="Your Name">
-                            <input type="email" name="email_835" id="email_835" value="" placeholder="Your Email">
-                        </div>
-                            <textarea id="easygoi_846" name="easygoi_846" placeholder="Your message"></textarea>
-                    <input type="submit" value="Join the Fam">
-                    
-                    </form>
-            </div>
-            <div id="contactspacer2">
-
-            </div>
-        </div>
-
     </div>
 <div id="tattoosection">
     <div id="tatuagens">
@@ -309,7 +281,7 @@ Their feedback has been vital to ensure that our needles continue to set the hig
                 discounts.</p>
             <form method="post" enctype="multipart/form-data"
                   action="https://22.e-goi.com/w/de1ce3V1le10OpAysfZea-c0b3d1?egu=wjkdz9z7exenmmpo"
-                  target="dummyframe">
+                  target="dummyframe" id="hpform">
                 <input type="hidden" name="lista" value="13">
                 <input type="hidden" name="cliente" value="846080">
                 <input type="hidden" name="lang" id="lang_id" value="pt">

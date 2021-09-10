@@ -2,6 +2,21 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+@font-face {
+  font-family:"HelveticaNeue";
+  src:url("https://dev.revolutionneedles.com/themes/classic/assets/fonts/helveticaneue/HelveticaNeue.woff") format("woff");
+  font-display:auto;font-style:normal;font-weight:400;
+}
+@font-face {
+  font-family:"HelveticaNeue";
+  src:url("https://dev.revolutionneedles.com/themes/classic/assets/fonts/helveticaneue/HelveticaNeueLt.woff") format("woff");
+  font-display:auto;font-style:normal;font-weight:100;
+}
+@font-face {
+  font-family:"HelveticaNeue";
+  src:url("https://dev.revolutionneedles.com/themes/classic/assets/fonts/helveticaneue/HelveticaNeueBold.woff") format("woff");
+  font-display:auto;font-style:normal;font-weight:600;
+}
  @font-face {
   font-family: adelle;
   src: url(https://use.typekit.net/npp2oht.css);
@@ -157,6 +172,508 @@
   src: url(../fonts/SairaCondensed/SairaCondensed-Regular.ttf);
   font-weight: 400;
 }
+#carouselContainer::-webkit-scrollbar {
+  display: none;
+}
+input#email_1185 {
+  margin-right: 0px;
+}
+.contactform form {
+  padding-top: 80px;
+}
+.topfields{
+  display: flex;
+  padding-bottom: 35px;
+}
+.cmsg{
+  padding: 5px;
+  padding-bottom: 7px;
+  color: #454545;
+  background-color: transparent;
+  font-family: 'adelle';
+  border: none;
+  border: 2px solid white;
+  width: 100%;
+}
+.topfield {
+  padding-bottom: 7px;
+  color: #454545;
+  background-color: transparent;
+  font-family: 'adelle';
+  border: none;
+  border-bottom: 2px solid white;
+  width: 45%;
+  margin-right: 10%;
+}
+#footer p.h3.hidden-sm-down {
+  display: none;
+}
+.cms-id-41 .row .col-xl-5 {
+  padding: 0px;
+}
+.contactform {
+  width: 50%;
+  padding-top: 30px;
+  margin: auto;
+}
+.cms-id-41 #map {
+  height: 450px;
+}
+.cms-id-41 .contactform h1{
+  margin-bottom: 0px;
+}
+.cms-id-41 div#meet4google {
+  width: 70%;
+  margin: auto;
+}
+.container.info{
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+.row.spacer {
+  height: 15px;
+  background-color: transparent;
+}
+.info p {
+  color: white;
+  font-weight: 500;
+  font-family: 'neue-haas-grotesk-display';
+  margin-bottom: 0px;
+  font-size: 0.8vw;
+}
+.cms-id-41 h1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'SairaCondensed';
+  font-weight: 600;
+}
+a:focus, a:hover {
+  color: #4c25e1;
+  text-decoration: none !important;
+}
+.mailalerts{
+  display: none;
+}
+.off-canvas-active > .off-canvas-nav-megamenu.active {
+  transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transition: none;
+  left: 0;
+}
+#module-psgdpr-gdpr #main{
+  background-color: black;
+}
+#module-psgdpr-gdpr footer.page-footer {
+  max-width: 850px;
+  margin: auto;
+}
+body#checkout #conditions-to-approve .condition-label label {
+  text-align: inherit;
+  padding-left: 35px;
+}
+body#checkout #conditions-to-approve .custom-checkbox span {
+  opacity: 0.6;
+  position: relative;
+  border-radius: 4px;
+  z-index: 1;
+  margin-right: -10px;
+}
+body#checkout #conditions-to-approve .condition-label {
+  margin-left: -3.5rem;
+  margin-top: .625rem;
+  position: relative;
+  z-index: 2;
+}
+.js-address-form label.form-control-label.loginName.required {
+  font-weight: 400;
+}
+#checkout .address-item .custom-radio span {
+  opacity: 0;
+}
+#history footer.page-footer {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+#address section#main {
+  background: black;
+}
+#address footer.page-footer {
+  max-width: 450px;
+  margin: auto;
+  margin-top: 20px;
+}
+#main .page-footer {
+  background-color: black;
+  margin-bottom: 0px;
+}
+#address section#content {
+  width: 80%;
+  margin: auto;
+}
+#addresses section#content {
+  width: 80%;
+  margin: auto;
+}
+#identity footer.page-footer {
+  max-width: 450px;
+  margin: auto;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+#addresses footer.page-footer {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.page-footer .account-link {
+  color: white;
+  font-family: 'adelle-sans';
+}
+
+.page-not-found p a {
+  color: #4c25e1;
+}
+#pagenotfound .page-content #search_widget {
+  width: 70%;
+  margin: auto;
+  display: block;
+  margin-bottom: 60px;
+}
+.search-widget form button[type=submit] {
+  position: relative;
+  border: none;
+  color: #7a7a7a;
+  font-family: 'SairaCondensed';
+  background-color: #232323;
+  width: 70px;
+}
+.search-widget form input[type=text]:focus+button .search {
+  color: white;
+}
+.page-not-found .search-widget form input[type=text]:focus {
+  outline: none;
+  color: white;
+  background-color: #232323;
+}
+.page-not-found .search-widget form button[type=submit] {
+  position: relative;
+  border: none;
+  color: #7a7a7a;
+  font-family: 'SairaCondensed';
+  background-color: #232323;
+  width: 70px;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+.page-not-found .search-widget form button[type=submit] .search:hover {
+  color: white;
+}
+.page-not-found .search-widget form {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 60px;
+}
+.page-not-found .search-widget form input[type=text] {
+  border: none;
+  padding: 20px 20px;
+  min-width: 255px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  background-color: #232323;
+}
+.page-not-found p {
+  color: white;
+  font-family: 'adelle';
+  font-size: 20px;
+  text-align: center;
+  width: 35%;
+  line-height: 35px;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.page-not-found h2 {
+  margin-top: 30px;
+  font-family: 'adelle';
+  color: white;
+  font-size: 225px;
+  text-align: center;
+  font-weight: 600;
+}
+#pagenotfound #main .page-content, #products #main .page-content {
+  margin-bottom: 0px;
+  max-width: none;
+  background: black;
+}
+#header {
+  background: #fff;
+  color: #7a7a7a;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.block-promo .promo-code .alert-danger {
+  margin-bottom: -15px;
+  position: relative;
+  margin-top: 1.25rem;
+  background: #ff4c4c;
+  color: #fff;
+  display: none;
+}
+
+.slidetitle {
+  font-size:2vw;
+  font-weight:bold;
+  margin:auto;
+  display:block;
+}
+#products .thumbnail-container .product-thumbnail img, .featured-products .thumbnail-container .product-thumbnail img, .product-accessories .thumbnail-container .product-thumbnail img, .product-miniature .thumbnail-container .product-thumbnail img {
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.ls-wp-container p.ls-layer {
+  text-align: center !important;
+}
+
+input#leo_search_query_top{
+  box-shadow: none;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+#carouselContainer ::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#carouselContainer  {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+#carouselContainer {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.cms-id-40 #form {
+  width: 100%;
+}
+.cms-id-40 #formsection {
+  display: block;
+  margin-top: 0.7%;
+  width: 100%;
+}
+.cms-id-40 #tatuagens {
+  background-color: #f4f4f4;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  width: 100%;
+}
+.cms-id-40 #tattoosection {
+  display: block;
+  margin-top: 0.7%;
+  width: 100%;
+}
+#proteam #ro.artist p {
+  color: #4c25e2;
+}
+#proteam #ro.artist .img p {
+  font-size: 2.5vw;
+  line-height: 60px;
+}
+#ro .img {
+  background-color: #151515;
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+.bigbox {
+  padding-bottom: 100px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: center;
+  margin-top: 100px;
+  max-width: 1000px;
+}
+#proteam .artist p {
+  font-size: 0.8vw;
+  color: #808080;
+  width: 100%;
+}
+.cms-id-40 .artist img {
+  width: 100%;
+}
+
+.cms-id-40 .artist {
+  width: 300px;
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#proteam p {
+  font-family: 'adelle';
+  font-size: 1.3vw;
+  text-align: center;
+  max-width: 700px;
+  line-height: 37px;
+  color: white;
+  margin: auto;
+}
+#proteam{
+  background-color: black;
+}
+#proteam h1 {
+  font-family: 'SairaCondensed';
+  color: #4c25e4;
+  font-size: 3rem;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.reviewtxt p {
+  color: white;
+  width: 100%;
+  font-family: 'HelveticaNeue';
+  font-weight: 800;
+  letter-spacing: 0px;
+  font-size: 1vw;
+  line-height: 25px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.reviewtxt span {
+  color: #fff;
+  font-family: 'neue-haas-grotesk-display';
+  font-size: 0.8vw;
+}
+.reviewtxt img {
+  width: 120px;
+}
+.reviewtxt {
+  margin-left: 50px;
+}
+.review {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.reviewtxt p{
+  color: white;
+  width: 100%;
+
+}
+.reviewimg img {
+  width: 135px;
+}
+.reviewbg {
+  background-color: black;
+  height: 300px;
+  margin-bottom: 150px;
+}
+.txtagulha .buyNow {
+  padding: 10px 50px;
+  width: unset;
+}
+.agulhas.right{
+  flex-direction: row-reverse;
+}
+
+.right .imgagulha {
+  display: flex;
+  justify-content: flex-end;
+
+}
+.txtagulha p {
+  font-family: neue-haas-grotesk-display;
+  font-weight: 500;
+  color: #1d1d1f;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.hpt {
+  font-family: 'SairaCondensed';
+  font-size: 2.6rem;
+  text-align: center;
+  color: black;
+}
+#productspage h1 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.imgagulha img {
+  width:75%;
+  object-fit: contain;
+  display: flex;
+}
+.agulhas{
+  width: 50%;
+  margin:auto;
+  display: flex;
+  margin-bottom: 150px;
+}
+.imgagulha {
+  width: 230%;
+  display: flex;
+}
+.txtagulha{
+  width: 230%;
+}
+.txtagulha h4 {
+  font-family: 'SairaCondensed';
+  font-size: 1.6vw;
+  font-weight: 600;
+  width: 100%;
+}
+.txtagulha h3 {
+  font-family: 'adelle';
+  font-size: 2.5vw;
+  font-weight: 600;
+  color: #505060;
+  letter-spacing: -2px;
+  margin-bottom: 40px;
+}
+.txtagulha{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+#dumitru{
+  max-width: 700px;
+}
+h1{
+  font-size: 3rem;
+  text-align: center;
+  font-family: Adelle;
+  font-weight: 600;
+}
+.imgd{
+  display: block;
+}
+.imgm{
+  display: none;
+}
 .cms-id-38 div#main2 {
   background-color: #f0f0f0;
 }
@@ -174,7 +691,7 @@
   background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 57vh;
+  height: fit-content;
 }
 #main .page-footer {
   margin-bottom: 0px;
@@ -186,7 +703,6 @@
   display: flex;
   margin-top: 14px;
 }
-
 .cms-id-38 #tattoosection {
   display: flex;
   background: #f6f6f6;
@@ -200,8 +716,8 @@
 }
 .cms-id-38 #main5 {
   background-color: #f6f6f6;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 100px;
+  padding-bottom: 80px;
 }
 #aboutform input[type="submit"] {
   font-family: 'adelle-sans';
@@ -215,7 +731,6 @@
   outline: none;
   margin-top: 14px;
 }
-
 #easygoi_846 {
   padding: 15px;
   width: 100%;
@@ -253,7 +768,14 @@ body#checkout section.checkout-step .delivery-options .delivery-option, body#che
   flex-wrap: nowrap;
 }
 .custom-radio input[type=radio]:checked+span {
-  opacity: 1;
+  opacity: 1 !important;
+}
+body#checkout a:hover {
+  color: #4c25e3;
+}
+.js-address-form a {
+  color: #4c25e3;
+  font-family: 'adelle-sans';
 }
 .cart-grid-body a.label:hover {
   color: #4c25e1;
@@ -403,7 +925,7 @@ p small {
   opacity: 0.35;
 }
 .block-promo .promo-input+button {
-  margin-top: 0px;
+  margin-top: -1px;
 }
 .card-block.cart-summary-totals {
   border-top: 1px solid black;
@@ -479,12 +1001,11 @@ p.promo-code-button.display-promo a.collapse-button {
   text-align: center;
   color: grey;
 }
-#checkout div#promo-code {
+
+.block-promo .promo-code-button.cancel-promo[aria-expanded=true] {
   display: none;
 }
-#cart div#promo-code {
-  display: none;
-}
+
 span.step-edit.text-muted {
   font-family: 'adelle-sans';
   font-size: 15px;
@@ -528,6 +1049,7 @@ input.promo-input {
 #cart h1.h1 {
   font-family: 'SairaCondensed';
   font-size: 30px;
+  text-align: left;
 }
 #history .orders.hidden-md-up a {
   color: #4c25e1;
@@ -869,7 +1391,7 @@ a#exportDataToPdf {
   font-weight: bold;
   text-align: center;
   color: black;
-  margin-bottom: 6%;
+  margin-bottom: 80px;
 } 
 
 .topheaderblackdesktop {
@@ -921,6 +1443,7 @@ a.carousel-control-next {
 }
 #leo_search_block_top .block_content {
   margin-top: 20px;
+  background-color: black;
 }
 .list-cate-wrapper {
   display: none!important;
@@ -1097,6 +1620,7 @@ body#checkout #cart-summary-product-list img {
 }
 #checkout .block-promo .promo-input+button {
   margin-top: -1px;
+  box-shadow: none;
 }
 #checkout .condition-label a#cta-terms-and-conditions-0 {
   color: #4c25e1;
@@ -2250,7 +2774,6 @@ width: 120%;
   margin-left: -8%;
 }
 
-
 .shopAlso {
   margin-top: 10%;
 
@@ -2265,17 +2788,57 @@ width: 120%;
     margin-bottom: 10% !important;
 }
 
+body#module-leoproductsearch-productsearch #products .thumbnail-container, .featured-products .thumbnail-container, .product-accessories .thumbnail-container, .product-miniature .thumbnail-container {
+  position: relative;
+  margin-bottom: 1.563rem;
+  height: auto;
+  width: 100%;
+  background: #fff;
+  box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+}
 .thumbnail-container {
   width: 340px !important;
   box-shadow: none !important;
 }
 
+div#otherProducts {
+  width: 25%;
+}
+
+/*
 .sai{
   max-width: none !important;
   max-height: none !important;
   width: 100%;
 }
+*/
 
+body#module-leoproductsearch-productsearch #products .thumbnail-container, .featured-products .thumbnail-container, .product-accessories .thumbnail-container, .product-miniature .thumbnail-container {
+  position: relative;
+  margin-bottom: 1.563rem;
+  height: 500px;
+  width: 250px;
+  background: #fff;
+  box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+}
+
+
+#module-leoproductsearch-productsearch #js-product-list-top{
+  display: none;
+}
+#module-leoproductsearch-productsearch h1.page-heading.product-listing {
+  font-family: 'SairaCondensed';
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+#module-leoproductsearch-productsearch div#content-wrapper {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
 .product-description:after{
   content: none;
 }
@@ -2398,30 +2961,33 @@ label input {
 }
 
 #joinFam{
-  position: absolute;
-    /* margin-top: 5vh; */
-    margin: auto;
-    /* top: 48%; */
-    /* top: 0%; */
-    /* bottom: 215px; */
-    margin-top: 8vh;
-    /* padding-top: 10px; */
-    /* padding-bottom: 10px; */
-    padding: 12.5px 36.1px 12.3px 42.9px;
-    /* padding-right: 20px; */
-    color: white;
-    left: 50%;
-    background-color: #4c25e3;
-    border-radius: 31px;
-    border: none;
-    /* margin-right: auto; */
-    /* margin-left: auto; */
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  position: relative;
+  display: block;
+  /* margin-top: 5vh; */
+  margin: auto;
+  padding: 12.5px 36.1px 12.3px 42.9px;
+  color: white;
+  background-color: #4c25e3;
+  border-radius: 31px;
+  border: none;
+  margin-top: 40px;
+}
+#joinFam2{
+  position: relative;
+  display: block;
+  /* margin-top: 5vh; */
+  margin: auto;
+  padding: 12.5px 36.1px 12.3px 42.9px;
+  color: white;
+  background-color: #4c25e3;
+  border-radius: 31px;
+  border: none;
+  margin-top: 40px;
 }
 
 /* Style the artificial checkbox */
 label span {
+  border-radius: 2px;
   height: 10px;
   width: 10px;
   border: 1px solid grey;
@@ -2439,7 +3005,13 @@ label span {
 }
 #termos{
   color: #454545;
-  margin-top: 3vh;
+  margin-top: 20px;
+  font-size: 0.8rem;
+  font-family: 'adelle';
+}
+#termos2 {
+  color: #454545;
+  margin-top: 8px;
   font-size: 0.8rem;
   font-family: 'adelle';
 }
@@ -2485,7 +3057,8 @@ select{
   font-family: 'adelle';
   text-align: center;
   width: 100%;
-  margin-top: 6%;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 #formTit{
   font-family: 'SairaCondensed';
@@ -2495,18 +3068,14 @@ select{
 }
 #formDiv{
   width: 40%;
-  padding-top: 3%;
+  padding-top: 100px;
   margin: auto;
+  padding-bottom: 80px;
 }
 #banner{
   width: 100%;
 }
-.hpt{
-  font-family: 'SairaCondensed';
-  font-size: 2.6rem;
-  text-align: center;
-  color: black;
-}
+
 .hpd{
   text-align: center;
   font-family: 'adelle';
@@ -2680,13 +3249,14 @@ b{
     width: 100%;
     text-align: center;
     font-family: 'adelle';
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 #tatuagens{
   background-color: #f4f4f4;
-  padding-top: 4%;
+  padding-top: 100px;
   width: 98.6%;
+  padding-bottom: 60px;
 }
 #tattoosection{
   display: flex;
@@ -2698,9 +3268,8 @@ b{
 .tattooimg{
   width: 100%;
 }
-#carouselContainer{
-  overflow: scroll;
-}
+overflow-x: scroll;
+overflow-y: hidden;
 img{
   -webkit-user-select: none;
 -khtml-user-select: none;
@@ -2720,7 +3289,7 @@ user-select: none;
   background-image: url('https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 57vh;
+  height: fit-content;
 }
 #formsection{
   display: flex;
@@ -2738,12 +3307,12 @@ user-select: none;
 }
 .mensagem{
   font-size: 1.3rem;
-  margin-top: 7%;
-    width: 100%;
-    opacity: 1;
-    font-family: 'adelle-sans';
-    text-align: left;
-    color: #000;
+  margin-top: 40px;
+  width: 100%;
+  opacity: 1;
+  font-family: 'adelle-sans';
+  text-align: left;
+  color: #000;
 }
 #pedrobox{
   width: 47.5%;
@@ -2790,7 +3359,7 @@ user-select: none;
   width: 132%;
 }
 #main2btn{
-  margin-bottom: 3%;
+  margin-bottom: 60px;
   font-size: 1.3rem;
     text-align: center;
     color: #e5e5e5;
@@ -2800,8 +3369,9 @@ user-select: none;
     font-family: 'adelle-sans';
     border: none;
 }
-#main2txtbox{
-  padding-top: 6%;
+#main2{
+  padding-top: 100px;
+  padding-bottom: 80px;
 }
 #main2tit{
   font-family: 'adelle';
@@ -2809,7 +3379,7 @@ user-select: none;
   font-weight: 600;
   text-align: center;
   color: #000000;
-  margin-bottom: 3%;
+  margin-bottom: 60px;
 }
 #main3tit{
   font-family: 'adelle';
@@ -2817,7 +3387,7 @@ user-select: none;
   font-weight: 300;
   text-align: center;
   color: WHITE;
-  margin-bottom: 3%;
+  margin-bottom: 60px;
 }
 #main4tit{
   font-family: 'adelle';
@@ -2825,7 +3395,7 @@ user-select: none;
   font-weight: 600;
   text-align: center;
   color: black;
-  margin-bottom: 6%;
+  margin-bottom: 80px;
 }
 #main5tit{
   font-family: 'adelle';
@@ -2842,7 +3412,7 @@ user-select: none;
   width: 37%;
   margin: auto;
   font-size: 1.3rem;
-  margin-bottom: 3%;
+  margin-bottom: 60px;
 }
 #main3txt{
   font-family: 'adelle-sans';
@@ -2854,19 +3424,19 @@ user-select: none;
   color: #ffffff;
 }
 #main1 {
-  padding-top: 12vh;
+  padding-top: 100px;
   background-color: black;
-  padding-bottom: 11vh;
+  padding-bottom: 80px;
 }
 #main3 {
-  padding-top: 12vh;
+  padding-top: 100px;
   background-color: black;
-  padding-bottom: 11vh;
+  padding-bottom: 80px;
 }
 #main4 {
-  padding-top: 12vh;
+  padding-top: 100px;
   background-color: white;
-  padding-bottom: 11vh;
+  padding-bottom: 80px;
 }
 #main5{
   background-color: #e5e5e5;
@@ -2881,9 +3451,9 @@ user-select: none;
   font-size: 3rem;
   text-align: center;
   font-family: Adelle;
-  font-weight: 400;
+  font-weight: 600;
   color: #ffffff;
-  margin-bottom: 11%;
+  margin-bottom: 80px;
 }
 #abouttxt1 {
   font-size: 1.3rem;
@@ -2891,22 +3461,22 @@ user-select: none;
     width: 80%;
     color: #808080;
     text-align: center;
-    margin-bottom: 14%;
+    margin-bottom: 80px;
 }
 #abouttxt2 {
   font-size: 1.3rem;
     width: 100%;
     color: #808080;
     text-align: left;
-    margin-bottom: 14%;
+    margin-bottom: 80px;
 }
 #abouttit2 {
-  margin-top: 11%;
+  margin-top: 100px;
   font-size: 3rem;
   font-family: Adelle;
-  font-weight: 400;
+  font-weight: 600;
   color: #ffffff;
-  margin-bottom: 3%;
+  margin-bottom: 40px;
   color: #4c25e2;
   text-align: left;
 }
@@ -3134,8 +3704,31 @@ iframe{
   display: flex;
 }
 
+@media screen and (max-width: 1800px) {
+  #roundshader {
+    background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/roundShadert.png);
+    background-size: contain;
+  }
+}
 
 @media screen and (max-width: 1700px){
+  span.cart-products-count {
+    margin-left: 6px;
+    color: white;
+  }
+  #tattoocarousel {
+    display: flex;
+    width: 150%;
+  }
+  #proteam .artist p {
+    font-size: 1vw;
+    color: #808080;
+    width: 100%;
+  }
+  #proteam #ro.artist .img p {
+    font-size: 3vw;
+    line-height: 60px;
+  }
   #ele4 {
     padding-top: 115%;
 }
@@ -3144,7 +3737,7 @@ iframe{
 /* HEADER */
 #bagwhite {
   display: flex;
-  padding-top: 7px;
+  padding-top: 4px;
   background-image: url(/themes/classic2/assets/img/black/bag.svg);
   height: 22px;
   background-size: cover;
@@ -3170,17 +3763,96 @@ iframe{
 }
 }
 @media screen and (max-width: 1600px) {
+  .info p {
+
+    font-size: 1vw;
+  }
   .card.cart-summary {
     margin-bottom: 0px;
-    height: 320px;
+    height: 400px;
   }
+  .block-promo .promo-code .alert-danger {
+    margin-bottom: -15px;
+    position: relative;
+    margin-top: 1.25rem;
+    background: #ff4c4c;
+    color: #fff;
+    display: none;
+  }
+  .bigbox {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .card.cart-container {
-    height: 320px;
+    height: 400px;
+  }
+  #tattoocarousel {
+    display: flex;
+    width: 160%;
   }
 }
 
 
 @media screen and (max-width: 1500px){
+  #tattoocarousel {
+    display: flex;
+    width: 170%;
+  }
+  .reviewtxt span {
+    color: #fff;
+    font-family: 'neue-haas-grotesk-display';
+    font-size: 1.2vw;
+  }
+  .reviewtxt p {
+    color: white;
+    width: 100%;
+    font-family: 'HelveticaNeue';
+    font-weight: 800;
+    letter-spacing: 0px;
+    font-size: 1.5vw;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  .txtagulha p {
+    font-family: neue-haas-grotesk-display;
+    font-weight: 500;
+    color: #1d1d1f;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 1vw;
+  }
+  .txtagulha h3 {
+    font-family: 'adelle';
+    font-size: 3vw;
+    font-weight: 600;
+    color: #505060;
+    letter-spacing: -2px;
+    margin-bottom: 40px;
+  }
+  .txtagulha h4 {
+    font-family: 'SairaCondensed';
+    font-size: 2vw;
+    font-weight: 600;
+    width: 100%;
+  }
+  .agulhas {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 150px;
+  }
+  #productspage h1 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 3vw;
+  }
   #bagwhite {
     display: flex;
     padding-top: 4px;
@@ -3303,7 +3975,93 @@ label.form-control-label.loginName.required {
 }
 }
 @media screen and (max-width: 1300px){
+  #termos2 {
+    color: #454545;
+    margin-top: 8px;
+    font-size: 1vw;
+    font-family: 'adelle';
+  }
+  #termos {
+    color: #454545;
+    margin-top: 20px;
+    font-size: 1vw;
+    font-family: 'adelle';
+  }
+  .info p {
+    font-size: 1.2vw;
+  }
+  #formDiv {
+    width: 50%;
+    padding-top: 100px;
+    margin: auto;
+    padding-bottom: 80px;
+  }
+  label span {
+    height: 13px;
+    width: 13px;
+    border: 1px solid grey;
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  [type=checkbox]:checked + span:before {
+    content: '\2714';
+    position: absolute;
+    top: -4px;
+    left: 1px;
+  }
+  #favStyle {
+    padding: 7px;
+    color: #454545;
+    background-color: black;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    margin-left: 0%;
+    font-family: 'adelle';
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #name {
+    padding-left: 7px;
+    width: 100%;
+  }
+  #email {
+    padding-bottom: 7px;
+    padding-left: 7px;
+    margin-top: 10px;
+    color: #454545;
+    background-color: transparent;
+    font-family: 'adelle';
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+  }
+  .cms-id-40 #tatuagens {
+    background-color: #f4f4f4;
+    padding-top: 100px;
+    width: 100%;
+    padding-bottom: 60px;
+  }
+  #proteam #ro.artist .img p {
+    font-size: 4vw;
+    line-height: 60px;
+  }
+  #proteam .artist p {
+    font-size: 1.5vw;
+    color: #808080;
+    width: 100%;
+  }
 
+  #proteam p {
+    font-family: 'adelle';
+    font-size: 2vw;
+    text-align: center;
+    max-width: 700px;
+    line-height: 37px;
+    color: white;
+    margin: auto;
+  }
   /* HEADER */
 
   #loginwhite {
@@ -3387,11 +4145,71 @@ label.form-control-label.loginName.required {
 
 
 @media screen and (max-width: 1150px){
+
+
+  #termos {
+    color: #454545;
+    font-size: 1.2vw;
+    font-family: 'adelle';
+  }
+  #termos2 {
+    color: #454545;
+    margin-top: 8px;
+    font-size: 1.2vw;
+    font-family: 'adelle';
+  }
+  .txtagulha h3 {
+    font-family: 'adelle';
+    font-size: 3.7vw;
+    font-weight: 600;
+    color: #505060;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+  }
+  .reviewtxt p {
+    color: white;
+    width: 100%;
+    font-family: 'HelveticaNeue';
+    font-weight: 800;
+    letter-spacing: 0px;
+    font-size: 2vw;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  #dumitru {
+    max-width: 600px;
+  }
+
+  .txtagulha p {
+    font-family: neue-haas-grotesk-display;
+    font-weight: 500;
+    color: #1d1d1f;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 1.5vw;
+  }
+
+  .txtagulha h4 {
+    font-family: 'SairaCondensed';
+    font-size: 3vw;
+    font-weight: 600;
+    width: 100%;
+  }
+  #productspage h1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: 4vw;
+  }
+  .agulhas {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 150px;
+  }
   /* HEADER */
 
-  #login {
-    display: none;
-  }
+
   .carousel-item.text-center.p-4 p {
     font-size: 1.5vw;
     width: 100%;
@@ -3468,6 +4286,11 @@ label.form-control-label.loginName.required {
 
 
 @media screen and (max-width: 1260px){
+  #history footer.page-footer {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+  }
   #history section#content {
     font-family: 'adelle-sans';
     width: 95%;
@@ -3505,10 +4328,167 @@ label.form-control-label.loginName.required {
 }
 
 @media screen and (max-width: 1100px) and (min-height: 1200px ) {
+  .cms-id-41 div#meet4google {
+    width: 80%;
+    margin: auto;
+  }
+  .contactform {
+    width: 80%;
+    padding-top: 30px;
+    margin: auto;
+  }
+  .info p {
+    font-size: 1.4vw;
+  }
+  .container.info {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #login {
+    display: block;
+  }
+  #tattoocarousel {
+    display: flex;
+    width: 240%;
+  }
+  #main2slidercontainer {
+    height: 55vw;
+    width: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .cms-id-38 #favStyle {
+    font-size: 2vw;
+    padding: 7px;
+    color: #454545;
+    background-color: black;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 45%;
+    margin-left: 4%;
+    font-family: 'adelle';
+  }
+  .cms-id-38 #joinFam {
+    position: relative;
+    left: unset;
+    display: block;
+    margin: auto;
+    transform: none;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    -ms-transform: unset;
+  }
+  .cms-id-38 #joinFam2 {
+    position: relative;
+    left: unset;
+    display: block;
+    margin: auto;
+    transform: none;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    -ms-transform: unset;
+  }
+  .cms-id-38 label span {
+    height: 20px;
+    width: 20px;
+    border: 1px solid grey;
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  .cms-id-38 #email {
+    padding-bottom: 7px;
+    margin-top: 2vh;
+    color: #454545;
+    background-color: transparent;
+    font-family: 'adelle';
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    font-size: 2vw;
+  }
+  .cms-id-38 #termos {
+    color: #454545;
+    margin-top: 40px;
+    font-size: 1.8vw;
+    font-family: 'adelle';
+  }
+  .cms-id-38 #name {
+    padding-bottom: 7px;
+    color: #454545;
+    background-color: transparent;
+    font-family: 'adelle';
+    border: none;
+    border-bottom: 2px solid white;
+    width: 45%;
+    margin-right: 5%;
+    font-size: 2vw;
+  }
+  .cms-id-38 #formDescr {
+    color: #e6e6e6;
+    font-family: 'adelle';
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 2vw;
+  }
+  .cms-id-38 #formDiv {
+    width: 80%;
+    padding-top: 100px;
+    margin: auto;
+  }
+  .cms-id-38 input#campoe_108_820_0 {
+    width: 20px;
+    height: 20px;
+  }
+  .cms-id-38 #formTit {
+    font-family: 'SairaCondensed';
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+  }
+  .cms-id-38 #form {
+    width: 100%;
+    background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+  }
+  .cms-id-38 #formsection {
+    display: flex;
+    margin-top: 0px;
+  }
+  .cms-id-38 #tattoocarousel {
+    display: flex;
+    width: 170%;
+  }
+  .cms-id-38 #contacts p {
+    font-size: 2vw;
+    letter-spacing: 1px;
+    width: 85%;
+  }
+  .cms-id-38 .tattootext {
+    width: 100%;
+    text-align: center;
+    font-family: 'adelle';
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 2vw;
+  }
+  .cms-id-38 #tatuagens {
+    background-color: #f6f6f6;
+    padding-top: 100px;
+    width: 98.6%;
+    padding-bottom: 80px;
+  }
   .cms-id-38 #aboutform input[type="submit"] {
     font-family: 'adelle-sans';
     font-size: 2vw;
-    width: 50%;
+    width: 100%;
     padding: 15.2px 38px;
     color: white;
     background-color: #4c25e2;
@@ -3610,6 +4590,7 @@ label.form-control-label.loginName.required {
     font-size: 2vw;
     margin-bottom: 40px;
     color: #ffffff;
+    line-height: 30px;
   }
   .cms-id-38 #main3tit {
     font-family: 'adelle';
@@ -3782,6 +4763,13 @@ label.form-control-label.loginName.required {
 
 
 @media screen and (max-width: 1000px){
+  .info .col-md-3 p {
+    font-size: 1.2vw;
+    width: 100%;
+  }
+  #login {
+    display: none;
+  }
   .block-promo .promo-input+button {
     margin-top: -2px;
   }
@@ -3859,7 +4847,233 @@ div#_desktop_user_info {
 }
 }
 
+
+
+@media screen and (max-width: 900px) {
+  .info .col-md-3 p {
+    font-size: 1.7vw;
+    width: 100%;
+    white-space: nowrap;
+  }
+  .info p {
+    font-size: 1.7vw;
+    width: 80%;
+  }
+  .cms-id-40 .artist {
+    width: 200px;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #ro .img {
+    background-color: #151515;
+    width: 100%;
+    height: 200px;
+    display: flex;
+  }
+}
+
+
+
+
 @media screen and (max-width: 800px){
+
+  #termos {
+    color: #454545;
+    font-size: 2vw;
+    font-family: 'adelle';
+  }
+  #termos2 {
+    color: #454545;
+    font-size: 2vw;
+    font-family: 'adelle';
+  }
+  #leo_search_block_top {
+    background-color: #000;
+    float: left;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+    display: none;
+  }
+  #leo_search_top_button2 {
+    margin-top: 1.5%;
+    padding: 9px 16px;
+    position: absolute;
+    right: 13px;
+    background: #000;
+    color: #fff;
+    z-index: 0;
+    outline: none;
+  }
+  #leo_search_block_top .block_content {
+    margin-top: 0px;
+    background-color: black;
+  }
+  .brd {
+    display: block;
+  }
+  .brm{
+    display: none;
+  }
+  .off-canvas-button-megamenu {
+    color: #fff;
+    text-align: right;
+    margin: 20px 10px 0 0;
+    cursor: pointer;
+  }
+  .off-canvas-nav-megamenu .nav-item .nav-link, .nav-item {
+    padding: 15px 15px;
+  }
+  .nav-link span.menu-title {
+    font-size: 2.5vw;
+    color: white;
+    font-family: 'SairaCondensed';
+    font-weight: 600;
+    letter-spacing: 1.5px;
+  }
+  .off-canvas-nav-megamenu .offcanvas-mainnav {
+    background: black;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    width: 300px;
+  }
+  .page-not-found p {
+    width: 50%;
+  }
+  #proteam #ro.artist .img p {
+    font-size: 6vw;
+    line-height: 60px;
+  }
+  #proteam .artist p {
+    font-size: 2vw;
+    color: #808080;
+    width: 100%;
+  }
+  #proteam p {
+    font-family: 'adelle';
+    font-size: 2.5vw;
+    text-align: center;
+    max-width: 700px;
+    line-height: 37px;
+    color: white;
+    margin: auto;
+  }
+  .reviewtxt p {
+    color: white;
+    width: 100%;
+    font-family: 'HelveticaNeue';
+    font-weight: 800;
+    letter-spacing: 0px;
+    font-size: 2.5vw;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  #dumitru {
+    max-width: 450px;
+  }
+  .reviewtxt span {
+    color: #fff;
+    font-family: 'neue-haas-grotesk-display';
+    font-size: 1.7vw;
+  }
+  .txtagulha p {
+    font-family: neue-haas-grotesk-display;
+    font-weight: 500;
+    color: #1d1d1f;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 2vw;
+  }
+  .agulhas {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 150px;
+  }
+  .txtagulha h4 {
+    font-family: 'SairaCondensed';
+    font-size: 4vw;
+    font-weight: 600;
+    width: 100%;
+  }
+  .txtagulha h3 {
+    font-family: 'adelle';
+    font-size: 4.7vw;
+    font-weight: 600;
+    color: #505060;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+  }
+  #productspage h1 {
+    padding-top: 200px;
+    width: 90%;
+    padding-bottom: 200px;
+    font-size: 5vw;
+    margin: auto;
+  }
+  .cms-id-38 #termos {
+    color: #454545;
+    margin-top: 3vh;
+    font-size: 1.8vw;
+    font-family: 'adelle';
+  }
+  .cms-id-38 input#campoe_108_820_0 {
+    width: 15px;
+    height: 15px;
+  }
+  .cms-id-38 label span {
+    height: 15px;
+    width: 15px;
+    border: 1px solid grey;
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  .cms-id-38 input#campoe_108_820_0 {
+    width: 20px;
+    height: 20px;
+  }
+  .cms-id-38 #easygoi_846 {
+    padding: 15px;
+    width: 100%;
+    font-family: 'adelle-sans';
+    font-size: 15px;
+    height: 180px;
+    border: none;
+    border-radius: 8px;
+  }
+  .cms-id-38 input#fname_834 {
+    border-radius: 8px;
+    font-family: 'adelle-sans';
+    margin-right: 0px;
+    height: 45px;
+    padding: 15px;
+    font-size: 2.5vw;
+    border: 0px solid transparent;
+    margin-bottom: 14px;
+  }
+  .cms-id-38 input#email_835 {
+    border-radius: 8px;
+    font-family: 'adelle-sans';
+    margin-left: 0px;
+    height: 45px;
+    padding: 2.5vwpx;
+    font-size: 15px;
+    border: 0px solid transparent;
+  }
+  .imgd{
+    display: none;
+  }
+  .imgm{
+    display: block;
+  }
+
   .cms-id-38 #formDiv {
     padding-top: 100px;
     padding-bottom: 80px;
@@ -3881,13 +5095,34 @@ div#_desktop_user_info {
     height: fit-content;
   }
   .cms-id-38 #joinFam {
-    position: relative;
-    left: unset;
-    transform: none;
-    margin: auto;
-    -ms-transform: unset;
-    display: block;
+    font-family: 'adelle-sans';
+    font-size: 3.5vw;
+    padding: 11px 70px;
+    color: white;
+    background-color: #4c25e2;
+    border-radius: 9px;
+    border: none;
+    box-shadow: none;
+    outline: none;
     margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  .cms-id-38 #joinFam2 {
+    font-family: 'adelle-sans';
+    font-size: 3.5vw;
+    padding: 11px 70px;
+    color: white;
+    background-color: #4c25e2;
+    border-radius: 9px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
   }
   .cms-id-38 #formsection {
     display: flex;
@@ -4160,7 +5395,7 @@ div#_desktop_user_info {
     font-size: 7vw;
   }
 
-  .cms-id-38 .hpt {
+  .hpt {
     font-family: 'SairaCondensed';
     font-size: 7vw;
     text-align: center;
@@ -4320,10 +5555,53 @@ div#_desktop_user_info {
 #authentication .col-md-69 .input-group .input-group-btn > .btn[data-action="show-password"] {
   font-size: 1.8vw;
 }
+  .contactform {
+    width: 70%;
+    padding-top: 30px;
+    margin: auto;
+  }
+  .cms-id-41 h1 {
+    font-size: 6vw;
+  }
 }
 
 
 @media screen and (max-width: 767px) {
+  .contactform {
+    width: 80%;
+    padding-top: 30px;
+    margin: auto;
+  }
+
+  .row.spacer {
+    height: 30px;
+    background-color: transparent;
+  }
+  .info .row div {
+    padding-top: 30px;
+  }
+  .container.info {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .col-md-3.col-lg-3.col-xl-3 {
+    padding-left: 0px;
+  }
+  .col-md-4.col-lg-4.col-xl-4 {
+    padding-left: 0px;
+  }
+  .info .col-md-3 p {
+    font-size: 2.4vw;
+  }
+  .info p {
+    font-size: 2.4vw;
+    padding-top: 6px;
+  }
+  .cms-id-41 div#meet4google {
+    width: 100%;
+    margin: auto;
+  }
   .card {
     box-shadow: none;
     background-color: white;
@@ -4343,6 +5621,9 @@ div#_desktop_user_info {
     color: white;
   }
 }
+
+
+
 
 /* TABLET */
 
@@ -4421,7 +5702,7 @@ div#_desktop_user_info {
   margin-top: 4vh;
   /* padding-top: 10px; */
   /* padding-bottom: 10px; */
-  padding: 12.5px 36.1px 12.3px 42.9px;
+  padding: 12.3px 36.1px 12.3px 42.9px;
   /* padding-right: 20px; */
   color: white;
   left: 50%;
@@ -4433,6 +5714,28 @@ div#_desktop_user_info {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+  #joinFam2 {
+    position: absolute;
+    /* margin-top: 5vh; */
+    margin: auto;
+    /* top: 48%; */
+    /* top: 0%; */
+    /* bottom: 215px; */
+    margin-top: 4vh;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    padding: 12.3px 36.1px 12.3px 42.9px;
+    /* padding-right: 20px; */
+    color: white;
+    left: 50%;
+    background-color: #4c25e3;
+    border-radius: 31px;
+    border: none;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 #form {
   background-position-x: 78%;
   width: 98.6%;
@@ -4624,9 +5927,9 @@ height: 42vh;
 #joinFam {
 margin-top: 4vh;
 }
-.hpt {
-font-size: 2rem;
-}
+  #joinFam2 {
+    margin-top: 4vh;
+  }
 #formTit {
 font-family: 'SairaCondensed';
 text-align: center;
@@ -4643,6 +5946,12 @@ display: flex;
 
 
 @media screen and (max-width: 770px) and (min-width: 760px){
+  .cms-id-38 #formTit {
+    font-family: 'SairaCondensed';
+    text-align: center;
+    color: white;
+    font-size: 7vw;
+  }
   /* SHOP PAGE */
   p {
     font-weight: 100;
@@ -4771,7 +6080,7 @@ display: flex;
 }
 #formDiv {
   width: 70%;
-  padding-top: 3%;
+  padding-top: 80px;
   margin: auto;
 }
 #form {
@@ -4785,9 +6094,10 @@ display: flex;
 #joinFam {
 margin-top: 4vh;
 }
-.hpt {
-  font-size: 2rem;
-}
+  #joinFam2 {
+    margin-top: 4vh;
+  }
+
 #formTit {
   font-family: 'SairaCondensed';
   text-align: center;
@@ -4946,9 +6256,10 @@ height: 42vh;
 #joinFam {
 margin-top: 4vh;
 }
-.hpt {
-font-size: 2rem;
-}
+  #joinFam2 {
+    margin-top: 4vh;
+  }
+
 #formTit {
 font-family: 'SairaCondensed';
 text-align: center;
@@ -5032,6 +6343,189 @@ display: flex;
     width: 100%;
     margin-right: 5%;
   }
+}
+
+@media screen and (max-width: 650px){
+  body#checkout #conditions-to-approve .condition-label {
+    margin-left: -3.5rem;
+    margin-top: 0px;
+    position: relative;
+    z-index: 2;
+  }
+  #conditions-to-approve li {
+    display: flex;
+  }
+  body#checkout #conditions-to-approve .condition-label label {
+    text-align: inherit;
+    padding-left: 92px;
+    max-width: 450px;
+  }
+  #proteam h1 {
+    font-family: 'SairaCondensed';
+    color: #4c25e4;
+    font-size: 7vw;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  #proteam .artist p {
+    font-size: 2.5vw;
+    color: #808080;
+    width: 100%;
+    line-height: 20px;
+    padding-top: 13px;
+  }
+  #ro .img {
+    background-color: #151515;
+    width: 100%;
+    height: 170px;
+    display: flex;
+  }
+  .cms-id-40 .artist {
+    width: 170px;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .bigbox {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+  }
+  #proteam p {
+    font-family: 'adelle';
+    font-size: 3vw;
+    text-align: center;
+    max-width: 700px;
+    line-height: 37px;
+    color: white;
+    margin: auto;
+  }
+  .txtagulha h4 {
+    font-family: 'SairaCondensed';
+    font-size: 4.5vw;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+  }
+  .reviewtxt span {
+    color: #fff;
+    font-family: 'neue-haas-grotesk-display';
+    font-size: 3vw;
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+  .reviewtxt p {
+    color: white;
+    width: 90%;
+    font-family: 'HelveticaNeue';
+    font-weight: 800;
+    letter-spacing: 0px;
+    font-size: 4vw;
+    line-height: 25px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .reviewtxt {
+    padding-top: 20px;
+    margin-left: unset;
+  }
+  .reviewtxt img {
+    width: 120px;
+    display: block;
+    margin: auto;
+  }
+  .reviewimg img {
+    display: block;
+    margin: auto;
+    width: 100px;
+  }
+  .review {
+    display: block;
+    height: fit-content;
+    margin: auto;
+  }
+  .reviewbg {
+    background-color: black;
+    height: 450px;
+    margin-bottom: 150px;
+    display: flex;
+  }
+  .buyNow {
+    display: block;
+    font-family: 'adelle-sans';
+    background-color: #4c25e3;
+    color: white;
+    font-weight: 100;
+    width: 100%;
+    border-radius: 50px;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    border: none;
+    outline: none;
+    margin: auto;
+  }
+  .txtagulha p {
+    font-family: neue-haas-grotesk-display;
+    font-weight: 500;
+    color: #1d1d1f;
+    width: 100%;
+    margin-bottom: 60px;
+    font-size: 2.5vw;
+    text-align: center;
+  }
+  .txtagulha h3 {
+    font-family: 'adelle';
+    font-size: 6.5vw;
+    font-weight: 600;
+    color: #505060;
+    letter-spacing: -2px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .txtagulha {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 60px;
+  }
+  .txtagulha {
+    width: 100%;
+  }
+  #productspage h1 {
+    padding-top: 150px;
+    width: 90%;
+    padding-bottom: 150px;
+    font-size: 7vw;
+    margin: auto;
+  }
+  .agulhas {
+    width: 90%;
+    margin: auto;
+    display: block;
+    margin-bottom: 150px;
+  }
+  .imgagulha {
+    width: 95%;
+    display: flex;
+    margin: auto;
+  }
+  .imgagulha img {
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+  }
+
 }
 
 @media screen and (max-width: 600px){
@@ -5207,6 +6701,204 @@ p {
 
 
 @media screen and (max-width: 480px){
+  [type=checkbox]:checked + span:before {
+    content: '\2714';
+    position: absolute;
+    top: -7px;
+    left: -2px;
+  }
+  .cms-id-41 #termos2 {
+    color: #454545;
+    margin-top: 8px;
+    font-size: 3vw;
+    font-family: 'adelle';
+  }
+  .cms-id-41 #joinFam2 {
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 12.3px 36.1px 12.3px 42.9px;
+    color: white;
+    background-color: #4c25e3;
+    border-radius: 31px;
+    border: none;
+    margin-top: 40px;
+    font-weight: 700;
+  }
+  .topfield {
+    padding-bottom: 7px;
+    color: #454545;
+    background-color: transparent;
+    font-family: 'adelle';
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    margin-right: 0px;
+  }
+  .cms-id-41 #accept2 {
+    margin-left: 0px;
+  }
+  #termos {
+    color: #454545;
+    font-size: 3vw;
+    font-family: 'adelle';
+  }
+  #termos2 {
+    color: #454545;
+    font-size: 3vw;
+    font-family: 'adelle';
+  }
+  .cms-id-41 #accept {
+    margin-left: 0px;
+  }
+  input#campoe_123_1188 {
+    margin-bottom: 15px;
+  }
+  .topfields {
+    display: block;
+    padding-bottom: 35px;
+  }
+  .contactform {
+    width: 90%;
+    padding-top: 30px;
+    margin: auto;
+  }
+  .cms-id-41 #map {
+    height: 300px;
+  }
+  .info .col-md-3 p {
+    font-size: 4vw;
+  }
+  .info p {
+    font-size: 4vw;
+  }
+  .container.info {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .cms-id-41 h1 {
+    font-size: 8vw;
+    margin: auto;
+    width: 80%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  #leosearchtopbox input {
+    font-size: 14px;
+    height: 100%;
+  }
+  .brm{
+    display: block;
+  }
+  .brd{
+    display: none;
+  }
+  .nav-link span.menu-title {
+    font-size: 3.5vw;
+    color: white;
+    font-family: 'SairaCondensed';
+    font-weight: 600;
+    letter-spacing: 1.5px;
+  }
+  .contshop {
+    background-color: white;
+    font-family: 'adelle-sans';
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    padding-left: 20px;
+    display: block;
+    padding-right: 20px;
+  }
+  label.col-xs-9.col-sm-11.delivery-option-2 {
+    padding-left: 0px;
+  }
+
+  #delivery-address .col-md-69 {
+    width: 100%;
+  }
+  #delivery-address .form-group{
+    display: block;
+  }
+  #ro .img {
+    background-color: #151515;
+    width: 100%;
+    height: 170px;
+    display: flex;
+  }
+  #proteam #ro.artist .img p {
+    font-size: 10vw;
+    line-height: 60px;
+  }
+  #proteam .artist p {
+    font-size: 3.5vw;
+    color: #808080;
+    width: 100%;
+    line-height: 20px;
+    padding-top: 13px;
+  }
+  .bigbox {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 0px;
+  }
+  #proteam h1 {
+    font-family: 'SairaCondensed';
+    color: #4c25e4;
+    font-size: 7.5vw;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  #proteam p {
+    font-family: 'adelle';
+    font-size: 6vw;
+    text-align: center;
+    max-width: 700px;
+    line-height: 37px;
+    color: white;
+    margin: auto;
+  }
+  .txtagulha p {
+    font-family: neue-haas-grotesk-display;
+    font-weight: 500;
+    color: #1d1d1f;
+    width: 100%;
+    margin-bottom: 60px;
+    font-size: 3.5vw;
+    text-align: center;
+  }
+  .txtagulha h3 {
+    font-family: 'adelle';
+    font-size: 8.5vw;
+    font-weight: 600;
+    color: #505060;
+    letter-spacing: -2px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .txtagulha h4 {
+    font-family: 'SairaCondensed';
+    font-size: 5.5vw;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+  }
+  .imgagulha {
+    width: 100%;
+    display: flex;
+  }
+  .imgagulha img {
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+  }
   .name {
     padding-left: 10px;
     padding-top: 3%;
@@ -5222,17 +6914,7 @@ p {
     background-position: center;
     background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/eleimg3.png);
   }
-  .cms-id-38 #formDescr {
-    color: #e6e6e6;
-    font-family: 'adelle';
-    text-align: center;
-    width: 100%;
-    margin-top: 60px;
-    font-size: 3.5vw;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-bottom: 60px;
-  }
+
   .cms-id-38 #formDiv {
     width: 90%;
     padding-top: 80px;
@@ -5255,32 +6937,19 @@ p {
     display: flex;
     margin-top: 15px;
   }
-  .cms-id-38 #joinFam {
-    position: relative;
-    margin: auto;
-    margin-bottom: 78px;
-    margin-top: 60px;
-    display: flex;
-    padding: 12.5px 36.1px 12.3px 42.9px;
-    color: white;
-    background-color: #4c25e3;
-    border-radius: 31px;
-    border: none;
-    left: 0;
-    -ms-transform: none;
-    transform: none;
-  }
+
   .cms-id-38 #formDescr {
     color: #e6e6e6;
     font-family: 'adelle';
     text-align: center;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 3.5vw;
     padding-left: 10%;
     padding-right: 10%;
   }
-  #easygoi_846 {
+  .cms-id-38 #easygoi_846 {
     padding: 15px;
     width: 100%;
     font-family: 'adelle-sans';
@@ -5289,7 +6958,7 @@ p {
     border: none;
     border-radius: 8px;
   }
-  input#email_835 {
+  .cms-id-38 input#email_835 {
     border-radius: 8px;
     font-family: 'adelle-sans';
     margin-left: 0px;
@@ -5298,7 +6967,85 @@ p {
     font-size: 3.5vw;
     border: 0px solid transparent;
   }
-  input#fname_834 {
+  .cms-id-38 p.artist {
+    font-size: 3.5vw;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .cms-id-38 #name {
+    padding-bottom: 7px;
+    color: #454545;
+    background-color: transparent;
+    font-family: 'adelle';
+    border: none;
+    border-bottom: 2px solid white;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 3.5vw;
+  }
+  .cms-id-38 label span {
+    height: 12px;
+    width: 12px;
+    border: 1px solid grey;
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  .cms-id-38 input#campoe_108_820_0 {
+    width: 12px;
+    height: 12px;
+  }
+  .cms-id-38 #joinFam2{
+    position: relative;
+    display: block;
+    font-family: 'adelle-sans';
+    font-size: 3.5vw;
+    padding: 11px 70px;
+    color: white;
+    background-color: #4c25e2;
+    border-radius: 9px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: unset;
+    left: unset;
+    -ms-transform: unset;
+}
+  .cms-id-38 #termos {
+    color: #454545;
+    margin-top: 3vh;
+    font-size: 3vw;
+    font-family: 'adelle';
+  }
+  .cms-id-38 #favStyle {
+    font-size: 3.5vw;
+    margin-top: 2%;
+    padding: 5px;
+    color: #454545;
+    background-color: black;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 90%;
+    margin-left: 5%;
+    font-family: 'adelle';
+  }
+  .cms-id-38 #email {
+    padding-bottom: 7px;
+    margin-top: 2vh;
+    color: #454545;
+    background-color: transparent;
+    font-family: 'adelle';
+    border: none;
+    border-bottom: 2px solid white;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 3.5vw;
+  }
+  .cms-id-38 input#fname_834 {
     border-radius: 8px;
     font-family: 'adelle-sans';
     margin-right: 0px;
@@ -5348,7 +7095,7 @@ p {
     font-size: 3.5vw;
     width: 100%;
     color: black;
-    line-height: 1.4rem;
+    line-height: 17px;
     margin-bottom: 50px;
   }
   .cms-id-38 #aboutform input[type="submit"] {
@@ -5391,6 +7138,7 @@ p {
     color: #808080;
     text-align: center;
     margin-bottom: 80px;
+    line-height: 17px;
   }
   .cms-id-38 #abouttit {
     margin-top: 0vh;
@@ -5401,12 +7149,7 @@ p {
     color: #ffffff;
     margin-bottom: 100px;
   }
-  .brd{
-    display: none;
-  }
-  .brm{
-    display: block;
-  }
+
   .cms-id-38 #main1 {
     padding-top: 100px;
     background-color: black;
@@ -5422,6 +7165,7 @@ p {
     color: #808080;
     text-align: left;
     margin-bottom: 60px;
+    line-height: 17px;
   }
   .cms-id-38 #eletit2 {
     font-size: 2.5vw;
@@ -5450,6 +7194,7 @@ p {
     font-family: 'adelle-sans';
     text-align: left;
     color: #000;
+    line-height: 17px;
   }
   .cms-id-38 #main5 {
     margin-top: 15px;
@@ -5469,6 +7214,7 @@ p {
     text-align: left;
     color: #0c0c0c;
     margin-bottom: 0px;
+    line-height: 17px;
   }
   #main4tit {
     font-family: 'adelle';
@@ -5502,7 +7248,7 @@ p {
     margin-bottom: 60px;
     color: #fff;
     opacity: 0.6;
-    line-height: 25px;
+    line-height: 17px;
   }
   #main3tit {
     font-family: 'adelle';
@@ -5534,6 +7280,7 @@ p {
     margin: auto;
     font-size: 3.5vw;
     margin-bottom: 60px;
+    line-height: 17px;
   }
   #main2btn {
     margin-bottom: 60px;
@@ -5657,7 +7404,7 @@ p {
     width: 100%;
     border: none;
     color: black;
-    padding-left: 20px;
+    padding-left: 0px;
   }
   #cart .cart-grid.row {
     width: 100%;
@@ -5955,7 +7702,8 @@ width: 93%;
 
 /*HOME PAGE */
 #carouselContainer{
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
   display: none;
 }
 #carouselContainerm::-webkit-scrollbar{
@@ -6020,15 +7768,8 @@ width: 93%;
   width: 500%;
 }
 
-.tattootext {
-  width: 100%;
-  text-align: center;
-  font-family: 'adelle';
-  margin-top: 6%;
-  margin-bottom: 8%;
-  font-size: 1rem;
-}
-.cms-id-38 .hpt {
+
+.hpt {
   font-family: 'SairaCondensed';
   font-size: 9vw;
   text-align: center;
@@ -6038,12 +7779,7 @@ width: 93%;
   font-weight: 600;
 }
 
-.hpt {
-  font-family: 'SairaCondensed';
-  font-size: 2.2rem;
-  text-align: center;
-  color: black;
-}
+
 
 .cms-id-38 .tattootext {
   width: 100%;
@@ -6053,7 +7789,15 @@ width: 93%;
   margin-bottom: 60px;
   font-size: 3.5vw;
 }
-
+  .tattootext {
+    width: 90%;
+    margin:auto;
+    text-align: center;
+    font-family: 'adelle';
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 1rem;
+  }
 .buyForm {
   position: absolute;
   top: 95%;
@@ -6091,22 +7835,23 @@ width: 93%;
 }#form {
   background-size: cover;
 }
-#formTit {
-  font-family: 'SairaCondensed';
-  text-align: center;
-  color: white;
-  font-size: 2rem;
-}
-#formDescr {
-  color: #e6e6e6;
-  font-family: 'adelle';
-  text-align: center;
-  width: 100%;
-  margin-top: 6%;
-  font-size: 0.8rem;
-  padding-left: 20%;
-  padding-right: 20%;
-}
+  #formTit {
+    font-family: 'SairaCondensed';
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 60px;
+  }
+  #formDescr {
+    color: #e6e6e6;
+    font-family: 'adelle';
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+    font-size: 4vw;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 #custom-text {
 display: none;
 }
@@ -6125,7 +7870,7 @@ display: none;
   margin-left: 5%;
 }
 #favStyle {
-  margin-top: 2%;
+  margin-top: 5%;
   padding: 5px;
   color: #454545;
   background-color: black;
@@ -6162,6 +7907,9 @@ display: none;
 #accept{
   margin-left: 5%;
 }
+  #accept2{
+    margin-left: 5%;
+  }
 }
 
 @media screen and (max-width: 430px) {
@@ -6172,9 +7920,38 @@ display: none;
 }
 
 @media screen and (max-width: 390px) {
+  .cms-id-41 #termos {
+    color: #454545;
+    margin-top: 20px;
+    font-size: 3vw;
+    font-family: 'adelle';
+  }
+  .cms-id-41 #joinFam2 {
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 10.3px 36.1px 10.3px 42.9px;
+    color: white;
+    background-color: #4c25e3;
+    border-radius: 31px;
+    border: none;
+    margin-top: 15px;
+    font-weight: 700;
+  }
+  #termos {
+    color: #454545;
+    margin-top: 40px;
+    font-size: 3vw;
+    font-family: 'adelle';
+  }
+  #termos2 {
+    color: #454545;
+    margin-top: 40px;
+    font-size: 3vw;
+    font-family: 'adelle';
+  }
   a#exportDataToCsv {
     font-size: 11px;
-
   }
   a#exportDataToPdf{
     font-size: 11px;
@@ -6231,12 +8008,7 @@ display: none;
   background-size: cover;
   height: 74vh;
 }
-#termos {
-  color: #454545;
-  margin-top: 3vh;
-  font-size: 0.6rem;
-  font-family: 'adelle';
-}
+
 #form {
   width: 98.6%;
   background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
@@ -6247,6 +8019,20 @@ display: none;
   }
 
 @media screen and (max-width: 380px) {
+  #ro .img {
+    background-color: #151515;
+    width: 100%;
+    height: 150px;
+    display: flex;
+  }
+  .cms-id-40 .artist {
+    width: 150px;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   /* SHOP PAGE */
 
   .products{

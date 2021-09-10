@@ -28,6 +28,7 @@
     <section id="content" class="page-home">
         {block name='page_content_top'}{/block}
         {block name='page_content'}
+            [creativeslider id="2"]
             {block name='hook_home'}
                 {$HOOK_HOME nofilter}
             {/block}
@@ -305,7 +306,7 @@
                         discounts.</p>
                     <form method="post" enctype="multipart/form-data"
                           action="https://22.e-goi.com/w/de1ce3V1le10OpAysfZea-c0b3d1?egu=wjkdz9z7exenmmpo"
-                          target="dummyframe">
+                          target="dummyframe" id="hpform">
                         <input type="hidden" name="lista" value="13">
                         <input type="hidden" name="cliente" value="846080">
                         <input type="hidden" name="lang" id="lang_id" value="pt">

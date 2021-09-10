@@ -25,12 +25,17 @@
 <section id="content" class="page-content page-not-found">
   {block name='page_content'}
 
-    <h4>{l s='Sorry for the inconvenience.' d='Shop.Theme.Global'}</h4>
-    <p>{l s='Search again what you are looking for' d='Shop.Theme.Global'}</p>
+    <h2>404</h2>
+    <p>Upsy daisy!<br>
+      You didn’t break the internet, but we can’t find what you are looking for.<br>
+      <br>
+      Let’s give it another shot?
 
+    </p>
     {block name='search'}
       {hook h='displaySearch'}
     {/block}
+    <p>➡ Take me back to <a href="dev.revolutionneedles.com">revolutioneedles.com</a></p>
 
     {block name='hook_not_found'}
       {hook h='displayNotFound'}

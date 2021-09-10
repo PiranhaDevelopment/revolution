@@ -9,18 +9,32 @@
 	return new Promise(resolve => setTimeout(resolve, ms));
   }
 
-$("#joinFam").click(function stateChange(newState) {
 
-    setTimeout(function () {
 
-        $('#name').val('');
+
+$("#hpform").submit(function () {
+		$('#name').val('');
 		$('#favStyle').prop('selectedIndex',0);
 		$('#email').val('');
 		$('#check').click();
 		$('#accept span').click();
-		alert("placeholder");
-    }, 2000);
-})
+		alert("Congratulations, you're almost in!\n" +
+			"You will now receive an email to confirm your subscription to our private list.\n" +
+			"Please confirm this email to receive access to our latest product releases, exclusive discounts, and the latest about our Revolutions."
+			);
+		return true;
+}
+)
+
+$("#ctform").submit(function () {
+			$('#campoe_123_1188').val('');
+			$('#email_1185').val('');
+			$('#easygoi_1192').val('');
+			$('#accept span').click();
+			$('#accept2 span').click();
+			alert("We have received your message! We'll soon reply to your message by email. We promise to get back at you as soon as possible.\n\ Hold tight");
+			return true;
+		})
 
 
 //  GET DETAILS FROM ? HOVER
@@ -38,7 +52,9 @@ $(document).ready(function(){
 	}
 
 // ADD VOUCHER ON CART
+	/*
 	$('#openpromo').on('click',function (){
+		alert("click");
 		$('.checkout.cart-detailed-actions.card-block').css('display','none');
 		$('#promo-code').css('display','block');
 		$('p.promo-code-but').css('display','none');
@@ -57,24 +73,22 @@ $(document).ready(function(){
 			$(".media-list").css('display','block');
 		}
 	})
-
+*/
 
 
 
 	
 /* ABRIR E FECHAR BARRA DE PESQUISA */
-$('#lupa2').click(function(){
+$(document).on("click",'#lupa2',function(){
 	$('#leo_search_block_top').css("display","block");
-
 })
-$('#leo_search_top_button2').click(function(){
+$('#leo_search_top_button2').on("click",function(){
 	$('#leo_search_block_top').css("display","none");
-
 })
-$('#navbar-toggler').click(function(){
+$('#navbar-toggler').on("click",function(){
 	$('.off-canvas-nav-megamenu').addClass("open-menu");
-	alert("cona");
 })
+
 
 
 
@@ -89,8 +103,9 @@ $('#navbar-toggler').click(function(){
 
 
   getbaloes();
-  $("#carouselContainer").overscroll();
+
   if(!mobile) {
+	  $("#carouselContainer").overscroll();
 	  $('#main2slidercontainer').overscroll();
 	  if (width >= 1750) {
 		  $('#main2slidercontainer').scrollLeft(350);
