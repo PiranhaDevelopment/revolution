@@ -24,6 +24,13 @@
  *}
 <div class="container">
   <div class="row">
+    <div class="col-md-6" id="footerleft">
+      <p>
+        © Revolution Needles 2020.<br>
+        All rights reserved.
+      </p>
+
+    </div>
     {block name='hook_footer_before'}
       {hook h='displayFooterBefore'}
     {/block}
@@ -41,6 +48,6 @@
         {hook h='displayFooterAfter'}
       {/block}
     </div>
-    
+
   </div>
 </div>
