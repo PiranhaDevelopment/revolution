@@ -41,7 +41,15 @@ $("#ctform").submit(function () {
 
 
 $(document).ready(function(){
+$('.showdetails').on('click',function (){
+	if($('.media-list').is(':visible'))
+	{
+		$('.media-list').css("display","none");
+	}else{
+		$('.media-list').css("display","block");
+	}
 
+})
 
 	$('.currency-selector button').on('click',function (){
 		$('.currency-selector .dropdown-menu').css("display","block");

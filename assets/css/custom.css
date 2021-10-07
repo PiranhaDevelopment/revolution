@@ -162,6 +162,16 @@
   src: url(../fonts/SairaCondensed/SairaCondensed-Regular.ttf);
   font-weight: 400;
 }
+#checkout .product-price {
+  color: black;
+  display: inline-block;
+  font-family: 'adelle-sans';
+  font-size: 1vw;
+  font-weight: 600;
+}
+#pagenotfound wrapper{
+  background-color: black;
+}
 #product p{
   width: 100%;
 }
@@ -1370,7 +1380,7 @@ body#checkout section.checkout-step .address-alias {
   width: 100px;
   border: none;
   color: black;
-  width: 90%;
+  width: 85%;
   padding-left: 5%;
   font-size: 18px;
 }
@@ -1387,6 +1397,20 @@ body#checkout section.checkout-step .address-alias {
 }
 #checkout .row {
   width: 80%;
+}
+#delivery-address .form-footer button.btn.btn-primary.float-xs-right {
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: #4c25e1;
+  font-family: 'adelle-sans';
+  box-shadow: none;
+}
+span.h6.carrier-name {
+  padding-left: 20px;
+}
+body#checkout section.checkout-step .address-item {
+  margin-bottom: 0px;
+  border: 0px;
 }
 body#checkout section.checkout-step .address {
   margin-left: 1.563rem;
@@ -1412,7 +1436,7 @@ body#checkout section.checkout-step .address-alias {
   width: 100px;
   border: none;
   color: black;
-  width: 90%;
+  width: 85%;
   padding-left: 5%;
 }
 body#checkout section.checkout-step .address {
@@ -1428,7 +1452,7 @@ body#checkout section.checkout-step .address-alias {
   width: 100px;
   border: none;
   color: black;
-  width: 90%;
+  width: 85%;
   padding-left: 5%;
 }
 
@@ -1437,7 +1461,7 @@ body#checkout section.checkout-step .address-alias {
 }
 
 .card.cart-container {
-  height: 400px;
+  height: fit-content;
 }
 .media-list{
   display: none;
@@ -4383,9 +4407,7 @@ iframe{
     padding-bottom: 100px;
   }
 
-  .card.cart-container {
-    height: 400px;
-  }
+
   #tattoocarousel {
     display: flex;
     width: 160%;
@@ -5263,7 +5285,13 @@ label.form-control-label.loginName.required {
 }
 }
 
+
+/* IPAD PRO */
 @media screen and (max-width: 1100px) and (min-height: 1200px ) {
+  #bagwhite span.cart-products-count {
+    font-size: 0.9vw;
+    margin-top: 0px;
+  }
   #content3 {
     position: absolute;
 
@@ -5868,6 +5896,16 @@ div#_desktop_user_info {
 
 
 @media screen and (max-width: 800px){
+  #checkout .product-price {
+    color: black;
+    display: inline-block;
+    font-family: 'adelle-sans';
+    font-size: 3vw;
+    font-weight: 700;
+  }
+  .price {
+    font-size: 3vw;
+  }
   #bagwhite span.cart-products-count {
     font-size: 1.2vw;
     margin-top: 0px;
