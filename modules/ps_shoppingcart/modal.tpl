@@ -26,11 +26,14 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
+        <h2>SHOPPING CART </h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="{l s='Close' d='Shop.Theme.Global'}">
           <span aria-hidden="true"><i class="material-icons">close</i></span>
         </button>
         <h4 class="modal-title h6 text-sm-center" id="myModalLabel"><i class="material-icons rtl-no-flip">&#xE876;</i>{l s='Product successfully added to your shopping cart' d='Shop.Theme.Checkout'}</h4>
+
       </div>
+      <hr>
       <div class="modal-body">
         <div class="row">
           <div class="col-md-5 divide-right">

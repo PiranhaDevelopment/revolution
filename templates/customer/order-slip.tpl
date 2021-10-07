@@ -25,10 +25,10 @@
 {extends file='customer/page.tpl'}
 
 {block name='page_title'}
-  {l s='Credit slips' d='Shop.Theme.Customeraccount'}
 {/block}
 
 {block name='page_content'}
+  <h1 class="logintitle">MY CREDIT SLIPS</h1>
   <h6>{l s='Credit slips you have received after canceled orders.' d='Shop.Theme.Customeraccount'}</h6>
   {if $credit_slips}
     <table class="table table-striped table-bordered hidden-sm-down">

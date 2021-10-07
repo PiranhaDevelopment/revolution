@@ -47,7 +47,7 @@
                 <div id="content2">
                     <img id="camiaoDois" class="camiao"
                          src="https://dev.revolutionneedles.com/themes/classic/assets/img/worlwideshipping.svg">
-                    <p class="camiaotxt"><b>Worldwide Shipping</b><br>
+                    <p class="camiaotxt"><b>Forldwide Shipping</b><br>
                         See checkout for<br>
                         delivery dates</p>
                 </div>
@@ -69,8 +69,7 @@
                 <div class="descriptionDiv">
                     <h1 class="needleTit">TIGHT LINER</h1>
                     <p class="needleDescr">
-                        Super thin grouping of extra long taper. Used for fine lines and detailed work .
-                        Extra long taper allows less contact with skin to create sharper lines.</p>
+                        Best for fine lines and detailed work. Extra long taper allows less contact with skin to provide sharper lines.</p>
                     <form class="buyForm"
                           action="https://dev.revolutionneedles.com/en/home/300-2286-revolution-needles.html#/164-needle_type-tight_liner/167-needle_taper-extra_long_taper/170-needle_thickness-10_030_mm/174-number_of_needles-3/202-needle_sterilization_validity-12m">
                         <button type="submit" class="buyNow">Buy Now</button>
@@ -83,8 +82,8 @@
                 <div class="descriptionDiv">
                     <h1 class="needleTit">ROUND LINER</h1>
                     <p class="needleDescr">
-                        Super thin grouping of extra long taper. Used for fine lines and detailed work .
-                        Extra long taper allows less contact with skin to create sharper lines.</p>
+                        Used for regular lines. Medium taper commonly used for classic and bold (fat) lines.
+                        Long taper commonly used for thin lines.</p>
                     <form class="buyForm"
                           action="https://dev.revolutionneedles.com/en/home/300-2322-revolution-needles.html#/159-needle_type-round_liner/165-needle_taper-medium_taper/169-needle_thickness-8_025_mm/173-number_of_needles-1/202-needle_sterilization_validity-12m">
                         <button type="submit" class="buyNow">Buy Now</button>
@@ -101,8 +100,7 @@
                 <div class="descriptionDiv">
                     <h1 class="needleTit">STRAIGHT LINER</h1>
                     <p class="needleDescr">
-                        Super thin grouping of extra long taper. Used for fine lines and detailed work .
-                        Extra long taper allows less contact with skin to create sharper lines.</p>
+                        Best for regular bold (fat) lines. Grouping is looser than right liners with soldering at 6,5 mm. Medium taper allows more needle contact with skin to deposit more pigment.</p>
                     <form class="buyForm"
                           action="https://dev.revolutionneedles.com/en/home/300-2466-revolution-needles.html#/158-needle_type-straight_liner/165-needle_taper-medium_taper/171-needle_thickness-12_035_mm/174-number_of_needles-3/202-needle_sterilization_validity-12m">
                         <button type="submit" class="buyNow">Buy Now</button>
@@ -115,8 +113,8 @@
                 <div class="descriptionDiv">
                     <h1 class="needleTit">ROUND SHADER</h1>
                     <p class="needleDescr">
-                        Super thin grouping of extra long taper. Used for fine lines and detailed work .
-                        Extra long taper allows less contact with skin to create sharper lines.</p>
+                        Best for small area shading, coloring and blending. Used also as loose liner and bold (fat) lines.
+                        Long taper commonly used for black & grey work.</p>
                     <form class="buyForm"
                           action="https://dev.revolutionneedles.com/en/home/300-2520-revolution-needles.html#/163-needle_type-round_shader/165-needle_taper-medium_taper/171-needle_thickness-12_035_mm/174-number_of_needles-3/202-needle_sterilization_validity-12m">
                         <button type="submit" class="buyNow">Buy Now</button>
@@ -134,8 +132,7 @@
                     <h1 class="needleTit">MAGNUM</h1>
                     <p class="needleDescr">
 
-                        Super thin grouping of extra long taper. Used for fine lines and detailed work .
-                        Extra long taper allows less contact with skin to create sharper lines.</p>
+                        For packing color, filling large areas and shading. Magnum configuration placed and soldered in a straight line with 2 layers.</p>
                     <form class="buyForm"
                           action="https://dev.revolutionneedles.com/en/home/300-2646-revolution-needles.html#/161-needle_type-magnum/165-needle_taper-medium_taper/171-needle_thickness-12_035_mm/175-number_of_needles-5/202-needle_sterilization_validity-12m">
                         <button type="submit" class="buyNow">Buy Now</button>
@@ -149,17 +146,14 @@
                     <h1 class="needleTit">SOFT EDGE MAGNUM</h1>
                     <p class="needleDescr">
 
-                        Super thin grouping of extra long taper. Used for fine lines and detailed work .
-                        Extra long taper allows less contact with skin to create sharper lines.</p>
+                        For packing color, filling large areas and shading. This configuration allows to achieve softer edges for filling and shading.</p>
                     <form class="buyForm"
                           action="https://dev.revolutionneedles.com/en/home/300-2868-revolution-needles.html#/160-needle_type-magnum_soft_edge/166-needle_taper-long_taper/169-needle_thickness-8_025_mm/175-number_of_needles-5/202-needle_sterilization_validity-12m">
                         <button type="submit" class="buyNow">Buy Now</button>
                     </form>
                 </div>
-
             </div>
             <div class="spacer"></div>
-
         </div>
         <div class="needles">
             <div class="spacer"></div>
@@ -167,8 +161,7 @@
                 <div class="descriptionDiv">
                     <h1 class="needleTit">FLAT SHADER</h1>
                     <p class="needleDescr">
-                        Super thin grouping of extra long taper. Used for fine lines and detailed work .
-                        Extra long taper allows less contact with skin to create sharper lines.</p>
+                        For shading, blending and detailed work. Flat configuration placed and soldered in a straight line single layer. Available in long taper only.</p>
                     <form class="buyForm"
                           action="https://dev.revolutionneedles.com/en/home/300-2997-revolution-needles.html#/162-needle_type-flat_shader/166-needle_taper-long_taper/170-needle_thickness-10_030_mm/175-number_of_needles-5/202-needle_sterilization_validity-12m">
                         <button type="submit" class="buyNow">Buy Now</button>
@@ -345,11 +338,8 @@
                             I have read and accept the terms and conditions
                         </label>
                         <br>
-
                         <input id="joinFam" type="submit" value="Join the fam">
-
                     </form>
-
                 </div>
             </div>
         </div>

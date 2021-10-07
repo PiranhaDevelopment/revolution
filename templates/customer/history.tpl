@@ -27,8 +27,9 @@
 {block name='page_title'}
   {l s='Order history' d='Shop.Theme.Customeraccount'}
 {/block}
-
+<h1 class="logintitle">MY HISTORY</h1>
 {block name='page_content'}
+
   <h6>{l s='Here are the orders you\'ve placed since your account was created.' d='Shop.Theme.Customeraccount'}</h6>
 
   {if $orders}

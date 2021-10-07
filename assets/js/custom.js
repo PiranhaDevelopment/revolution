@@ -41,6 +41,18 @@ $("#ctform").submit(function () {
 
 
 $(document).ready(function(){
+
+
+	$('.currency-selector button').on('click',function (){
+		$('.currency-selector .dropdown-menu').css("display","block");
+		$('div#logosFooter').css("z-index","1");
+	})
+	$(document).on('click', function (e) {
+		if ($(e.target).closest(".currency-selector").length === 0) {
+			$('.currency-selector .dropdown-menu').css("display","none");
+			$('div#logosFooter').css("z-index","9999");
+		}
+	});
 	var width = $(window).width();
 
 	if($('.login-form').length){

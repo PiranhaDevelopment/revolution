@@ -29,6 +29,7 @@
 {/block}
 
 {block name='page_content'}
+  <h1 class="logintitle">MY VOUCHERS</h1>
   {if $cart_rules}
     <table class="table table-striped table-bordered hidden-sm-down">
       <thead class="thead-default">

@@ -25,10 +25,7 @@
 <div id="order-items" class="col-md-12">
   <div class="row">
     {block name='order_items_table_head'}
-      <h3 class="card-title h3 col-md-6 col-12">{l s='Order items' d='Shop.Theme.Checkout'}</h3>
-      <h3 class="card-title h3 col-md-2 text-md-center _desktop-title">{l s='Unit price' d='Shop.Theme.Checkout'}</h3>
-      <h3 class="card-title h3 col-md-2 text-md-center _desktop-title">{l s='Quantity' d='Shop.Theme.Checkout'}</h3>
-      <h3 class="card-title h3 col-md-2 text-md-center _desktop-title">{l s='Total products' d='Shop.Theme.Checkout'}</h3>
+        <h2>ORDER REFERENCE {$reference}</h2>
     {/block}
   </div>
 

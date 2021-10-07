@@ -35,7 +35,6 @@
   <meta property="og:site_name" content="{$shop.name}">
   <meta property="og:description" content="{$page.meta.description}">
   <meta property="og:image" content="{$product.cover.large.url}">
-  <script src="jquery-3.5.1.min.js"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   {if $product.show_price}
     <meta property="product:pretax_price:amount" content="{$product.price_tax_exc}">
@@ -50,7 +49,6 @@
 {/block}
 
 {block name='content'}
-
   <section id="main" itemscope itemtype="https://schema.org/Product">
     <meta itemprop="url" content="{$product.url}">
 
@@ -58,7 +56,7 @@
       <div class="col-md-6">
       {foreach from=$product.grouped_features item=feature}
               {if $feature.name=="Brief"}
-            <h5 class="h6">{$feature.value|escape:'htmlall'|nl2br nofilter}</h4>
+            <h5 class="h6">{$feature.value|escape:'htmlall'|nl2br nofilter}</h5>
             {/if}
           {/foreach}
         {block name='page_content_container'}

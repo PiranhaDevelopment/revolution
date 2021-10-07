@@ -26,16 +26,16 @@
   <div class="box hidden-sm-down">
     <table id="order-products" class="table table-bordered">
       <thead class="thead-default">
-        <tr>
-          <th>{l s='Product' d='Shop.Theme.Catalog'}</th>
-          <th>{l s='Quantity' d='Shop.Theme.Catalog'}</th>
-          <th>{l s='Unit price' d='Shop.Theme.Catalog'}</th>
-          <th>{l s='Total price' d='Shop.Theme.Catalog'}</th>
-        </tr>
+      <tr>
+        <th style="text-align: left">{l s='Product' d='Shop.Theme.Catalog'}</th>
+        <th class="tac">{l s='Quantity' d='Shop.Theme.Catalog'}</th>
+        <th class="tac">{l s='Unit price' d='Shop.Theme.Catalog'}</th>
+        <th class="tac">{l s='Total price' d='Shop.Theme.Catalog'}</th>
+      </tr>
       </thead>
       {foreach from=$order.products item=product}
-        <tr>
-          <td>
+        <tr class="prodrow">
+          <td class="prodtd" style="text-align: left">
             <strong>
               <a {if isset($product.download_link)}href="{$product.download_link}"{/if}>
                 {$product.name}
@@ -86,7 +86,7 @@
               {/foreach}
             {/if}
           </td>
-          <td>
+          <td class="tac price prodtd">
             {if $product.customizations}
               {foreach $product.customizations as $customization}
                 {$customization.quantity}
@@ -95,32 +95,54 @@
               {$product.quantity}
             {/if}
           </td>
-          <td class="text-xs-right">{$product.price}</td>
-          <td class="text-xs-right">{$product.total}</td>
+          <td class="tac price prodtd">{$product.price}</td>
+          <td class="tac price prodtd">{$product.total}</td>
         </tr>
+
       {/foreach}
       <tfoot>
-        {foreach $order.subtotals as $line}
-          {if $line.value}
-            <tr class="text-xs-right line-{$line.type}">
-              <td colspan="3">{$line.label}</td>
-              <td>{$line.value}</td>
-            </tr>
-          {/if}
-        {/foreach}
-        <tr class="text-xs-right line-{$order.totals.total.type}">
-          <td colspan="3">{$order.totals.total.label}</td>
-          <td>{$order.totals.total.value}</td>
-        </tr>
+      {foreach $order.subtotals as $line}
+        {if $line.value}
+          <tr class="text-xs-right line-{$line.type}">
+            <td colspan="3">{$line.label}</td>
+            <td class="tac price">{$line.value}</td>
+          </tr>
+        {/if}
+      {/foreach}
+      <tr class="text-xs-right line-{$order.totals.total.type}">
+        <td colspan="3">{$order.totals.total.label}</td>
+        <td class="tac price">{$order.totals.total.value}</td>
+      </tr>
       </tfoot>
     </table>
   </div>
 
   <div class="order-items hidden-md-up box">
+    <h3>Order Details:</h3>
+    <div class="row labels">
+      <div class="col-sm-5 col-xs-5 desc">
+        <div class="name">
+          <p>{l s='Product' d='Shop.Theme.Catalog'}</p>
+        </div>
+      </div>
+      <div class="col-sm-7 col-xs-7">
+        <div class="row">
+          <div class="col-xs-4 text-sm-left text-xs-left">
+            Preço
+          </div>
+          <div class="col-xs-4">
+            Quantidade
+          </div>
+          <div class="col-xs-4 text-xs-right">
+            Total
+          </div>
+        </div>
+      </div>
+    </div>
     {foreach from=$order.products item=product}
       <div class="order-item">
-        <div class="row">
-          <div class="col-sm-5 desc">
+        <div class="row prod">
+          <div class="col-sm-5 col-xs-5 desc">
             <div class="name">{$product.name}</div>
             {if $product.product_reference}
               <div class="ref">{l s='Reference' d='Shop.Theme.Catalog'}: {$product.product_reference}</div>
@@ -135,7 +157,7 @@
               {/foreach}
             {/if}
           </div>
-          <div class="col-sm-7 qty">
+          <div class="col-sm-7 col-xs-7 qty">
             <div class="row">
               <div class="col-xs-4 text-sm-left text-xs-left">
                 {$product.price}
@@ -162,14 +184,15 @@
     {foreach $order.subtotals as $line}
       {if $line.value}
         <div class="order-total row">
-          <div class="col-xs-8"><strong>{$line.label}</strong></div>
-          <div class="col-xs-4 text-xs-right">{$line.value}</div>
+          <p class="etiqueta">{$line.label}</p>
+          <p class="number">{$line.value}</p>
         </div>
       {/if}
     {/foreach}
     <div class="order-total row">
-      <div class="col-xs-8"><strong>{$order.totals.total.label}</strong></div>
-      <div class="col-xs-4 text-xs-right">{$order.totals.total.value}</div>
+      <p class="etiqueta">{$order.totals.total.label}</p>
+      <p class="number">{$order.totals.total.value}</p>
     </div>
+
   </div>
 {/block}

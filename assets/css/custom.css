@@ -103,59 +103,49 @@
   src:url("https://use.typekit.net/af/52e7c0/000000000000000077359986/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/52e7c0/000000000000000077359986/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/52e7c0/000000000000000077359986/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
   font-display:auto;font-style:normal;font-weight:400;
   }
-  
   @font-face {
   font-family:"adelle-sans-ultra-thin";
   src:url("https://use.typekit.net/af/5b44d0/00000000000000007735a1c4/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff2"),url("https://use.typekit.net/af/5b44d0/00000000000000007735a1c4/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff"),url("https://use.typekit.net/af/5b44d0/00000000000000007735a1c4/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("opentype");
   font-display:auto;font-style:normal;font-weight:200;
   }
-  
   @font-face {
   font-family:"adelle-sans-ultra-thin";
   src:url("https://use.typekit.net/af/916615/00000000000000007735a1c6/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3") format("woff2"),url("https://use.typekit.net/af/916615/00000000000000007735a1c6/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3") format("woff"),url("https://use.typekit.net/af/916615/00000000000000007735a1c6/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3") format("opentype");
   font-display:auto;font-style:italic;font-weight:200;
   }
-  
   @font-face {
   font-family:"adelle-sans-condensed";
   src:url("https://use.typekit.net/af/8e5699/00000000000000007735a1d8/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/8e5699/00000000000000007735a1d8/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/8e5699/00000000000000007735a1d8/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
   font-display:auto;font-style:normal;font-weight:400;
   }
-  
   @font-face {
   font-family:"adelle-sans-condensed";
   src:url("https://use.typekit.net/af/52896b/00000000000000007735a1dc/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/52896b/00000000000000007735a1dc/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/52896b/00000000000000007735a1dc/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
   font-display:auto;font-style:italic;font-weight:400;
   }
-  
   @font-face {
   font-family:"adelle-sans-condensed";
   src:url("https://use.typekit.net/af/cc3f77/00000000000000007735a1e5/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/cc3f77/00000000000000007735a1e5/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/cc3f77/00000000000000007735a1e5/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
   font-display:auto;font-style:italic;font-weight:700;
   }
-  
   @font-face {
   font-family:"adelle-sans-condensed";
   src:url("https://use.typekit.net/af/c1f4c0/00000000000000007735a1e7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/c1f4c0/00000000000000007735a1e7/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/c1f4c0/00000000000000007735a1e7/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
   font-display:auto;font-style:normal;font-weight:700;
   }
-  
   @font-face {
   font-family:"adelle-ultrathin";
   src:url("https://use.typekit.net/af/95852c/00000000000000007735994c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("woff2"),url("https://use.typekit.net/af/95852c/00000000000000007735994c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("woff"),url("https://use.typekit.net/af/95852c/00000000000000007735994c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("opentype");
   font-display:auto;font-style:italic;font-weight:100;
   }
-  
   @font-face {
   font-family:"adelle-ultrathin";
   src:url("https://use.typekit.net/af/f56822/000000000000000077359950/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff2"),url("https://use.typekit.net/af/f56822/000000000000000077359950/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff"),url("https://use.typekit.net/af/f56822/000000000000000077359950/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("opentype");
   font-display:auto;font-style:normal;font-weight:100;
   }
-
 @font-face {
   font-family: SairaCondensed;
   src: url(../fonts/SairaCondensed/SairaCondensed-Black.ttf);
-
 }
 @font-face {
   font-family: SairaCondensed;
@@ -172,28 +162,507 @@
   src: url(../fonts/SairaCondensed/SairaCondensed-Regular.ttf);
   font-weight: 400;
 }
+#product p{
+  width: 100%;
+}
+#blockcart-modal .cart-content p {
+  font-size: 0.8vw;
+}
+#blockcart-modal .cart-content .page-content.page-cms ul .label, #blockcart-modal .cart-content .page-content.page-cms ul .value, #blockcart-modal .cart-content p .label, #blockcart-modal .cart-content p .value, .page-content.page-cms #blockcart-modal .cart-content ul .label, .page-content.page-cms #blockcart-modal .cart-content ul .value {
+  font-weight: 600;
+  font-size: 0.8vw;
+}
+#blockcart-modal .cart-content .page-content.page-cms ul.cart-products-count, #blockcart-modal .cart-content p.cart-products-count, .page-content.page-cms #blockcart-modal .cart-content ul.cart-products-count {
+  color: black;
+  font-size: 0.8vw;
+}
+.col-md-5.divide-right {
+  padding: 0px;
+}
+#blockcart-modal .modal-body {
+  background: #fff;
+  padding: 30px 30px;
+}
+#blockcart-modal .product-image {
+  max-width: none;
+  margin: 0 0 0 0;
+}
+#blockcart-modal .product-price {
+  color: #363a42;
+  display: block;
+  font-family: 'adelle-sans';
+  font-size: 1vw;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+#blockcart-modal .modal-body .divide-right span {
+  font-family: 'adelle-sans';
+  font-size: 0.7vw;
+  line-height: 20px;
+  margin-bottom: 0px;
+}
+.modal-content hr {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border: 0;
+  border-top: 1.5px solid currentColor;
+}
+.modal-content {
+  display: block;
+}
+.modal-header {
+  padding: 15px;
+  border-bottom: none;
+}
+.modal-header h2 {
+  font-family: 'SairaCondensed';
+  font-size: 2vw;
+  margin-bottom: 0px;
+}
+#blockcart-modal .product-name {
+  color: black;
+  font-size: 0.9vw;
+  display: block;
+  font-family: 'adelle-sans';
+  text-align: left;
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+.modal-header .close {
+  margin-top: -10px;
+}
+.page-order-detail .addresses {
+  margin: auto;
+}
+.addressright {
+  padding-right: 0px;
+}
+.addressleft {
+  padding-left: 0px;
+}
+#main .page-content #notifications {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+div#btya {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  display: flex;
+  justify-content: center;
+}
+.form-group textarea.form-control {
+  color: black;
+  background-color: #fff;
+  border-radius: 3px;
+  border: solid 2px #E4E4E4;
+  width: 100%;
+}
+.message.row {
+  color: black;
+  font-family: 'neue-haas-grotesk-display';
+  font-size: 0.8vw;
+}
+.message.row .col-sm-4 {
+  padding: 0px;
+}
+.box.messages h3 {
+  margin-bottom: 1rem;
+}
+#order-products td {
+  font-size: 0.9vw;
+  background: #f5f5f5;
+  color: #000;
+}
+.alert-warning {
+  font-family: 'adelle-sans';
+  background-color: white;
+  border-color: white;
+  color: #232323;
+}
+
+.tac {
+  text-align: center;
+}
+.price {
+  font-weight: 600;
+  font-size: 0.9vw;
+}
+.prodrow {
+  height: 70px;
+  border-bottom: 2px solid white;
+}
+#order-products .prodtd {
+  padding-top: 20px;
+  font-size: 0.9vw;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+  background: #f5f5f5;
+  color: black;
+  font-family: adelle-sans;
+}
+#order-products th {
+  font-family: 'adelle-sans';
+  font-size: 0.9vw;
+  font-weight: 500;
+  color: #000;
+  white-space: nowrap;
+  padding: 1rem;
+}
+.page-order-detail h3 {
+  text-transform: none;
+  font-family: 'adelle-sans';
+  font-weight: 800;
+  font-size: 1vw;
+  margin-bottom: 50px;
+}
+#order-detail #order-products {
+  border: transparent;
+}
+address {
+  font-size: 1vw;
+}
+#order-detail * {
+  max-width: 100%;
+}
+.page-order-detail .box {
+  box-shadow: none;
+}
+#order-infos p {
+  font-size: 0.9vw;
+}
+#order-infos span {
+  font-size: 1.1vw;
+  color: black;
+  font-weight: 700;
+}
+#order-infos .buyNow {
+  width: 15%;
+  padding: 10px 10px;
+  font-weight: 600;
+}
+.box.hidden-sm-down {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#module-leoproductsearch-productsearch .product-price-and-shipping {
+  width: fit-content;
+  margin-top: 0%;
+}
+#module-leoproductsearch-productsearch .pagination .col-md-4 {
+  padding-left: 0px;
+}
+#module-leoproductsearch-productsearch span.price {
+  color: #7a7a7a;
+}
+#module-leoproductsearch-productsearch article.product-miniature.js-product-miniature {
+  margin: 0px;
+}
+.page-heading.product-listing .lighter{
+  display: none;
+}
+.page-heading.product-listing .heading-counter{
+  display: none;
+}
+.order-message-form.box h3 {
+  margin-bottom: 10px;
+}
+.order-message-form.box footer.form-footer.text-sm-center {
+  margin-top: 40px;
+}
+.order-message-form.box .buyNow {
+  font-family: 'adelle-sans';
+  background-color: #4c25e3;
+  color: white;
+  font-weight: 500;
+  width: 150px;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.order-message-form.box .form-group.row div {
+  width: 100%;
+}
+.order-message-form.box .form-group.row {
+  width: 100%;
+}
+.order-message-form.box textarea.form-control {
+  border: 2px solid #E4E4E4;
+  width: 100%;
+}
+.order-message-form.box select.form-control.form-control-select {
+  background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/arrow.svg);
+  background-repeat: no-repeat;
+  background-position-y: 5px;
+  background-position-x: 291px;
+  width: 325px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 2px #E4E4E4;
+  margin-bottom: 35px;
+}
+.order-message-form.box p {
+  width: 100%;
+}
+.form-control:focus {
+  color: #7a7a7a;
+  border-color: lightgray;
+  outline: none;
+  box-shadow: none;
+}
+section.order-message-form.box {
+  width: 65%;
+  margin: auto;
+}
+.page-order-detail .addresses h4 {
+  font-size: 1.1vw;
+  font-weight: 700;
+  font-family: 'adelle-sans';
+}
+.addresses {
+  color: black;
+  font-family: 'adelle-sans';
+  line-height: 25px;
+}
+.addresses article#invoice-address {
+  background: #f5f5f5;
+}
+article#delivery-address {
+  background: #f5f5f5;
+}
+table.table.table-striped.table-bordered.table-labeled.hidden-xs-down {
+  font-family: 'adelle-sans';
+  text-align: center;
+  font-size: 0.78vw;
+}
+#order-history .thead-default th {
+  color: #7a7a7a;
+  background-color: #f5f5f5;
+  border-left: 1px solid #e5e5e5;
+  text-align: center;
+}
+#order-history .thead-default tr {
+  border-bottom: 3px solid white;
+  border-left: 1px solid #f5f5f5;
+
+}
+#order-infos .col-xs-9 {
+  padding-left: 0px;
+}
+#order-history td {
+  background: #f5f5f5;
+  border-left: 1px solid #e5e5e5;
+  font-family: 'adelle-sans';
+  font-weight: 600;
+  text-align: center;
+}
+#order-history .thead-default th {
+  color: #7a7a7a;
+  background-color: #f5f5f5;
+}
+#order-history .table-bordered, .table-bordered td, .table-bordered th {
+  border: none;
+}
+
+#order-infos .buyNow {
+  width: 15%;
+  padding: 10px 10px;
+}
+#order-history .thead-default th {
+  color: #7a7a7a;
+  background-color: #f5f5f5;
+  border-left: 1px solid #e5e5e5;
+  text-align: center;
+  font-family: 'adelle-sans';
+}
+.page-order-detail .box {
+  box-shadow: none;
+}
+.page-order-detail #order-history {
+  background: #f5f5f5;
+  margin-bottom: 30px;
+}
+#order-infos p span {
+  font-size: 1.1vw;
+  font-weight: 700;
+}
+#order-infos p {
+  width: 100%;
+  font-family: 'adelle-sans';
+}
+#order-details ul li {
+  margin-bottom: .625rem;
+  font-family: 'neue-haas-grotesk-display';
+  font-size: 0.75vw;
+  color: #222;
+  opacity: 0.6;
+}
+#order-details {
+  padding-left: 15px;
+  margin-top: 1.25rem;
+}
+#order-details {
+  padding-left: 15px;
+  margin-top: 1.25rem;
+}
+#order-items table tr td {
+  padding: 0px;
+  font-size: 0.7vw;
+  font-weight: 700;
+  font-family: 'neue-haas-grotesk-display';
+  background: white;
+}
+#order-detail #main {
+  background: black;
+  padding-top: 100px;
+}
+#order-detail #content {
+  width: 70%;
+  margin: auto;
+  background: #fff;
+  padding: 30px 40px;
+}
+#order-confirmation hr {
+  margin-top: 1rem;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 2px solid black;
+}
+#order-confirmation .order-confirmation-table .col-sm-2 {
+  padding-left: 0px;
+}
+#order-confirmation .card-block {
+  padding: 20px 10px;
+}
+#order-detail h2 {
+  font-family: 'adelle-sans';
+  font-size: 1.2vw;
+  padding-bottom: 10px;
+  color: black;
+  letter-spacing: 1px;
+}
+#order-confirmation h2 {
+  font-family: 'SairaCondensed';
+  font-size: 1.8vw;
+  padding-bottom: 10px;
+}
+#order-confirmation #order-items {
+  border-right: none;
+}
+#order-confirmation #main {
+  background: #f6f6f6;
+}
+#content.page-order-confirmation {
+  width: 50%;
+  margin: auto;
+  border: none;
+  box-shadow: none;
+}
+#order-confirmation .logintitle {
+  font-size: 45px;
+  padding-top: 3%;
+  padding-bottom: 2.5%;
+  display: block;
+  font-family: SairaCondensed;
+  color: black;
+  text-align: center;
+}
+#oct {
+  color: black;
+  font-family: 'adelle';
+  font-size: 0.8vw;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 70px;
+}
+section#content-hook_order_confirmation {
+  background: #f6f6f6;
+  box-shadow: none;
+  margin-bottom: 0px;
+  border: none;
+}
+#cart #wrapper{
+  background-color: black;
+}
+#authentication #wrapper{
+  background-color: black;
+}
+#identity #wrapper{
+  background-color: black;
+}
+#module-psgdpr-gdpr #wrapper {
+  background-color: black;
+}
+#history #wrapper {
+  background-color: black;
+}
+#discount #wrapper {
+  background: black;
+}
+#discount section#content {
+  background: black;
+}
+#order-slip #content {
+  background: black;
+}
+#order-slip #wrapper{
+  background: black;
+}
+.mobilefooter{
+  display: none;
+}
+#wrapper{
+  min-height: 100vh;
+}
+#my-account #footer .row {
+  justify-content: flex-start;
+}
+#footer {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+div#logosFooter {
+  padding-left: 50px;
+  margin-top: -10px;
+  position: relative;
+  z-index: 9999;
+}
+#logosFooter img {
+  width: 25px;
+  margin-right: 15px;
+}
+.dropdown:hover .expand-more {
+  color: white;
+}
 .footer-container {
   margin-top: -180px;
   padding-top: 0;
 }
-.currency-selector .dropdown-menu{
+.currency-selector .dropdown-menu {
   top: 0%;
   bottom: 100%;
   height: 150px;
+  left: 64px;
+  background: black;
+  border: 1px solid white;
 }
 .currency-selector {
   padding-left: 65px;
   padding-top: 124px;
 }
 footer#footer .dropdown-menu li a {
-  color: black;
+  color: white;
   font-family: 'adelle';
   font-size: 1rem;
   line-height: 35px;
-}
-.footer-container {
-  margin-top: -50px;
-  padding-top: 0px;
 }
 button.hidden-sm-down.btn-unstyle {
   padding: 10px 10px;
@@ -201,6 +670,7 @@ button.hidden-sm-down.btn-unstyle {
 }
 i.material-icons.expand-more {
   color: white;
+  transform: rotate(180deg);
 }
 span.expand-more._gray-darker {
   color: white;
@@ -818,6 +1288,7 @@ input#fname_834 {
 body#checkout section.checkout-step .delivery-options .delivery-option, body#checkout section.checkout-step .delivery-options .delivery-option .carrier, body#checkout section.checkout-step .delivery-options .delivery-option label>.row {
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
+  width: 100%;
 }
 .custom-radio input[type=radio]:checked+span {
   opacity: 1 !important;
@@ -860,8 +1331,11 @@ a:focus, a:hover {
   margin-top: 0px;
 }
 span.cart-products-count {
-  margin-left: 8px;
+  margin:auto;
   color: white;
+  padding-left: 2px;
+  font-size: 0.7vw;
+  margin-top: -2px;
 }
 .block-promo .promo-input+button {
   border: 2px solid #4c25e1;
@@ -1551,9 +2025,7 @@ a.carousel-control-next {
   z-index: 0;
   outline: none;
 }
-#leo_search_top_button {
-  display: none;
-}
+
 #leo_search_top_button2 {
   margin-top: .5%;
   padding: 9px 16px;
@@ -2883,10 +3355,10 @@ body#module-leoproductsearch-productsearch #products .thumbnail-container, .feat
   border-bottom: 1px solid black;
   padding-bottom: 15px;
   text-align: left;
+  font-size: 2vw;
 }
-
 #module-leoproductsearch-productsearch div#content-wrapper {
-  width: 80%;
+  width: 78.5%;
   margin: auto;
   padding-top: 100px;
   padding-bottom: 80px;
@@ -2971,41 +3443,41 @@ body#module-leoproductsearch-productsearch #products .thumbnail-container, .feat
 }
 #tightliner{
   background-image: url('https://dev.revolutionneedles.com/themes/classic/assets/img/tightLiner.jpg');
-  background-size: contain;
+  background-size: cover;
 }
 #roundliner{
   
   background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/roundLiner.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 #straightliner{
   
   background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/straightLiner.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 #roundshader{
   
   background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/roundShader.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 #magnum{
   
   background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/magnum.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 #softedge{
   
   background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/softEdgeMagnum.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 #flatshader{
   
   background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/flatShader.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 #needleimg{
   background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/needleTips.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 label input {
@@ -3196,11 +3668,14 @@ body{
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+  width: 100%;
 }
-.needleDescr{
-  width: 110%;
+.needleDescr {
+  width: 70%;
   text-align: center;
   font-family: 'adelle';
+  margin: auto;
+  margin-bottom: 25px;
 }
 input[type="button"]:focus{
   outline:none;
@@ -3219,6 +3694,7 @@ input[type="button"]:focus{
     padding-bottom: 4%;
     border: none;
     outline:none;
+    cursor: pointer;
 
 }
 .buyForm{
@@ -3227,7 +3703,7 @@ input[type="button"]:focus{
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  width: 32%;
+  width: 20%;
 }
 #tips{
   color: white
@@ -3235,8 +3711,9 @@ input[type="button"]:focus{
 #tipsdescr{
 color: white;
 }
-#needleForm{
-  width: 63%;
+.input-group.js-parent-focus .input-group-btn {
+  border: 1px solid rgba(0,0,0,.25);
+  border-left: none;
 }
 #slice1{
   height: 100%;
@@ -3255,7 +3732,7 @@ color: white;
 }
 #content1{
   position: absolute;
-    top: 50%;
+    top: 195px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -3264,24 +3741,24 @@ color: white;
 }
 #content2{
   position: absolute;
-    top: 50%;
+    top: 188px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     width: 100%;
     transform: translateY(-50%);
 }
-#content3{
+#content3 {
   position: absolute;
-    top: 50%;
-    right: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    width: 32%;
-    transform: translateY(-50%);
+  top: 192px;
+  right: 55%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 200px;
+  transform: translateY(-50%);
 }
 .camiao{
   display: block;
-    width: 25%;
+    width: 70px;
     margin: auto;
 }
 .camiaotxt{
@@ -3757,17 +4234,75 @@ iframe{
 }
 
 @media screen and (max-width: 1800px) {
+  address {
+    font-size: 0.9vw;
+  }
+  .page-order-detail h3 {
+    font-size: 0.9vw;
+  }
   #roundshader {
     background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/roundShadert.png);
-    background-size: contain;
+    background-size: cover;
+  }
+  /* ORDER DETAIL */
+  .page-order-detail h3 {
+    font-size: 0.9vw;
+  }
+  .order-message-form.box p {
+    font-size: 0.9vw;
+  }
+  #order-history td {
+    font-size: 0.9vw;
+  }
+  #order-infos p {
+    font-size: 0.9vw;
+  }
+  address {
+    font-size: 0.9vw;
   }
 }
 
 @media screen and (max-width: 1700px){
   span.cart-products-count {
-    margin-left: 6px;
-    color: white;
+    margin-top: -1px;
   }
+  .page-order-detail h3 {
+    font-size: 1.1vw;
+  }
+  #content3 {
+    position: absolute;
+
+    right: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 300px;
+    transform: translateY(-50%);
+  }
+  .camiao {
+    width: 70px;
+  }
+  #camiaoDois {
+    width: 70px;
+  }
+  #slice3 {
+    height: 100%;
+    width: 40%;
+    position: relative;
+  }
+  #slice2 {
+    height: 100%;
+    width: 20%;
+    position: relative;
+  }
+  #slice1 {
+    height: 100%;
+    width: 40%;
+    position: relative;
+  }
+  #content1 {
+    width: 300px;
+  }
+
   #tattoocarousel {
     display: flex;
     width: 150%;
@@ -3813,8 +4348,15 @@ iframe{
   justify-content: space-between;
   padding-right: 150px;
 }
+  /* ORDER DETAIL */
+  .page-order-detail h3 {
+    font-size: 1.1vw;
+  }
 }
 @media screen and (max-width: 1600px) {
+  #order-history .thead-default th {
+    font-size: 0.9vw;
+  }
   .info p {
 
     font-size: 1vw;
@@ -3848,10 +4390,72 @@ iframe{
     display: flex;
     width: 160%;
   }
+  /* ORDER DETAIL */
+  #order-history .thead-default th {
+    font-size: 0.9vw;
+  }
 }
 
 
 @media screen and (max-width: 1500px){
+
+  .message.row {
+    font-size: 1vw;
+  }
+  .order-message-form.box .buyNow {
+    font-size: 0.9vw;
+  }
+  #order-detail .form-group textarea.form-control {
+    font-size: 1vw;
+  }
+  .order-message-form.box select.form-control.form-control-select {
+    font-size: 1vw;
+    background-position-y: 11px;
+    background-position-x: 221px;
+    background-size: 20px;
+    width: 250px;
+  }
+  #order-products th {
+    font-size: 1vw;
+  }
+  #order-infos span {
+    font-size: 1.3vw;
+    font-weight: 700;
+  }
+  #order-infos .text-xs-right p {
+    font-size: 1.1vw;
+    color: black;
+  }
+  #order-infos p span {
+    font-size: 1.8vw;
+    font-weight: 700;
+  }
+  #order-infos .text-xs-right p {
+    width: 100%;
+    font-family: 'adelle-sans';
+    font-size: 1vw;
+  }
+  #order-detail #content {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 30px 40px;
+  }
+  #slice1 {
+    height: 100%;
+    width: 35%;
+    position: relative;
+  }
+  #slice3 {
+    height: 100%;
+    width: 35%;
+    position: relative;
+  }
+  #slice2 {
+    height: 100%;
+    width: 30%;
+    position: relative;
+  }
   #tattoocarousel {
     display: flex;
     width: 170%;
@@ -3914,10 +4518,7 @@ iframe{
     width: 20px;
     margin-left: 20px;
   }
-  span.cart-products-count {
-    margin-left: 6px;
-    color: white;
-  }
+
   #checkout .card-block.cart-summary-totals {
     border-top: 1px solid black;
     padding: 6px 0% 1rem;
@@ -4025,8 +4626,162 @@ label.form-control-label.loginName.required {
   #ele4 {
     padding-top: 113%;
 }
+  /* ORDER DETAIL */
+  #order-detail h2 {
+    font-size: 2vw;
+  }
+  #order-infos .text-xs-right p {
+    font-size: 1.1vw;
+  }
+  #order-infos .buyNow {
+    width: 15%;
+    padding: 10px 10px;
+    font-size: 0.9vw;
+  }
+  #order-history .thead-default th {
+    font-size: 1vw;
+  }
+  #order-history td {
+    background: #f5f5f5;
+    border-left: 1px solid #e5e5e5;
+    font-size: 1vw;
+  }
+  .page-order-detail .addresses h4 {
+    font-size: 1.3vw;
+    font-weight: 700;
+  }
+  address {
+    font-size: 1vw;
+  }
+  .page-order-detail h3 {
+    font-size: 1.2vw;
+  }
+  .order-message-form.box p {
+    font-size: 1vw;
+  }
+  .order-message-form.box .buyNow {
+    font-size: 1.1vw;
+  }
 }
+
+
+@media screen and (max-width: 1400px) {
+  span.cart-products-count {
+    margin-top: 0px;
+  }
+}
+
+
 @media screen and (max-width: 1300px){
+
+  .peso {
+    display: none;
+  }
+  .portes {
+    display: none;
+  }
+  #bagwhite span.cart-products-count {
+    font-size: 0.8vw;
+    margin-top: 0px;
+  }
+  .order-message-form.box .buyNow {
+    font-size: 1.5vw;
+    width: 40%;
+  }
+  #order-detail .form-group textarea.form-control {
+  font-size: 1.35vw;
+}
+
+  #order-products th {
+    font-size: 1.4vw;
+  }
+  .peso {
+    display: none;
+  }
+  #order-infos span {
+    font-size: 2vw;
+    color: black;
+    font-weight: 700;
+  }
+  #order-infos .text-xs-right p {
+    font-size: 1.5vw;
+  }
+  #order-infos .buyNow {
+    width: 40%;
+    padding: 10px 10px;
+    font-size: 1.5vw;
+    letter-spacing: 0.5px;
+  }
+  .order-message-form.box select.form-control.form-control-select {
+    font-size: 1.35vw;
+    background-position-y: 12px;
+    background-position-x: 197px;
+    background-size: 18px;
+    width: 220px;
+  }
+  .message.row {
+    font-size: 1.35vw;
+    line-height: 21px;
+  }
+  #order-products .prodtd strong{
+    line-height: 20px;
+  }
+  #order-products td {
+    font-size: 1.35vw;
+    background: #f5f5f5;
+    color: #000;
+  }
+  #order-products .prodtd {
+    padding-top: 20px;
+    font-size: 1.35vw;
+    padding-bottom: 20px;
+  }
+  .camiaotxt {
+    margin-top: 2px;
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+    font-family: 'adelle-sans';
+  }
+  #slice2 {
+    height: 100%;
+    width: 50%;
+    position: relative;
+  }
+  #slice3 {
+    height: 100%;
+    width: 25%;
+    position: relative;
+  }
+  #slice1 {
+    height: 100%;
+    width: 25%;
+    position: relative;
+  }
+  #content1 {
+    position: absolute;
+    left: 40%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 300px;
+    transform: translateY(-50%);
+  }
+  #content3 {
+    position: absolute;
+    right: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 200px;
+    transform: translateY(-50%);
+  }
+  .camiao {
+    display: block;
+    width: 70px;
+    margin: auto;
+  }
+  #camiaoDois {
+    width: 70px;
+  }
   #termos2 {
     color: #454545;
     margin-top: 8px;
@@ -4193,12 +4948,141 @@ label.form-control-label.loginName.required {
   padding-top: 86%;
 
 }
+  /* ORDER DETAILS */
+  #order-detail h2 {
+    font-size: 2.5vw;
+  }
+  .page-order-detail h3 {
+    font-size: 1.4vw;
+  }
+  #order-history .thead-default th {
+    font-size: 1.2vw;
+  }
+  #order-history td {
+    font-size: 1.2vw;
+  }
+  .page-order-detail .addresses h4 {
+    font-size: 1.7vw;
+    font-weight: 700;
+  }
+  address {
+    font-size: 1.2vw;
+  }
+  .page-order-detail h3 {
+    font-size: 1.5vw;
+  }
+  .order-message-form.box p {
+    font-size: 1.2vw;
+  }
 }
 
 
 @media screen and (max-width: 1150px){
+  #slice1 {
+    height: 100%;
+    width: 30%;
+    position: relative;
+  }
+  #slice3 {
+    height: 100%;
+    width: 20%;
+    position: relative;
+  }
+  #content3 {
+    position: absolute;
 
+    right: 30%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 200px;
+    transform: translateY(-50%);
+  }
+  #content1 {
+    position: absolute;
 
+    left: 20%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 300px;
+    transform: translateY(-50%);
+  }
+  .buyForm {
+    padding-top: 10px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 30%;
+  }
+  .buyNow {
+    font-family: 'adelle-sans';
+    background-color: #4c25e3;
+    color: white;
+    font-weight: 100;
+    width: 100%;
+    border-radius: 50px;
+    padding-top: 7%;
+    padding-bottom: 6%;
+    border: none;
+    outline: none;
+  }
+  .imgdiv {
+    padding-bottom: 40.5%;
+    width: 48.95%;
+  }
+  #straightliner{
+
+    background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/straight_linerm.jpg");
+    background-size: 100% 100%;
+  }
+  #roundshader{
+
+    background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/round_shaderm.jpg");
+    background-size: 100% 100%;
+  }
+  #magnum{
+
+    background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/magnumm.jpg");
+    background-size: 100% 100%;
+  }
+  #softedge{
+
+    background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/soft_edge_magnumm.jpg");
+    background-size: 100% 100%;
+  }
+  #flatshader{
+
+    background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/flat_shaderm.jpg");
+    background-size: 100% 100%;
+  }
+  #needleimg{
+    background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/revolution_tipsm.jpg");
+    background-size: 100% 100%;
+  }
+  #roundliner {
+    background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/round_linerm.jpg");
+    background-size: 100% 100%;
+  }
+  #tightliner{
+    background-image: url('https://dev.revolutionneedles.com/themes/classic/assets/img/tight_linerm.jpg');
+    background-size: 100% 100%;
+  }
+  .needleDescr {
+    width: 65%;
+    text-align: center;
+    font-family: 'adelle';
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 1.5vw;
+  }
+  .needleTit {
+    font-family: 'SairaCondensed';
+    font-weight: 700;
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 20px;
+  }
   #termos {
     color: #454545;
     font-size: 1.2vw;
@@ -4380,6 +5264,23 @@ label.form-control-label.loginName.required {
 }
 
 @media screen and (max-width: 1100px) and (min-height: 1200px ) {
+  #content3 {
+    position: absolute;
+
+    right: 30%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 200px;
+    transform: translateY(-50%);
+  }
+  #content1 {
+    position: absolute;
+    left: 20%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 300px;
+    transform: translateY(-50%);
+  }
   .cms-id-41 div#meet4google {
     width: 80%;
     margin: auto;
@@ -4815,6 +5716,10 @@ label.form-control-label.loginName.required {
 
 
 @media screen and (max-width: 1000px){
+  #bagwhite span.cart-products-count {
+    font-size: 0.9vw;
+    margin-top: 0px;
+  }
   .info .col-md-3 p {
     font-size: 1.2vw;
     width: 100%;
@@ -4899,9 +5804,41 @@ div#_desktop_user_info {
 }
 }
 
-
+@media screen and (max-width: 950px) {
+  #footerleft p {
+    width: 100%;
+  }
+  #order-detail #content {
+    width: 100%;
+  }
+  #order-detail #main {
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 991px) {
+  address {
+    font-size: 1.4vw;
+    line-height: 20px;
+  }
+  .page-order-detail h3 {
+    font-size: 2vw;
+  }
+  .order-message-form.box p {
+    font-size: 1.5vw;
+  }
+  #order-history .thead-default th {
+    font-size: 1.4vw;
+  }
+  #order-history td {
+    font-size: 1.4vw;
+  }
+}
 
 @media screen and (max-width: 900px) {
+  #bagwhite span.cart-products-count {
+    font-size: 1vw;
+    margin-top: 0px;
+  }
   .info .col-md-3 p {
     font-size: 1.7vw;
     width: 100%;
@@ -4931,7 +5868,50 @@ div#_desktop_user_info {
 
 
 @media screen and (max-width: 800px){
+  #bagwhite span.cart-products-count {
+    font-size: 1.2vw;
+    margin-top: 0px;
+  }
+  .page-order-detail h3 {
+    font-size: 2.2vw;
+  }
+  #shippingDetails{
+    display: none;
+  }
+  .imgdiv {
+    padding-bottom: 43.5%;
+    width: 48.95%;
+  }
 
+  .buyNow {
+    font-size: 1.7vw;
+  }
+  .buyForm {
+    padding-top: 0px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 30%;
+  }
+  .needleTit {
+    font-size: 4vw;
+    margin-bottom: 10px;
+  }
+  #my-account .row {
+    justify-content: flex-start;
+  }
+  #my-account .currency-selector {
+    padding-left: 35px;
+    padding-top: 124px;
+  }
+  #my-account div#logosFooter {
+    padding-left: 20px;
+  }
+  #my-account #footerleft p {
+    padding-left: 20px;
+  }
   #termos {
     color: #454545;
     font-size: 2vw;
@@ -5465,9 +6445,7 @@ div#_desktop_user_info {
     display: flex;
     width: 250%;
   }
-  .cms-id-38 #footer {
-    padding-top: 300px;
-  }
+
   .cms-id-38 #main4 {
     padding-top: 100px;
     background-color: #f6f6f6;
@@ -5538,7 +6516,7 @@ div#_desktop_user_info {
     margin: auto;
   }
   span.cart-products-count {
-    margin-left: 5px;
+
     color: white;
   }
   #bagwhite {
@@ -5619,6 +6597,224 @@ div#_desktop_user_info {
 
 
 @media screen and (max-width: 767px) {
+  .row.labels .col-xs-4.text-xs-right {
+    padding-right: 0;
+  }
+  .order-items.hidden-md-up.box .row.prod .row {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .order-item .col-sm-5.desc {
+    padding-left: 0px;
+  }
+  .order-items.hidden-md-up.box .order-item {
+    background: #f5f5f5;
+    padding: 0px;
+  }
+  address {
+    font-size: 1.8vw;
+    line-height: 22px;
+  }
+  #order-infos .buyNow {
+    width: 40%;
+    font-size: 2vw;
+    margin: inherit;
+  }
+  #order-detail .form-group textarea.form-control {
+    font-size: 2vw;
+  }
+  .order-message-form.box select.form-control.form-control-select {
+    font-size: 2vw;
+    background-position-y: 12px;
+    background-position-x: 237px;
+    background-size: 20px;
+    width: 260px;
+  }
+  .order-message-form.box p {
+    font-size: 2vw;
+  }
+  section.order-message-form.box {
+    width: 100%;
+    margin: auto;
+  }
+  .message.row {
+    font-size: 2.25vw;
+    line-height: 21px;
+  }
+  .page-order-detail #order-history {
+    background: #f5f5f5;
+    margin-bottom: 30px;
+    padding-top: 2rem;
+  }
+  .shipping-line {
+    padding: 0rem 1rem;
+  }
+  .box.transporter li {
+    font-family: 'adelle';
+    font-size: 2vw;
+    line-height: 30px;
+  }
+  .box.transporter {
+    background: #f5f5f5;
+  }
+  .page-order-detail h3 {
+    font-size: 2.5vw;
+    text-align: center;
+  }
+  .box.messages h3 {
+    text-align: left;
+  }
+  #bagwhite span.cart-products-count {
+    font-size: 1.5vw;
+    margin-top: 0px;
+  }
+  .order-message-form.box .buyNow {
+    font-size: 2vw;
+  }
+  .container .order-total.row {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-right: 1rem;
+  }
+  .order-message-form.box h3 {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 2.5vw;
+  }
+  .number {
+    width: 50%;
+    text-align: right;
+    font-size: 2.2vw;
+    font-weight: 600;
+    color: #7a7a7a;
+    line-height: 30px;
+  }
+  .etiqueta {
+    width: 50%;
+    font-size: 2.2vw;
+    font-weight: 600;
+    color: #7a7a7a;
+    line-height: 30px;
+  }
+  .order-totals.hidden-md-up.box {
+    background: #f5f5f5;
+    margin-bottom: 0px;
+  }
+  .row.prod .col-xs-4 {
+    text-align: center;
+    font-size: 2vw;
+    padding-right: 0px;
+    font-weight: 700;
+  }
+  .page-order-detail .order-items .order-item .desc .name {
+    font-size: 1.8vw;
+    font-weight: 700;
+    color: black;
+  }
+  .name p {
+    margin-bottom: 0px;
+  }
+  .order-items.hidden-md-up.box .row.labels .row {
+    background: #f5f5f5;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .order-items.hidden-md-up.box .row.labels {
+    background: #f5f5f5;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 2vw;
+  }
+  .order-items.hidden-md-up.box .row {
+    background: white;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+  .order-items.hidden-md-up.box h3 {
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .order-items.hidden-md-up.box {
+    background: #f5f5f5;
+    color: black;
+    padding: 1rem 1rem !important;
+    margin-bottom: 0px;
+    margin-top: 1rem;
+  }
+  .page-order-detail .addresses h4 {
+    font-size: 2.5vw;
+    font-weight: 700;
+  }
+  #order-detail .col-lg-6 {
+    float: left;
+    width: 100%;
+    max-width: none;
+    padding: 0px;
+  }
+
+  #order-history td {
+    font-size: 1.6vw;
+  }
+  #order-history .thead-default th {
+    font-size: 1.8vw;
+  }
+
+  #order-infos span {
+    font-size: 2.5vw;
+  }
+  #order-infos .text-xs-right p {
+    font-size: 1.8vw;
+  }
+  .needleDescr {
+    width: 80%;
+    text-align: center;
+    font-family: 'adelle';
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 1.7vw;
+  }
+
+  .footerlinks1 {
+    padding-left: 60px;
+    padding-top: 35px;
+  }
+  .footerlinks2 {
+    padding-top: 35px;
+  }
+  .footerlink p {
+    color: #fff;
+    font-family: 'adelle';
+    font-size: 1rem;
+    line-height: 15px;
+  }
+  .mobilefooter div#logosFooter {
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+  .mobilefooter #logosFooter img {
+    width: 35px;
+    margin-right: 15px;
+  }
+  .mobilefooter select.link.hidden-md-up {
+    padding: 10px 10px;
+    border: 1px solid white;
+    background: black;
+    color: white;
+  }
+  .mobilefooter .currency-selector {
+    padding-top: 0px;
+    padding-left: 60px;
+  }
+  .desktopfooter{
+    display: none;
+  }
+  .mobilefooter{
+    display: block;
+  }
   .contactform {
     width: 80%;
     padding-top: 30px;
@@ -5669,7 +6865,7 @@ div#_desktop_user_info {
     margin-left: 20px;
   }
   span.cart-products-count {
-    margin-left: 5px;
+
     color: white;
   }
 }
@@ -5744,30 +6940,8 @@ div#_desktop_user_info {
   background-color: black;
   height: 20px;
 }
-#joinFam {
-  position: absolute;
-  /* margin-top: 5vh; */
-  margin: auto;
-  /* top: 48%; */
-  /* top: 0%; */
-  /* bottom: 215px; */
-  margin-top: 4vh;
-  /* padding-top: 10px; */
-  /* padding-bottom: 10px; */
-  padding: 12.3px 36.1px 12.3px 42.9px;
-  /* padding-right: 20px; */
-  color: white;
-  left: 50%;
-  background-color: #4c25e3;
-  border-radius: 31px;
-  border: none;
-  /* margin-right: auto; */
-  /* margin-left: auto; */
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-  #joinFam2 {
-    position: absolute;
+  #joinFam {
+    position: relative;
     /* margin-top: 5vh; */
     margin: auto;
     /* top: 48%; */
@@ -5779,14 +6953,36 @@ div#_desktop_user_info {
     padding: 12.3px 36.1px 12.3px 42.9px;
     /* padding-right: 20px; */
     color: white;
-    left: 50%;
+    left: 0;
     background-color: #4c25e3;
     border-radius: 31px;
     border: none;
     /* margin-right: auto; */
     /* margin-left: auto; */
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: none;
+  }
+  #joinFam2 {
+    position: relative;
+    /* margin-top: 5vh; */
+    margin: auto;
+    /* top: 48%; */
+    /* top: 0%; */
+    /* bottom: 215px; */
+    margin-top: 4vh;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    padding: 12.3px 36.1px 12.3px 42.9px;
+    /* padding-right: 20px; */
+    color: white;
+    left: 0;
+    background-color: #4c25e3;
+    border-radius: 31px;
+    border: none;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    -ms-transform: translate(-50%, -50%);
+    transform: none;
   }
 #form {
   background-position-x: 78%;
@@ -5794,37 +6990,15 @@ div#_desktop_user_info {
   background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 37vh;
+  height: fit-content;
 }
 #formDiv {
   width: 55%;
   padding-top: 3%;
   margin: auto;
 }
-.descriptionDiv {
-  width: 73%;
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-.buyForm {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 62%;
-  font-size: 1.5rem;
-}
 
-.needleDescr {
-  width: 110%;
-  text-align: center;
-  font-size: 1.2rem;
-  font-family: 'adelle';
-}
+
 #txtdiv {
   position: absolute;
   top: 20%;
@@ -5974,7 +7148,7 @@ background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/im
 background-repeat: no-repeat;
 background-size: cover;
 background-position: 79%;
-height: 42vh;
+height: fit-content;
 }
 #joinFam {
 margin-top: 4vh;
@@ -5998,6 +7172,46 @@ display: flex;
 
 
 @media screen and (max-width: 770px) and (min-width: 760px){
+  #content3 {
+    position: absolute;
+
+    right: 0px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 200px;
+    transform: translateY(-50%);
+  }
+  #slice3 {
+    height: 100%;
+    width: 30%;
+    position: relative;
+  }
+  #content2 {
+    position: absolute;
+
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
+    transform: translateY(-50%);
+  }
+  #slice2 {
+    height: 100%;
+    width: 25%;
+    position: relative;
+  }
+  #content1 {
+    position: absolute;
+    left: 0px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 279px;
+    transform: translateY(-50%);
+  }
+  #slice1 {
+    height: 100%;
+    width: 38%;
+    position: relative;
+  }
   .cms-id-38 #formTit {
     font-family: 'SairaCondensed';
     text-align: center;
@@ -6141,7 +7355,7 @@ display: flex;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 79%;
-  height: 42vh;
+  height: fit-content;
 }
 #joinFam {
 margin-top: 4vh;
@@ -6156,13 +7370,16 @@ margin-top: 4vh;
   color: white;
   font-size: 2rem;
 }
-#shippingDetails {
-  width: 100%;
-  height: 250px;
-  background-color: white;
-  display: flex;
+  #shippingDetails {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+  }
 }
-}
+
+
 
 @media screen and (max-width: 601px) and (min-width: 599px){
   /* SHOP PAGE */
@@ -6204,10 +7421,7 @@ margin-top: 4vh;
       font-family: 'SairaCondensed';
       font-weight: 700;
   }
-  .needleSpecs {
-    width: 97%;
-    margin-bottom: 15%;
-}
+
 #hrval {
   border: none;
   position: absolute;
@@ -6277,14 +7491,7 @@ p {
 #custom-text {
   padding: 0%;
 }
-.descriptionDiv {
-width: 80%;
-position: absolute;
-top: 10%;
-left: 50%;
--webkit-transform: translateX(-50%);
-transform: translateX(-50%);
-}
+
 .needleTit {
   font-family: 'SairaCondensed';
   font-weight: 700;
@@ -6303,7 +7510,7 @@ background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/im
 background-repeat: no-repeat;
 background-size: cover;
 background-position: 79%;
-height: 42vh;
+height: fit-content;
 }
 #joinFam {
 margin-top: 4vh;
@@ -6324,19 +7531,7 @@ height: 250px;
 background-color: white;
 display: flex;
 }
-.buyNow {
-  font-family: 'adelle-sans';
-  background-color: #4c25e3;
-  color: white;
-  font-weight: 100;
-  width: 110%;
-  border-radius: 50px;
-  padding-top: 5%;
-  padding-bottom: 4%;
-  border: none;
-  outline: none;
-  font-size: 1rem;
-}
+
 #name {
   padding-bottom: 7px;
   color: #454545;
@@ -6373,6 +7568,21 @@ display: flex;
 }
 
 @media screen and (max-width: 700px){
+  .imgdiv {
+    padding-bottom: 50.5%;
+    width: 48.95%;
+  }
+  .buyNow {
+    font-size: 2vw;
+  }
+  .needleDescr {
+    width: 80%;
+    text-align: center;
+    font-family: 'adelle';
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 2vw;
+  }
   #favStyle {
     margin-top: 12px;
     padding: 7px;
@@ -6581,6 +7791,14 @@ display: flex;
 }
 
 @media screen and (max-width: 600px){
+  .imgdiv {
+    padding-bottom: 55.5%;
+    width: 48.95%;
+  }
+  .needleTit {
+    font-size: 5vw;
+    margin-bottom: 10px;
+  }
   .text-sm-center {
     display: flex;
     justify-content: center;
@@ -6635,6 +7853,22 @@ display: flex;
     margin-right: 0px;
   }
 }
+
+
+@media only screen and (max-width: 576px){
+  .order-items.hidden-md-up.box .row.labels {
+    background: #f5f5f5;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-bottom: 5px;
+    font-size: 2vw;
+  }
+  #order-detail h2 {
+    font-size: 3vw;
+  }
+}
+
+
 
 @media screen and (max-width: 545px) and (min-width: 535px){
   /* SHOP PAGE */
@@ -6753,6 +7987,202 @@ p {
 
 
 @media screen and (max-width: 480px){
+  #bagwhite span.cart-products-count {
+    font-size: 2.2vw;
+    margin-top: -1px;
+  }
+  .order-message-form.box .buyNow {
+    font-size: 3vw;
+    margin: auto;
+    display: block;
+  }
+  #order-detail .form-group textarea.form-control {
+    font-size: 3vw;
+  }
+  .order-message-form.box select.form-control.form-control-select {
+    font-size: 3vw;
+    background-position-y: 12px;
+    background-position-x: 98%;
+    background-size: 20px;
+    width: 100%;
+  }
+  .order-message-form.box p {
+    font-size: 3vw;
+  }
+  .order-message-form.box h3 {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 3.5vw;
+  }
+  .message.row {
+    font-size: 3vw;
+  }
+  .box.transporter li {
+    font-family: neue-haas-grotesk-display;
+    font-size: 3.2vw;
+    line-height: 30px;
+    padding-left: 0;
+  }
+  .number {
+    font-size: 3.2vw;
+    line-height: 20px;
+  }
+  .etiqueta {
+    font-size: 3.2vw;
+    line-height: 20px;
+  }
+  .qty {
+    width: 58.33333%;
+  }
+  .row.prod .col-sm-7.col-xs-7.qty .col-xs-4 {
+    margin-left: 4px;
+  }
+  .row.prod .col-sm-7.col-xs-7.qty .col-xs-4.text-sm-left.text-xs-left {
+    margin-left: -8px;
+  }
+  .order-item .ref {
+    font-size: 3vw;
+  }
+  .row.prod .col-sm-7.col-xs-7.qty .col-xs-4 {
+    margin-left: 4px;
+  }
+  .row.prod .col-sm-7.col-xs-7.qty .col-xs-4.text-sm-left.text-xs-left {
+    margin-left: -8px;
+  }
+  .page-order-detail .order-items .order-item .desc .name {
+    font-size: 3vw;
+  }
+  .row.labels .col-xs-4.text-xs-right {
+    margin-left: 13px;
+  }
+  .order-items.hidden-md-up.box .col-xs-4 {
+    font-size: 3vw;
+  }
+  .order-items.hidden-md-up.box .col-xs-4 {
+    font-size: 3vw;
+  }
+  .row.labels .col-xs-4.text-sm-left.text-xs-left {
+    margin-left: -13px;
+  }
+  .row.labels .col-xs-4.text-sm-left.text-xs-left {
+    text-align: center !important;
+    font-size: 3vw;
+  }
+  .order-items .name p {
+    margin-bottom: 0px;
+    font-size: 3vw;
+    color: black;
+  }
+  address {
+    font-size: 3.1vw;
+    line-height: 22px;
+  }
+  .page-order-detail .addresses h4 {
+    font-size: 4vw;
+    font-weight: 700;
+  }
+  .page-order-detail #order-history {
+    background: #f5f5f5;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+  }
+  #order-history tbody td {
+    padding-left: 5px;
+    background: white;
+    padding-right: 5px;
+    text-align: center;
+    font-size: 3vw;
+    border-left: none;
+  }
+  #order-history .thead-default th {
+    font-size: 3.1vw;
+    font-weight: 500;
+    color: black;
+    border-left: 0px solid transparent;
+  }
+  .page-order-detail h3 {
+    font-size: 3.5vw;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  #order-detail h2 {
+    font-size: 4vw;
+    width: 69%;
+  }
+  #order-detail #content {
+    padding: 30px 10px;
+  }
+  #order-infos .buyNow {
+    width: 48%;
+    font-size: 3vw;
+  }
+
+  #order-infos .col-xs-3.text-xs-right {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #order-detail h2 {
+    font-size: 3.5vw;
+  }
+  #order-infos span {
+    font-size: 6vw;
+    color: black;
+  }
+  #order-infos .text-xs-right p {
+    font-size: 3.5vw;
+    margin-bottom: 40px;
+    white-space: nowrap;
+  }
+  .buyNow {
+    display: block;
+    font-family: 'adelle-sans';
+    background-color: #4c25e3;
+    color: white;
+    font-weight: 100;
+    width: 100%;
+    border-radius: 50px;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    border: none;
+    outline: none;
+    font-size: 4vw;
+    margin: auto;
+  }
+  .needleTit {
+    font-family: 'SairaCondensed';
+    font-weight: 700;
+    text-align: center;
+    font-size: 10vw;
+    margin-bottom: 25px;
+    padding-top: 10px;
+  }
+  .needleDescr {
+    width: 80%;
+    text-align: center;
+    font-family: 'adelle';
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 4vw;
+  }
+  #history #wrapper {
+    min-height: 75vh;
+  }
+  #my-account div#logosFooter {
+    padding-left: 0px;
+  }
+  #my-account .currency-selector {
+    padding-left: 25px;
+    padding-top: 0px;
+  }
+  .footerlinks1 {
+    padding-left: 25px;
+    padding-top: 35px;
+  }
+  .mobilefooter .currency-selector {
+    padding-top: 0px;
+    padding-left: 25px;
+  }
   [type=checkbox]:checked + span:before {
     content: '\2714';
     position: absolute;
@@ -6951,14 +8381,7 @@ p {
     object-fit: contain;
     display: flex;
   }
-  .name {
-    padding-left: 10px;
-    padding-top: 3%;
-    font-family: 'adelle-sans';
-    font-size: 3vw;
-    text-align: left;
-    color: #1d1d1f;
-  }
+
   #ele3 {
     border-radius: 10px;
     padding-top: 65%;
@@ -7770,50 +9193,43 @@ width: 93%;
 }
 #tightliner{
   background-image: url('https://dev.revolutionneedles.com/themes/classic/assets/img/tight_linerm.jpg');
-  background-size: contain;
+  background-size: 100% 100%;
 }
 #roundliner{
   
   background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/round_linerm.jpg");
-  background-size: contain;
+  background-size: 100% 100%;
 }
 #straightliner{
   
   background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/straight_linerm.jpg");
-  background-size: contain;
+  background-size: 100% 100%;
 }
 #roundshader{
   
   background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/round_shaderm.jpg");
-  background-size: contain;
+  background-size: 100% 100%;
 }
 #magnum{
   
   background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/magnumm.jpg");
-  background-size: contain;
+  background-size: 100% 100%;
 }
 #softedge{
   
   background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/soft_edge_magnumm.jpg");
-  background-size: contain;
+  background-size: 100% 100%;
 }
 #flatshader{
   
   background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/flat_shaderm.jpg");
-  background-size: contain;
+  background-size: 100% 100%;
 }
 #needleimg{
   background-image: url("https://dev.revolutionneedles.com/themes/classic/assets/img/revolution_tipsm.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
-.needleTit {
-  font-family: 'SairaCondensed';
-  font-weight: 700;
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 2%;
-}
 
 #tattoocarousel {
   display: flex;
@@ -7857,7 +9273,7 @@ width: 93%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 50%;
-  margin-top: 10%;
+  margin-top: 25px;
 }
 
 .descriptionDiv {
@@ -7869,12 +9285,11 @@ width: 93%;
   transform: translateX(-50%);
 }
 
-.imgdiv {
-  margin-bottom: 3%;
-  padding-bottom: 105.5%;
-
-  width: 100%;
-}
+  .imgdiv {
+    margin-bottom: 3%;
+    padding-bottom: 116.5%;
+    width: 100%;
+  }
 .needles {
   width: 100%;
   display: block;
@@ -7954,7 +9369,7 @@ display: none;
   background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 68vh;
+  height: fit-content;
 }
 #accept{
   margin-left: 5%;
@@ -7972,6 +9387,17 @@ display: none;
 }
 
 @media screen and (max-width: 390px) {
+  .imgdiv {
+    margin-bottom: 3%;
+    padding-bottom: 130.5%;
+    width: 100%;
+  }
+  #history #wrapper {
+    min-height: 78vh;
+  }
+  .footerlink p {
+    font-size: 4vw;
+  }
   .cms-id-41 #termos {
     color: #454545;
     margin-top: 20px;
@@ -8053,20 +9479,14 @@ display: none;
 }
 
 /* HOME PAGE */
-#form {
-  width: 98.6%;
-  background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 74vh;
-}
+
 
 #form {
   width: 98.6%;
   background-image: url(https://dev.revolutionneedles.com/themes/classic/assets/img/formbackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 82vh;
+  height: fit-content;
 }
   }
 

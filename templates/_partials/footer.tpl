@@ -22,21 +22,24 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
-<div class="container">
+<div class="container desktopfooter">
   <div class="row">
-    <div class="col-md-6" id="footerleft">
+    <div class="col-md-5" id="footerleft">
       <p>
         © Revolution Needles 2020.<br>
         All rights reserved.
       </p>
-
+      <div id="logosFooter">
+        <a href="https://www.facebook.com/RevolutionNeedles"><img src="https://dev.revolutionneedles.com/themes/classic/assets/img/fb.png"></a>
+        <a href="https://www.instagram.com/revolutionneedles/"><img src="https://dev.revolutionneedles.com/themes/classic/assets/img/insta.png"></a>
+      </div>
     </div>
     {block name='hook_footer_before'}
       {hook h='displayFooterBefore'}
     {/block}
   </div>
 </div>
-<div class="footer-container">
+<div class="footer-container desktopfooter">
   <div class="container">
     <div class="row">
       {block name='hook_footer'}
@@ -49,5 +52,39 @@
       {/block}
     </div>
 
+  </div>
+</div>
+<div class="container mobilefooter">
+  <div class="row">
+    <div class="col-6">
+      {block name='hook_footer_after'}
+        {hook h='displayFooterAfter'}
+      {/block}
+    </div>
+    <div class="col-6">
+      <div id="logosFooter">
+        <a href="https://www.facebook.com/RevolutionNeedles"><img src="https://dev.revolutionneedles.com/themes/classic/assets/img/fb.png"></a>
+        <a href="https://www.instagram.com/revolutionneedles/"><img src="https://dev.revolutionneedles.com/themes/classic/assets/img/insta.png"></a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6">
+      <div class="footerlinks1">
+        <a class="footerlink"><p>About</p></a>
+        <a class="footerlink"><p>Products</p></a>
+        <a class="footerlink"><p>Store</p></a>
+        <a class="footerlink"><p>Pro Team</p></a>
+      </div>
+
+    </div>
+    <div class="col-6">
+      <div class="footerlinks2">
+        <a class="footerlink"><p>Contact</p></a>
+        <a class="footerlink"><p>Terms & Conditions</p></a>
+        <a class="footerlink"><p>Privacy Policy</p></a>
+        <a class="footerlink"><p>Warranties</p></a>
+      </div>
+    </div>
   </div>
 </div>
