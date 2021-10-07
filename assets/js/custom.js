@@ -540,7 +540,7 @@ $('#menos').click(function(){
 		(function() {
 			var div = dom.createElement('div');
 			var prefixes = ['webkit', 'moz'];
-			var gmail = 'https://mail.google.com/mail/images/2/';
+			var gmail = 'https://cdnjs.cloudflare.com/ajax/libs/slider-pro/1.5.0/css/images/';
 			cursorStyles = {
 				grab:     'url('+gmail+'openhand.cur), move',
 				grabbing: 'url('+gmail+'closedhand.cur), move'

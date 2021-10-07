@@ -52,7 +52,19 @@
       </div>
     </div>
   </section>
-
+  {block name='hook_payment_return'}
+    {if ! empty($HOOK_PAYMENT_RETURN)}
+      <section id="content-hook_payment_return" class="card definition-list">
+        <div class="card-block">
+          <div class="row">
+            <div class="col-md-12">
+              {$HOOK_PAYMENT_RETURN nofilter}
+            </div>
+          </div>
+        </div>
+      </section>
+    {/if}
+  {/block}
 
 
   {block name='customer_registration_form'}

@@ -162,6 +162,53 @@
   src: url(../fonts/SairaCondensed/SairaCondensed-Regular.ttf);
   font-weight: 400;
 }
+
+#order-confirmation #content-hook_payment_return .card-block {
+  padding: 0px 20px 40px 20px;
+}
+#order-confirmation p{
+  width: 100%;
+}
+#content-hook_payment_return .col-md-12 {
+  font-size: 0.75vw;
+  line-height: 15px;
+}
+#content-hook_payment_return p {
+  font-size: 0.75vw;
+  line-height: 15px;
+}
+section#content-hook_payment_return {
+  width: 50%;
+  margin: auto;
+  box-shadow: none;
+  border: none;
+}
+#order-details ul li {
+  margin-bottom: .625rem;
+  font-family: 'adelle-sans';
+  font-size: 1vw;
+  color: #222;
+  opacity: 0.6;
+  line-height: 30px;
+}
+#order-items table tr td {
+  padding: 0px;
+  font-size: 1vw;
+  font-weight: 700;
+  font-family: 'adelle-sans';
+  background: white;
+  line-height: 50px;
+}
+#order-confirmation .order-line.row .col-xs-4 {
+  font-size: 1vw;
+  font-weight: 600;
+}
+#order-confirmation #wrapper {
+  min-height: fit-content;
+}
+.order-confirmation-table .col-sm-4.col-xs-9.details span {
+  font-weight: 700;
+}
 #checkout .product-price {
   color: black;
   display: inline-block;
@@ -273,7 +320,7 @@ div#btya {
 }
 .message.row {
   color: black;
-  font-family: 'neue-haas-grotesk-display';
+  font-family: 'adelle-sans';
   font-size: 0.8vw;
 }
 .message.row .col-sm-4 {
@@ -480,7 +527,9 @@ table.table.table-striped.table-bordered.table-labeled.hidden-xs-down {
 #order-history .table-bordered, .table-bordered td, .table-bordered th {
   border: none;
 }
-
+#order-confirmation p#oct {
+  width: 55%;
+}
 #order-infos .buyNow {
   width: 15%;
   padding: 10px 10px;
@@ -509,7 +558,7 @@ table.table.table-striped.table-bordered.table-labeled.hidden-xs-down {
 }
 #order-details ul li {
   margin-bottom: .625rem;
-  font-family: 'neue-haas-grotesk-display';
+  font-family: 'adelle-sans';
   font-size: 0.75vw;
   color: #222;
   opacity: 0.6;
@@ -524,9 +573,9 @@ table.table.table-striped.table-bordered.table-labeled.hidden-xs-down {
 }
 #order-items table tr td {
   padding: 0px;
-  font-size: 0.7vw;
+  font-size: 0.75vw;
   font-weight: 700;
-  font-family: 'neue-haas-grotesk-display';
+  font-family: 'adelle-sans';
   background: white;
 }
 #order-detail #main {
@@ -549,7 +598,7 @@ table.table.table-striped.table-bordered.table-labeled.hidden-xs-down {
   padding-left: 0px;
 }
 #order-confirmation .card-block {
-  padding: 20px 10px;
+  padding: 40px 20px 0px 20px;
 }
 #order-detail h2 {
   font-family: 'adelle-sans';
@@ -576,7 +625,7 @@ table.table.table-striped.table-bordered.table-labeled.hidden-xs-down {
   box-shadow: none;
 }
 #order-confirmation .logintitle {
-  font-size: 45px;
+  font-size: 4vw;
   padding-top: 3%;
   padding-bottom: 2.5%;
   display: block;
@@ -770,7 +819,7 @@ input#email_1185 {
 .info p {
   color: white;
   font-weight: 500;
-  font-family: 'neue-haas-grotesk-display';
+  font-family: 'adelle-sans';
   margin-bottom: 0px;
   font-size: 0.8vw;
 }
@@ -1096,7 +1145,7 @@ input#leo_search_query_top{
 }
 .reviewtxt span {
   color: #fff;
-  font-family: 'neue-haas-grotesk-display';
+  font-family: 'adelle-sans';
   font-size: 0.8vw;
 }
 .reviewtxt img {
@@ -1138,7 +1187,7 @@ input#leo_search_query_top{
 
 }
 .txtagulha p {
-  font-family: neue-haas-grotesk-display;
+  font-family: 'adelle-sans';
   font-weight: 500;
   color: #1d1d1f;
   width: 100%;
@@ -2027,7 +2076,7 @@ a.carousel-control-next {
   background-color: white;
 }
 #leo_search_query_top {
-  font-family: 'neue-haas-grotesk-display';
+  font-family: 'adelle-sans';
 }
 #leo_search_query_top {
   outline: none;
@@ -2323,7 +2372,7 @@ select.form-control.form-control-select.js-country {
   background-color: #000;
   outline: none;
   box-shadow: none;
-  font-family: neue-haas-grotesk-display;
+  font-family: 'adelle-sans';
   border-radius: 20px;
   padding-left: 16%;
   padding-right: 16%;
@@ -4258,6 +4307,10 @@ iframe{
 }
 
 @media screen and (max-width: 1800px) {
+  #order-confirmation .order-line.row .col-xs-4 {
+    font-size: 1.5vw;
+    font-weight: 600;
+  }
   address {
     font-size: 0.9vw;
   }
@@ -4420,7 +4473,41 @@ iframe{
 
 
 @media screen and (max-width: 1500px){
-
+  #content-hook_payment_return p {
+    font-size: 1.1vw;
+    line-height: 20px;
+  }
+  #content-hook_payment_return .col-md-12 {
+    font-size: 1.1vw;
+    line-height: 20px;
+  }
+  #order-details ul li {
+    margin-bottom: .625rem;
+    font-family: 'adelle-sans';
+    font-size: 1.1vw;
+    color: #222;
+    opacity: 0.6;
+  }
+  #order-items table tr td {
+    padding: 0px;
+    font-size: 1.1vw;
+    font-weight: 700;
+    background: white;
+    line-height: 40px;
+  }
+  #oct {
+    color: black;
+    font-family: 'adelle';
+    font-size: 1.1vw;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 70px;
+    line-height: 29px;
+  }
+  #order-confirmation .logintitle {
+    font-size: 4.5vw;
+  }
   .message.row {
     font-size: 1vw;
   }
@@ -4484,7 +4571,7 @@ iframe{
   }
   .reviewtxt span {
     color: #fff;
-    font-family: 'neue-haas-grotesk-display';
+    font-family: 'adelle-sans';
     font-size: 1.2vw;
   }
   .reviewtxt p {
@@ -4499,7 +4586,7 @@ iframe{
     margin-bottom: 25px;
   }
   .txtagulha p {
-    font-family: neue-haas-grotesk-display;
+    font-family: 'adelle-sans';
     font-weight: 500;
     color: #1d1d1f;
     width: 100%;
@@ -4695,7 +4782,41 @@ label.form-control-label.loginName.required {
 
 
 @media screen and (max-width: 1300px){
-
+  #content-hook_payment_return p {
+    font-size: 1.4vw;
+    line-height: 20px;
+  }
+  #content-hook_payment_return .col-md-12 {
+    font-size: 1.4vw;
+    line-height: 20px;
+  }
+  #order-items table tr td {
+    padding: 0px;
+    font-size: 1.4vw;
+    font-weight: 700;
+    background: white;
+    line-height: 50px;
+  }
+  #order-details ul li {
+    margin-bottom: .625rem;
+    font-family: 'adelle-sans';
+    font-size: 1.4vw;
+    color: #222;
+    opacity: 0.6;
+  }
+  #order-confirmation .card-block {
+    padding: 40px 20px 0px 20px;
+  }
+  section#content-hook_payment_return {
+    width: 65%;
+  }
+  #content.page-order-confirmation {
+    width: 65%;
+  }
+  #order-confirmation .order-line.row .col-xs-4 {
+    font-size: 1.7vw;
+    font-weight: 600;
+  }
   .peso {
     display: none;
   }
@@ -5140,7 +5261,7 @@ label.form-control-label.loginName.required {
   }
 
   .txtagulha p {
-    font-family: neue-haas-grotesk-display;
+    font-family: 'adelle-sans';
     font-weight: 500;
     color: #1d1d1f;
     width: 100%;
@@ -5744,6 +5865,77 @@ label.form-control-label.loginName.required {
 
 
 @media screen and (max-width: 1000px){
+  #content-hook_payment_return .row {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #order-confirmation .order-line.row .col-xs-4 {
+    font-size: 2.2vw;
+    font-weight: 600;
+  }
+  #content-hook_payment_return .col-md-12 {
+    padding: 0;
+  }
+  #content-hook_payment_return .col-md-12 {
+    font-size: 2vw;
+    line-height: 20px;
+  }
+  #content-hook_payment_return p {
+    font-size: 2vw;
+    line-height: 20px;
+  }
+
+  section#content-hook_payment_return {
+    width: 80%;
+    margin: auto;
+    box-shadow: none;
+    border: none;
+  }
+  #order-details ul li {
+    margin-bottom: .625rem;
+    font-family: 'adelle-sans';
+    font-size: 2vw;
+    color: #222;
+    opacity: 0.6;
+    line-height: 30px;
+  }
+  #order-items table tr td {
+    padding: 0px;
+    font-size: 2vw;
+    font-weight: 700;
+    background: white;
+    line-height: 50px;
+  }
+  .order-confirmation-table .col-xs-4 {
+    font-weight: 700;
+    font-size: 2vw;
+  }
+  #order-confirmation h2 {
+    font-family: 'SairaCondensed';
+    font-size: 3.8vw;
+    padding-bottom: 10px;
+  }
+  #oct {
+    color: black;
+    font-family: 'adelle';
+    font-size: 1.6vw;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 70px;
+    line-height: 29px;
+  }
+  #order-confirmation .logintitle {
+    font-size: 5.5vw;
+    padding-top: 7%;
+    padding-bottom: 4.5%;
+  }
+  #content.page-order-confirmation {
+    width: 80%;
+    margin: auto;
+    border: none;
+    box-shadow: none;
+  }
   #bagwhite span.cart-products-count {
     font-size: 0.9vw;
     margin-top: 0px;
@@ -6049,11 +6241,11 @@ div#_desktop_user_info {
   }
   .reviewtxt span {
     color: #fff;
-    font-family: 'neue-haas-grotesk-display';
+    font-family: 'adelle-sans';
     font-size: 1.7vw;
   }
   .txtagulha p {
-    font-family: neue-haas-grotesk-display;
+    font-family: 'adelle-sans';
     font-weight: 500;
     color: #1d1d1f;
     width: 100%;
@@ -6635,6 +6827,60 @@ div#_desktop_user_info {
 
 
 @media screen and (max-width: 767px) {
+  #content-hook_payment_return .col-md-12 {
+    font-size: 2.2vw;
+    line-height: 20px;
+  }
+  #content-hook_payment_return p {
+    font-size: 2.2vw;
+    line-height: 20px;
+  }
+  section#content-hook_payment_return {
+    width: 100%;
+  }
+  #order-details ul li {
+    margin-bottom: .625rem;
+    font-family: 'adelle-sans';
+    font-size: 2.2vw;
+    color: #222;
+    opacity: 0.6;
+    line-height: 30px;
+  }
+  #order-items {
+    border-right: 0;
+    margin-bottom: 0px;
+  }
+  #order-items table tr td {
+    padding: 0px;
+    font-size: 2.2vw;
+    font-weight: 700;
+    background: white;
+    line-height: 50px;
+  }
+  #content.page-order-confirmation {
+    width: 100%;
+    margin: auto;
+    border: none;
+    box-shadow: none;
+  }
+  #order-confirmation h2 {
+    font-family: 'SairaCondensed';
+    font-size: 4.5vw;
+    padding-bottom: 10px;
+  }
+  #oct {
+    color: black;
+    font-family: 'adelle';
+    font-size: 2vw;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    line-height: 29px;
+  }
+  #order-confirmation .logintitle {
+    font-size: 6.5vw;
+  }
   .row.labels .col-xs-4.text-xs-right {
     padding-right: 0;
   }
@@ -7715,7 +7961,7 @@ display: flex;
   }
   .reviewtxt span {
     color: #fff;
-    font-family: 'neue-haas-grotesk-display';
+    font-family: 'adelle-sans';
     font-size: 3vw;
     text-align: center;
     width: 100%;
@@ -7774,7 +8020,7 @@ display: flex;
     margin: auto;
   }
   .txtagulha p {
-    font-family: neue-haas-grotesk-display;
+    font-family:'adelle-sans';
     font-weight: 500;
     color: #1d1d1f;
     width: 100%;
@@ -8056,7 +8302,7 @@ p {
     font-size: 3vw;
   }
   .box.transporter li {
-    font-family: neue-haas-grotesk-display;
+    font-family: 'adelle-sans';
     font-size: 3.2vw;
     line-height: 30px;
     padding-left: 0;
@@ -8384,7 +8630,7 @@ p {
     margin: auto;
   }
   .txtagulha p {
-    font-family: neue-haas-grotesk-display;
+    font-family: 'adelle-sans';
     font-weight: 500;
     color: #1d1d1f;
     width: 100%;
