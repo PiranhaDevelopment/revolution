@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Message from {shop_name}</title>
     <link rel="stylesheet" type="text/css" href="https://dev.presta.piranha.com.pt/supplies//mails/themes/classic/assets/email.css">
-    
     <style>
-      /****** responsive ********/
       @media only screen and (max-width: 300px){
         body {
           width:218px !important;
@@ -58,79 +56,91 @@
         .address{display: block !important;margin-bottom: 10px !important;}
         .space_address{display: none !important;}
       }
+      ol {
+  margin:0 0 1.5em;
+  padding:0;
+  counter-reset:item;
+}
+ 
+ol>li {
+  margin:0;
+  text-indent:-2em;
+  list-style-type:none;
+  counter-increment:item;
+}
+ 
+ol>li:before {
+  display:inline-block;
+  width:1.5em;
+  padding-right:0.5em;
+  font-weight:bold;
+  text-align:right;
+  content:counter(item) ".";
+}
     </style>
   </head>
-  <body style="background-color: #ffffff; width: 650px; margin: auto; font-family: 'Open-sans', sans-serif; color: #555454; font-size: 13px; line-height: 18px; -webkit-text-size-adjust: none;" bgcolor="#ffffff" width="650">
-    <table class="table table-mail" style="width: 100%; margin-top: 10px; -moz-box-shadow: 0 0 5px #afafaf; -webkit-box-shadow: 0 0 5px #afafaf; -o-box-shadow: 0 0 5px #afafaf; box-shadow: 0 0 5px #afafaf; filter: progid:DXImageTransform.Microsoft.Shadow(color=#afafaf, Direction=134, Strength=5);" width="100%">
-      <tr>
-        <td id="header-left" class="space" style="width: 20px;" width="20"> </td>
-        <td align="center">
-          <table class="table" bgcolor="#ffffff" style="width: 100%;" width="100%">
-                          <tr>
-  <td align="center" class="logo" style="border-bottom: 4px solid #333333">
-    <a title="{shop_name}" href="{shop_url}" test="{shop_url}" style="color: #337ff1;">
-      <img src="{shop_logo}" alt="{shop_name}">
-    </a>
-  </td>
-</tr>
-            
-            <tr>
-  <td align="center" class="titleblock">
-    <font size="2" face="Open-sans, sans-serif" color="#555454">
-      <span class="title" style="font-weight: 500; font-size: 28px; text-transform: uppercase; line-height: 33px;">Hi {firstname} {lastname},</span>
-    </font>
-  </td>
-</tr>
-<tr>
-  <td class="space_footer" style="padding: 0 !important;"> </td>
-</tr>
-<tr>
-  <td class="box" style="background-color: #f8f8f8; border: 1px solid #D6D4D4;" bgcolor="#f8f8f8">
-    <table class="table" style="width: 100%;" width="100%">
-      <tr>
-        <td width="10"> </td>
-        <td>
-          <font size="2" face="Open-sans, sans-serif" color="#555454">
-            
-              <p style="margin: 3px 0 7px 0; text-transform: uppercase; font-weight: 500; font-size: 18px; padding-bottom: 10px; border-bottom: 1px solid #D6D4D4;">
-                Order {order_name} - Credit slip created
-              </p>
+  <body style="background-color: #ffffff; width: 650px; margin: auto; color: #555454; font-size: 13px; line-height: 18px; -webkit-text-size-adjust: none;" bgcolor="#ffffff" width="650">
 
-            <span style="color: #777777;">
-              We have generated a credit slip in your name for order with the reference <span style="color: #333333;"><strong>{order_name}</strong></span>.
-            </span>
-          </font>
-        </td>
-        <td width="10"> </td>
-      </tr>
-    </table>
-  </td>
-</tr>
+<table class="table" bgcolor="#ffffff" style="width: 100%;" width="100%">
+<tbody>
 <tr>
-  <td class="space_footer" style="padding: 0 !important;"> </td>
-</tr>
-<tr>
-  <td class="linkbelow">
-    <font size="2" face="Open-sans, sans-serif" color="#555454">
-      <span>
-        Review this credit slip and download your invoice on our shop, go to the <a href="{history_url}" target="_blank" style="color: #337ff1;">Credit slips</a> section of your customer account.
-      </span>
-    </font>
-  </td>
+<td align="center" class="logo" style="padding: 0%;" ><a title="{shop_name}" href="{shop_url}" test="{shop_url}" style="color: #337ff1;"> <img src="https://dev.revolutionneedles.com/themes/classic/mails/rev/en/img/image4.png" alt="{shop_name}" style="width: 100%;"/> </a></td>
 </tr>
 
-                          <tr>
-  <td class="space_footer" style="padding: 0 !important;"> </td>
+</tbody>
+</table>
+  
+
+<tr>
+<td class="space_footer" style="padding: 0 !important;">&nbsp;</td>
 </tr>
 <tr>
-  <td class="footer" style="border-top: 4px solid #333333">
-    <span><a href="{shop_url}" style="color: #337ff1;">{shop_name}</a> powered by <a href="https://www.prestashop.com/?utm_source=marchandprestashop&amp;utm_medium=e-mail&amp;utm_campaign=footer_1-7" style="color: #337ff1;">PrestaShop™</a></span>
-  </td>
+<td class="box">
+<table class="table" style="width: 100%;" width="100%">
+<tbody>
+  <tr><td></td></tr>
+  <tr><td></td></tr>
+  <tr><td></td></tr>
+<tr>
+<td width="5%">&nbsp;</td>
+<td>
+<p style=" font-family: helvetica;font-size: 18px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.62;letter-spacing: -0.42px;text-align: left;color: #060608;">Order ID {order_name} - Credit slip</p>
+</td>
 </tr>
-                      </table>
-        </td>
-        <td id="footer-right" class="space" style="width: 20px;" width="20"> </td>
-      </tr>
-    </table>
-  </body>
-</html>
+</tbody>
+</table >
+<table class="table" style="width: 100%;" width="100%">
+  <tbody>
+    <tr>
+      <td width="2%"></td>
+      <td width="96%"  style="background-color: #efefef;padding: 3%;border-radius: 10px;">
+<span size="2" face="Open-sans, sans-serif" color="#555454" style="font-family:helvetica;margin: 0;margin-bottom: 0;padding: 0;font-size: 18px;line-height: 1.62;letter-spacing: -0.42px;">A credit slip has been generated in your name for order with the
+reference <b>{order_name}</b>.  </span></td>
+<td width="2%"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="space_footer" style="padding: 0 !important;">&nbsp;</td>
+</tr>
+<tr>
+<td class="box" >
+
+<table class="table" style="width: 100%;" width="100%">
+  <tbody>
+    <tr><td></td></tr>
+    <tr><td></td></tr>
+    <tr><td></td></tr>
+  <tr>
+  <td width="5%"></td>
+  <td width="90%">
+    <p style=" font-family: helvetica;font-size: 18px;font-weight: 100;font-stretch: normal;font-style: normal;line-height: 1.62;letter-spacing: -0.42px;text-align: left;padding-bottom: 10%;color: #060608;">Review this credit slip and download your invoice on our shop, go
+      to the Credit slips section of your customer account. </p>
+    </td>
+  <td width="5%"></td>
+  </tr>
+  </tbody>
+  </table>
+ 

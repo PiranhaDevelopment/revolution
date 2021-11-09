@@ -1,24 +1,39 @@
 <div style="background-color: black">
-<h1>PROUDLY DEVELOPED IN PORTUGAL,<br>
+<h1 data-sal="slide-up"
+    style="--sal-duration: 1s; --sal-delay: 0s;"
+    data-sal-easing="ease-out-back">PROUDLY DEVELOPED IN PORTUGAL,<br>
     EXPORTED TO THE WORLD.</h1>
 <div id="meet4google">
-    <div id="map"></div>
-    <script
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzWZ5WxpIjAIbwghq_SgUIPHOY8IH7d70&callback=initMap&libraries=&v=weekly" async></script>
+    <div data-sal="slide-up"
+         style="--sal-duration: 1s; --sal-delay: 0s;"
+         data-sal-easing="ease-out-back" id="map"></div>
+
 </div>
     <div class="container info">
         <div class="row">
             <div class="col-md-5 col-lg-5 col-xl-5">
-                <p><b>Revolution Needles,</b></p>
-                <p>A Piranha Global Lda. brand.</p>
+                <p data-sal="slide-up"
+                   style="--sal-duration: 1s; --sal-delay: 0s;"
+                   data-sal-easing="ease-out-back"><b>Revolution Needles,</b></p>
+                <p data-sal="slide-up"
+                   style="--sal-duration: 1s; --sal-delay: 0s;"
+                   data-sal-easing="ease-out-back">A Piranha Global Lda. brand.</p>
             </div>
             <div class="col-md-4 col-lg-4 col-xl-4">
-                <p><b>Telefone</b></p>
-                <p>(+351) 232 468 548</p>
+                <p data-sal="slide-up"
+                   style="--sal-duration: 1s; --sal-delay: 0s;"
+                   data-sal-easing="ease-out-back"><b>Telefone</b></p>
+                <p data-sal="slide-up"
+                   style="--sal-duration: 1s; --sal-delay: 0s;"
+                   data-sal-easing="ease-out-back">(+351) 232 468 548</p>
             </div>
             <div class="col-md-3 col-lg-3 col-xl-3">
-                <p><b>WhatsApp</b></p>
-                <p>(+351) 966 782 948</p>
+                <p data-sal="slide-up"
+                   style="--sal-duration: 1s; --sal-delay: 0s;"
+                   data-sal-easing="ease-out-back"><b>WhatsApp</b></p>
+                <p data-sal="slide-up"
+                   style="--sal-duration: 1s; --sal-delay: 0s;"
+                   data-sal-easing="ease-out-back">(+351) 966 782 948</p>
             </div>
         </div>
         <div class="row spacer">
@@ -26,23 +41,39 @@
         </div>
         <div class="row">
             <div class="col-md-5 col-lg-5 col-xl-5">
-                <p><b>Address</b></p>
-                <p>Coimbrões Industrial Park, Lot 71 / 3500-618 Viseu / Portugal</p>
+                <p data-sal="slide-up"
+                   style="--sal-duration: 1s; --sal-delay: 0s;"
+                   data-sal-easing="ease-out-back"><b>Address</b></p>
+                <p data-sal="slide-up"
+                   style="--sal-duration: 1s; --sal-delay: 0s;"
+                   data-sal-easing="ease-out-back">Coimbrões Industrial Park, Lot 71 / 3500-618 Viseu / Portugal</p>
             </div>
             <div class="col-md-4 col-lg-4 col-xl-4">
-                <p><b>Telemóvel</b></p>
-                <p>(+351) 966 782 948 / 50</p>
+                <p data-sal="slide-up"
+                   style="--sal-duration: 1s; --sal-delay: 0s;"
+                   data-sal-easing="ease-out-back"><b>Telemóvel</b></p>
+                <p data-sal="slide-up"
+                   style="--sal-duration: 1s; --sal-delay: 0s;"
+                   data-sal-easing="ease-out-back">(+351) 966 782 948 / 50</p>
             </div>
             <div class="col-md-3 col-lg-3 col-xl-3">
-                <p><b>Email</b></p>
-                <p>info@revolutionneedles.com</p>
+                <p data-sal="slide-up"
+                   style="--sal-duration: 1s; --sal-delay: 0s;"
+                   data-sal-easing="ease-out-back"><b>Email</b></p>
+                <p data-sal="slide-up"
+                   style="--sal-duration: 1s; --sal-delay: 0s;"
+                   data-sal-easing="ease-out-back">info@revolutionneedles.com</p>
             </div>
         </div>
     </div>
     <div class="contactform">
-        <h1>GOT QUESTIONS?<br>
+        <h1 data-sal="slide-up"
+            style="--sal-duration: 1s; --sal-delay: 0s;"
+            data-sal-easing="ease-out-back">GOT QUESTIONS?<br>
             DROP US A LINE.</h1>
-        <form method="post" enctype="multipart/form-data" action="https://22.e-goi.com//w/de24e3V1le4P40yUAWwe968c2bf0" id="ctform" target="dummyframe2">
+        <form data-sal="slide-up"
+              style="--sal-duration: 1s; --sal-delay: 0s;"
+              data-sal-easing="ease-out-back" method="post" enctype="multipart/form-data" action="https://22.e-goi.com//w/de24e3V1le4P40yUAWwe968c2bf0" id="ctform" >
             <input type="hidden" name="lista" value="13">
             <input type="hidden" name="cliente" value="846080">
             <input type="hidden" name="lang" id="lang_id" value="en">
@@ -284,4 +315,8 @@
         });
     }
 </script>
+    <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzWZ5WxpIjAIbwghq_SgUIPHOY8IH7d70&callback=initMap&libraries=&v=weekly" async>
+
+    </script>
 </div>

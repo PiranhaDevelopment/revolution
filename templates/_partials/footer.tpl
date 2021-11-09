@@ -71,19 +71,21 @@
   <div class="row">
     <div class="col-6">
       <div class="footerlinks1">
-        <a class="footerlink"><p>About</p></a>
-        <a class="footerlink"><p>Products</p></a>
-        <a class="footerlink"><p>Store</p></a>
-        <a class="footerlink"><p>Pro Team</p></a>
+        <a class="footerlink" href="https://dev.revolutionneedles.com/content/38-about"><p>About</p></a>
+        <a class="footerlink" href="https://dev.revolutionneedles.com/content/39-products"><p>Products</p></a>
+        <a class="footerlink" href="https://dev.revolutionneedles.com/content/40-pro-team"><p>Pro Team</p></a>
+        <a class="footerlink" href="https://dev.revolutionneedles.com/content/41-contact"><p>Contact</p></a>
+        <a class="footerlink" href="https://dev.revolutionneedles.com/home/361-revolution-needles.html"><p>Shop</p></a>
       </div>
 
     </div>
     <div class="col-6">
       <div class="footerlinks2">
-        <a class="footerlink"><p>Contact</p></a>
-        <a class="footerlink"><p>Terms & Conditions</p></a>
-        <a class="footerlink"><p>Privacy Policy</p></a>
-        <a class="footerlink"><p>Warranties</p></a>
+        <a class="footerlink" href="https://dev.revolutionneedles.com/content/24-terms-conditions"><p>Terms & Conditions</p></a>
+        <a class="footerlink" href="https://dev.revolutionneedles.com/content/22-cookies-policy"><p>Cookies Policy</p></a>
+        <a class="footerlink" href="https://dev.revolutionneedles.com/content/101-privacy-policy"><p>Privacy Policy</p></a>
+        <a class="footerlink" href="https://dev.revolutionneedles.com/content/103-consumption-conflicts"><p>Conflicts</p></a>
+        <a class="footerlink" href="https://www.livroreclamacoes.pt/inicio"><p>Complaint Book</p></a>
       </div>
     </div>
   </div>

@@ -29,6 +29,7 @@
 {/block}
 
 {block name='page_content'}
+  <h1 class="logintitle2">RECOVER YOUR PASSWORD</h1>
   <form action="{$urls.pages.password}" class="forgotten-password" method="post">
 
     <ul class="ps-alert-error">
@@ -50,8 +51,8 @@
 
     <section class="form-fields">
       <div class="form-group center-email-fields">
-        <label class="col-md-3 form-control-label required">{l s='Email address' d='Shop.Forms.Labels'}</label>
-        <div class="col-md-5 email">
+        <label class="form-control-label required">{l s='Email address' d='Shop.Forms.Labels'}</label>
+        <div class=" email">
           <input type="email" name="email" id="email" value="{if isset($smarty.post.email)}{$smarty.post.email|stripslashes}{/if}" class="form-control" required>
         </div>
         <button class="form-control-submit btn btn-primary hidden-xs-down" name="submit" type="submit">

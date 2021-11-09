@@ -22,55 +22,93 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
-{block name='header'}
-  {block name='header_nav'}
-    <nav class="header-nav">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 hidden-sm-down" id="_desktop_logo">
-            <a href="{$urls.base_url}">
-              <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name} {l s='logo' d='Shop.Theme.Global'}">
-            </a>
-          </div>
-          <div class="col-md-6 text-xs-right hidden-sm-down">
-            {hook h='displayNav1'}
-          </div>
-          <div class="hidden-md-up text-sm-center mobile">
-            {hook h='displayNav2'}
-            <div class="float-xs-left" id="menu-icon">
-              <i class="material-icons">&#xE5D2;</i>
-            </div>
-            <div class="float-xs-right" id="_mobile_cart"></div>
-            <div class="float-xs-right" id="_mobile_user_info"></div>
-            <div class="top-logo" id="_mobile_logo"></div>
-            <div class="clearfix"></div>
-          </div>
-        </div>
-      </div>
-    </nav>
-  {/block}
 
-  {block name='header_top'}
-    <div class="header-top hidden-md-up">
-      <div class="container">
-         <div class="row">
-          <div class="col-sm-12">
-            <div class="row">
-              {hook h='displayTop'}
-              <div class="clearfix"></div>
-            </div>
-          </div>
-        </div>
-        <div id="mobile_top_menu_wrapper" class="row hidden-md-up" style="display:none;">
-          <div class="js-top-menu mobile" id="_mobile_top_menu"></div>
-          <div class="js-top-menu-bottom">
-            <div id="_mobile_currency_selector"></div>
-            <div id="_mobile_language_selector"></div>
-            <div id="_mobile_contact_link"></div>
-          </div>
+
+<!-- ONLY FOR DESKTOP -->
+
+{hook h='displayHeader'}
+
+<!-- ONLY FOR MOBILE -->
+{block name='header_nav_desktop'}
+<div id="header">
+  <div class="topheaderblack">
+    <div class="topheaderblackdesktop">
+      <div id="leftlogobox">
+        <a href="{$urls.base_url}"><img src="/themes/classic/assets/img/logo.svg"></a>
+      </div>
+      <div id="centerlogobox">
+        {hook h='displayNav1'}
+      </div>
+      <div id="displaynav2">
+        <div id="displaynav2items">
+          {hook h='displayNav2'}
         </div>
       </div>
     </div>
-    {hook h='displayNavFullWidth'}
+    <div class="topheaderblackmobile">
+      <div id="centerlogobox">
+        {hook h='displayNavFullWidth'}
+      </div>
+      <div id="leftlogobox">
+        <a href="{$urls.base_url}"><img src="/themes/classic/assets/img/logo.svg"></a>
+      </div>
+      <div id="displaynav2">
+        <div id="displaynav2items">
+          {hook h='displayNav2'}
+        </div>
+      </div>
+    </div>
+  </div>
   {/block}
-{/block}
+  <div class="container">
+    <div id="carouselContent" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active text-center p-4">
+          {if $language.id == 1}
+            <p>Join <b>Piranha Black!</b> Exclusive Benefits made just for you.</p>
+          {else}
+            <p>Junta-te à <b>Piranha Black!</b> Benefícios exclusivos feitos a pensar em ti.</p>
+          {/if}
+        </div>
+        <div class="carousel-item text-center p-4">
+          {if $language.id == 1}
+            <p>Fast Delivery - Up to 48H working days (PT and ES)</p>
+          {else}
+            <p>Entrega rápida - Até 48 horas em dias úteis (PT e ES)</p>
+          {/if}
+        </div>
+        <div class="carousel-item text-center p-4">
+          {if $language.id == 1}
+            <p>Free shipping above 50€ (Gift Cards not included)</p>
+          {else}
+            <p>Entrega grátis a partir de 50€ (Gift Cards não incluídos)</p>
+          {/if}
+        </div>
+        <div class="carousel-item text-center p-4">
+          {if $language.id == 1}
+            <p>Worldwide Shipping - Safe Payment Methods</p>
+          {else}
+            <p>Worldwide Shipping - Métodos de pagamento seguros</p>
+          {/if}
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <div id="headerbottom">
+    {hook h='displayNav'}
+  </div>
+</div>
+
+
+<script>
+  var lang = {$language.id};
+</script>

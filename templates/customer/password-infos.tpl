@@ -31,20 +31,29 @@
 {block name='page_content'}
   <ul class="ps-alert-success">
     {foreach $successes as $success}
-      <li class="item">
+      <h1 class="logintitle2">RECOVER YOUR PASSWORD</h1>
+      <div class="forgotten-password" >
+
+        <p class="fp">{$success}</p>
+
+
+      </div>
+<!--      <li class="item">
         <i>
           <svg viewBox="0 0 24 24">
             <path fill="#fff" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" />
           </svg>
         </i>
         <p>{$success}</p>
-      </li>
+      </li>-->
+      
     {/foreach}
   </ul>
 {/block}
 
 {block name='page_footer'}
-  <ul>
-    <li><a href="{$urls.pages.authentication}">{l s='Back to Login' d='Shop.Theme.Actions'}</a></li>
-  </ul>
+  <a href="{$urls.pages.my_account}" class="account-link">
+    <i class="material-icons">&#xE5CB;</i>
+    <span>{l s='Back to login' d='Shop.Theme.Actions'}</span>
+  </a>
 {/block}

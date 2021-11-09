@@ -51,22 +51,23 @@
 {block name='content'}
   <section id="main" itemscope itemtype="https://schema.org/Product">
     <meta itemprop="url" content="{$product.url}">
-
+<p class="mobiletitle">HIGH QUALITY TATTOO NEEDLES</p>
     <div class="row product-container">
-      <div class="col-md-6">
+      <div class="col-lg-6 col-md-12">
       {foreach from=$product.grouped_features item=feature}
               {if $feature.name=="Brief"}
-            <h5 class="h6">{$feature.value|escape:'htmlall'|nl2br nofilter}</h5>
+
             {/if}
           {/foreach}
         {block name='page_content_container'}
           <section class="page-content" id="content">
             {block name='page_content'}
               {include file='catalog/_partials/product-flags.tpl'}
-
+            <div id="thumbsdeskttop">
               {block name='product_cover_thumbnails'}
                 {include file='catalog/_partials/product-cover-thumbnails.tpl'}
               {/block}
+            </div>
               <div class="scroll-box-arrows" style= "display:none">
                 <i class="material-icons left">&#xE314;</i>
                 <i class="material-icons right">&#xE315;</i>
@@ -76,10 +77,10 @@
           </section>
         {/block}
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-12 configurador">
           {block name='page_header_container'}
             {block name='page_header'}
-              <h1 class="h1" itemprop="name">{block name='page_title'}{$product.name}{/block}</h1>
+              <h1  class="h1" itemprop="name">{block name='page_title'}{$product.name}{/block}</h1>
               {foreach from=$product.grouped_features item=feature}
               {if $feature.name=="Notes"}
             <h4 class="h4">{$feature.value|escape:'htmlall'|nl2br nofilter}</h4>
@@ -144,8 +145,6 @@
             </div>
            {block name='product_out_of_stock'}
     <div class="product-out-of-stock">
-    <p class="outstock">OUT OF STOCK<h4>
-    <p class="outofstock2">Be informed by email when this product is back in stock</p>
       {hook h='actionProductOutOfStock' product=$product}
     </div>
   {/block}
@@ -163,17 +162,13 @@
   
 
 
-<div id="textBox">
+<div  id="textBox">
 {$product.description_short nofilter}
 </div>
 <p id="lermais">Ler mais</p>
 <!--{block name='description'}
 {foreach from=$product.grouped_features item=feature}
               {if $feature.name=="descrição"}-->
-              
-           
-           
-           
            <!-- {/if}
           {/foreach}
   {/block}-->
@@ -181,7 +176,7 @@
 
 <!-- ELIMINAR ESTA DROPDOWN -->
 {block name='dropdowns'}
-<div id="dropdowns">
+<div  id="dropdowns">
 
 
   <div class="dropdown1">
@@ -225,75 +220,7 @@
    <div id="someWork2">
 
 </div>
-{block name='someWorkImg2'}
-    <div class="someWorkImg2">
-    <div id="imgs">
-      {foreach from=$product.images item=image}
-            {if $image@iteration == 2 }
 
-            <div class="image">
-            <img
-              class="image1"
-              data-image-medium-src="{$image.bySize.medium_default.url}"
-              data-image-large-src="{$image.bySize.large_default.url}"
-              src="{$image.bySize.home_default.url}"
-              alt="{$image.legend}"
-              title="{$image.legend}"
-              width="100"
-              itemprop="image"
-            >
-            </div>
-            
-            {elseif $image@iteration == 3}
-            <div class="image">
-            <img
-              class="image1"
-              data-image-medium-src="{$image.bySize.medium_default.url}"
-              data-image-large-src="{$image.bySize.large_default.url}"
-              src="{$image.bySize.home_default.url}"
-              alt="{$image.legend}"
-              title="{$image.legend}"
-              width="100"
-              itemprop="image"
-            >
-            </div>
-
-            {elseif $image@iteration == 4}
-
-            <div class="image">
-            <img
-              class="image1"
-              data-image-medium-src="{$image.bySize.medium_default.url}"
-              data-image-large-src="{$image.bySize.large_default.url}"
-              src="{$image.bySize.home_default.url}"
-              alt="{$image.legend}"
-              title="{$image.legend}"
-              width="100"
-              itemprop="image"
-            >
-            </div>
-            
-             {elseif $image@iteration == 5}
-             <div class="image">
-            <img
-              class="image1"
-              data-image-medium-src="{$image.bySize.medium_default.url}"
-              data-image-large-src="{$image.bySize.large_default.url}"
-              src="{$image.bySize.home_default.url}"
-              alt="{$image.legend}"
-              title="{$image.legend}"
-              width="100"
-              itemprop="image"
-            >
-            </div>
-
-
-  {/if}
-
-        {/foreach}
-        </div>
-    </div>
-  {/block}
 
             {block name='hook_display_reassurance'}
               {hook h='displayReassurance'}
@@ -386,13 +313,16 @@
         </div>
       </div>
     </div>
-
+      {block name='product_cover_thumbnail2'}
+          {include file='catalog/_partials/product-cover-thumbnails.tpl'}
+      {/block}
     {block name='product_accessories'}
       {if $accessories}
+          <p class="h5 text-uppercase shopAlsoTit mobileshop">{l s='Shop Also:' d='Shop.Theme.Catalog'}</p>
         <section class="product-accessories shopAlso clearfix">
-          <p class="h5 text-uppercase shopAlsoTit">{l s='Shop Also:' d='Shop.Theme.Catalog'}</p>
+          <p  class="h5 text-uppercase shopAlsoTit">{l s='Shop Also:' d='Shop.Theme.Catalog'}</p>
           <div class="productsSlider">
-          <div class="products" itemscope itemtype="http://schema.org/ItemList">
+          <div  class="products" itemscope itemtype="http://schema.org/ItemList">
             {foreach from=$accessories item="product_accessory" key="position"}
               {block name='product_miniature'}
                 {include file='catalog/_partials/miniatures/product.tpl' product=$product_accessory position=$position}

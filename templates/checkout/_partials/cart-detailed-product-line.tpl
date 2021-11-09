@@ -136,7 +136,7 @@
               />
             {/if}
           </div>
-          <div class="col-md-6 col-xs-2 price">
+          <div class="col-md-6 col-xs-6 price">
             <span class="product-price">
               <strong>
                 {if isset($product.is_gift) && $product.is_gift}

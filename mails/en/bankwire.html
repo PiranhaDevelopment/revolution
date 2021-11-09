@@ -8,6 +8,20 @@
     
     <style>
       /****** responsive ********/
+      @font-face {
+      font-family: worksans;
+      src: url('https://dev.revolutionneedles.com/themes/classic/mails/pt/fonts/worksans/WorkSans-Regular.ttf');
+}
+      @font-face {
+      font-family: worksans;
+      src: url('https://dev.revolutionneedles.com/themes/classic/mails/pt/fonts/worksans/WorkSans-Bold');
+      font-weight: bold;
+}
+@font-face {
+      font-family: monumentExtended;
+      src: url('https://dev.revolutionneedles.com/themes/classic/mails/pt/fonts/monumentextended/MonumentExtendedRegular.ttf');
+}
+
       @media only screen and (max-width: 300px){
         body {
           width:218px !important;
@@ -58,117 +72,113 @@
         .address{display: block !important;margin-bottom: 10px !important;}
         .space_address{display: none !important;}
       }
+      ol {
+  margin:0 0 1.5em;
+  padding:0;
+  counter-reset:item;
+}
+ 
+ol>li {
+  margin:0;
+  text-indent:-2em;
+  list-style-type:none;
+  counter-increment:item;
+}
+ 
+ol>li:before {
+  display:inline-block;
+  width:1.5em;
+  padding-right:0.5em;
+  font-weight:bold;
+  text-align:right;
+  content:counter(item) ".";
+}
     </style>
   </head>
-  <body style="background-color: #ffffff; width: 650px; margin: auto; font-family: 'Open-sans', sans-serif; color: #555454; font-size: 13px; line-height: 18px; -webkit-text-size-adjust: none;" bgcolor="#ffffff" width="650">
-    <table class="table table-mail" style="width: 100%; margin-top: 10px; -moz-box-shadow: 0 0 5px #afafaf; -webkit-box-shadow: 0 0 5px #afafaf; -o-box-shadow: 0 0 5px #afafaf; box-shadow: 0 0 5px #afafaf; filter: progid:DXImageTransform.Microsoft.Shadow(color=#afafaf, Direction=134, Strength=5);" width="100%">
-      <tr>
-        <td id="header-left" class="space" style="width: 20px;" width="20"> </td>
-        <td align="center">
-          <table class="table" bgcolor="#ffffff" style="width: 100%;" width="100%">
-                          <tr>
-  <td align="center" class="logo" style="border-bottom: 4px solid #333333">
-    <a title="{shop_name}" href="{shop_url}" test="{shop_url}" style="color: #337ff1;">
-      <img src="{shop_logo}" alt="{shop_name}">
-    </a>
-  </td>
-</tr>
-            
-            <tr>
-  <td align="center" class="titleblock">
-    <font size="2" face="Open-sans, sans-serif" color="#555454">
-      <span class="title" style="font-weight: 500; font-size: 28px; text-transform: uppercase; line-height: 33px;">Hi {firstname} {lastname},</span><br>
-      <span class="subtitle" style="font-weight: 500; font-size: 16px; text-transform: uppercase; line-height: 25px;">Thank you for shopping with {shop_name}!</span>
-    </font>
-  </td>
-</tr>
-<tr>
-  <td class="space_footer" style="padding: 0 !important;"> </td>
-</tr>
-<tr>
-  <td class="box" style="background-color: #f8f8f8; border: 1px solid #D6D4D4;" bgcolor="#f8f8f8">
-    <table class="table" style="width: 100%;" width="100%">
-      <tr>
-        <td width="10"> </td>
-        <td>
-          <font size="2" face="Open-sans, sans-serif" color="#555454">
-            
-              <p style="margin: 3px 0 7px 0; text-transform: uppercase; font-weight: 500; font-size: 18px; padding-bottom: 10px; border-bottom: 1px solid #D6D4D4;">
-                Order {order_name} - Awaiting wire payment
-              </p>
+  <body style="background-color: #ffffff; width: 650px; margin: auto; color: #555454; font-size: 13px; line-height: 18px; -webkit-text-size-adjust: none;" bgcolor="#ffffff" width="650">
 
-            <span style="color: #777777;">
-              Your order with the reference <span style="color: #333333;"><strong>{order_name}</strong></span> has been placed successfully and will be <span style="color: #333333;"><strong>shipped as soon as we receive your payment</strong></span>.
-            </span>
-          </font>
-        </td>
-        <td width="10"> </td>
-      </tr>
-    </table>
-  </td>
-</tr>
+<table class="table" bgcolor="#ffffff" style="width: 100%;" width="100%">
+<tbody>
 <tr>
-  <td class="space_footer" style="padding: 0 !important;"> </td>
-</tr>
-<tr>
-  <td class="box" style="background-color: #f8f8f8; border: 1px solid #D6D4D4;" bgcolor="#f8f8f8">
-    <table class="table" style="width: 100%;" width="100%">
-      <tr>
-        <td width="10"> </td>
-        <td>
-          <font size="2" face="Open-sans, sans-serif" color="#555454">
-            <p style="margin: 3px 0 7px 0; text-transform: uppercase; font-weight: 500; font-size: 18px; padding-bottom: 10px; border-bottom: 1px solid #D6D4D4;">
-              You have selected to pay by wire transfer.
-            </p>
-            <span style="color: #777777;">
-              Here are the bank details for your transfer:<br>
-              <span style="color: #333333;"><strong>Amount:</strong></span> {total_paid}<br>
-              <span style="color: #333333;"><strong>Account owner:</strong></span> {bankwire_owner}<br>
-              <span style="color: #333333;"><strong>Account details:</strong></span> {bankwire_details}<br>
-              <span style="color: #333333;"><strong>Bank address:</strong></span> {bankwire_address}<br>
-                            Please specify your order reference in the bankwire description.
-            </span>
-          </font>
-        </td>
-        <td width="10"> </td>
-      </tr>
-    </table>
-  </td>
-</tr>
-<tr>
-  <td class="space_footer" style="padding: 0 !important;"> </td>
-</tr>
-<tr>
-  <td class="linkbelow">
-    <font size="2" face="Open-sans, sans-serif" color="#555454">
-      <span>
-        Follow your order and download your invoice on our shop, go to the <a href="{history_url}" target="_blank" style="color: #337ff1;">Order history and details</a> section of your customer account.
-      </span>
-    </font>
-  </td>
-</tr>
-<tr>
-  <td class="linkbelow">
-    <font size="2" face="Open-sans, sans-serif" color="#555454">
-      <span>
-        If you have a guest account, you can follow your order via the <a href="{guest_tracking_url}" target="_blank" style="color: #337ff1;">Guest Tracking</a> section on our shop.
-      </span>
-    </font>
-  </td>
+<td align="center" class="logo" style="padding: 0%;" ><a title="{shop_name}" href="{shop_url}" test="{shop_url}" style="color: #337ff1;"> <img src="https://dev.revolutionneedles.com/themes/classic/mails/rev/en/img/image2.png" alt="{shop_name}" style="width: 100%;"/> </a></td>
 </tr>
 
-                          <tr>
-  <td class="space_footer" style="padding: 0 !important;"> </td>
+</tbody>
+</table>
+  
+
+<tr>
+<td class="space_footer" style="padding: 0 !important;">&nbsp;</td>
 </tr>
 <tr>
-  <td class="footer" style="border-top: 4px solid #333333">
-    <span><a href="{shop_url}" style="color: #337ff1;">{shop_name}</a> powered by <a href="https://www.prestashop.com/?utm_source=marchandprestashop&amp;utm_medium=e-mail&amp;utm_campaign=footer_1-7" style="color: #337ff1;">PrestaShop™</a></span>
-  </td>
+<td class="box">
+<table class="table" style="width: 100%;" width="100%">
+<tbody>
+
+<tr>
+<td width="5%">&nbsp;</td>
+<td>
+<p style="padding-top: 3%; font-family: helvetica;font-size: 18px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.62;letter-spacing: -0.42px;text-align: left;color: #060608;">Order ID {order_name} - Pending payment</p>
+</td>
 </tr>
-                      </table>
-        </td>
-        <td id="footer-right" class="space" style="width: 20px;" width="20"> </td>
-      </tr>
-    </table>
-  </body>
-</html>
+</tbody>
+</table >
+<table class="table" style="width: 100%;" width="100%">
+  <tbody>
+    <tr>
+      <td width="2%"></td>
+      <td width="96%"  style="background-color: #efefef;padding: 3%;border-radius: 10px;">
+<span size="2" face="Open-sans, sans-serif" color="#555454" style="font-family:helvetica;margin: 0;margin-bottom: 0;padding: 0;font-size: 18px;line-height: 1.62;letter-spacing: -0.42px;">Your order with the reference {order_name} has been placed successfully. You can expect delivery as soon as your payment is received. </span></td>
+<td width="2%"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="space_footer" style="padding: 0 !important;">&nbsp;</td>
+</tr>
+<tr>
+<td class="box" >
+<table class="table" style="width: 100%;" width="100%">
+<tbody>
+  <tr><td></td></tr>
+  <tr><td></td></tr>
+<tr>
+<td width="5%">&nbsp;</td>
+<td>
+<p style="font-family: helvetica;font-size: 18px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.62;letter-spacing: -0.42px;text-align: left;color: #060608;">Payment method: bank wire</p>
+</td>
+</tr>
+</tbody>
+</table >
+<table class="table" style="width: 100%;" width="100%">
+<tbody>
+<tr>
+<td width="2%"></td>
+<td width="96%"  style="background-color: #efefef;padding: 3%;border-radius: 10px; padding-right: 12% !important;">
+    <span size="2" face="Open-sans, sans-serif" color="#555454" style="font-family:helvetica;margin: 0;margin-bottom: 0;padding: 0;font-size: 18px;line-height: 1.62;letter-spacing: -0.42px;">You have decided to pay by bank wire. Here is the information
+you need for your transfer:<br><br> <b>Amount: </b> {total_paid}<br><b>Account owner:</b> {bankwire_owner}<br><b>Account details: </b> {bankwire_details}<br><b>Bank address: </b> {bankwire_address}<br><br>Please specify your order reference in the bankwire description.  </span></td>
+  </td>
+<td width="2%"></td>
+</tr>
+</tbody>
+</table>
+<table class="table" style="width: 100%;" width="100%">
+  <tbody>
+    <tr><td></td></tr>
+    <tr><td></td></tr>
+    <tr><td></td></tr>
+  <tr>
+  <td width="5%"></td>
+  <td width="90%">
+    <p style=" font-family: helvetica;font-size: 18px;font-weight: 100;font-stretch: normal;font-style: normal;line-height: 1.62;letter-spacing: -0.42px;text-align: left;padding-bottom: 10%;color: #060608;">To follow your order and download your invoice on our shop, go
+      to the Order history and details section of your customer
+      account <br><br>If you have a guest account, you can follow your order via the
+      Guest Tracking section on our shop.</p>
+    </td>
+  <td width="5%"></td>
+  </tr>
+  </tbody>
+  </table>
+ 

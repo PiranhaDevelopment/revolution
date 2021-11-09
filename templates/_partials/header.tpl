@@ -64,32 +64,16 @@
             <div id="carouselContent" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active text-center p-4">
-                        {if $language.id == 1}
-                            <p>Join <b>Piranha Black!</b> Exclusive Benefits made just for you.</p>
-                        {else}
-                            <p>Junta-te à <b>Piranha Black!</b> Benefícios exclusivos feitos a pensar em ti.</p>
-                        {/if}
+                        <p>Fast Delivery - Up to 48H working days (PT and ES)</p>
                     </div>
                     <div class="carousel-item text-center p-4">
-                        {if $language.id == 1}
-                            <p>Fast Delivery - Up to 48H working days (PT and ES)</p>
-                        {else}
-                            <p>Entrega rápida - Até 48 horas em dias úteis (PT e ES)</p>
-                        {/if}
+                        <p>Worldwide Shipping - Safe Payment Methods</p>
                     </div>
                     <div class="carousel-item text-center p-4">
-                        {if $language.id == 1}
-                            <p>Free shipping above 50€ (Gift Cards not included)</p>
-                        {else}
-                            <p>Entrega grátis a partir de 50€ (Gift Cards não incluídos)</p>
-                        {/if}
+                        <p>Fast Delivery - Up to 48H working days (PT and ES)</p>
                     </div>
                     <div class="carousel-item text-center p-4">
-                        {if $language.id == 1}
                             <p>Worldwide Shipping - Safe Payment Methods</p>
-                        {else}
-                            <p>Worldwide Shipping - Métodos de pagamento seguros</p>
-                        {/if}
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">

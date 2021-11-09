@@ -66,7 +66,7 @@
     {/if}
   {/block}
 
-
+{*
   {block name='customer_registration_form'}
     {if $customer.is_guest}
       <div id="registration-form" class="card">
@@ -77,7 +77,7 @@
       </div>
     {/if}
   {/block}
-
+*}
   {block name='hook_order_confirmation_1'}
     {hook h='displayOrderConfirmation1'}
   {/block}

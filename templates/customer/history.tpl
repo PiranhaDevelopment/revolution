@@ -9,7 +9,7 @@
  * It is also available through the world-wide-web at this URL:
  * https://opensource.org/licenses/AFL-3.0
  * If you did not receive a copy of the license and are unable to
- * obtain it through the world-wide-web, please send an email
+ * obtain it through the world-wide-web, please s0' end an email
  * to license@prestashop.com so we can send you a copy immediately.
  *
  * DISCLAIMER

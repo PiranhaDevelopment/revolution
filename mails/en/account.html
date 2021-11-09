@@ -8,6 +8,7 @@
     
     <style>
       /****** responsive ********/
+
       @media only screen and (max-width: 300px){
         body {
           width:218px !important;
@@ -58,103 +59,223 @@
         .address{display: block !important;margin-bottom: 10px !important;}
         .space_address{display: none !important;}
       }
+      ol {
+  margin:0 0 1.5em;
+  padding:0;
+  counter-reset:item;
+}
+ 
+ol>li {
+  margin:0;
+  text-indent:-2em;
+  list-style-type:none;
+  counter-increment:item;
+}
+ 
+ol>li:before {
+  display:inline-block;
+  width:1.5em;
+  padding-right:0.5em;
+  font-weight:bold;
+  text-align:right;
+  content:counter(item) ".";
+}
     </style>
   </head>
-  <body style="background-color: #ffffff; width: 650px; margin: auto; font-family: 'Open-sans', sans-serif; color: #555454; font-size: 13px; line-height: 18px; -webkit-text-size-adjust: none;" bgcolor="#ffffff" width="650">
-    <table class="table table-mail" style="width: 100%; margin-top: 10px; -moz-box-shadow: 0 0 5px #afafaf; -webkit-box-shadow: 0 0 5px #afafaf; -o-box-shadow: 0 0 5px #afafaf; box-shadow: 0 0 5px #afafaf; filter: progid:DXImageTransform.Microsoft.Shadow(color=#afafaf, Direction=134, Strength=5);" width="100%">
-      <tr>
-        <td id="header-left" class="space" style="width: 20px;" width="20"> </td>
-        <td align="center">
-          <table class="table" bgcolor="#ffffff" style="width: 100%;" width="100%">
-                          <tr>
-  <td align="center" class="logo" style="border-bottom: 4px solid #333333">
-    <a title="{shop_name}" href="{shop_url}" test="{shop_url}" style="color: #337ff1;">
-      <img src="{shop_logo}" alt="{shop_name}">
-    </a>
-  </td>
-</tr>
-            
-            <tr>
-  <td align="center" class="titleblock">
-    <font size="2" face="Open-sans, sans-serif" color="#555454">
-      <span class="title" style="font-weight: 500; font-size: 28px; text-transform: uppercase; line-height: 33px;">Hi {firstname} {lastname},</span><br>
-      <span class="subtitle" style="font-weight: 500; font-size: 16px; text-transform: uppercase; line-height: 25px;">Thank you for creating a customer account at {shop_name}.</span>
-    </font>
-  </td>
-</tr>
+  <body style="background-color: #ffffff; width: 650px; margin: auto; color: #555454; font-size: 13px; line-height: 18px; -webkit-text-size-adjust: none;" bgcolor="#ffffff" width="650">
+
+<table class="table" bgcolor="#ffffff" style="width: 100%;" width="100%">
+<tbody>
 <tr>
-  <td class="space_footer" style="padding: 0 !important;"> </td>
-</tr>
-<tr>
-  <td class="box" style="background-color: #f8f8f8; border: 1px solid #D6D4D4;" bgcolor="#f8f8f8">
-    <table class="table" style="width: 100%;" width="100%">
-      <tr>
-        <td width="10"> </td>
-        <td>
-          <font size="2" face="Open-sans, sans-serif" color="#555454">
-            
-              <p style="margin: 3px 0 7px 0; text-transform: uppercase; font-weight: 500; font-size: 18px; padding-bottom: 10px; border-bottom: 1px solid #D6D4D4;">
-                Your login email address on {shop_name}
-              </p>
-            
-            <span style="color: #777777;">
-              Here is your login email address:<br>
-              <span style="color: #333333;"><strong>E-mail address: <a href="mailto:{email}" style="color: #337ff1;">{email}</a></strong></span>
-            </span>
-          </font>
-        </td>
-        <td width="10"> </td>
-      </tr>
-    </table>
-  </td>
-</tr>
-<tr>
-  <td class="space_footer" style="padding: 0 !important;"> </td>
-</tr>
-<tr>
-  <td class="box" style="background-color: #f8f8f8; border: 1px solid #D6D4D4;" bgcolor="#f8f8f8">
-    <table class="table" style="width: 100%;" width="100%">
-      <tr>
-        <td width="10"> </td>
-        <td>
-          <font size="2" face="Open-sans, sans-serif" color="#555454">
-            <p style="margin: 3px 0 7px 0; text-transform: uppercase; font-weight: 500; font-size: 18px; padding-bottom: 10px; border-bottom: 1px solid #D6D4D4;">Important Security Tips:</p>
-            <ol style="margin-bottom: 0;">
-              <li>Always keep your account details safe.</li>
-              <li>Never disclose your login details to anyone.</li>
-              <li>Change your password regularly.</li>
-              <li>Should you suspect someone is using your account illegally, please notify us immediately.</li>
-            </ol>
-          </font>
-        </td>
-        <td width="10"> </td>
-      </tr>
-    </table>
-  </td>
-</tr>
-<tr>
-  <td class="space_footer" style="padding: 0 !important;"> </td>
-</tr>
-<tr>
-  <td class="linkbelow">
-    <font size="2" face="Open-sans, sans-serif" color="#555454">
-      <span>You can now place orders on our shop: <a href="{shop_url}" style="color: #337ff1;">{shop_name}</a></span>
-    </font>
-  </td>
+<td align="center" class="logo" style="padding: 0%;" ><a title="{shop_name}" href="{shop_url}" test="{shop_url}" style="color: #337ff1;"> <img src="https://dev.revolutionneedles.com/themes/classic/mails/rev/en/img/titulo1.png" alt="{shop_name}" style="width: 100%;"/> </a></td>
 </tr>
 
-                          <tr>
-  <td class="space_footer" style="padding: 0 !important;"> </td>
+</tbody>
+</table>
+  <table class="table" bgcolor="#ffffff" style="width: 100%;" width="100%">
+    <tbody>
+      <tr>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+    <tr>
+      <td></td>
+      <td style=" padding-top: 0%;width: 100%;font-family: helvetica;font-size: 20px;font-stretch: normal;font-style: normal;line-height: 1.32;letter-spacing: 0.84px;text-align: center;color: #060608;">Thank you for creating a Revolution account.<br>Here’s to the greatness that lies ahead.<br>To the beginning of an epic journey.<br>The Revolution starts now.</td>
+      <td></td>
+    </tr>
+    </tbody>
+    </table>
+
+<tr>
+<td class="space_footer" style="padding: 0 !important;">&nbsp;</td>
 </tr>
 <tr>
-  <td class="footer" style="border-top: 4px solid #333333">
-    <span><a href="{shop_url}" style="color: #337ff1;">{shop_name}</a> powered by <a href="https://www.prestashop.com/?utm_source=marchandprestashop&amp;utm_medium=e-mail&amp;utm_campaign=footer_1-7" style="color: #337ff1;">PrestaShop™</a></span>
-  </td>
+<td class="box">
+<table class="table" style="width: 100%;" width="100%">
+<tbody>
+  <tr><td></td></tr>
+  <tr><td></td></tr>
+  <tr><td></td></tr>
+<tr>
+<td width="5%">&nbsp;</td>
+<td>
+<p style="padding-top: 6%; font-family: helvetica;font-size: 18px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.62;letter-spacing: -0.42px;text-align: left;color: #060608;">Details of your login:</p>
+</td>
 </tr>
-                      </table>
-        </td>
-        <td id="footer-right" class="space" style="width: 20px;" width="20"> </td>
-      </tr>
+</tbody>
+</table >
+<table class="table" style="width: 100%;" width="100%">
+  <tbody>
+    <tr>
+      <td width="2%"></td>
+      <td width="96%"  style="background-color: #efefef;padding: 3%;border-radius: 10px;">
+<span size="2" face="Open-sans, sans-serif" color="#555454" style=" font-family: helvetica;font-size: 22px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.62;letter-spacing: -0.49px;text-align: center;color: #474749;"><span> Login details<br /> <span style="color: #333333;font-size: 18px;">Email address:<strong> <a href="mailto:{email}" style="color: black;">{email}</a></strong></span> </span> </span></td>
+<td width="2%"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="space_footer" style="padding: 0 !important;">&nbsp;</td>
+</tr>
+<tr>
+<td class="box" >
+<table class="table" style="width: 100%;" width="100%">
+<tbody>
+  <tr><td></td></tr>
+  <tr><td></td></tr>
+<tr>
+<td width="5%">&nbsp;</td>
+<td>
+<p style="font-family: helvetica;font-size: 18px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.62;letter-spacing: -0.42px;text-align: left;color: #060608;">Important security issues:</p>
+</td>
+</tr>
+</tbody>
+</table >
+<table class="table" style="width: 100%;" width="100%">
+<tbody>
+<tr>
+<td width="2%"></td>
+<td width="96%"  style="background-color: #efefef;padding: 3%;border-radius: 10px; padding-right: 12% !important;">
+  <ol style="font-family:helvetica;margin: 0;margin-bottom: 0;padding: 0;font-size: 18px;padding-left: 5%;line-height: 1.62;letter-spacing: -0.42px;">
+    <li> Keep your account details safe at all times;</li>
+    <li> Never disclose your details to anyone;</li>
+    <li>Change your password regularly;</li>
+    <li> If you suspect someone is using your account illegally, let us know immediately.</li>
+    </ol>
+  </td>
+<td width="2%"></td>
+</tr>
+</tbody>
+</table>
+<table class="table" style="width: 100%;" width="100%">
+  <tbody>
+    <tr><td></td></tr>
+    <tr><td></td></tr>
+    <tr><td></td></tr>
+  <tr>
+  <td width="10%"></td>
+  <td width="80%">
+    <p style="text-align: center; font-family: helvetica;font-size: 18px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.62;letter-spacing: -0.42px;padding-top: 1%;padding-bottom: 1%;color: #060608;">Everything you need to know about our needles at:</p>
+    </td>
+  <td width="10%"></td>
+  </tr>
+  </tbody>
+  </table>
+  <table class="table" style="width: 100%;" width="100%">
+    <tbody>
+      <tr><td></td></tr>
+      <tr><td></td></tr>
+      <tr><td></td></tr>
+    <tr>
+    <td width="5%"></td>
+    <td width="90%" style="    padding-bottom: 0%;">
+      <a href="https://revolutionneedles.com/" style="text-decoration:none;width:100%;color: white;font-size: 20px;padding-left: 26%;padding-right: 26%;padding-top: 3%;padding-bottom: 3%;border-radius: 33px;font-weight: 700;background-color: #4c25e3">REVOLUTIONNEEDLES.COM</a>
+      </td>
+    <td width="5%"></td>
+    </tr>
+    <tr><td></td></tr>
+    <tr><td></td></tr>
+    <tr><td></td></tr>
+    </tbody>
     </table>
-  </body>
+    <table class="table" style="width: 100%;" width="100%">
+      <tbody>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+      </tbody>
+      </table>
+      <table class="table" style="width: 100%;background-color: #141616;" width="100%">
+        <tbody>
+          <tr><td></td></tr>
+          <tr><td></td></tr>
+          <tr>
+            <td width="32%"></td>
+            <td width="36%" style="    padding-top: 4%;">
+              <table class="table" style="width: 100%;background-color: #141616;" width="100%">
+              <tbody>
+                <tr>
+                  <td>
+                    <table class="table" style="width: 100%;background-color: #141616;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td width=60%><a href="https://www.instagram.com/revolutionneedles/"><img style="width: 50px;" src="https://dev.revolutionneedles.com/themes/classic/mails/pt/img/Instagramlogo.jpg"></a></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                    </table>
+                  </td>
+                  <td>
+                    <table class="table" style="width: 100%;background-color: #141616;" width="100%">
+                      <tbody>
+                        <tr>
+                          <td></td>
+                          <td width=60%><a href="https://pt-pt.facebook.com/RevolutionNeedles"><img style="width: 50px;" src="https://dev.revolutionneedles.com/themes/classic/mails/pt/img/faceboologo.jpg"></td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                      </table>
+                  </td>
+                  <td>
+                    <table class="table" style="width: 100%;background-color: #141616;" width="100%">
+                      <tbody>
+                        <tr>
+                          <td></td>
+                          <td width=60% style="padding:0;"><a href="https://www.youtube.com/channel/UCAQSONnTk70ofsIGeFUStjQ"><img style="width: 50px;" src="https://dev.revolutionneedles.com/themes/classic/mails/pt/img/Youtubelogo.jpg"></a></td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                      </table>
+                  </td>
+                </tr>
+              </tbody>
+              </table>
+            </td>
+            <td width="32%"></td>
+          </tr>
+          <tr>
+            <td width="32%"></td>
+            <td width="36%" style="padding:0;">
+              <table class="table" style="width: 100%;background-color: #141616;" width="100%">
+              <tbody>
+                <tr style="padding:0;">
+                  <td width="8%"></td>
+                  <td><p style="padding-bottom: 15%;font-size: 10px;color: white;">Copyright © REVOLUTION NEEDLES</p></td>
+                  <td></td>
+                </tr>
+              </tbody>
+              </table>
+            </td>
+            <td width="32%"></td>
+          </tr>
+        </tbody>
+        </table>
 </html>

@@ -2,6 +2,8 @@
 Hi {firstname} {lastname},
 Thank you for creating a customer account at {shop_name}.
 
+Your login email address on {shop_name}
+
 Here is your login email address:
 E-mail address: {email}
 
