@@ -35,7 +35,6 @@
   <meta property="og:site_name" content="{$shop.name}">
   <meta property="og:description" content="{$page.meta.description}">
   <meta property="og:image" content="{$product.cover.large.url}">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   {if $product.show_price}
     <meta property="product:pretax_price:amount" content="{$product.price_tax_exc}">
     <meta property="product:pretax_price:currency" content="{$currency.iso_code}">
@@ -52,6 +51,7 @@
   <section id="main" itemscope itemtype="https://schema.org/Product">
     <meta itemprop="url" content="{$product.url}">
 <p class="mobiletitle">HIGH QUALITY TATTOO NEEDLES</p>
+
     <div class="row product-container">
       <div class="col-lg-6 col-md-12">
       {foreach from=$product.grouped_features item=feature}
@@ -93,7 +93,7 @@
           {/block} *}
 
           <div class="product-information">
-            
+
 
             {if $product.is_customizable && count($product.customizations.fields)}
               {block name='product_customization'}
@@ -128,7 +128,6 @@
                   {block name='product_discounts'}
                     {include file='catalog/_partials/product-discounts.tpl'}
                   {/block}
-
                   {block name='product_add_to_cart'}
                     {include file='catalog/_partials/product-add-to-cart.tpl'}
                   {/block}
@@ -150,22 +149,17 @@
   {/block}
 
 
-{block name='product_quantities'}
-    {if $product.show_quantities}
-      <div class="product-quantities">
-        <label class="lis">{l s='Only' d='Shop.Theme.Catalog'}</label>
-        <span class="lis" data-stock="{$product.quantity}" data-allow-oosp="{$product.allow_oosp}">{$product.quantity} {$product.quantity_label}</span>
-        <label class="lis">{l s='left in stock. Get yours before its too late.' d='Shop.Theme.Catalog'}</label>
-      </div>
-    {/if}
-  {/block}
-  
+
+
+
+
 
 
 <div  id="textBox">
 {$product.description_short nofilter}
 </div>
 <p id="lermais">Ler mais</p>
+
 <!--{block name='description'}
 {foreach from=$product.grouped_features item=feature}
               {if $feature.name=="descrição"}-->

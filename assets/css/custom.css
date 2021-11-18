@@ -138,11 +138,7 @@
   src:url("https://use.typekit.net/af/95852c/00000000000000007735994c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("woff2"),url("https://use.typekit.net/af/95852c/00000000000000007735994c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("woff"),url("https://use.typekit.net/af/95852c/00000000000000007735994c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("opentype");
   font-display:auto;font-style:italic;font-weight:100;
   }
-  @font-face {
-  font-family:"adelle-ultrathin";
-  src:url("https://use.typekit.net/af/f56822/0000000  00000000077359950/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff2"),url("https://use.typekit.net/af/f56822/000000000000000077359950/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff"),url("https://use.typekit.net/af/f56822/000000000000000077359950/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("opentype");
-  font-display:auto;font-style:normal;font-weight:100;
-  }
+
 @font-face {
   font-family: SairaCondensed;
   src: url(../fonts/SairaCondensed/SairaCondensed-Black.ttf);
@@ -162,11 +158,195 @@
   src: url(../fonts/SairaCondensed/SairaCondensed-Regular.ttf);
   font-weight: 400;
 }
+#payment-option-3-container label span {
+  width: 100%;
+  font-size: 11px;
+  color: black;
+  font-family: 'neue-haas-grotesk-text';
+  border: none;
+  font-size: .875rem;
+}
+#module-psgdpr-gdpr .col-xs-12.psgdprinfo17 #exportDataToPdf{
+  color: white;
+}
+#module-psgdpr-gdpr .col-xs-12.psgdprinfo17 #exportDataToCsv{
+  color: white;
+}
+#module-psgdpr-gdpr .col-xs-12.psgdprinfo17 a{
+  color: #4c25e3;
+}
+.product-description a{
+  color: black !important;
+}
+.trackingm{
+  display: none;
+}
+#address #wrapper{
+  background-color: black;
+}
+#productspage h1{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#password.page-customer-account #content {
+  background-color: black;
+  padding-bottom: 0px;
+}
+.ps-alert-success {
+  padding: 0px;
+}
+#cms.cms-id-104 h1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.cms-id-104 .agulhas.right {
+  margin-bottom: 100px;
+}
+#category div#js-product-list-top {
+  display: none;
+}
+#category div#product-list-header {
+  display: none;
+}
+#category div#left-column {
+  display: none;
+}
+div#Straight\ Linerbalao {
+  margin-top: -25px;
+}
+::-webkit-input-placeholder {
+  opacity: 1;
+}
+#order-slip table {
+  margin-bottom: 0px;
+}
+#order-detail .page-footer{
+  margin-top: 20px;
+}
+.product-id-360 .icon {
+  display: none;
+}
+.product-id-362 .icon {
+  display: none;
+}
+.product-id-363 .icon {
+  display: none;
+}
+
+#historyTitle{
+  display: none;
+}
+.alert.alert-danger.js-error {
+  width: fit-content;
+}
+
+.alert.alert-danger.js-error i.material-icons {
+  display: none;
+}
+#order-detail section#wrapper {
+  background-color: black;
+}
+#identity label.form-control-label.loginName {
+  font-weight: 600;
+}
+#order-slip #content .credit-slip a {
+  color: black;
+}
+#order-slip #content .credit-slip {
+  font-family: "neue-haas-grotesk-text";
+  color: black;
+  background-color: white;
+  padding: 20px;
+}
+#order-slip #content h6 {
+  background-color: white;
+  padding: 20px;
+  font-family: "neue-haas-grotesk-text";
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  margin-bottom: 0px;
+}
+#discount .cart-rules.hidden-md-up .cart-rule {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#discount .cart-rules.hidden-md-up li {
+  font-family: "neue-haas-grotesk-text";
+}
+#discount .cart-rules.hidden-md-up li strong{
+  font-weight: 600;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: white;
+}
+#authentication .forgot-password a {
+  font-family: "neue-haas-grotesk-text";
+  font-weight: 500;
+}
+#authentication .no-account a {
+  font-family: "neue-haas-grotesk-text";
+  font-weight: 500;
+}
+.ps-alert-error {
+  background-color: black !important;
+  border-color: #ebcccc;
+  margin-bottom: 30px;
+}
+.ps-alert-error .item, .ps-alert-success .item{
+  border: none;
+  margin-bottom: 15px;
+  background-color: #f2dede !important;
+}
+.ps-alert-error p {
+  background-color: #f2dede !important;
+  border-color: #ebcccc !important;
+  color: #a94442 !important;
+  font-family: "neue-haas-grotesk-text";
+  font-weight: 500;
+  text-align: center;
+}
+.ps-alert-error i {
+  display: none !important;
+
+}
+.help-block {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  font-family: "neue-haas-grotesk-text";
+}
+.btndiv button {
+  margin: auto;
+  display: block;
+  margin-top: 45px;
+  background-color: #4c25e3;
+  outline: none;
+  box-shadow: none;
+  font-family: 'adelle-sans';
+  border-radius: 7px;
+  padding-left: 16%;
+  padding-right: 16%;
+  margin-bottom: 7%;
+  font-weight: 200;
+  font-size: 1rem;
+  text-transform: none;
+  margin-left: auto !important;
+  width: 300px;
+}
+
+.remove-from-cart{
+  color: #4c25e2 !important;
+}
 .cart-action a{
   color: white !important;
 }
 .cms-id-40 p.artist {
   margin-top: 10px;
+}
+#product a{
+  color: #4c25e2;
 }
 .cms-id-40 a{
   color: #4c25e2;
@@ -201,15 +381,13 @@
   color:#8d8d8d
 }
 
-#module-psgdpr-gdpr a{
-  color:#4c25e3;
-}
+
 
 .input-group-addon, .input-group-btn, .input-group .form-control {
   height: 100%;
 }
 .cart-detailed-totals .card-block {
-  padding: 1.25rem 30px 1.5rem;
+  padding: 20px;
 }
 #checkout-personal-information-step a {
   color: #4c25e1;
@@ -225,7 +403,7 @@
   background-color: transparent;
   border-color: transparent;
   color: black;
-  font-family: 'neue-haas-grotesk-display';
+  font-family: "neue-haas-grotesk-text";
   width: 100%;
   text-align: center;
 }
@@ -342,7 +520,7 @@
 .forgotten-password button {
   margin: auto;
   display: block;
-  margin-top: 70px;
+  margin-top: 30px;
   background-color: #4c25e3;
   outline: none;
   box-shadow: none;
@@ -350,24 +528,43 @@
   border-radius: 7px;
   padding-left: 16%;
   padding-right: 16%;
-  margin-bottom: 7%;
+  margin-bottom: 0px;
   font-weight: 200;
   font-size: 1rem;
   text-transform: none;
   width: 300px;
 }
+.renew-password .email {
+  text-align: center;
+  color: black;
+  font-family: 'neue-haas-grotesk-text';
+}
 
+.renew-password .row.form-group{
+  padding-top: 20px;
+}
 
-
+section.form-fields.renew-password {
+  width: 400px;
+  background-color: white;
+  min-height: 420px;
+  display: block;
+  margin: auto;
+  padding: 50px 35px;
+}
+.renew-password .row.form-group {
+  display: block;
+}
 
 
 #password label.form-control-label.required {
   text-align: left;
-  padding-top: 40px;
+  padding-top: 30px;
   margin-bottom: 0px;
 }
 #password .form-group.center-email-fields {
   display: block;
+  margin-bottom: 0px;
 }
 #password.page-customer-account #content {
   background-color: black;
@@ -395,14 +592,15 @@ p.send-renew-password-link {
   text-align: center;
   width: 100%;
   padding: 0;
+  margin-bottom: 0px;
 }
 .forgotten-password {
   width: 400px;
   background-color: white;
-  height: 420px;
+  min-height: 420px;
   display: block;
   margin: auto;
-  padding: 50px 35px;
+  padding: 35px 35px;
 }
 .cart-title h4.text-center {
   font-family: 'adelle-sans';
@@ -413,7 +611,7 @@ p.send-renew-password-link {
   z-index: 9999;
 }
 div#Medium\ Taperbalao {
-  margin-top: -80px;
+  margin-top: -41px;
 }
 .blockcart-link i{
   display: none;
@@ -429,7 +627,7 @@ div#Medium\ Taperbalao {
   margin-left: 14px;
 }
 .product-accessories .product-title a, .product-miniature .product-title a{
-  font-family: neue-haas-grotesk-display;
+  font-family: "neue-haas-grotesk-text";
 }
 #carouselContent p {
   text-align: center;
@@ -949,21 +1147,15 @@ a:hover{
   font-weight: 600;
 }
 .page-addresses .address .address-body h4 {
-  font-family: 'neue-haas-grotesk-display';
+  font-family: "neue-haas-grotesk-text";
 }
-#fname_816::placeholder{
-  font-size: 0.85vw;
-  font-weight: 500;
-}
+
 #name{
   font-size: 0.8vw;
   border-radius: 0px;
   font-weight: 300;
 }
-#fname_816::placeholder {
-  font-size: 0.85vw;
-  font-weight: 500;
-}
+
 #name{
   font-size: 0.8vw;
   border-radius: 0px;
@@ -972,7 +1164,7 @@ a:hover{
 #campoe_107 {
   font-size: 0.8vw;
   border-radius: 0px;
-  font-weight: 300;
+  font-weight: 500;
 }
 #favStyle{
   font-size: 0.8vw;
@@ -980,14 +1172,16 @@ a:hover{
   font-weight: 300;
 }
 #email_817{
-  font-size: 0.9vw;
+  font-size: 0.8vw;
   border-radius: 0px;
   font-weight: 500;
 }
 
 #email_817::placeholder{
-  font-size: 0.85vw;
+  font-size: 0.8vw;
+  border-radius: 0px;
   font-weight: 500;
+  color: #454545;
 }
 #email {
   font-size: 0.9vw;
@@ -999,10 +1193,10 @@ a:hover{
   font-weight: 500;
 }
 span#product-availability {
-  font-family: 'neue-haas-grotesk-display';
+  font-family: "neue-haas-grotesk-text";
 }
 *::placeholder{
-  font-family: neue-haas-grotesk-display;
+  font-family: "neue-haas-grotesk-text";
 }
 .alert li {
   text-align: center;
@@ -1346,9 +1540,12 @@ section#content-hook_payment_return {
   margin-left: 0px;
   margin-right: 0px;
 }
+#discount table {
+  margin-bottom: 0px;
+}
 div#btya {
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
+  padding-top: unset;
+  padding-bottom: unset;
   display: flex;
   justify-content: center;
 }
@@ -1430,7 +1627,7 @@ div#btya {
   border: transparent;
 }
 address {
-  font-family: neue-haas-grotesk-display;
+  font-family: "neue-haas-grotesk-text";
 }
 #order-detail * {
   max-width: 100%;
@@ -1450,7 +1647,7 @@ address {
 #order-infos .buyNow {
   width: 15%;
   padding: 10px 10px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .box.hidden-sm-down {
   padding-left: 0px;
@@ -1482,8 +1679,9 @@ address {
   margin-top: 40px;
 }
 .order-message-form.box .buyNow {
-  font-family: 'adelle-sans';
+  font-family: "neue-haas-grotesk-text";
   background-color: #4c25e3;
+  font-size: 16px;
   color: white;
   font-weight: 500;
   width: 150px;
@@ -1635,11 +1833,20 @@ table.table.table-striped.table-bordered.table-labeled.hidden-xs-down {
   background: black;
   padding-top: 100px;
 }
+#checkout .topheaderblackdesktop {
+  height: 65px;
+}
+#checkout #displaynav2 {
+  padding-top: 20px;
+  width: 160px;
+  display: none;
+}
 #order-detail #content {
   width: 70%;
   margin: auto;
   background: #fff;
   padding: 30px 40px;
+  margin-bottom: 20px;
 }
 #order-confirmation hr {
   margin-top: 1rem;
@@ -1818,6 +2025,7 @@ input#email_1185 {
 .topfields{
   display: flex;
   padding-bottom: 35px;
+  justify-content: space-between;
 }
 .cmsg{
   padding: 5px;
@@ -2065,14 +2273,19 @@ body#checkout #conditions-to-approve .condition-label {
   z-index: 999;
 }
 .block-promo .promo-code .alert-danger {
+  overflow: hidden;
   margin-bottom: -15px;
   position: relative;
-  margin-top: 1.25rem;
+  margin: auto;
+  margin-top: 5px;
   background: #ff4c4c;
   color: #fff;
   display: none;
 }
-
+.promo-code button span {
+  font-size: 16px;
+  font-weight: 500;
+}
 .slidetitle {
   font-size:2vw;
   font-weight:bold;
@@ -2257,14 +2470,12 @@ input#leo_search_query_top{
   text-align: center;
   color: black;
 }
-#productspage h1 {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
+
 .imgagulha img {
   width:75%;
   object-fit: contain;
   display: flex;
+  height: intrinsic;
 }
 .agulhas{
   width: 50%;
@@ -2275,9 +2486,13 @@ input#leo_search_query_top{
 .imgagulha {
   width: 230%;
   display: flex;
+  height: fit-content;
+  height: -webkit-fit-content;
 }
 .txtagulha{
   width: 230%;
+  height: fit-content;
+  height: -webkit-fit-content;
 }
 .txtagulha h4 {
   font-family: 'SairaCondensed';
@@ -2358,6 +2573,10 @@ h1{
   padding-top: 100px;
   padding-bottom: 80px;
 }
+.table.table-striped.table-bordered.hidden-sm-down tr {
+  background-color: white;
+  border-top: 1px solid #f6f6f6;
+}
 #aboutform input[type="submit"] {
   font-family: "neue-haas-grotesk-text";
   font-size: 15px;
@@ -2378,6 +2597,9 @@ h1{
   height: 180px;
   border: none;
   border-radius:8px;
+}
+#checkout span.product-price.float-xs-right {
+  color: black;
 }
 div#namemail {
   display: flex;
@@ -2432,6 +2654,8 @@ a:focus, a:hover {
   text-decoration: underline;
 }
 #cart button.btn.btn-primary {
+  height: 2.5rem;
+  margin-top: -3px;
   box-shadow: none;
 }
 #cart .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
@@ -2645,9 +2869,13 @@ p.promo-code-button.display-promo a.collapse-button {
 .checkout.cart-detailed-actions.card-block a.btn.btn-primary {
   background-color: #4c25e1;
   border-radius: 20px;
-  font-weight: 100;
+  font-weight: 500;
   font-size: 16px;
   box-shadow: none;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 9px;
 }
 #cart .card-block.checkout {
   padding-bottom: 1.75rem;
@@ -2679,6 +2907,7 @@ span.step-edit.text-muted {
 .promo-code span {
   font-family: "neue-haas-grotesk-text";
   font-size: 15px;
+  margin-left: unset;
 }
 #checkout .block-promo .page-content.page-cms ul, .block-promo p, .page-content.page-cms .block-promo ul {
   margin-bottom: 50px;
@@ -2745,7 +2974,7 @@ input.promo-input {
 }
 
 #history h6 {
-  font-family: neue-haas-grotesk-display;
+  font-family: "neue-haas-grotesk-text";
   font-weight: 700;
   color: black;
   padding-top: 12px;
@@ -2880,6 +3109,8 @@ input.promo-input {
 }
 #authentication.page-customer-account #content .forgot-password {
   margin-bottom: -10%;
+  padding-bottom: 0px;
+  padding-top: 10px;
 }
 #authentication .custom-checkbox label {
   padding-left: 0px;
@@ -2985,8 +3216,7 @@ footer.form-footer.clearfix {
   float: none;
   height: 200px;
   max-width: 850px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 20px;
   background: white;
   padding: 20px;
 }
@@ -3105,12 +3335,18 @@ a.carousel-control-next {
   margin-top: -1%;
 }
 #leosearchtopbox input {
+   background: transparent;
+   border: 1px solid black;
+ }
+
+#leosearchtopbox input {
   height: 100%;
   font-size: 1vw;
 }
 #leo_search_block_top .block_content {
-  margin-top: 20px;
+  margin-top: 12px;
   background-color: black;
+  overflow: hidden;
 }
 .list-cate-wrapper {
   display: none!important;
@@ -3570,7 +3806,7 @@ input{
 
 #leo_search_block_top input:-webkit-autofill, #leo_search_block_top input:-webkit-autofill:hover, #leo_search_block_top input:-webkit-autofill:focus, #leo_search_block_top textarea:-webkit-autofill, #leo_search_block_top textarea:-webkit-autofill:hover, #leo_search_block_top textarea:-webkit-autofill:focus, #leo_search_block_top select:-webkit-autofill, #leo_search_block_top select:-webkit-autofill:hover, #leo_search_block_top select:-webkit-autofill:focus {
   color: red;
-  -webkit-box-shadow: 0 0 0px 1000px black inset;
+  -webkit-box-shadow: 0 0 0px 1000px black inset !important;
   transition: background-color 5000s ease-in-out 0s;
   -webkit-text-fill-color: white;
 }
@@ -3631,8 +3867,9 @@ input{
   font-family: "neue-haas-grotesk-text";
 }
 #authentication input.form-control {
-  font-size: 14px;
+  font-size: 15px;
   -webkit-appearance: none;
+  font-family: "neue-haas-grotesk-text";
 }
 #authentication .col-md-6 {
   max-width: none;
@@ -3719,7 +3956,6 @@ input{
 }
   label.form-control-label.loginName.required {
     font-family: "neue-haas-grotesk-text";
-    font-size: 16px;
     font-weight: normal;
 }
   .page-authentication .container {
@@ -4388,6 +4624,7 @@ to {transform :rotate(0deg);}
 /* BALÃO */
 .balao{
   display: none;
+  padding-right: 10px;
     width: 10.5rem;
      padding-bottom: 10px; 
     padding-top: 10px;
@@ -4407,7 +4644,7 @@ to {transform :rotate(0deg);}
   margin-right: 0px;
     margin-bottom: 0px;
     width: 100%;
-    font-family: 'adelle-sans';
+    font-family: 'neue-haas-grotesk-text';
 }
 
 .hashtag {
@@ -4677,7 +4914,10 @@ label input {
 }
 
 #joinFam{
+  font-family: "neue-haas-grotesk-text";
+  font-size: 16px;
   position: relative;
+  font-weight: 500;
   display: block;
   /* margin-top: 5vh; */
   margin: auto;
@@ -4688,17 +4928,23 @@ label input {
   border: none;
   margin-top: 40px;
 }
-#joinFam2{
+#joinFam2
+{
+  font-weight: 500;
+  font-family: "neue-haas-grotesk-text";
+  font-size: 16px;
   position: relative;
   display: block;
-  /* margin-top: 5vh; */
   margin: auto;
-  padding: 12.5px 36.1px 12.3px 42.9px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 9px;
   color: white;
   background-color: #4c25e3;
   border-radius: 31px;
   border: none;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 /* Style the artificial checkbox */
@@ -4723,20 +4969,20 @@ label span {
   color: #454545;
   margin-top: 20px;
   font-size: 0.8vw;
-  font-family: neue-haas-grotesk-display;
+  font-family: "neue-haas-grotesk-text";
 }
 #termos2 {
   color: #454545;
   margin-top: 8px;
   font-size: 0.8vw;
-  font-family: neue-haas-grotesk-display;
+  font-family: "neue-haas-grotesk-text";
 }
 #email_817{
   padding-bottom: 7px;
   margin-top: 2vh;
   color: #454545;
   background-color: transparent;
-  font-family: neue-haas-grotesk-display;
+  font-family:"neue-haas-grotesk-text";
   border: none;
   border-bottom: 2px solid white;
   width: 100%;
@@ -4747,7 +4993,7 @@ label span {
   margin-top: 2vh;
   color: #454545;
   background-color: transparent;
-  font-family: neue-haas-grotesk-display;
+  font-family: "neue-haas-grotesk-text";
   border: none;
   border-bottom: 2px solid white;
   width: 100%;
@@ -4768,6 +5014,7 @@ select{
   width: 45%;
   margin-left: 4%;
   font-family: "neue-haas-grotesk-text";
+  font-weight: 500;
 }
 #favStyle{
 
@@ -4781,6 +5028,7 @@ select{
     font-family: "neue-haas-grotesk-text";
 }
 #fname_816{
+  font-size: 0.8vw;
   padding-bottom: 7px;
   color: #454545;
   background-color: transparent;
@@ -4789,6 +5037,53 @@ select{
   border-bottom: 2px solid white;
   width: 45%;
   margin-right: 5%;
+  font-weight: 500;
+}
+#fname_816::placeholder{
+  font-size: 0.8vw;
+  padding-bottom: 7px;
+  color: #454545;
+  background-color: transparent;
+  font-family: "neue-haas-grotesk-text";
+  border: none;
+  width: 45%;
+  margin-right: 5%;
+  font-weight: 500;
+}
+.topfield{
+  font-size: 0.8vw;
+  padding-bottom: 7px;
+  color: #454545;
+  background-color: transparent;
+  font-family: "neue-haas-grotesk-text";
+  width: 45%;
+  margin-right: 5%;
+  font-weight: 500;
+}
+.topfield::placeholder{
+  font-size: 0.8vw;
+  padding-bottom: 7px;
+  color: #454545;
+  background-color: transparent;
+  font-family: "neue-haas-grotesk-text";
+  border: none;
+  width: 45%;
+  margin-right: 5%;
+  font-weight: 500;
+}
+#easygoi_1192{
+  font-size: 0.8vw;
+  color: #454545;
+  background-color: transparent;
+  font-family: "neue-haas-grotesk-text";
+  font-weight: 500;
+}
+#easygoi_1192::placeholder{
+  font-size: 0.8vw;
+  color: #454545;
+  background-color: transparent;
+  font-family: "neue-haas-grotesk-text";
+  font-weight: 500;
 }
 #name{
   padding-bottom: 7px;
@@ -4908,10 +5203,11 @@ input[type="button"]:focus{
   outline: 0 !important;
 }
 .buyNow{
-  font-family: 'adelle-sans';
+  font-family:"neue-haas-grotesk-text";
+  font-size: 16px;
     background-color: #4c25e3;
     color: white;
-    font-weight: 100;
+    font-weight: 500;
     width: 100%;
     border-radius: 50px;
     padding-top: 5%;
@@ -5479,6 +5775,13 @@ input:-webkit-autofill:active{
   -webkit-box-shadow: 0 0 0 30px black inset !important;
   color: #454545;
 }
+.cms-id-38 input:-webkit-autofill,
+.cms-id-38 input:-webkit-autofill:hover,
+.cms-id-38 input:-webkit-autofill:focus,
+.cms-id-38 input:-webkit-autofill:active{
+  -webkit-box-shadow: 0 0 0 30px black inset !important;
+  color: #454545;
+}
 
 @media screen and (max-width: 1800px) {
   a.btn.btn-primary {
@@ -5526,28 +5829,48 @@ input:-webkit-autofill:active{
     font-size: 1vw;
     font-weight: 500;
   }
+  #termos2 {
+    font-size: 1vw;
+    font-weight: 500;
+  }
   #fname_816{
     font-size: 1vw;
     font-weight: 300;
   }
   #fname_816::placeholder {
-    font-size: 1.07vw;
-    font-weight: 500;
+    font-size: 1vw;
+    font-weight: 300;
+  }
+  .topfield {
+    font-size: 1vw;
+    font-weight: 300;
+  }
+  .topfield::placeholder {
+    font-size: 1vw;
+    font-weight: 300;
+  }
+  #easygoi_1192 {
+    font-size: 1vw;
+    font-weight: 300;
+  }
+  #easygoi_1192::placeholder {
+    font-size: 1vw;
+    font-weight: 300;
   }
   #name{
     font-size: 1vw;
     font-weight: 300;
   }
-  #name::placeholder {
-    font-size: 1.07vw;
-    font-weight: 500;
+  #name::placeholder{
+    font-size: 1vw;
+    font-weight: 300;
   }
   #email_817{
-    font-size: 1.05vw;
+    font-size: 1vw;
     font-weight: 500;
   }
   #email_817::placeholder{
-    font-size: 1.07vw;
+    font-size: 1vw;
     font-weight: 500;
   }
   #email {
@@ -5564,7 +5887,7 @@ input:-webkit-autofill:active{
   }
   #campoe_107{
     font-size: 1vw;
-    font-weight: 300;
+    font-weight: 500;
   }
   #leo_search_block_top .leoproductsearch-result {
     padding-left: 4%;
@@ -5794,6 +6117,14 @@ input:-webkit-autofill:active{
 
 
 @media screen and (max-width: 1500px){
+  #termos {
+    font-size: 1vw;
+    font-weight: 500;
+  }
+  #termos2 {
+    font-size: 1vw;
+    font-weight: 500;
+  }
   a.btn.btn-primary {
     padding-top: 1.5%;
     padding-bottom: 1.3%;
@@ -5833,7 +6164,7 @@ input:-webkit-autofill:active{
     padding-left: 110px;
   }
   #product section#main {
-    padding: 100px 15%;
+    padding: 100px 12%;
   }
   #bannertitle {
     font-family: 'SairaCondensed';
@@ -5867,9 +6198,7 @@ input:-webkit-autofill:active{
     background: #fff;
     box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
   }
-  #product section#main {
-    padding: 100px 15%;
-  }
+
   #blockcart-modal .cart-content .page-content.page-cms ul .label, #blockcart-modal .cart-content .page-content.page-cms ul .value, #blockcart-modal .cart-content p .label, #blockcart-modal .cart-content p .value, .page-content.page-cms #blockcart-modal .cart-content ul .label, .page-content.page-cms #blockcart-modal .cart-content ul .value {
     font-weight: 600;
     font-size: 1vw;
@@ -5909,7 +6238,7 @@ input:-webkit-autofill:active{
     opacity: 0.6;
   }
   #order-items table tr td {
-    padding: 0px;
+    padding: 10px;
     font-size: 1.1vw;
     font-weight: 700;
     background: white;
@@ -6038,6 +6367,10 @@ input:-webkit-autofill:active{
     padding-bottom: 150px;
     font-size: 3vw;
   }
+  #cms.cms-id-104 h1 {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
   #bagwhite {
     display: flex;
     padding-top: 4px;
@@ -6110,7 +6443,6 @@ input:-webkit-autofill:active{
 
 label.form-control-label.loginName.required {
   font-family: 'adelle-sans';
-  font-size: 16px;
   font-weight: normal;
 }
 #authentication .form-control {
@@ -6307,29 +6639,44 @@ label.form-control-label.loginName.required {
     font-size: 1vw;
   }
   #fname_816::placeholder {
-    font-size: 1.5vw;
+    font-size: 1.35vw;
     font-weight: 500;
   }
   #fname_816 {
     font-size: 1.35vw;
-    font-weight: 400;
+    font-weight: 500;
   }
-
+  .topfield::placeholder {
+    font-size: 1.35vw;
+    font-weight: 500;
+  }
+  .topfield {
+    font-size: 1.35vw;
+    font-weight: 500;
+  }
+  #easygoi_1192::placeholder {
+    font-size: 1.35vw;
+    font-weight: 500;
+  }
+  #easygoi_1192 {
+    font-size: 1.35vw;
+    font-weight: 500;
+  }
   #name::placeholder {
     font-size: 1.5vw;
     font-weight: 500;
   }
   #name {
     font-size: 1.35vw;
-    font-weight: 400;
+    font-weight: 500;
   }
   #email_817::placeholder {
-    font-size: 1.5vw;
+    font-size: 1.35vw;
     font-weight: 500;
   }
   #email_817 {
     font-size: 1.35vw;
-    font-weight: 400;
+    font-weight: 500;
   }
   #email::placeholder {
     font-size: 1.5vw;
@@ -6337,15 +6684,15 @@ label.form-control-label.loginName.required {
   }
   #email {
     font-size: 1.35vw;
-    font-weight: 400;
+    font-weight: 500;
   }
   #favStyle {
     font-size: 1.35vw;
-    font-weight: 400;
+    font-weight: 500;
   }
   #campoe_107{
     font-size: 1.35vw;
-    font-weight: 400;
+    font-weight: 500;
   }
   #products .product-title a, .featured-products .product-title a, .product-accessories .product-title a, .product-miniature .product-title a {
     color: black;
@@ -6437,7 +6784,6 @@ label.form-control-label.loginName.required {
     line-height: 20px;
   }
   #order-items table tr td {
-    padding: 0px;
     font-size: 1.4vw;
     font-weight: 700;
     background: white;
@@ -6575,13 +6921,13 @@ label.form-control-label.loginName.required {
     color: #454545;
     margin-top: 8px;
     font-size: 1vw;
-    font-family: neue-haas-grotesk-display;
+    font-family: "neue-haas-grotesk-text";
   }
   #termos {
     color: #454545;
     margin-top: 20px;
     font-size: 1vw;
-    font-family: neue-haas-grotesk-display;
+    font-family: "neue-haas-grotesk-text";
   }
   .info p {
     font-size: 1.2vw;
@@ -6617,6 +6963,7 @@ label.form-control-label.loginName.required {
     font-family: "neue-haas-grotesk-text";
     margin-top: 10px;
     margin-bottom: 10px;
+    font-weight: 500;
   }
   #favStyle {
     padding: 7px;
@@ -6634,6 +6981,9 @@ label.form-control-label.loginName.required {
     padding-left: 7px;
     width: 100%;
   }
+  #fname_816::placeholder{
+    width: 100%;
+  }
   #name {
     padding-left: 7px;
     width: 100%;
@@ -6644,7 +6994,7 @@ label.form-control-label.loginName.required {
     margin-top: 10px;
     color: #454545;
     background-color: transparent;
-    font-family: neue-haas-grotesk-display;
+    font-family: "neue-haas-grotesk-text";
     border: none;
     border-bottom: 2px solid white;
     width: 100%;
@@ -6655,7 +7005,7 @@ label.form-control-label.loginName.required {
     margin-top: 10px;
     color: #454545;
     background-color: transparent;
-    font-family: neue-haas-grotesk-display;
+    font-family: "neue-haas-grotesk-text";
     border: none;
     border-bottom: 2px solid white;
     width: 100%;
@@ -6868,7 +7218,7 @@ label.form-control-label.loginName.required {
   #termos {
     color: #454545;
     font-size: 1.5vw;
-    font-family: neue-haas-grotesk-display;
+    font-family: "neue-haas-grotesk-text";
   }
   #product #products .thumbnail-container, .featured-products .thumbnail-container, #product .product-accessories .thumbnail-container, .product-miniature .thumbnail-container {
     height: 42vw;
@@ -6985,13 +7335,13 @@ label.form-control-label.loginName.required {
   #termos {
     color: #454545;
     font-size: 1.2vw;
-    font-family: neue-haas-grotesk-display;
+    font-family: "neue-haas-grotesk-text";
   }
   #termos2 {
     color: #454545;
     margin-top: 8px;
     font-size: 1.2vw;
-    font-family: neue-haas-grotesk-display;
+    font-family: "neue-haas-grotesk-text";
   }
   .txtagulha h3 {
     font-family: 'adelle';
@@ -7075,7 +7425,6 @@ h1.pagetitle {
 }
 label.form-control-label.loginName.required {
   font-family: 'adelle-sans';
-  font-size: 16px;
   font-weight: normal;
 }
 #authentication .form-control {
@@ -7163,11 +7512,37 @@ label.form-control-label.loginName.required {
 #eletit3{
   font-size: 0.8vw;
 }
-}
+}q
 
 
 /* IPAD PRO */
 @media screen and (max-width: 1100px) and (min-height: 1200px ) {
+  #history td.order-actions{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+  }
+  .currency-selector .dropdown-menu{
+    top: 2%;
+  }
+  .topfield{
+    border-radius: 0px;
+  }
+  #shippingDetails {
+    height: 280px;
+  }
+  [type=checkbox]:checked + span:before {
+    content: '\2714';
+    position: absolute;
+    top: -7px;
+    left: -1px;
+  }
+  #fname_816{
+    border-radius: 0px;
+  }
+  #accept {
+    width: 13px;
+  }
   #blockcart-modal .cart-content .cart-content-btn .btn {
     padding-top: 12px;
     white-space: inherit;
@@ -7183,10 +7558,10 @@ label.form-control-label.loginName.required {
   #content3 {
     position: absolute;
 
-    right: 30%;
+    right: -55%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    width: 200px;
+    width: 215px;
     transform: translateY(-50%);
   }
   #content1 {
@@ -7246,25 +7621,11 @@ label.form-control-label.loginName.required {
     display: block;
     margin: auto;
     transform: none;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 80px;
     -ms-transform: unset;
   }
-  .cms-id-38 label span {
-    height: 20px;
-    width: 20px;
-    border: 1px solid grey;
-    display: inline-block;
-    position: relative;
-    color: white;
-  }
 
-  .cms-id-38 #termos {
-    color: #454545;
-    margin-top: 40px;
-    font-size: 1.8vw;
-    font-family: neue-haas-grotesk-display;
-  }
   .cms-id-38 #formDescr {
     color: #e6e6e6;
     font-family: "neue-haas-grotesk-text";
@@ -7277,10 +7638,7 @@ label.form-control-label.loginName.required {
     padding-top: 100px;
     margin: auto;
   }
-  .cms-id-38 input#campoe_108_820_0 {
-    width: 20px;
-    height: 20px;
-  }
+
   .cms-id-38 #formTit {
     font-family: 'SairaCondensed';
     text-align: center;
@@ -7599,6 +7957,13 @@ label.form-control-label.loginName.required {
 
 
 @media screen and (max-width: 1000px){
+  .tabs {
+    margin: 0px;
+
+  }
+  div#textBox {
+    margin-top: 20px;
+  }
   #leosearchtopbox input {
     height: 100%;
     font-size: 1.5vw;
@@ -7744,7 +8109,6 @@ label.form-control-label.loginName.required {
     line-height: 30px;
   }
   #order-items table tr td {
-    padding: 0px;
     font-size: 2vw;
     font-weight: 700;
     background: white;
@@ -7828,7 +8192,10 @@ a.carousel-control-prev {
   padding-top: 20px;
   width: unset;
 }
-.topheaderblackmobile{
+ #checkout .topheaderblackmobile{
+    justify-content: center;
+  }
+.topheaderblackmobile {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -7945,7 +8312,13 @@ div#_desktop_user_info {
 }
 
 @media screen and (max-width: 950px) {
-
+  body#module-leoproductsearch-productsearch #products .thumbnail-container, body#module-leoproductsearch-productsearch #products .featured-products .thumbnail-container, body#module-leoproductsearch-productsearch #products .product-accessories .thumbnail-container, body#module-leoproductsearch-productsearch #products .product-miniature .thumbnail-container {
+    position: relative;
+    margin-bottom: 1.563rem;
+    height: 450px;
+    background: #fff;
+    box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+  }
   #footerleft p {
     width: 100%;
   }
@@ -8156,6 +8529,14 @@ div#_desktop_user_info {
 
 
 @media screen and (max-width: 800px){
+  .currency-selector .dropdown-menu {
+    top: 3%;
+    bottom: 100%;
+    height: 150px;
+    left: 39.2%;
+    background: black;
+    border: 1px solid white;
+  }
   #leosearchtopbox input {
     height: 100%;
     font-size: 2vw;
@@ -8185,7 +8566,7 @@ div#_desktop_user_info {
     font-size: 2.2vw;
   }
   #fname_816::placeholder {
-    font-size: 2.8vw;
+    font-size: 2.5vw;
     font-weight: 500;
   }
   #name::placeholder {
@@ -8197,16 +8578,32 @@ div#_desktop_user_info {
     font-weight: 500;
   }
   #email_817::placeholder {
-    font-size: 2.8vw;
+    font-size: 2.5vw;
     font-weight: 500;
   }
   #fname_816{
     font-size: 2.5vw;
-    font-weight: 400;
+    font-weight: 500;
+  }
+  .topfield {
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+  .topfield::placeholder {
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+  #easygoi_1192 {
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+  #easygoi_1192::placeholder {
+    font-size: 2.5vw;
+    font-weight: 500;
   }
   #name{
     font-size: 2.5vw;
-    font-weight: 400;
+    font-weight: 500;
   }
   #email{
     font-size: 2.5vw;
@@ -8218,11 +8615,11 @@ div#_desktop_user_info {
   }
   #campoe_107{
     font-size: 2.5vw;
-    font-weight: 400;
+    font-weight: 500;
   }
   #favStyle {
     font-size: 2.5vw;
-    font-weight: 400;
+    font-weight: 500;
   }
   #bannerText {
     font-family: 'adelle';
@@ -8315,12 +8712,12 @@ div#_desktop_user_info {
   #termos {
     color: #454545;
     font-size: 2vw;
-    font-family: neue-haas-grotesk-display;
+    font-family: "neue-haas-grotesk-text";
   }
   #termos2 {
     color: #454545;
     font-size: 2vw;
-    font-family: neue-haas-grotesk-display;
+    font-family: "neue-haas-grotesk-text";
   }
   #leo_search_block_top {
     background-color: #000;
@@ -8405,6 +8802,7 @@ div#_desktop_user_info {
     line-height: 25px;
     margin-top: 30px;
     margin-bottom: 25px;
+    text-align: left;
   }
   #dumitru {
     max-width: 450px;
@@ -8449,28 +8847,11 @@ div#_desktop_user_info {
     font-size: 5vw;
     margin: auto;
   }
-  .cms-id-38 #termos {
-    color: #454545;
-    margin-top: 3vh;
-    font-size: 2vw;
-    font-family: neue-haas-grotesk-display;
-  }
-  .cms-id-38 input#campoe_108_820_0 {
-    width: 15px;
-    height: 15px;
-  }
-  .cms-id-38 label span {
-    height: 15px;
-    width: 15px;
-    border: 1px solid grey;
-    display: inline-block;
-    position: relative;
-    color: white;
-  }
-  .cms-id-38 input#campoe_108_820_0 {
-    width: 20px;
-    height: 20px;
-  }
+
+
+
+
+
   .cms-id-38 #easygoi_846 {
     padding: 15px;
     width: 100%;
@@ -8963,7 +9344,6 @@ div#_desktop_user_info {
 
   label.form-control-label.loginName.required {
     font-family: 'adelle-sans';
-    font-size: 2vw;
     font-weight: 600;
 }
 #authentication .form-control {
@@ -8995,6 +9375,13 @@ div#_desktop_user_info {
 
 
 @media screen and (max-width: 767px) {
+  body#module-leoproductsearch-productsearch #products .thumbnail-container, body#module-leoproductsearch-productsearch #products .featured-products .thumbnail-container, body#module-leoproductsearch-productsearch #products .product-accessories .thumbnail-container, body#module-leoproductsearch-productsearch #products .product-miniature .thumbnail-container {
+    position: relative;
+    margin-bottom: 1.563rem;
+    height: 370px;
+    background: #fff;
+    box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+  }
   #module-ps_emailalerts-account section#main {
     width: fit-content;
     padding: 25px;
@@ -9225,7 +9612,6 @@ div#_desktop_user_info {
     margin-bottom: 0px;
   }
   #order-items table tr td {
-    padding: 0px;
     font-size: 2.2vw;
     font-weight: 700;
     background: white;
@@ -9608,7 +9994,7 @@ div#_desktop_user_info {
   body#module-leoproductsearch-productsearch #products .thumbnail-container, body#module-leoproductsearch-productsearch #products .featured-products .thumbnail-container, body#module-leoproductsearch-productsearch #products .product-accessories .thumbnail-container, body#module-leoproductsearch-productsearch #products .product-miniature .thumbnail-container {
     position: relative;
     margin-bottom: 1.563rem;
-    height: 440px;
+    height: 410px;
     background: #fff;
     box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
   }
@@ -10159,6 +10545,16 @@ display: flex;
     margin-left: 5%;
     margin-right: 5%;
   }
+  #fname_816::placeholder{
+    padding-bottom: 7px;
+    color: #454545;
+    background-color: transparent;
+    font-family: "neue-haas-grotesk-text";
+    border: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
   #campoe_107{
     padding: 7px;
     color: #454545;
@@ -10169,6 +10565,7 @@ display: flex;
     margin-left: 5%;
     font-family: "neue-haas-grotesk-text";
     margin-top: 1%;
+    font-weight: 500;
   }
 #favStyle {
   padding: 7px;
@@ -10242,6 +10639,7 @@ display: flex;
     width: 100%;
     margin-left: 0px;
     font-family: "neue-haas-grotesk-text";
+    font-weight: 500;
   }
   #favStyle {
     margin-top: 12px;
@@ -10265,6 +10663,15 @@ display: flex;
     width: 100%;
     margin-right: 5%;
   }
+  #fname_816::placeholder{
+    padding-bottom: 7px;
+    color: #454545;
+    background-color: transparent;
+    font-family: "neue-haas-grotesk-text";
+    border: none;
+    width: 100%;
+    margin-right: 5%;
+  }
   #name {
     padding-bottom: 7px;
     color: #454545;
@@ -10283,10 +10690,14 @@ display: flex;
     font-size: 2.5vw;
     font-weight: 500;
   }
+  #email_817::placeholder{
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
   #termos {
     color: #454545;
     font-size: 2.5vw;
-    font-family: neue-haas-grotesk-display;
+    font-family: "neue-haas-grotesk-text";
   }
 }
 
@@ -10773,6 +11184,161 @@ p {
 
 
 @media screen and (max-width: 480px){
+  .trackingm{
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    font-family: 'neue-haas-grotesk-text';
+  }
+  .tracking{
+    display: none;
+  }
+  .shopAlso .productsSlider .products div{
+    max-width: 250px;
+  }
+  .productsSlider .products{
+    width: 75%;
+    flex: 1 0 auto;
+  }
+  #product #textBox p {
+    width: 98%;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .tabs {
+    margin: 0px;
+    display: block;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+  }
+  label#termos {
+    text-align: left;
+    margin-left: 10px;
+  }
+  div#hpcb {
+    display: flex;
+  }
+  div.ctcb {
+    display: flex;
+  }
+  .order-items.hidden-md-up.box .row.prod {
+    padding: 20px;
+  }
+  .order-item .col-sm-7.col-xs-7.qty {
+    width: 145px;
+    padding:0px;
+  }
+  .order-items.hidden-md-up.box {
+    background: #f5f5f5;
+    color: black;
+    padding: 20px !important;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .order-items.hidden-md-up.box h3 {
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .orders.hidden-md-up .col-xs-2.text-xs-right {
+    padding: 0px;
+  }
+  .orders.hidden-md-up .col-xs-10 {
+    padding: 0px;
+  }
+  #history h6 {
+    font-family: "neue-haas-grotesk-text";
+    font-weight: 600;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    font-size: 16px;
+  }
+  .page-footer .account-link span {
+    font-size: 15px;
+    vertical-align: middle;
+  }
+  .addresses-footer a {
+    background-color: white;
+    font-family: "neue-haas-grotesk-text";
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+  }
+  .page-addresses .addresses-footer {
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  #identity button.btn.btn-primary.form-control-submit.float-xs-right {
+    margin-top: 10px;
+    background-color: #4c25e3;
+    outline: none;
+    box-shadow: none;
+    font-family: 'adelle-sans';
+    border-radius: 10px;
+    padding-left: 10%;
+    font-weight: normal;
+    padding-right: 10%;
+    margin-bottom: 7%;
+    padding-top: 10px;
+    padding-bottom: 9px;
+  }
+  #authentication .custom-checkbox label {
+    font-size: 14px;
+  }
+  label.radio-inline {
+    font-size: 14px;
+  }
+  #history section#content {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: unset;
+  }
+  #identity form#customer-form {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  #order-slip #content {
+    background: black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #order-slip #content {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #addresses section#content {
+    width: 100%;
+    margin: auto;
+  }
+  #discount .cart-rules.hidden-md-up li {
+    font-family: "neue-haas-grotesk-text";
+    line-height: 25px;
+  }
+  #discount section#content {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #password.page-customer-account #content {
+    background-color: black;
+    padding-top: 0px;
+  }
+  .ps-alert-success{
+    padding: 0px;
+  }
+  section.form-fields.renew-password {
+    width: 350px;
+    background-color: white;
+    min-height: 380px;
+    display: block;
+    margin: auto;
+    padding: 35px 35px;
+  }
   #legal h1 {
     font-family: SairaCondensed;
     font-size: 8vw;
@@ -10804,12 +11370,7 @@ p {
   .js-mailalert .alert {
     width: 100%;
   }
-  .cms-id-38 #termos {
-    color: #454545;
-    margin-top: 3vh;
-    font-size: 3.7vw;
-    font-family: neue-haas-grotesk-display;
-  }
+
   .forgotten-password .form-fields #email {
     background: white;
     color: black;
@@ -10835,7 +11396,7 @@ p {
   .forgotten-password {
     width: 380px;
     background-color: white;
-    height: 420px;
+    min-height: 420px;
     display: block;
     margin: auto;
     padding: 50px 35px;
@@ -10888,7 +11449,7 @@ p {
     background: transparent;
   }
   .productsSlider {
-    width: 290%;
+    width: 206%;
     display: flex;
   }
   #product-availability {
@@ -10980,9 +11541,60 @@ p {
     margin: auto;
   }
   #fname_816::placeholder {
-    font-size: 4.1vw;
-    letter-spacing: 1px;
-    font-weight: 500;
+    padding-bottom: 7px;
+    color: #454545;
+    background-color: transparent;
+    font-family: "neue-haas-grotesk-text";
+    border: none;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 4vw;
+  }
+  .topfield::placeholder {
+    padding-bottom: 7px;
+    color: #454545;
+    background-color: transparent;
+    font-family: "neue-haas-grotesk-text";
+    border: none;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 4vw;
+  }
+
+  .topfield::placeholder {
+    padding-bottom: 7px;
+    color: #454545;
+    background-color: transparent;
+    font-family: "neue-haas-grotesk-text";
+    border: none;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 4vw;
+  }
+  #easygoi_1192::placeholder {
+    padding-bottom: 7px;
+    color: #454545;
+    background-color: transparent;
+    font-family: "neue-haas-grotesk-text";
+    border: none;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 4vw;
+  }
+  #easygoi_1192::placeholder {
+    padding-bottom: 7px;
+    color: #454545;
+    background-color: transparent;
+    font-family: "neue-haas-grotesk-text";
+    border: none;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 4vw;
   }
   #name::placeholder {
     font-size: 4.1vw;
@@ -10995,9 +11607,10 @@ p {
     font-weight: 500;
   }
   #email_817::placeholder {
-    font-size: 4.1vw;
-    letter-spacing: 1px;
-    font-weight: 500;
+    color: #454545;
+    background-color: transparent;
+    font-family: "neue-haas-grotesk-text";
+    font-size: 4vw;
   }
   .txtagulha a{
   display: block;
@@ -11149,7 +11762,6 @@ p {
     font-size: 3.2vw;
   }
   #order-items table tr td {
-    padding: 0px;
     font-size: 3.2vw;
     font-weight: 700;
     background: white;
@@ -11183,7 +11795,7 @@ p {
     margin-top: -1px;
   }
   .order-message-form.box .buyNow {
-    font-size: 3vw;
+    font-size: 16px;
     margin: auto;
     display: block;
   }
@@ -11232,7 +11844,7 @@ p {
     font-family: 'adelle-sans';
     font-size: 4vw;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
   .row.prod .col-sm-7.col-xs-7.qty .col-xs-4 {
     margin-left: 4px;
@@ -11266,73 +11878,95 @@ p {
   }
   .row.labels .col-xs-4.text-sm-left.text-xs-left {
     text-align: center !important;
-    font-size: 3vw;
+    font-size: 13px;
   }
   .order-items .name p {
     margin-bottom: 0px;
-    font-size: 3vw;
+    font-size: 13px;
     color: black;
   }
   address {
-    font-size: 3.1vw;
+    font-size: 14px;
     line-height: 22px;
   }
+  .page-addresses .address .address-body {
+    padding: 20px;
+  }
+  .page-addresses .address .address-footer a span {
+    font-size: 15px;
+    vertical-align: middle;
+  }
+  .page-addresses .address {
+    margin-bottom: 20px;
+  }
+  .page-addresses .address .address-footer {
+    display: flex;
+    border-top: none;
+    padding: 20px;
+    justify-content: flex-end;
+    margin-top: -20px;
+  }
   .page-order-detail .addresses h4 {
-    font-size: 4vw;
+    font-size: 16px;
     font-weight: 700;
   }
   .page-order-detail #order-history {
     background: #f5f5f5;
-    margin-bottom: 1rem;
-    padding-top: 2rem;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  #order-infos .box {
+    padding: 0px;
   }
   #order-history tbody td {
     padding-left: 5px;
     background: white;
     padding-right: 5px;
     text-align: center;
-    font-size: 3vw;
+    font-size: 12px;
     border-left: none;
   }
   #order-history .thead-default th {
-    font-size: 3.1vw;
+    font-size: 13px;
     font-weight: 500;
     color: black;
     border-left: 0px solid transparent;
   }
   .page-order-detail h3 {
-    font-size: 3.5vw;
+    font-size: 15px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-weight: 600;
   }
   #order-detail h2 {
-    font-size: 4vw;
-    width: 69%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 18px;
   }
   #order-detail #content {
-    padding: 30px 10px;
+    padding: 20px;
+    margin: 20px;
+    width: unset;
   }
   #order-infos .buyNow {
-    width: 48%;
-    font-size: 3vw;
+    font-size: 16px;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: fit-content;
   }
 
   #order-infos .col-xs-3.text-xs-right {
     padding-right: 0px;
     padding-left: 0px;
   }
-  #order-detail h2 {
-    font-size: 3.5vw;
-  }
   #order-infos span {
     font-size: 6vw;
     color: black;
   }
   #order-infos .text-xs-right p {
-    font-size: 3.5vw;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     white-space: nowrap;
+    font-size: 14px;
   }
   .buyNow {
     display: block;
@@ -11389,12 +12023,7 @@ p {
     top: -7px;
     left: -2px;
   }
-  .cms-id-41 #termos2 {
-    color: #454545;
-    margin-top: 8px;
-    font-size: 3vw;
-    font-family: neue-haas-grotesk-display;
-  }
+
   .cms-id-41 #joinFam2 {
     position: relative;
     display: block;
@@ -11416,19 +12045,27 @@ p {
     border-bottom: 2px solid white;
     width: 100%;
     margin-right: 0px;
+    border-radius: none !important;
   }
   .cms-id-41 #accept2 {
     margin-left: 0px;
+    margin-top: 0px;
+  }
+  .ctcb label {
+    margin-top: 20px;
   }
   #termos {
     color: #454545;
     font-size: 3.8vw;
-    font-family: neue-haas-grotesk-display;
+    font-family: "neue-haas-grotesk-text";
   }
   #termos2 {
     color: #454545;
-    font-size: 3vw;
-    font-family: neue-haas-grotesk-display;
+    font-size: 3.8vw;
+    margin-top: 0px;
+    font-family: "neue-haas-grotesk-text";
+    text-align: left;
+    margin-left: 10px;
   }
   .cms-id-41 #accept {
     margin-left: 0px;
@@ -11622,14 +12259,7 @@ p {
     padding-left: 10px;
   }
 
-  .cms-id-38 label span {
-    height: 12px;
-    width: 12px;
-    border: 1px solid grey;
-    display: inline-block;
-    position: relative;
-    color: white;
-  }
+
   .cms-id-38 #aboutform input[type="submit"] {
     font-family: 'adelle-sans';
     font-size: 3.5vw;
@@ -12013,6 +12643,15 @@ p {
     color: white;
     text-align: center;
   }
+  .logintitle2 {
+    font-size: 35px;
+    padding-top: 8%;
+    padding-bottom: 4.5%;
+    display: block;
+    font-family: SairaCondensed;
+    color: white;
+    text-align: center;
+  }
   #my-account .page-footer .text-sm-center {
     display: flex;
     justify-content: center;
@@ -12046,7 +12685,6 @@ p {
   }
   label.form-control-label.loginName.required {
     font-family: 'adelle-sans';
-    font-size: 4vw;
     font-weight: 600;
   }
   .carousel-item.text-center.p-4 p {
@@ -12189,7 +12827,7 @@ width: 93%;
       position: relative;
       height: 500px;
       display: flex;
-      width: 95%;
+      width: 100%;
       overflow: scroll;
       -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;
@@ -12432,6 +13070,18 @@ display: none;
     margin-left: 5%;
     font-size: 4vw;
   }
+  .topfield{
+    font-size: 4vw;
+  }
+  .topfield::placeholder{
+    font-size: 4vw;
+  }
+  #easygoi_1192{
+    font-size: 4vw;
+  }
+  #easygoi_1192::placeholder{
+    font-size: 4vw;
+  }
 #name {
   padding-bottom: 7px;
   color: #454545;
@@ -12455,6 +13105,7 @@ display: none;
     margin-left: 5%;
     font-family: "neue-haas-grotesk-text";
     font-size: 4vw;
+    font-weight: 500;
   }
 #favStyle {
   margin-top: 5%;
@@ -12527,35 +13178,17 @@ display: none;
   .footerlink p {
     font-size: 4vw;
   }
-  .cms-id-41 #termos {
-    color: #454545;
-    margin-top: 20px;
-    font-size: 3vw;
-    font-family: neue-haas-grotesk-display;
-  }
-  .cms-id-41 #joinFam2 {
-    position: relative;
-    display: block;
-    margin: auto;
-    padding: 10.3px 36.1px 10.3px 42.9px;
-    color: white;
-    background-color: #4c25e3;
-    border-radius: 31px;
-    border: none;
-    margin-top: 15px;
-    font-weight: 700;
-  }
+
+
   #termos {
     color: #454545;
-    margin-top: 40px;
     font-size: 4vw;
-    font-family: neue-haas-grotesk-display;
+    font-family: "neue-haas-grotesk-text";
   }
   #termos2 {
     color: #454545;
-    margin-top: 40px;
     font-size: 4vw;
-    font-family: neue-haas-grotesk-display;
+    font-family: "neue-haas-grotesk-text";
   }
   a#exportDataToCsv {
     font-size: 11px;
@@ -12661,14 +13294,16 @@ display: none;
     margin-left: 0px;
     width: 275px;
   }
+
   .forgotten-password {
     width: 340px;
     background-color: white;
-    height: 420px;
+    min-height: 420px;
     display: block;
     margin: auto;
     padding: 50px 35px;
   }
+
   .productsSlider {
     width: 250%;
     display: flex;

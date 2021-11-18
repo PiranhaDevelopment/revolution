@@ -138,7 +138,7 @@
 
     <!-- É PARA AQUI QUE VEM -->
     <div class="someWork2">
-        <p class="someWork2">Some work made with Revolution {$product.attributes[15].name}:</p>
+        <p class="someWork2">Some work made with Revolution {$product.attributes[15].name}:<br>Mention <a href="https://www.instagram.com/revolutionneedles/">@RevolutionNeedles</a> and get a chance to be featured.</p>
         <p></p>
     </div>
     {block name='someWorkImg2'}

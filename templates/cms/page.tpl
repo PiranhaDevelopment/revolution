@@ -30,7 +30,7 @@
 
 {block name='page_content_container'}
   <section id="content" class="page-content page-cms page-cms-{$cms.id}">
-      {if in_array($cms.id, [38,39,40,41])}
+      {if in_array($cms.id, [38,39,40,41,104])}
           {include file="cmspages/"|cat:$cms.id_cms_category|cat:"/"|cat:$cms.id|cat:"_"|cat:$language.iso_code|cat:".tpl"}
       {else}
           {block name='cms_content'}

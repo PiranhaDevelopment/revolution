@@ -42,6 +42,7 @@
         </li>
       {/foreach}
     </ul>
+      <h1 class="logintitle2">RECOVER YOUR PASSWORD</h1>
       <section class="form-fields renew-password">
 
         <div class="email">
@@ -51,31 +52,29 @@
             sprintf=['%email%' => $customer_email|stripslashes]}
         </div>
 
-        <div class="container-fluid">
+        <div>
           <div class="row form-group">
-            <label class="form-control-label col-md-3 offset-md-2">{l s='New password' d='Shop.Forms.Labels'}</label>
-            <div class="col-md-4">
+            <label >{l s='New password' d='Shop.Forms.Labels'}</label>
+
               <input class="form-control" type="password" data-validate="isPasswd" name="passwd" value="">
-            </div>
+
           </div>
 
           <div class="row form-group">
-            <label class="form-control-label col-md-3 offset-md-2">{l s='Confirmation' d='Shop.Forms.Labels'}</label>
-            <div class="col-md-4">
+            <label>{l s='Confirmation' d='Shop.Forms.Labels'}</label>
+
               <input class="form-control" type="password" data-validate="isPasswd" name="confirmation" value="">
-            </div>
+
           </div>
 
           <input type="hidden" name="token" id="token" value="{$customer_token}">
           <input type="hidden" name="id_customer" id="id_customer" value="{$id_customer}">
           <input type="hidden" name="reset_token" id="reset_token" value="{$reset_token}">
 
-          <div class="row form-group">
-            <div class="offset-md-5">
+          <div class="btndiv">
               <button class="btn btn-primary" type="submit" name="submit">
                 {l s='Change Password' d='Shop.Theme.Actions'}
               </button>
-            </div>
           </div>
         </div>
 

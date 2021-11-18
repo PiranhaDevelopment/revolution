@@ -73,7 +73,7 @@
             DROP US A LINE.</h1>
         <form data-sal="slide-up"
               style="--sal-duration: 1s; --sal-delay: 0s;"
-              data-sal-easing="ease-out-back" method="post" enctype="multipart/form-data" action="https://22.e-goi.com//w/de24e3V1le4P40yUAWwe968c2bf0" id="ctform" >
+              data-sal-easing="ease-out-back" method="post" target="dummyframe2" enctype="multipart/form-data" action="https://22.e-goi.com//w/de24e3V1le4P40yUAWwe968c2bf0" id="ctform" >
             <input type="hidden" name="lista" value="13">
             <input type="hidden" name="cliente" value="846080">
             <input type="hidden" name="lang" id="lang_id" value="en">
@@ -84,28 +84,33 @@
                 <input class="topfield" type="email" name="email_1185" id="email_1185" value="" placeholder="Your E-mail" required>
             </div>
             <textarea rows="4" id="easygoi_1192" name="easygoi_1192" class="cmsg" placeholder="Your Message" required></textarea>
-            <label id="accept" class="myCheckbox">
-                <input style="position:absolute" order="0" visible="visible" useoutrolabel="Outro (qual?)"
-                       id="campoe_126_1198_0" type="checkbox" value="2"
-                       title="I accept to receive communications from revolution needles"
-                       name="campoe_126_1198[]">
-                <span></span>
-            </label>
-            <label for="campoe_108_1189_1" data-theme="grey" id="termos">
-                I accept to receive communications from revolution needles
-            </label>
-            <br>
-            <label id="accept2" class="myCheckbox">
-                <input style="position:absolute" order="0" visible="visible" useoutrolabel="Outro (qual?)"
-                       id="campoe_125_1194_0" type="checkbox" required value="2"
-                       title="I accept that my data is processed for customer care reasons."
-                       name="campoe_125_1194[]" required>
-                <span></span>
-            </label>
-            <label for="campoe_125_1194_0" data-theme="grey" id="termos2">
-                I accept that my data is processed for customer care reasons.
-            </label>
-            <input id="joinFam2" type="submit" value="SEND">
+            <div class="ctcb">
+                <label id="accept" class="myCheckbox">
+                    <input style="position:absolute" order="0" visible="visible" useoutrolabel="Outro (qual?)"
+                           id="campoe_126_1198_0" type="checkbox" value="2"
+                           title="I accept to receive communications from revolution needles"
+                           name="campoe_126_1198[]">
+                    <span></span>
+                </label>
+                <label for="campoe_108_1189_1" data-theme="grey" id="termos">
+                    I accept to receive communications from revolution needles
+                </label>
+            </div>
+
+            <div class="ctcb">
+                <label id="accept2" class="myCheckbox">
+                    <input style="position:absolute" order="0" visible="visible" useoutrolabel="Outro (qual?)"
+                           id="campoe_125_1194_0" type="checkbox" required value="2"
+                           title="I accept that my data is processed for customer care reasons."
+                           name="campoe_125_1194[]" required>
+                    <span></span>
+                </label>
+                <label for="campoe_125_1194_0" data-theme="grey" id="termos2">
+                    I accept that my data is processed for customer care reasons.
+                </label>
+            </div>
+
+            <input id="joinFam2" onclick="ctSubmit()" type="button" value="SEND">
         </form>
     </div>
 

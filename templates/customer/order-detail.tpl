@@ -69,7 +69,7 @@
           <th>{l s='Status' d='Shop.Theme.Global'}</th>
           <th class="peso">{l s='Weight' d='Shop.Theme.Checkout'}</th>
           <th class="portes">{l s='Shipping cost' d='Shop.Theme.Checkout'}</th>
-          <th>Tracking</th>
+          <th class="tracking">Tracking</th>
         </tr>
         </thead>
 
@@ -88,12 +88,18 @@
             {foreach from=$order.shipping item=line}
               <td class="peso">{$line.shipping_weight}</td>
               <td class="portes">{$line.shipping_cost}</td>
-              <td>{$line.tracking nofilter}</td>
+              <td class="tracking">{$line.tracking nofilter}</td>
             {/foreach}
           </tr>
         {/foreach}
+
         </tbody>
       </table>
+      {foreach from=$order.history item=state}
+      {foreach from=$order.shipping item=line}
+        <p class="trackingm">Tracking code: {$line.tracking nofilter}</p>
+        {/foreach}
+      {/foreach}
 
     </section>
   {/block}

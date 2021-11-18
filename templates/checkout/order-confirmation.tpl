@@ -52,6 +52,7 @@
       </div>
     </div>
   </section>
+  {*
   {block name='hook_payment_return'}
     {if ! empty($HOOK_PAYMENT_RETURN)}
       <section id="content-hook_payment_return" class="card definition-list">

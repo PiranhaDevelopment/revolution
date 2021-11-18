@@ -30,7 +30,6 @@
 
 
     {block name='page_content_container'}
-        <h1 id="identityTitle">YOUR INFORMATION</h1>
         <h1 class="logintitle"></h1>
       <section id="content" class="page-content card card-block">
         {block name='page_content_top'}{/block}

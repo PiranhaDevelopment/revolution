@@ -44,6 +44,10 @@
         <meta itemprop="priceCurrency" content="{$currency.iso_code}">
 
         <div class="current-price">
+            <div class="product-quantities">
+                <span id="combId" style="display:none;">{$product.id_product_attribute}</span>
+                <span id="prodQuan" style="display: none" data-stock="{$product.quantity}" data-allow-oosp="{$product.allow_oosp}">{$product.quantity}</span>
+            </div>
           <span itemprop="price" content="{$product.rounded_display_price}">{$product.price}</span>
 
           {if $product.has_discount}

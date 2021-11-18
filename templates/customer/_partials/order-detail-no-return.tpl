@@ -128,10 +128,10 @@
       <div class="col-sm-7 col-xs-7">
         <div class="row">
           <div class="col-xs-4 text-sm-left text-xs-left">
-            Preço
+            Price
           </div>
           <div class="col-xs-4">
-            Quantidade
+            Amount
           </div>
           <div class="col-xs-4 text-xs-right">
             Total

@@ -215,7 +215,7 @@
                         Transparent. Thin walls.
                         <br>Big Reservoir of ink. Better viewing.</p>
                     <form id="needleForm" class="buyForm"
-                          action="https://dev.revolutionneedles.com/home/362-4704-revolution-tips.html#/174-number_of_needles-3/341-revolution_tips-round_tips">
+                          action="https://dev.revolutionneedles.com/content/104-revolution-tips">
                         <button type="submit" class="buyNow">Buy Now</button>
                     </form>
                 </div>
@@ -348,7 +348,7 @@
                         discounts.</p>
                     <form data-sal="slide-up"
                           style="--sal-duration: 1s; --sal-delay: 0s;"
-                          data-sal-easing="ease-out-back" method="post" id="hpform" enctype="multipart/form-data" action="https://22.e-goi.com//w/de1ce3V1lea845VzxGTe198ac565">
+                          data-sal-easing="ease-out-back" method="post" target="dummyframe" id="hpform" enctype="multipart/form-data" action="https://22.e-goi.com//w/de1ce3V1lea845VzxGTe198ac565">
                         <input type="hidden" name="lista" value="13">
                         <input type="hidden" name="cliente" value="846080">
                         <input type="hidden" name="lang" id="lang_id" value="pt">
@@ -383,14 +383,17 @@
                             </option>
                         </select>
                         <input type="email" name="email_817" id="email_817" value="" easyvalidation="true" placeholder="Enter your email" required>
-                        <label id="accept" class="myCheckbox">
-                        <input order="0" visible="visible" useoutrolabel="Outro (qual?)" id="campoe_108_820_0" type="checkbox" value="2" title="Concordo com a Pol&#237;tica de Privacidade da Revolution Needles" name="campoe_108_820[]">
-                        <span></span>
-                        </label>
-                        <label for="campoe_108_820_0" id="termos">
-                            I have read and accept the terms and conditions
-                        </label>
-                        <input id="joinFam" type="submit" value="Join the fam">
+                        <div id="hpcb">
+                            <label id="accept" class="myCheckbox">
+                                <input order="0" visible="visible" useoutrolabel="Outro (qual?)" id="campoe_108_820_0" type="checkbox" value="2" title="Concordo com a Pol&#237;tica de Privacidade da Revolution Needles" name="campoe_108_820[]">
+                                <span></span>
+                            </label>
+                            <label for="campoe_108_820_0" id="termos">
+                                I have read and accept the terms and conditions
+                            </label>
+                        </div>
+
+                        <input id="joinFam" onclick="hpSubmit()" type="button" value="Join the fam">
                     </form>
                 </div>
             </div>

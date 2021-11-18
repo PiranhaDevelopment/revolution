@@ -8,21 +8,71 @@
  function sleep(ms) {
 	return new Promise(resolve => setTimeout(resolve, ms));
   }
+$( document ).ready(function() {
+	getbaloes();
+});
 
 
+function hpSubmit(){
+	if( $("#fname_816").val().length === 0 ) {
+	alert("Please tell us your name");
+	}else if ($("#email_817").val().length === 0 ) {
+		alert("Please tell us your email");
+	}else if (!isEmail($("#email_817").val()) ) {
+		alert("Please enter a valid email");
+	}
+	else if(!$('#campoe_108_820_0').is(':checked')){
+		alert("Please agree to the terms and conditions");
+	}
+	else{
+		$("#hpform").submit(); // Submit the form
+		$("#hpform")[0].reset();  // Reset all form data
+		alert("Congratulations, you're almost in!\n" +
+			"You will now receive an email to confirm your subscription to our private list.\n" +
+			"Please confirm this email to receive access to our latest product releases, exclusive discounts, and the latest about our Revolutions."
+		)
+		return false; // Prevent page refresh
+	}
+
+}
+
+
+function ctSubmit(){
+	if( $("#campoe_123_1188").val().length === 0 ) {
+		alert("Please tell us your name");
+	}else if ($("#email_1185").val().length === 0 ) {
+		alert("Please tell us your email");
+	}else if (!isEmail($("#email_1185").val()) ) {
+		alert("Please enter a valid email");
+	}
+	else if(!$('#campoe_125_1194_0').is(':checked')){
+		alert("Please accept the data processing policy");
+	}
+	else{
+		$("#ctform").submit(); // Submit the form
+		$("#ctform")[0].reset();  // Reset all form data
+		alert("We have received your message! We'll soon reply to your message by email. We promise to get back at you as soon as possible.\n\ Hold tight");
+		return false; // Prevent page refresh
+	}
+
+}
+
+function isEmail(email) {
+	const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	return re.test(String(email).toLowerCase());
+}
 
 /*
 $("#hpform").submit(function () {
 
-		$('#fname_816').val('');
+
 		$('#campo_107').prop('selectedIndex',0);
 		$('#email_817').val('');
 		$('#check').click();
 		$('#accept span').click();
-		alert("Congratulations, you're almost in!\n" +
-			"You will now receive an email to confirm your subscription to our private list.\n" +
-			"Please confirm this email to receive access to our latest product releases, exclusive discounts, and the latest about our Revolutions."
-			)
+
+		$('#fname_816').val('');
+
 		return true;
 }
 )
@@ -41,19 +91,138 @@ $("#ctform").submit(function () {
 
 */
 
+// QUANTIDADE DE PRODUTO (BOTÕES)
+
+
+
+$(document).on("click",'#mais',function(){
+
+	var qt = $("#quantity_wanted").val();
+
+	var mais1= +qt + 1;
+	if(mais1 > parseInt($("#prodQuan").text())){
+		alert("There are not enough products in stock");
+
+
+	}else{
+		$("#quantity_wanted").val(mais1);
+	}
+
+});
+$(document).on("click",'#menos',function(){
+	var qt = $("#quantity_wanted").val();
+	if(qt > 1) {
+		var menos1 = +qt - 1;
+		if (menos1 <= parseInt($("#prodQuan").text())) {
+			$(':input[type="submit"]').prop('disabled', false);
+		}
+		$("#quantity_wanted").val(menos1);
+	}
+});
+$(document).on("click",'.add-to-cart' ,function(){
+	var qt = $("#quantity_wanted").val();
+	var stock=parseInt($("#prodQuan").text());
+	if(qt > stock){
+		alert("There are not enough products in stock");
+		if(stock>0){
+			$("#quantity_wanted").val(stock);
+			$(':input[type="submit"]').prop('disabled', false);
+		}else{
+			$("#quantity_wanted").val(1);
+			$(':input[type="submit"]').prop('disabled', true);
+		}
+	}else{
+		$("#prodQuan").text(stock-qt);
+		return;
+	}
+});
+
+
+$(document).on("click",'#product.product-id-361 .product-remove',function (){
+
+	var stock=parseInt($("#prodQuan").text());
+	var sd = $(this).siblings(".product-infos");
+	var qty = sd.children(".product-quantity").text().replace(/[^0-9]/gi, '');
+	var sd2 = sd.children(".product-name").attr("href");/*.siblings(".product-quantity").text().replace(/[^0-9]/gi, ''); // Replace everything that is not a number with nothing
+	var number = parseInt(sd, 10); // Always hand in the correct base since 010 != 10 in js
+	alert(number);
+	*/
+	if(sd2.includes($('#combId').text())){
+		$("#prodQuan").text(parseInt(stock)+parseInt(qty));
+	};
+
+})
+
+
+$(document).on("click",'#product.product-id-360 .product-remove',function (){
+
+	var stock=parseInt($("#prodQuan").text());
+	var sd = $(this).siblings(".product-infos");
+	var qty = sd.children(".product-quantity").text().replace(/[^0-9]/gi, '');
+	var sd2 = sd.children(".product-name").attr("href");/*.siblings(".product-quantity").text().replace(/[^0-9]/gi, ''); // Replace everything that is not a number with nothing
+	var number = parseInt(sd, 10); // Always hand in the correct base since 010 != 10 in js
+	alert(number);
+	*/
+	if(sd2.includes(360)){
+		$("#prodQuan").text(parseInt(stock)+parseInt(qty));
+	};
+})
+
+
+$(document).on("click",'#product.product-id-362 .product-remove',function (){
+
+	var stock=parseInt($("#prodQuan").text());
+	var combId=parseInt($("#combId").text());
+	var sd = $(this).siblings(".product-infos");
+	var qty = sd.children(".product-quantity").text().replace(/[^0-9]/gi, '');
+	var sd2 = sd.children(".product-name").attr("href");/*.siblings(".product-quantity").text().replace(/[^0-9]/gi, ''); // Replace everything that is not a number with nothing
+	var number = parseInt(sd, 10); // Always hand in the correct base since 010 != 10 in js
+	alert(number);
+	*/
+	if(sd2.includes(combId)){
+		$("#prodQuan").text(parseInt(stock)+parseInt(qty));
+	};
+})
+
+
+$(document).on("click",'#product.product-id-363 .product-remove',function (){
+
+	var stock=parseInt($("#prodQuan").text());
+	var combId=parseInt($("#combId").text());
+	var sd = $(this).siblings(".product-infos");
+	var qty = sd.children(".product-quantity").text().replace(/[^0-9]/gi, '');
+	var sd2 = sd.children(".product-name").attr("href");/*.siblings(".product-quantity").text().replace(/[^0-9]/gi, ''); // Replace everything that is not a number with nothing
+	var number = parseInt(sd, 10); // Always hand in the correct base since 010 != 10 in js
+	alert(number);
+	*/
+	if(sd2.includes(combId)){
+		$("#prodQuan").text(parseInt(stock)+parseInt(qty));
+	};
+})
+
 //  GET DETAILS FROM ? HOVER
 var a = 0;
 var w = window.innerWidth;
-console.log(w);
+
+
+
 $(document).ajaxComplete(function() {
+	if($("#combId")===4510){
+		$("p.someWork1").css("display","none");
+
+	}
 	if(w<=1000){
 		$('p.someWork2').html($('.images-container p.someWork1')[0]);
 	}
 });
 $(document).ready(function(){
+
+
+
+
 	var seen = {};
-	if ($(".cms-id-39")[0]){
-		if(w<=480){
+	if ($(".cms-id-39")[0] || $(".cms-id-104")[0]){
+		if(w<1100){
 			sal({
 				threshold: 0.0001,
 			});
@@ -90,6 +259,10 @@ $('.showdetails').on('click',function (){
 
 	if($('.login-form').length){
 		$('.logintitle').text("LOG IN TO YOUR ACCOUNT");
+	}
+
+	if($('.orders.hidden-md-up').length){
+		$('.logintitle').text("MY ORDERS");
 	}
 
 	if($('.register-form').length){
@@ -147,7 +320,7 @@ $('#navbar-toggler').on("click",function(){
 
 
 
-  getbaloes();
+
 
   if(!mobile) {
 	  $("#caroussel").overscroll();
@@ -196,7 +369,7 @@ $('#navbar-toggler').on("click",function(){
 
   $("[id='Straight Linericon']").on("mouseenter", function() {
     $("[id='Straight Linerbalao']").css("display","block");
-    $("[id='Straight Linerbalaotext']").html("Indicadas para linhas<br>grossas.");
+    $("[id='Straight Linerbalaotext']").html("Suitable for thick lines.");
     $("[id='Straight Linericon']").css("background","url(https://dev.revolutionneedles.com/themes/classic/assets/img/interrogacao2.svg)");
     
   });
@@ -207,7 +380,7 @@ $('#navbar-toggler').on("click",function(){
 
   $("[id='Round Linericon']").on("mouseenter", function() {
     $("[id='Round Linerbalao']").css("display","block");
-    $("[id='Round Linerbalaotext']").text("Indicadas para linhas regulares.");
+    $("[id='Round Linerbalaotext']").text("Ideally suited for regular lines.");
     $("[id='Round Linericon']").css("background","url(https://dev.revolutionneedles.com/themes/classic/assets/img/interrogacao2.svg)");
   });
   $("[id='Round Linericon']").on("mouseleave", function() {
@@ -217,7 +390,7 @@ $('#navbar-toggler').on("click",function(){
 
   $("[id='Magnum Soft Edgeicon']").on("mouseenter", function() {
     $("[id='Magnum Soft Edgebalao']").css("display","block");
-    $("[id='Magnum Soft Edgebalaotext']").text("Para coloração, preenchimento e sombras.");
+    $("[id='Magnum Soft Edgebalaotext']").text("For coloring, filling and shading small areas.");
     $("[id='Magnum Soft Edgeicon']").css("background","url(https://dev.revolutionneedles.com/themes/classic/assets/img/interrogacao2.svg)");
   });
   $("[id='Magnum Soft Edgeicon']").on("mouseleave", function() {
@@ -227,7 +400,7 @@ $('#navbar-toggler').on("click",function(){
 
   $("[id='Magnumicon']").on("mouseenter", function() {
     $("[id='Magnumbalao']").css("display","block");
-    $("[id='Magnumbalaotext']").text("Para coloração, preenchimento e sombras.");
+    $("[id='Magnumbalaotext']").text("For coloring, filling and shading large areas.");
     $("[id='Magnumicon']").css("background","url(https://dev.revolutionneedles.com/themes/classic/assets/img/interrogacao2.svg)");
   });
   $("[id='Magnumicon']").on("mouseleave", function() {
@@ -237,7 +410,7 @@ $('#navbar-toggler').on("click",function(){
 
   $("[id='Flat Shadericon']").on("mouseenter", function() {
     $("[id='Flat Shaderbalao']").css("display","block");
-    $("[id='Flat Shaderbalaotext']").text("Para sombreamento, blending e trabalhos detalhados. ");
+    $("[id='Flat Shaderbalaotext']").text("Indicated for shading, blending and detailed work.");
     $("[id='Flat Shadericon']").css("background","url(https://dev.revolutionneedles.com/themes/classic/assets/img/interrogacao2.svg)");
   });
   $("[id='Flat Shadericon']").on("mouseleave", function() {
@@ -247,7 +420,7 @@ $('#navbar-toggler').on("click",function(){
 
   $("[id='Round Shadericon']").on("mouseenter", function() {
     $("[id='Round Shaderbalao']").css("display","block");
-    $("[id='Round Shaderbalaotext']").text("Para pequenas sombras, coloração e blending.");
+    $("[id='Round Shaderbalaotext']").text("Great for small shadows and small areas.");
     $("[id='Round Shadericon']").css("background","url(https://dev.revolutionneedles.com/themes/classic/assets/img/interrogacao2.svg)");
   });
   $("[id='Round Shadericon']").on("mouseleave", function() {
@@ -257,7 +430,7 @@ $('#navbar-toggler').on("click",function(){
 
   $("[id='Tight Linericon']").on("mouseenter", function() {
     $("[id='Tight Linerbalao']").css("display","block");
-    $("[id='Tight Linerbalaotext']").text("Para linhas finas e trabalhos detalhados.");
+    $("[id='Tight Linerbalaotext']").text("Suitable for fine lines and detailed work.");
     $("[id='Tight Linericon']").css("background","url(https://dev.revolutionneedles.com/themes/classic/assets/img/interrogacao2.svg)");
   });
   $("[id='Tight Linericon']").on("mouseleave", function() {
@@ -267,7 +440,7 @@ $('#navbar-toggler').on("click",function(){
 
   $("[id='Medium Tapericon']").on("mouseenter", function() {
     $("[id='Medium Taperbalao']").css("display","block");
-    $("[id='Medium Taperbalaotext']").text("Extremidade cônica. Old School, New School, Neo Tradicional e Japonês. Linhas sólidas. Mais contato com a pele, mais pigmento.");
+    $("[id='Medium Taperbalaotext']").text("Less sharp and more tapered at the end.");
     $("[id='Medium Tapericon']").css("background","url(https://dev.revolutionneedles.com/themes/classic/assets/img/interrogacao2.svg)");
   });
   $("[id='Medium Tapericon']").on("mouseleave", function() {
@@ -277,7 +450,7 @@ $('#navbar-toggler').on("click",function(){
 
   $("[id='Long Tapericon']").on("mouseenter", function() {
     $("[id='Long Taperbalao']").css("display","block");
-    $("[id='Long Taperbalaotext']").text("Long Taper");
+    $("[id='Long Taperbalaotext']").text("A taper designed to be thin and sharp.");
     $("[id='Long Tapericon']").css("background","url(https://dev.revolutionneedles.com/themes/classic/assets/img/interrogacao2.svg)");
   });
   $("[id='Long Tapericon']").on("mouseleave", function() {
@@ -287,6 +460,7 @@ $('#navbar-toggler').on("click",function(){
 
   $("[id='Extra Long Tapericon']").on("mouseenter", function() {
     $("[id='Extra Long Taperbalao']").css("display","block");
+    $("[id='Extra Long Taperbalaotext']").text("The thinnest taper available on the market.");
     $("[id='Extra Long Tapericon']").css("background","url(https://dev.revolutionneedles.com/themes/classic/assets/img/interrogacao2.svg)");
   });
   $("[id='Extra Long Tapericon']").on("mouseleave", function() {
@@ -434,23 +608,6 @@ $('#notify').click(function(){
     $('#notify').css("display","none");
     return addNotification();
 });
-
-// QUANTIDADE DE PRODUTO (BOTÕES)
-$('#mais').click(function(){
-    var qt = $("#quantity_wanted").val();
-
-    var mais1= +qt + 1;
-    $("#quantity_wanted").val(mais1);
-
-});
-$('#menos').click(function(){
-    var qt = $("#quantity_wanted").val();
-    if(qt > 1){
-    var menos1= +qt - 1;
-    $("#quantity_wanted").val(menos1);
-    }
-});
-
 
 
 /**

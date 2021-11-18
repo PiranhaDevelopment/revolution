@@ -238,63 +238,64 @@
     </div>
 </div>
 <div id="formsection">
-    <div id="form" >
-        <div id="formDiv" >
-            <h1 id="formTit" class="formtitle" data-sal="slide-up"
+    <div id="form">
+        <div id="formDiv">
+            <h6 data-sal="slide-up"
                 style="--sal-duration: 1s; --sal-delay: 0s;"
-                data-sal-easing="ease-out-back">A GLOBAL FAMILY READY<br>TO SHAKE CONVENTION.</h1>
-            <p id="formDescr" data-sal="slide-up"
+                data-sal-easing="ease-out-back" id="formTit" class="formtitle">A GLOBAL FAMILY READY<br>TO SHAKE CONVENTION.</h6>
+            <p data-sal="slide-up"
                style="--sal-duration: 1s; --sal-delay: 0s;"
-               data-sal-easing="ease-out-back">Join our private list and get our latest product releases and exclusive
+               data-sal-easing="ease-out-back" id="formDescr">Join our private list and get our latest product releases and exclusive
                 discounts.</p>
             <form data-sal="slide-up"
                   style="--sal-duration: 1s; --sal-delay: 0s;"
-                  data-sal-easing="ease-out-back" method="post" enctype="multipart/form-data"
-                  action="https://22.e-goi.com/w/de1ce3V1le10OpAysfZea-c0b3d1?egu=wjkdz9z7exenmmpo"
-                  target="dummyframe">
+                  data-sal-easing="ease-out-back" method="post" target="dummyframe" id="hpform" enctype="multipart/form-data" action="https://22.e-goi.com//w/de1ce3V1lea845VzxGTe198ac565">
                 <input type="hidden" name="lista" value="13">
                 <input type="hidden" name="cliente" value="846080">
                 <input type="hidden" name="lang" id="lang_id" value="pt">
                 <input type="hidden" name="formid" id="formid" value="72">
-                <input id="name" type="text" name="fname_816" id="fname_816" value="" autocomplete="off"
-                       placeholder="Your first name" required>
                 <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
-                <select id="favStyle" data-theme="grey" name="campoe_107_818" id="campoe_107" required>
-                    <option value="" disabled selected>Choose your favourite style</option>
-                    <option style="" value="2" title="Sporting 51" order="0" visible="visible">
-                        Sporting 51
+                <input type="text" name="fname_816" id="fname_816" value="" autocomplete="off"
+                       placeholder="Enter your name" required>
+                <select data-theme="grey" name="campoe_107_818" id="campoe_107" useoutrolabel="Outro (qual?)">
+                    <option style="" value="2" title="Photorealism" order="0" visible="visible">
+                        Photorealism
                     </option>
-                    <option style="" value="3" title="Porto 41" order="1" visible="visible">
-                        Porto 41
+                    <option style="" value="3" title="Microrealism" order="1" visible="visible">
+                        Microrealism
                     </option>
-                    <option style="" value="4" title="Braga 40" order="2" visible="visible">
-                        Braga 40
+                    <option style="" value="4" title="Illustration" order="2" visible="visible">
+                        Illustration
                     </option>
-                    <option style="" value="5" title="Benfica 38" order="3" visible="visible">
-                        Benfica 38
+                    <option style="" value="5" title="Dot Work" order="3" visible="visible">
+                        Dot Work
+                    </option>
+                    <option style="" value="6" title="Watercolor" order="4" visible="visible">
+                        Watercolor
+                    </option>
+                    <option style="" value="7" title="Fine Line" order="5" visible="visible">
+                        Fine Line
+                    </option>
+                    <option style="" value="8" title="Black Work" order="6" visible="visible">
+                        Black Work
+                    </option>
+                    <option style="" value="9" title="Trash Polka" order="7" visible="visible">
+                        Trash Polka
                     </option>
                 </select>
-                <br>
-                <input id="email" type="email" name="email_817" id="email_817" value="" autocomplete="off"
-                       autocomplete="off" easyvalidation="true" placeholder="Enter your email" required>
-                <br>
-                <label id="accept" class="myCheckbox">
-                    <input style="position:absolute" order="0" visible="visible" useoutrolabel="Outro (qual?)"
-                           id="campoe_108_820_0" type="checkbox" required value="2"
-                           title="Concordo com a Pol&#237;tica de Privacidade da Revolution Needles"
-                           name="campoe_108_820[]" required>
-                    <span></span>
-                </label>
+                <input type="email" name="email_817" id="email_817" value="" easyvalidation="true" placeholder="Enter your email" required>
+                <div id="hpcb">
+                    <label id="accept" class="myCheckbox">
+                        <input order="0" visible="visible" useoutrolabel="Outro (qual?)" id="campoe_108_820_0" type="checkbox" value="2" title="Concordo com a Pol&#237;tica de Privacidade da Revolution Needles" name="campoe_108_820[]">
+                        <span></span>
+                    </label>
+                    <label for="campoe_108_820_0" id="termos">
+                        I have read and accept the terms and conditions
+                    </label>
+                </div>
 
-                <label for="campoe_108_820_0" id="termos">
-                    I have read and accept the terms and conditions
-                </label>
-                <br>
-
-                <input id="joinFam" type="submit" value="Join the fam">
-
+                <input id="joinFam" onclick="hpSubmit()" type="button" value="Join the fam">
             </form>
-
         </div>
     </div>
 </div>
